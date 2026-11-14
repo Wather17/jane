@@ -20,10 +20,7 @@ Checklist vivo de problemas potenciais e decisões para evitar retrabalho no mei
 
 ### Destaque da palavra-alvo na frase
 - **Problema:** No TSV para o Anki, o destaque (ex: `<b>palavra</b>`) não pode atrapalhar o **HyperTTS** na hora de ler a frase.
-- **Verificar antes de fechar o formato:** Confirmar como o HyperTTS trata tags HTML (`<b>...</b>`) ou se é melhor ter **duas colunas** no `.tsv`:
-  - `Sentence_Display`: `I need <b>water</b>.` (com HTML para mostrar na frente do card)
-  - `Sentence_Audio`: `I need water.` (texto 100% limpo para o HyperTTS gerar o áudio sem risco de bug ou cobrança extra de caracteres por tag HTML!)
-  - *Decisão recomendada:* **Usar duas colunas** (`Sentence_Display` e `Sentence_Audio`). É mais seguro e limpo.
+- **Resultado da pesquisa (ver [04-hypertts-e-anki.md](04-hypertts-e-anki.md)):** O HyperTTS remove tags HTML automaticamente por padrão antes de enviar ao TTS. Mesmo assim, manter **duas colunas** (`Sentence_Display` com `<b>...</b>` e `Sentence_Audio` em texto puro) + um campo dedicado `Audio_Sentence` no Anki continua sendo a prática mais segura para evitar problemas com regex ou re-geração de áudio.
 
 ---
 
