@@ -5,12 +5,15 @@ from __future__ import annotations
 import csv
 import io
 import json
+import sqlite3
 import sys
 import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 from unittest.mock import patch
 
+from jane.anki_template import NOTE_FIELDS, NOTETYPE_NAME, generate_template_apkg
 from jane.cli import main as cli_main
 
 from jane.core import export_batch, get_next_batch, get_status, master_batch, save_cards
@@ -80,10 +83,13 @@ class JanePipelineTests(unittest.TestCase):
         self.assertEqual(exp["hypertts_estimate"]["2x_openai"], exp["total_chars"] * 2)
         self.assertEqual(exp["hypertts_estimate"]["15x_elevenlabs"], exp["total_chars"] * 15)
 
-        with tsv_path.open(encoding="utf-8") as f:
-            rows = list(csv.reader(f, delimiter="\t"))
-        self.assertEqual(len(rows), 3)  # header + 2 cards
-        self.assertTrue(rows[1][0].startswith("jane_"))
+        lines = tsv_path.read_text(encoding="utf-8").splitlines()
+        self.assertEqual(lines[0], "#separator:tab")
+        self.assertEqual(lines[1], "#html:true")
+        self.assertEqual(lines[2], "#notetype:Jane Vocab")
+        self.assertTrue(lines[3].startswith("#columns:Card_UID\t"))
+        self.assertEqual(len(lines), 6)  # 4 Anki directive lines + 2 cards
+        self.assertTrue(lines[4].startswith("jane_"))
 
         master_res = master_batch(self.conn, batch_number=1)
         self.assertEqual(master_res["updated"], 50)
@@ -139,6 +145,24 @@ class JanePipelineTests(unittest.TestCase):
             exit_code = cli_main(["--db", str(self.db_path), "save", "--file", "-"])
         self.assertEqual(exit_code, 0)
         self.assertEqual(get_status(self.conn)["totals"]["generated"], 1)
+
+    def test_generate_template_apkg(self) -> None:
+        apkg_path = Path(self.tmp.name) / "jane_template.apkg"
+        out = generate_template_apkg(out_path=apkg_path)
+        self.assertTrue(out.exists())
+
+        with zipfile.ZipFile(out, "r") as zf:
+            self.assertIn("collection.anki2", zf.namelist())
+            self.assertIn("media", zf.namelist())
+            zf.extract("collection.anki2", path=self.tmp.name)
+
+        anki_conn = sqlite3.connect(Path(self.tmp.name) / "collection.anki2")
+        models = json.loads(anki_conn.execute("SELECT models FROM col").fetchone()[0])
+        anki_conn.close()
+
+        model = next(iter(models.values()))
+        self.assertEqual(model["name"], NOTETYPE_NAME)
+        self.assertEqual([f["name"] for f in model["flds"]], NOTE_FIELDS)
 
 
 if __name__ == "__main__":

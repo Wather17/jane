@@ -1,0 +1,109 @@
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #1f2937;
+  background-color: #f9fafb;
+  padding: 20px;
+}
+
+.nightMode .card {
+  color: #f3f4f6;
+  background-color: #111827;
+}
+
+.card-container {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.meta-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 18px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge {
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.badge-easy { background: #d1fae5; color: #065f46; }
+.badge-medium { background: #fef3c7; color: #92400e; }
+.badge-hard { background: #fee2e2; color: #991b1b; }
+
+.batch-tag {
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: #e5e7eb;
+  color: #4b5563;
+}
+
+.nightMode .batch-tag {
+  background: #374151;
+  color: #d1d5db;
+}
+
+.sentence-en {
+  font-size: 26px;
+  line-height: 1.45;
+  margin: 10px 0 18px;
+}
+
+.sentence-en b {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.nightMode .sentence-en b {
+  color: #60a5fa;
+}
+
+.audio-box {
+  margin-top: 10px;
+}
+
+.sentence-pt {
+  font-size: 21px;
+  line-height: 1.4;
+  color: #374151;
+  margin-bottom: 16px;
+}
+
+.nightMode .sentence-pt {
+  color: #e5e7eb;
+}
+
+.meaning-box {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  font-size: 18px;
+}
+
+.nightMode .meaning-box {
+  background: #1e3a8a;
+  border-color: #3b82f6;
+}
+
+.target-word {
+  font-weight: 700;
+}
+
+.notes-box {
+  margin-top: 14px;
+  font-size: 15px;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.nightMode .notes-box {
+  color: #9ca3af;
+}

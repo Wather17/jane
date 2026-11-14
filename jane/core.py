@@ -268,9 +268,12 @@ def export_batch(
     word_ids: set[int] = set()
 
     with dest.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.writer(f, delimiter="\t", lineterminator="\n")
         if include_header:
-            writer.writerow(TSV_COLUMNS)
+            f.write("#separator:tab\n")
+            f.write("#html:true\n")
+            f.write("#notetype:Jane Vocab\n")
+            f.write("#columns:" + "\t".join(TSV_COLUMNS) + "\n")
+        writer = csv.writer(f, delimiter="\t", lineterminator="\n")
         for r in rows:
             writer.writerow(
                 [

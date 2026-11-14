@@ -7,6 +7,7 @@ import json
 import sys
 from pathlib import Path
 
+from jane.anki_template import ANKI_DIR, generate_template_apkg
 from jane.core import export_batch, get_next_batch, get_status, master_batch, save_cards
 from jane.db import DEFAULT_DB_PATH, get_connection, init_db
 from jane.seed import RAW_DIR, seed_database
@@ -41,6 +42,14 @@ def build_parser() -> argparse.ArgumentParser:
 
     p_master = sub.add_parser("master", help="Mark all words in a batch as mastered")
     p_master.add_argument("--batch", type=int, required=True, help="Batch number")
+
+    p_template = sub.add_parser("template", help="Generate .apkg file with the 'Jane Vocab' Anki note type")
+    p_template.add_argument(
+        "--out",
+        type=Path,
+        default=ANKI_DIR / "jane_vocab_template.apkg",
+        help="Output .apkg path (default: anki/jane_vocab_template.apkg)",
+    )
 
     return parser
 
@@ -83,6 +92,9 @@ def main(argv: list[str] | None = None) -> int:
         elif args.command == "master":
             res = master_batch(conn, batch_number=args.batch)
             print(json.dumps(res, indent=2))
+        elif args.command == "template":
+            out = generate_template_apkg(out_path=args.out)
+            print(json.dumps({"template_apkg": str(out)}, indent=2))
     except Exception as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 1
