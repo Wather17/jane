@@ -30,8 +30,8 @@ def build_parser() -> argparse.ArgumentParser:
     p_next.add_argument("--batch", type=int, default=1, help="Batch number (default: 1)")
     p_next.add_argument("--limit", type=int, default=20, help="Max pending words to return")
 
-    p_save = sub.add_parser("save", help="Validate and save generated cards from a JSON file")
-    p_save.add_argument("--file", type=Path, required=True, help="Path to JSON array of cards")
+    p_save = sub.add_parser("save", help="Validate and save generated cards from a JSON file (or '-' for stdin)")
+    p_save.add_argument("--file", type=str, required=True, help="Path to JSON array of cards, or '-' for stdin")
     p_save.add_argument("--force", action="store_true", help="Overwrite existing cards")
 
     p_export = sub.add_parser("export", help="Export a batch to UTF-8 TSV for Anki")
@@ -68,7 +68,8 @@ def main(argv: list[str] | None = None) -> int:
             res = get_next_batch(conn, batch_number=args.batch, limit=args.limit)
             print(json.dumps(res, indent=2, ensure_ascii=False))
         elif args.command == "save":
-            items = json.loads(args.file.read_text(encoding="utf-8"))
+            raw_json = sys.stdin.read() if args.file == "-" else Path(args.file).read_text(encoding="utf-8")
+            items = json.loads(raw_json)
             res = save_cards(conn, items, force=args.force)
             print(json.dumps(res, indent=2))
         elif args.command == "export":

@@ -3,9 +3,15 @@
 from __future__ import annotations
 
 import csv
+import io
+import json
+import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
+
+from jane.cli import main as cli_main
 
 from jane.core import export_batch, get_next_batch, get_status, master_batch, save_cards
 from jane.db import get_connection, init_db
@@ -113,6 +119,26 @@ class JanePipelineTests(unittest.TestCase):
         ]
         with self.assertRaises(ValueError):
             save_cards(self.conn, bad_mismatch)
+
+    def test_cli_save_from_stdin(self) -> None:
+        seed_database(self.conn, batch_size=50, sample_size=5, rng_seed=9)
+        lemma = get_next_batch(self.conn, batch_number=1, limit=1)["pending_words"][0]["lemma"]
+        payload = json.dumps(
+            [
+                {
+                    "lemma": lemma,
+                    "difficulty": "easy",
+                    "sentence_display": f"We need <b>{lemma}</b> today.",
+                    "sentence_audio": f"We need {lemma} today.",
+                    "sentence_pt": f"Nós precisamos de {lemma} hoje.",
+                    "word_meaning_pt": "teste stdin",
+                }
+            ]
+        )
+        with patch.object(sys, "stdin", io.StringIO(payload)):
+            exit_code = cli_main(["--db", str(self.db_path), "save", "--file", "-"])
+        self.assertEqual(exit_code, 0)
+        self.assertEqual(get_status(self.conn)["totals"]["generated"], 1)
 
 
 if __name__ == "__main__":
