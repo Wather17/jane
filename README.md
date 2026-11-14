@@ -10,3 +10,4 @@ Antes de escrever código, estamos consolidando as decisões pedagógicas, arqui
 2. [Arquitetura e Fluxo de Trabalho](docs/02-arquitetura-e-fluxo.md) — SQLite, cruzamento Oxford 3000 + NGSL, Mini CLI operado por agente em mini-lotes e exportação `.tsv` + HyperTTS.
 3. [Edge Cases e Regras (O que fazer / Não fazer)](docs/03-edge-cases-e-regras.md) — Armadilhas mapeadas, validações obrigatórias e margem de segurança para a cota de TTS.
 4. [Pesquisa: HyperTTS e Anki](docs/04-hypertts-e-anki.md) — Como o HyperTTS trata HTML, multiplicadores de cota (1x, 2x, 15x), boas práticas de campos e formato final do `.tsv`.
+5. [Schema do SQLite, Priorização e Mini CLI](docs/05-schema-e-cli.md) — Modelo de dados final (`words` e `cards`), cálculo de tiers/lotes e contrato dos comandos `seed`, `next`, `save`, `export`.
