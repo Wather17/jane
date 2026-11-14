@@ -1,0 +1,11 @@
+# Jane — English Vocabulary Builder for Anki
+
+Projeto pessoal para construir um deck de inglês estruturado (~3.000+ palavras mais frequentes), com curadoria pedagógica para iniciantes, geração controlada de frases em contexto via agente CLI e exportação em `.tsv` para o Anki (com áudio gerado via **HyperTTS / vocab.ai**).
+
+## Documentação (Planejamento & Decisões)
+
+Antes de escrever código, estamos consolidando as decisões pedagógicas, arquiteturais e *edge cases* na pasta `docs/`:
+
+1. [Visão e Princípios Pedagógicos](docs/01-visao-e-pedagogia.md) — Como o método funciona para quem está começando do zero, regra do `i+1`, estrutura dos cards e controle de lotes.
+2. [Arquitetura e Fluxo de Trabalho](docs/02-arquitetura-e-fluxo.md) — SQLite, cruzamento Oxford 3000 + NGSL, Mini CLI operado por agente em mini-lotes e exportação `.tsv` + HyperTTS.
+3. [Edge Cases e Regras (O que fazer / Não fazer)](docs/03-edge-cases-e-regras.md) — Armadilhas mapeadas, validações obrigatórias e margem de segurança para a cota de TTS.

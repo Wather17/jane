@@ -1,0 +1,15 @@
+# Banco local e arquivos gerados
+data/*.db
+data/*.sqlite*
+exports/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Ambiente e sistema
+.env
+.DS_Store
