@@ -88,7 +88,7 @@ Interface simples em Python (`python -m jane ...` ou script `jane`) pensada para
 | :--- | :--- | :--- |
 | `seed` | Popula o SQLite com `data/raw/` | `--batch-size 120`. Idempotente (não apaga cards já gerados se rodar de novo). |
 | `status` | Mostra resumo do banco e lotes | Lista lotes com contagem por status (`pending`, `generated`, `exported`, `mastered`) e soma de `char_count`. |
-| `next` | Entrega próximo mini-lote para o agente | `--batch 1 --limit 20`. Retorna JSON com as próximas palavras `pending` + lista `known_words` (lotes anteriores / já geradas) para respeitar o `i+1`. |
+| `next` | Entrega próximo mini-lote para o agente | `--batch 1 --limit 20 [--no-known]`. Retorna JSON com as próximas palavras `pending` + lista `known_words` (omitida quando `--no-known` é usado) para respeitar o `i+1`. |
 | `save` | Valida e grava frases geradas | `--file chunk.json`. Valida campos obrigatórios, tamanho da frase (3–18 palavras), presença da palavra/flexão, gera `card_uid`, calcula `char_count` e atualiza `status='generated'`. |
 | `export` | Exporta lote para `.tsv` (Anki) | `--batch 1`. Gera `exports/batch_01.tsv` (com `Card_UID` na 1ª coluna), marca como `exported` e exibe estimativa de consumo HyperTTS (`1x`, `2x`, `15x`). |
 | `master` | Marca lote como dominado | `--batch 1`. Atualiza palavras do lote para `mastered` quando você concluir o estudo no Anki. |

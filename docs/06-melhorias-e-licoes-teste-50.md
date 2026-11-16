@@ -28,16 +28,19 @@ Registro prático da execução completa do fluxo (`seed --sample 50` → `next`
 ### 3) Cabeçalho do `.tsv` ao importar no Anki
 - **Ponto de atenção:** Por padrão, o `export` inclui a linha de cabeçalho (`Card_UID	Word	...`). Ao importar no Anki, lembre-se de conferir se o Anki ignorou a primeira linha (ou use `--no-header` no `export`).
 
-### 4) Suporte a `stdin` no `save` (`--file -`)
-- **Melhoria aplicada:** Adicionado suporte a `--file -` no comando `save` para evitar criar arquivos temporários quando o agente enviar o JSON diretamente via pipe.
+### 4) Suporte a `stdin` no `save` (`--file -`) e `--no-known` no `next`
+- **Melhorias aplicadas:**
+  - Adicionado suporte a `--file -` no comando `save` para evitar criar arquivos temporários quando o agente enviar o JSON diretamente via pipe.
+  - Adicionada a flag `--no-known` no comando `next` para omitir `known_words` e manter o JSON enxuto nos lotes mais avançados.
 
 ---
 
 ## 3. Melhorias Futuras (Backlog pós-teste no Anki)
 
-1. **`--no-known` no `next`:** Quando o banco principal passar do Lote 15 (~1.800+ palavras), a lista `known_words` no JSON do `next` vai crescer bastante; adicionar `--no-known` ou `--known-limit` mantém o output enxuto.
-2. **Estabilidade do `card_uid`:** Como `card_uid` usa `words.id`, nunca apague e recrie `data/jane.db` do zero após começar a importar no Anki — use `seed` de forma incremental/idempotente.
-3. **Verificação pós-teste no HyperTTS:** Após importar `exports/test_50.tsv` no Anki e rodar o HyperTTS, validar:
+1. **`--known-limit` no `next` (opcional):** Caso queira limitar `known_words` aos últimos N termos em vez de omitir tudo com `--no-known`.
+2. **Velocidade do TTS no Preset do HyperTTS:** Ajustar para ~`0.85x`–`0.9x` em testes iniciais para facilitar a compreensão auditiva de iniciantes antes de gerar um lote inteiro.
+3. **Estabilidade do `card_uid`:** Como `card_uid` usa `words.id`, nunca apague e recrie `data/jane.db` do zero após começar a importar no Anki — use `seed` de forma incremental/idempotente.
+4. **Verificação pós-teste no HyperTTS:** Após importar `exports/test_50.tsv` no Anki e rodar o HyperTTS, validar:
    - Se `Sentence_Display` renderiza o negrito corretamente.
    - Se o HyperTTS lê `Sentence_Audio` de forma natural (velocidade e entonação) e grava em `Audio_Sentence`.
    - Quanto de cota real foi descontado em `app.vocab.ai/languagetools/quota`.
