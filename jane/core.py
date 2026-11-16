@@ -70,8 +70,13 @@ def get_status(conn: sqlite3.Connection) -> dict[str, Any]:
     return {"totals": totals, "cards": card_stats, "batches": batches}
 
 
-def get_next_batch(conn: sqlite3.Connection, batch_number: int = 1, limit: int = 20) -> dict[str, Any]:
-    """Fetch next pending words in a batch plus known words for i+1 context."""
+def get_next_batch(
+    conn: sqlite3.Connection,
+    batch_number: int = 1,
+    limit: int = 20,
+    include_known: bool = True,
+) -> dict[str, Any]:
+    """Fetch next pending words in a batch plus optional known words for i+1 context."""
     pending_rows = conn.execute(
         """
         SELECT id, lemma, cefr_level, pos, ngsl_rank, tier
@@ -83,21 +88,24 @@ def get_next_batch(conn: sqlite3.Connection, batch_number: int = 1, limit: int =
         (batch_number, limit),
     ).fetchall()
 
-    known_rows = conn.execute(
-        """
-        SELECT lemma
-        FROM words
-        WHERE batch_number < ? OR status IN ('generated', 'exported', 'mastered')
-        ORDER BY priority_score ASC
-        """,
-        (batch_number,),
-    ).fetchall()
+    known_words: list[str] = []
+    if include_known:
+        known_rows = conn.execute(
+            """
+            SELECT lemma
+            FROM words
+            WHERE batch_number < ? OR status IN ('generated', 'exported', 'mastered')
+            ORDER BY priority_score ASC
+            """,
+            (batch_number,),
+        ).fetchall()
+        known_words = [r["lemma"] for r in known_rows]
 
     return {
         "batch_number": batch_number,
         "pending_count": len(pending_rows),
         "pending_words": [dict(r) for r in pending_rows],
-        "known_words": [r["lemma"] for r in known_rows],
+        "known_words": known_words,
     }
 
 

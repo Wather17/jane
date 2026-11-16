@@ -164,6 +164,29 @@ class JanePipelineTests(unittest.TestCase):
         self.assertEqual(model["name"], NOTETYPE_NAME)
         self.assertEqual([f["name"] for f in model["flds"]], NOTE_FIELDS)
 
+    def test_next_no_known_omits_known_words(self) -> None:
+        seed_database(self.conn, batch_size=2, sample_size=4, rng_seed=11)
+        first = get_next_batch(self.conn, batch_number=1, limit=1)["pending_words"][0]["lemma"]
+        save_cards(
+            self.conn,
+            [
+                {
+                    "lemma": first,
+                    "difficulty": "easy",
+                    "sentence_display": f"We saw <b>{first}</b> there.",
+                    "sentence_audio": f"We saw {first} there.",
+                    "sentence_pt": f"Nós vimos {first} lá.",
+                    "word_meaning_pt": "teste",
+                }
+            ],
+        )
+        with_known = get_next_batch(self.conn, batch_number=2, limit=2, include_known=True)
+        self.assertGreaterEqual(len(with_known["known_words"]), 2)
+
+        without_known = get_next_batch(self.conn, batch_number=2, limit=2, include_known=False)
+        self.assertEqual(without_known["known_words"], [])
+        self.assertEqual(without_known["pending_count"], 2)
+
 
 if __name__ == "__main__":
     unittest.main()

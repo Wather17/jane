@@ -30,6 +30,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_next = sub.add_parser("next", help="Get next pending words for a batch as JSON")
     p_next.add_argument("--batch", type=int, default=1, help="Batch number (default: 1)")
     p_next.add_argument("--limit", type=int, default=20, help="Max pending words to return")
+    p_next.add_argument("--no-known", action="store_true", help="Omit known_words list from output")
 
     p_save = sub.add_parser("save", help="Validate and save generated cards from a JSON file (or '-' for stdin)")
     p_save.add_argument("--file", type=str, required=True, help="Path to JSON array of cards, or '-' for stdin")
@@ -74,7 +75,12 @@ def main(argv: list[str] | None = None) -> int:
             res = get_status(conn)
             print(json.dumps(res, indent=2))
         elif args.command == "next":
-            res = get_next_batch(conn, batch_number=args.batch, limit=args.limit)
+            res = get_next_batch(
+                conn,
+                batch_number=args.batch,
+                limit=args.limit,
+                include_known=not args.no_known,
+            )
             print(json.dumps(res, indent=2, ensure_ascii=False))
         elif args.command == "save":
             raw_json = sys.stdin.read() if args.file == "-" else Path(args.file).read_text(encoding="utf-8")
