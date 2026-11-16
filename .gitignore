@@ -1,7 +1,7 @@
-# Banco local e arquivos gerados
+# Banco local e arquivos gerados de teste
 data/*.db
 data/*.sqlite*
-exports/
+exports/test_*.tsv
 
 # Python
 __pycache__/
