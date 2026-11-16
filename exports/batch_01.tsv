@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_0001_01	the	<b>The</b> sun is very bright today.	The sun is very bright today.	O sol está muito forte hoje.	o, a, os, as (artigo definido)	easy	batch_01	Usado para algo específico; não muda para masculino/feminino ou plural.
+jane_0002_01	be	I want to <b>be</b> a better student.	I want to be a better student.	Eu quero ser um aluno melhor.	ser, estar	easy	batch_01	No presente vira am, is ou are (I am, she is, they are).
+jane_0003_01	and	I like coffee <b>and</b> bread.	I like coffee and bread.	Eu gosto de café e pão.	e	easy	batch_01	
+jane_0004_01	of	I drank a cup <b>of</b> tea.	I drank a cup of tea.	Eu bebi uma xícara de chá.	de	easy	batch_01	Pronúncia comum com som de 'v': /ʌv/.
+jane_0005_01	to	We walk <b>to</b> school every morning.	We walk to school every morning.	Nós vamos a pé para a escola toda manhã.	para, a (direção ou destino)	easy	batch_01	Também aparece antes de verbos no infinitivo (to eat, to go).
+jane_0006_01	a	She has <b>a</b> small dog.	She has a small dog.	Ela tem um cachorro pequeno.	um, uma (artigo indefinido)	easy	batch_01	Antes de som de vogal, usa-se 'an' (an apple).
+jane_0007_01	in	My keys are <b>in</b> my bag.	My keys are in my bag.	Minhas chaves estão na minha bolsa.	em, dentro de	easy	batch_01	
+jane_0008_01	have	I <b>have</b> two brothers and one sister.	I have two brothers and one sister.	Eu tenho dois irmãos e uma irmã.	ter, possuir	easy	batch_01	Com he/she/it vira 'has'.
+jane_0009_01	it	<b>It</b> is very cold outside today.	It is very cold outside today.	Está muito frio lá fora hoje.	isso, ele/ela (para coisas, animais ou clima)	easy	batch_01	Em inglês toda frase precisa de sujeito, por isso usamos 'It is cold'.
+jane_0010_01	you	<b>You</b> are my best friend.	You are my best friend.	Você é meu melhor amigo.	você, vocês	easy	batch_01	Serve tanto para singular quanto para plural.
+jane_0011_01	he	<b>He</b> works at a hospital.	He works at a hospital.	Ele trabalha em um hospital.	ele	easy	batch_01	
+jane_0012_01	for	I bought this gift <b>for</b> you.	I bought this gift for you.	Eu comprei este presente para você.	para, por	medium	batch_01	
+jane_0013_01	they	<b>They</b> live in a big house.	They live in a big house.	Eles moram em uma casa grande.	eles, elas	easy	batch_01	
+jane_0014_01	not	I am <b>not</b> hungry right now.	I am not hungry right now.	Eu não estou com fome agora.	não (negação)	easy	batch_01	Muito usado contraído: isn't, don't, can't.
+jane_0015_01	that	Look at <b>that</b> tall tree over there.	Look at that tall tree over there.	Olhe para aquela árvore alta ali.	aquele, aquela, aquilo (também 'que')	medium	batch_01	Usado para apontar algo que está longe.
+jane_0016_01	we	<b>We</b> study English every day.	We study English every day.	Nós estudamos inglês todos os dias.	nós	easy	batch_01	
+jane_0017_01	on	The book is <b>on</b> the table.	The book is on the table.	O livro está em cima da mesa.	em cima de, sobre	easy	batch_01	Também usado para dias da semana: 'on Monday'.
+jane_0018_01	with	Do you want to come <b>with</b> me?	Do you want to come with me?	Você quer vir comigo?	com	easy	batch_01	
+jane_0019_01	this	<b>This</b> chair is very comfortable.	This chair is very comfortable.	Esta cadeira é muito confortável.	este, esta, isto	easy	batch_01	Usado para algo que está perto.
+jane_0020_01	i	<b>I</b> wake up early every morning.	I wake up early every morning.	Eu acordo cedo todas as manhãs.	eu	easy	batch_01	Em inglês, 'I' é sempre escrito com letra maiúscula.
+jane_0021_01	as	She works <b>as</b> a teacher in my city.	She works as a teacher in my city.	Ela trabalha como professora na minha cidade.	como (na função de), enquanto	hard	batch_01	
+jane_0022_01	at	The movie starts <b>at</b> eight o'clock.	The movie starts at eight o'clock.	O filme começa às oito horas.	às (horário), em (local específico)	medium	batch_01	Para horas exatas, sempre use 'at'.
+jane_0023_01	she	<b>She</b> speaks English very well.	She speaks English very well.	Ela fala inglês muito bem.	ela	easy	batch_01	
+jane_0024_01	from	I am <b>from</b> Brazil.	I am from Brazil.	Eu sou do Brasil.	de (origem ou ponto de partida)	easy	batch_01	
+jane_0025_01	will	I <b>will</b> call you tomorrow morning.	I will call you tomorrow morning.	Eu vou te ligar amanhã de manhã.	auxiliar de futuro (vou, vai, irá)	medium	batch_01	Colocado antes do verbo principal para indicar futuro.
+jane_0026_01	or	Do you want tea <b>or</b> coffee?	Do you want tea or coffee?	Você quer chá ou café?	ou	easy	batch_01	
+jane_0027_01	say	What did you <b>say</b> to him?	What did you say to him?	O que você disse para ele?	dizer, falar	easy	batch_01	Passado irregular: said.
+jane_0028_01	go	Let's <b>go</b> home now.	Let's go home now.	Vamos para casa agora.	ir	easy	batch_01	Passado irregular: went.
+jane_0029_01	so	It was raining, <b>so</b> we stayed home.	It was raining, so we stayed home.	Estava chovendo, então ficamos em casa.	então, por isso (também 'tão')	medium	batch_01	
+jane_0030_01	all	<b>All</b> my friends live near here.	All my friends live near here.	Todos os meus amigos moram perto daqui.	todo, toda, todos, tudo	easy	batch_01	
+jane_0031_01	if	Call me <b>if</b> you need any help.	Call me if you need any help.	Me ligue se você precisar de alguma ajuda.	se (condição)	medium	batch_01	
+jane_0032_01	one	I only have <b>one</b> apple left.	I only have one apple left.	Eu só tenho uma maçã sobrando.	um, uma (número 1)	easy	batch_01	
+jane_0033_01	would	<b>Would</b> you like a glass of water?	Would you like a glass of water?	Você gostaria de um copo de água?	verbo auxiliar para pedidos/hipóteses (-ria)	medium	batch_01	'Would like' é a forma educada de dizer 'gostaria'.
+jane_0034_01	about	This book is <b>about</b> Brazilian history.	This book is about Brazilian history.	Este livro é sobre a história do Brasil.	sobre, a respeito de (também 'cerca de')	easy	batch_01	
+jane_0035_01	which	<b>Which</b> shirt do you prefer?	Which shirt do you prefer?	Qual camisa você prefere?	qual, quais (entre opções limitadas)	medium	batch_01	Usado quando há um conjunto definido de escolhas.
+jane_0036_01	there	Please put the box over <b>there</b>.	Please put the box over there.	Por favor, coloque a caixa ali.	lá, ali	easy	batch_01	'There is / There are' também significa 'há / existe'.
+jane_0037_01	know	I <b>know</b> the answer to this question.	I know the answer to this question.	Eu sei a resposta para esta pergunta.	saber, conhecer	easy	batch_01	O 'k' é mudo: /noʊ/. Passado irregular: knew.
+jane_0038_01	more	I need <b>more</b> time to finish this.	I need more time to finish this.	Eu preciso de mais tempo para terminar isso.	mais	easy	batch_01	
+jane_0039_01	get	What time do you <b>get</b> home from work?	What time do you get home from work?	Que horas você chega em casa do trabalho?	chegar, conseguir, pegar, ficar	medium	batch_01	'Get home' = chegar em casa. Passado irregular: got.
+jane_0040_01	who	<b>Who</b> is that man at the door?	Who is that man at the door?	Quem é aquele homem na porta?	quem	easy	batch_01	
+jane_0041_01	like	I really <b>like</b> listening to music.	I really like listening to music.	Eu gosto muito de ouvir música.	gostar de (também 'como/parecido')	easy	batch_01	
+jane_0042_01	when	<b>When</b> does the next bus arrive?	When does the next bus arrive?	Quando o próximo ônibus chega?	quando	easy	batch_01	
+jane_0043_01	think	I <b>think</b> it will rain today.	I think it will rain today.	Eu acho que vai chover hoje.	pensar, achar	easy	batch_01	Passado irregular: thought.
+jane_0044_01	make	Can you <b>make</b> some coffee for us?	Can you make some coffee for us?	Você pode fazer um pouco de café para nós?	fazer, fabricar, criar	easy	batch_01	Passado irregular: made.
+jane_0045_01	time	What <b>time</b> is it right now?	What time is it right now?	Que horas são agora?	tempo, hora, vez	easy	batch_01	
+jane_0046_01	see	I can <b>see</b> the mountains from my window.	I can see the mountains from my window.	Eu consigo ver as montanhas da minha janela.	ver, enxergar	easy	batch_01	Passado irregular: saw.
+jane_0047_01	what	<b>What</b> is your favorite food?	What is your favorite food?	Qual é a sua comida favorita?	o que, qual	easy	batch_01	
+jane_0048_01	up	Please stand <b>up</b> and look at me.	Please stand up and look at me.	Por favor, levante-se e olhe para mim.	para cima	easy	batch_01	
+jane_0049_01	some	I bought <b>some</b> fresh fruit at the market.	I bought some fresh fruit at the market.	Eu comprei algumas frutas frescas no mercado.	algum, alguns, um pouco de	medium	batch_01	
+jane_0050_01	other	Let's try the <b>other</b> restaurant tonight.	Let's try the other restaurant tonight.	Vamos experimentar o outro restaurante hoje à noite.	outro, outra, outros	medium	batch_01	
+jane_0051_01	out	Let's go <b>out</b> for dinner tonight.	Let's go out for dinner tonight.	Vamos sair para jantar hoje à noite.	para fora, fora	easy	batch_01	'Go out' = sair de casa para passear.
+jane_0052_01	good	That is a very <b>good</b> idea.	That is a very good idea.	Essa é uma ideia muito boa.	bom, boa	easy	batch_01	Comparativo irregular: better (melhor).
+jane_0053_01	people	Many <b>people</b> live in this city.	Many people live in this city.	Muitas pessoas moram nesta cidade.	pessoas, povo	easy	batch_01	Já é plural (não existe 'peoples' para pessoas em geral).
+jane_0054_01	year	Next <b>year</b> I want to travel more.	Next year I want to travel more.	No ano que vem eu quero viajar mais.	ano	easy	batch_01	
+jane_0055_01	take	Please <b>take</b> an umbrella with you.	Please take an umbrella with you.	Por favor, leve um guarda-chuva com você.	levar, pegar, tomar	medium	batch_01	Passado irregular: took.
+jane_0056_01	no	Sorry, I have <b>no</b> money right now.	Sorry, I have no money right now.	Desculpa, eu não tenho dinheiro agora.	não, nenhum(a)	easy	batch_01	'Have no + substantivo' equivale a 'don't have any'.
+jane_0057_01	well	Did you sleep <b>well</b> last night?	Did you sleep well last night?	Você dormiu bem ontem à noite?	bem	easy	batch_01	'Good' é adjetivo (bom); 'well' é advérbio (bem).
+jane_0058_01	because	I stayed home <b>because</b> I was tired.	I stayed home because I was tired.	Eu fiquei em casa porque estava cansado.	porque (resposta/motivo)	medium	batch_01	Para perguntar 'por quê?', use 'why'; para responder, 'because'.
+jane_0059_01	very	Thank you <b>very</b> much for your help.	Thank you very much for your help.	Muito obrigado pela sua ajuda.	muito (intensidade)	easy	batch_01	
+jane_0060_01	just	Wait a minute, I <b>just</b> arrived home.	Wait a minute, I just arrived home.	Espere um minuto, eu acabei de chegar em casa.	apenas, só, acabar de	hard	batch_01	Antes de verbo no passado, 'just' indica algo que acabou de acontecer.
+jane_0061_01	come	Please <b>come</b> inside, it is cold.	Please come inside, it is cold.	Por favor, entre, está frio.	vir, chegar	easy	batch_01	Passado irregular: came.
+jane_0062_01	could	<b>Could</b> you help me carry this box?	Could you help me carry this box?	Você poderia me ajudar a carregar esta caixa?	poderia, conseguia (passado/educado de 'can')	medium	batch_01	
+jane_0063_01	work	I <b>work</b> from Monday to Friday.	I work from Monday to Friday.	Eu trabalho de segunda a sexta.	trabalhar, funcionar (também 'trabalho')	easy	batch_01	
+jane_0064_01	use	Can I <b>use</b> your pen for a second?	Can I use your pen for a second?	Posso usar a sua caneta por um segundo?	usar, utilizar	easy	batch_01	
+jane_0065_01	than	My brother is taller <b>than</b> me.	My brother is taller than me.	Meu irmão é mais alto do que eu.	do que (comparações)	medium	batch_01	Não confundir com 'then' (então/depois).
+jane_0066_01	now	We have to leave <b>now</b>.	We have to leave now.	Nós temos que sair agora.	agora	easy	batch_01	
+jane_0067_01	then	I finished dinner and <b>then</b> watched TV.	I finished dinner and then watched TV.	Eu terminei o jantar e depois assisti TV.	então, depois, naquela época	medium	batch_01	
+jane_0068_01	also	She speaks Spanish and <b>also</b> French.	She speaks Spanish and also French.	Ela fala espanhol e também francês.	também	easy	batch_01	
+jane_0069_01	into	He walked <b>into</b> the room quietly.	He walked into the room quietly.	Ele entrou na sala em silêncio.	para dentro de	medium	batch_01	Indica movimento de fora para dentro.
+jane_0070_01	only	I <b>only</b> want a glass of water.	I only want a glass of water.	Eu só quero um copo de água.	apenas, somente, único	easy	batch_01	
+jane_0071_01	look	<b>Look</b> at that blue bird on the tree!	Look at that blue bird on the tree!	Olhe para aquele pássaro azul na árvore!	olhar, parecer	easy	batch_01	Sempre use 'look at' quando olhar para algo.
+jane_0072_01	want	I <b>want</b> to learn English fast.	I want to learn English fast.	Eu quero aprender inglês rápido.	querer	easy	batch_01	
+jane_0073_01	give	Please <b>give</b> me your phone number.	Please give me your phone number.	Por favor, me dê o seu número de telefone.	dar, entregar	easy	batch_01	Passado irregular: gave.
+jane_0074_01	first	Today is my <b>first</b> day at work.	Today is my first day at work.	Hoje é o meu primeiro dia no trabalho.	primeiro(a)	easy	batch_01	
+jane_0075_01	new	I bought a <b>new</b> pair of shoes.	I bought a new pair of shoes.	Eu comprei um par de sapatos novo.	novo(a)	easy	batch_01	
+jane_0076_01	way	Do you know the <b>way</b> to the station?	Do you know the way to the station?	Você sabe o caminho para a estação?	caminho, jeito, maneira	medium	batch_01	
+jane_0077_01	find	I cannot <b>find</b> my car keys.	I cannot find my car keys.	Eu não consigo encontrar as chaves do meu carro.	encontrar, achar	easy	batch_01	Passado irregular: found.
+jane_0078_01	over	The plane flew <b>over</b> the mountains.	The plane flew over the mountains.	O avião voou por cima das montanhas.	por cima de, acima de (também 'acabou')	hard	batch_01	'Game over' = fim de jogo.
+jane_0079_01	any	Do you have <b>any</b> questions about the lesson?	Do you have any questions about the lesson?	Você tem alguma dúvida sobre a lição?	algum(a), nenhum(a), qualquer	medium	batch_01	Muito usado em perguntas e frases negativas.
+jane_0080_01	after	Let's drink coffee <b>after</b> lunch.	Let's drink coffee after lunch.	Vamos tomar café depois do almoço.	depois de, após	easy	batch_01	
+jane_0081_01	day	Have a nice <b>day</b> at school!	Have a nice day at school!	Tenha um bom dia na escola!	dia	easy	batch_01	
+jane_0082_01	where	<b>Where</b> do you live in Brazil?	Where do you live in Brazil?	Onde você mora no Brasil?	onde	easy	batch_01	
+jane_0083_01	thing	This is the most important <b>thing</b>.	This is the most important thing.	Esta é a coisa mais importante.	coisa, objeto, assunto	easy	batch_01	
+jane_0084_01	most	<b>Most</b> people like listening to music.	Most people like listening to music.	A maioria das pessoas gosta de ouvir música.	a maioria de, mais (superlativo)	hard	batch_01	Também forma superlativos: 'the most beautiful'.
+jane_0085_01	should	You <b>should</b> drink more water every day.	You should drink more water every day.	Você deveria beber mais água todos os dias.	deveria (conselho/recomendação)	medium	batch_01	O 'l' é mudo: /ʃʊd/.
+jane_0086_01	need	I <b>need</b> to sleep early tonight.	I need to sleep early tonight.	Eu preciso dormir cedo hoje à noite.	precisar	easy	batch_01	
+jane_0087_01	much	How <b>much</b> does this shirt cost?	How much does this shirt cost?	Quanto custa esta camisa?	muito (para coisas incontáveis)	easy	batch_01	'How much?' = Quanto custa? / Quanto?
+jane_0088_01	right	Turn <b>right</b> at the next corner.	Turn right at the next corner.	Vire à direita na próxima esquina.	direita, certo, correto	medium	batch_01	Também significa 'certo/correto' (You are right).
+jane_0089_01	how	<b>How</b> are you feeling today?	How are you feeling today?	Como você está se sentindo hoje?	como, quão	easy	batch_01	
+jane_0090_01	back	I will come <b>back</b> in ten minutes.	I will come back in ten minutes.	Eu volto em dez minutos.	de volta, atrás (também 'costas')	medium	batch_01	'Come back' = voltar.
+jane_0091_01	mean	What does this English word <b>mean</b>?	What does this English word mean?	O que significa esta palavra em inglês?	significar, querer dizer	medium	batch_01	Frase super útil para perguntar significados.
+jane_0092_01	even	She works hard, <b>even</b> on Sundays.	She works hard, even on Sundays.	Ela trabalha duro, até mesmo aos domingos.	até mesmo, inclusive	hard	batch_01	
+jane_0093_01	may	<b>May</b> I open the window, please?	May I open the window, please?	Posso abrir a janela, por favor?	poder (permissão formal ou possibilidade)	medium	batch_01	Forma bem educada de pedir permissão.
+jane_0094_01	here	Please sit <b>here</b> next to me.	Please sit here next to me.	Por favor, sente-se aqui perto de mim.	aqui	easy	batch_01	
+jane_0095_01	many	How <b>many</b> books do you have?	How many books do you have?	Quantos livros você tem?	muitos, muitas (para coisas contáveis)	easy	batch_01	'How many?' para contáveis; 'How much?' para incontáveis.
+jane_0096_01	such	Today is <b>such</b> a beautiful day!	Today is such a beautiful day!	Hoje está um dia tão lindo!	tão, tal, tamanho(a)	hard	batch_01	Estrutura comum: 'such a + adjetivo + substantivo'.
+jane_0097_01	child	That <b>child</b> is playing in the park.	That child is playing in the park.	Aquela criança está brincando no parque.	criança, filho(a)	easy	batch_01	Plural irregular: children (crianças).
+jane_0098_01	tell	Please <b>tell</b> me the truth.	Please tell me the truth.	Por favor, me diga a verdade.	contar, dizer (para alguém)	easy	batch_01	Sempre pede a pessoa depois: 'tell me', 'tell him'. Passado: told.
+jane_0099_01	really	I am <b>really</b> happy to see you.	I am really happy to see you.	Eu estou realmente feliz em ver você.	realmente, muito, de verdade	easy	batch_01	
+jane_0100_01	call	I will <b>call</b> you after work.	I will call you after work.	Eu vou te ligar depois do trabalho.	ligar (telefone), chamar	easy	batch_01	
+jane_0101_01	before	Wash your hands <b>before</b> dinner.	Wash your hands before dinner.	Lave as suas mãos antes do jantar.	antes de	easy	batch_01	
+jane_0102_01	company	He works for a big tech <b>company</b>.	He works for a big tech company.	Ele trabalha para uma grande empresa de tecnologia.	empresa, companhia	easy	batch_01	
+jane_0103_01	through	We walked <b>through</b> the park together.	We walked through the park together.	Nós caminhamos pelo parque juntos.	através de, por	medium	batch_01	O 'gh' é mudo: /θruː/.
+jane_0104_01	show	Can you <b>show</b> me the way home?	Can you show me the way home?	Você pode me mostrar o caminho de casa?	mostrar, exibir (também 'programa/espetáculo')	easy	batch_01	
+jane_0105_01	life	I love my <b>life</b> and my family.	I love my life and my family.	Eu amo a minha vida e a minha família.	vida	easy	batch_01	Plural irregular: lives.
+jane_0106_01	man	That <b>man</b> is my English teacher.	That man is my English teacher.	Aquele homem é o meu professor de inglês.	homem	easy	batch_01	Plural irregular: men.
+jane_0107_01	change	I want to <b>change</b> my phone plan.	I want to change my phone plan.	Eu quero mudar o meu plano de celular.	mudar, trocar (também 'troco')	medium	batch_01	
+jane_0108_01	place	This café is a nice <b>place</b> to study.	This café is a nice place to study.	Este café é um lugar legal para estudar.	lugar, local	easy	batch_01	
+jane_0109_01	long	How <b>long</b> does the trip take?	How long does the trip take?	Quanto tempo dura a viagem?	longo, comprido	easy	batch_01	'How long?' pergunta duração de tempo ou comprimento.
+jane_0110_01	between	The bank is <b>between</b> the school and the park.	The bank is between the school and the park.	O banco fica entre a escola e o parque.	entre (dois pontos)	medium	batch_01	
+jane_0111_01	feel	I <b>feel</b> much better today.	I feel much better today.	Eu me sinto muito melhor hoje.	sentir, sentir-se	easy	batch_01	Passado irregular: felt.
+jane_0112_01	too	This coffee is <b>too</b> hot to drink.	This coffee is too hot to drink.	Este café está quente demais para beber.	demais (excesso), também (no fim da frase)	easy	batch_01	Antes de adjetivo = 'demais'; no fim da frase = 'também'.
+jane_0113_01	still	It is <b>still</b> raining outside.	It is still raining outside.	Ainda está chovendo lá fora.	ainda	medium	batch_01	
+jane_0114_01	problem	No <b>problem</b>, I can help you!	No problem, I can help you!	Sem problema, eu posso te ajudar!	problema	easy	batch_01	
+jane_0115_01	write	Please <b>write</b> your email address here.	Please write your email address here.	Por favor, escreva o seu e-mail aqui.	escrever	easy	batch_01	O 'w' é mudo: /raɪt/. Passado irregular: wrote.
+jane_0116_01	same	We live on the <b>same</b> street.	We live on the same street.	Nós moramos na mesma rua.	mesmo(a), igual	easy	batch_01	Quase sempre vem com 'the': 'the same'.
+jane_0117_01	lot	I drink a <b>lot</b> of water every day.	I drink a lot of water every day.	Eu bebo muita água todos os dias.	muito (na expressão 'a lot of')	easy	batch_01	Expressão essencial: 'a lot of' (muito/muitos).
+jane_0118_01	try	You should <b>try</b> this Brazilian food.	You should try this Brazilian food.	Você deveria experimentar esta comida brasileira.	tentar, experimentar	easy	batch_01	Passado: tried.
+jane_0119_01	leave	What time do you <b>leave</b> for work?	What time do you leave for work?	Que horas você sai para o trabalho?	sair, partir, deixar	medium	batch_01	Passado irregular: left.
+jane_0120_01	number	What is your house <b>number</b>?	What is your house number?	Qual é o número da sua casa?	número	easy	batch_01	
