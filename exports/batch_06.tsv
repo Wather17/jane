@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_0601_01	image	Click on the <b>image</b> to make it bigger.	Click on the image to make it bigger.	Clique na imagem para deixá-la maior.	imagem	easy	batch_06	
+jane_0602_01	size	What <b>size</b> of shirt do you wear?	What size of shirt do you wear?	Qual tamanho de camisa você veste?	tamanho	easy	batch_06	
+jane_0603_01	population	The <b>population</b> of this city is growing fast.	The population of this city is growing fast.	A população desta cidade está crescendo rápido.	população	medium	batch_06	
+jane_0604_01	fail	Don't be afraid to <b>fail</b> when you try.	Don't be afraid to fail when you try.	Não tenha medo de falhar quando tentar.	falhar, fracassar, reprovar	easy	batch_06	
+jane_0605_01	environment	We should all protect the <b>environment</b>.	We should all protect the environment.	Todos nós deveríamos proteger o meio ambiente.	meio ambiente, ambiente	medium	batch_06	
+jane_0606_01	comment	Leave a <b>comment</b> below this video.	Leave a comment below this video.	Deixe um comentário abaixo deste vídeo.	comentário (também verbo 'comentar')	easy	batch_06	
+jane_0607_01	enter	Please <b>enter</b> your password to log in.	Please enter your password to log in.	Por favor, digite a sua senha para entrar.	entrar, inserir (dados)	easy	batch_06	Para entrar em um lugar, não use 'in' depois ('enter the room').
+jane_0608_01	series	I am watching a great TV <b>series</b>.	I am watching a great TV series.	Eu estou assistindo a uma ótima série de TV.	série	easy	batch_06	No singular e no plural escreve igual: 'series'.
+jane_0609_01	review	I <b>review</b> my Anki cards every morning.	I review my Anki cards every morning.	Eu reviso meus cards do Anki toda manhã.	revisar, avaliar (também 'avaliação/resenha')	easy	batch_06	
+jane_0610_01	depend	Our plans <b>depend</b> on the weather tomorrow.	Our plans depend on the weather tomorrow.	Nossos planos dependem do tempo amanhã.	depender	medium	batch_06	Preposição fixa: 'depend on' (depender de).
+jane_0611_01	race	He won the running <b>race</b> last Sunday.	He won the running race last Sunday.	Ele venceu a corrida no domingo passado.	corrida (competição), raça	easy	batch_06	
+jane_0612_01	recognize	I didn't <b>recognize</b> you with those new glasses!	I didn't recognize you with those new glasses!	Eu não te reconheci com esses óculos novos!	reconhecer	medium	batch_06	
+jane_0613_01	purpose	What is the <b>purpose</b> of this meeting?	What is the purpose of this meeting?	Qual é o objetivo desta reunião?	propósito, objetivo, finalidade	hard	batch_06	'On purpose' = de propósito.
+jane_0614_01	department	She works in the sales <b>department</b>.	She works in the sales department.	Ela trabalha no departamento de vendas.	departamento, setor	medium	batch_06	
+jane_0615_01	argue	Please don't <b>argue</b> over small things.	Please don't argue over small things.	Por favor, não discutam por coisas pequenas.	discutir (brigar verbalmente), argumentar	medium	batch_06	
+jane_0616_01	board	The teacher wrote the words on the <b>board</b>.	The teacher wrote the words on the board.	O professor escreveu as palavras no quadro.	quadro (lousa), tábua, conselho	medium	batch_06	
+jane_0617_01	mark	There is a black <b>mark</b> on your white shirt.	There is a black mark on your white shirt.	Tem uma marca preta na sua camisa branca.	marca, mancha, nota (escolar)	medium	batch_06	
+jane_0618_01	church	There is an old <b>church</b> in the town center.	There is an old church in the town center.	Tem uma igreja antiga no centro da cidade.	igreja	easy	batch_06	
+jane_0619_01	achieve	You can <b>achieve</b> your goals with daily practice.	You can achieve your goals with daily practice.	Você pode alcançar os seus objetivos com prática diária.	alcançar, conquistar, realizar	medium	batch_06	
+jane_0620_01	item	Each <b>item</b> on the menu looks delicious.	Each item on the menu looks delicious.	Cada item do cardápio parece delicioso.	item, artigo	easy	batch_06	
+jane_0621_01	season	Summer is my favorite <b>season</b> of the year.	Summer is my favorite season of the year.	O verão é a minha estação favorita do ano.	estação (do ano), temporada (de série)	easy	batch_06	
+jane_0622_01	method	This study <b>method</b> works very well.	This study method works very well.	Este método de estudo funciona muito bem.	método	medium	batch_06	
+jane_0623_01	link	Could you send me the <b>link</b> to that site?	Could you send me the link to that site?	Você poderia me mandar o link daquele site?	link, ligação, elo	easy	batch_06	
+jane_0624_01	advantage	Speaking two languages is a big <b>advantage</b>.	Speaking two languages is a big advantage.	Falar dois idiomas é uma grande vantagem.	vantagem	medium	batch_06	
+jane_0625_01	marry	They plan to <b>marry</b> next spring.	They plan to marry next spring.	Eles planejam se casar na próxima primavera.	casar-se	easy	batch_06	Em inglês não se usa 'with' depois de 'marry' ('marry someone').
+jane_0626_01	ability	She has the <b>ability</b> to learn languages fast.	She has the ability to learn languages fast.	Ela tem a capacidade de aprender idiomas rápido.	capacidade, habilidade	medium	batch_06	
+jane_0627_01	unit	Let's study <b>unit</b> two in our textbook.	Let's study unit two in our textbook.	Vamos estudar a unidade dois do nosso livro.	unidade	easy	batch_06	
+jane_0628_01	solution	We found a simple <b>solution</b> to the problem.	We found a simple solution to the problem.	Nós encontramos uma solução simples para o problema.	solução	easy	batch_06	
+jane_0629_01	fear	Many people have a <b>fear</b> of flying.	Many people have a fear of flying.	Muitas pessoas têm medo de voar.	medo, temor (também verbo 'temer')	medium	batch_06	
+jane_0630_01	target	My daily <b>target</b> is twenty new words.	My daily target is twenty new words.	Minha meta diária é vinte palavras novas.	meta, alvo	medium	batch_06	
+jane_0631_01	degree	She has a university <b>degree</b> in biology.	She has a university degree in biology.	Ela tem um diploma universitário em biologia.	diploma, grau (também temperatura)	medium	batch_06	
+jane_0632_01	movement	I saw a sudden <b>movement</b> behind the tree.	I saw a sudden movement behind the tree.	Eu vi um movimento repentino atrás da árvore.	movimento	medium	batch_06	
+jane_0633_01	identify	Can you <b>identify</b> the person in this photo?	Can you identify the person in this photo?	Você consegue identificar a pessoa nesta foto?	identificar	medium	batch_06	
+jane_0634_01	conference	He traveled to London for a tech <b>conference</b>.	He traveled to London for a tech conference.	Ele viajou para Londres para uma conferência de tecnologia.	conferência, congresso	medium	batch_06	
+jane_0635_01	express	Music helps people <b>express</b> their feelings.	Music helps people express their feelings.	A música ajuda as pessoas a expressarem seus sentimentos.	expressar	medium	batch_06	
+jane_0636_01	attend	Did you <b>attend</b> the English class yesterday?	Did you attend the English class yesterday?	Você participou/compareceu à aula de inglês ontem?	comparecer, participar, frequentar	hard	batch_06	Falso cognato: 'attend' é comparecer (atender cliente é 'serve' ou 'help').
+jane_0637_01	score	What is the final <b>score</b> of the match?	What is the final score of the match?	Qual é o placar final da partida?	placar, pontuação	easy	batch_06	
+jane_0638_01	organize	I need to <b>organize</b> my desk before working.	I need to organize my desk before working.	Eu preciso organizar minha mesa antes de trabalhar.	organizar	easy	batch_06	
+jane_0639_01	sleep	I try to <b>sleep</b> eight hours every night.	I try to sleep eight hours every night.	Eu tento dormir oito horas toda noite.	dormir (também substantivo 'sono')	easy	batch_06	Passado irregular: slept.
+jane_0640_01	promise	I <b>promise</b> to call you tonight.	I promise to call you tonight.	Eu prometo te ligar hoje à noite.	prometer (também substantivo 'promessa')	easy	batch_06	
+jane_0641_01	energy	Solar <b>energy</b> is clean and renewable.	Solar energy is clean and renewable.	A energia solar é limpa e renovável.	energia	easy	batch_06	
+jane_0642_01	trouble	Sorry to cause you so much <b>trouble</b>.	Sorry to cause you so much trouble.	Desculpa causar tanto transtorno para você.	problema, transtorno, dificuldade	medium	batch_06	
+jane_0643_01	strategy	Spaced repetition is a great study <b>strategy</b>.	Spaced repetition is a great study strategy.	Repetição espaçada é uma ótima estratégia de estudo.	estratégia	medium	batch_06	
+jane_0644_01	network	My phone lost the Wi-Fi <b>network</b>.	My phone lost the Wi-Fi network.	Meu celular perdeu a rede Wi-Fi.	rede (de computadores, contatos, TV)	easy	batch_06	
+jane_0645_01	avoid	I try to <b>avoid</b> heavy traffic in the morning.	I try to avoid heavy traffic in the morning.	Eu tento evitar trânsito pesado de manhã.	evitar	medium	batch_06	
+jane_0646_01	seat	Please take a <b>seat</b> and wait here.	Please take a seat and wait here.	Por favor, sente-se e espere aqui.	assento, lugar para sentar	easy	batch_06	'Take a seat' = sentar-se.
+jane_0647_01	throw	<b>Throw</b> the ball to me!	Throw the ball to me!	Jogue a bola para mim!	jogar, arremessar	easy	batch_06	Passado irregular: threw.
+jane_0648_01	task	I finished my most difficult <b>task</b> today.	I finished my most difficult task today.	Eu terminei a minha tarefa mais difícil hoje.	tarefa	easy	batch_06	
+jane_0649_01	goal	My main <b>goal</b> is to speak English fluently.	My main goal is to speak English fluently.	Meu objetivo principal é falar inglês fluentemente.	objetivo, meta (também 'gol' no futebol)	easy	batch_06	
+jane_0650_01	option	Buying online is the cheapest <b>option</b>.	Buying online is the cheapest option.	Comprar pela internet é a opção mais barata.	opção	easy	batch_06	
+jane_0651_01	refer	What does that word <b>refer</b> to?	What does that word refer to?	A que aquela palavra se refere?	referir-se	hard	batch_06	Preposição fixa: 'refer to'.
+jane_0652_01	competition	She won first place in the swimming <b>competition</b>.	She won first place in the swimming competition.	Ela ganhou o primeiro lugar na competição de natação.	competição, concorrência	medium	batch_06	
+jane_0653_01	argument	They had a loud <b>argument</b> about money.	They had a loud argument about money.	Eles tiveram uma discussão acalorada sobre dinheiro.	discussão (briga), argumento	medium	batch_06	
+jane_0654_01	fly	Birds <b>fly</b> south for the winter.	Birds fly south for the winter.	Os pássaros voam para o sul no inverno.	voar (também substantivo 'mosca')	easy	batch_06	Passado irregular: flew.
+jane_0655_01	pattern	I really like the <b>pattern</b> on your shirt.	I really like the pattern on your shirt.	Eu gostei muito da estampa/padrão da sua camisa.	padrão, estampa, modelo	medium	batch_06	
+jane_0656_01	search	Let's <b>search</b> for a good restaurant online.	Let's search for a good restaurant online.	Vamos procurar um bom restaurante na internet.	procurar, pesquisar (também substantivo 'busca')	easy	batch_06	Use 'search for' quando buscar algo.
+jane_0657_01	speech	The manager gave a short <b>speech</b>.	The manager gave a short speech.	O gerente fez um discurso curto.	discurso, fala	medium	batch_06	
+jane_0658_01	officer	Ask that police <b>officer</b> for directions.	Ask that police officer for directions.	Peça direções para aquele policial.	oficial, policial	easy	batch_06	
+jane_0659_01	oil	We cook vegetables with olive <b>oil</b>.	We cook vegetables with olive oil.	Nós cozinhamos legumes com azeite de oliva.	óleo, azeite, petróleo	easy	batch_06	'Olive oil' = azeite de oliva.
+jane_0660_01	protect	Wear sunglasses to <b>protect</b> your eyes.	Wear sunglasses to protect your eyes.	Use óculos de sol para proteger seus olhos.	proteger	easy	batch_06	
+jane_0661_01	earn	She works hard to <b>earn</b> good money.	She works hard to earn good money.	Ela trabalha duro para ganhar um bom dinheiro.	ganhar (salário/mérito)	easy	batch_06	'Earn' é ganhar trabalhando; 'win' é ganhar competição/prêmio.
+jane_0662_01	perform	The band will <b>perform</b> live tonight.	The band will perform live tonight.	A banda vai se apresentar ao vivo hoje à noite.	apresentar-se, executar, desempenhar	medium	batch_06	
+jane_0663_01	memory	I have a great <b>memory</b> of that summer.	I have a great memory of that summer.	Eu tenho uma ótima lembrança daquele verão.	memória, lembrança	easy	batch_06	
+jane_0664_01	credit	Do you prefer cash or <b>credit</b>?	Do you prefer cash or credit?	Você prefere dinheiro ou crédito?	crédito	easy	batch_06	
+jane_0665_01	possibility	There is a good <b>possibility</b> of rain today.	There is a good possibility of rain today.	Há uma boa possibilidade de chuva hoje.	possibilidade	medium	batch_06	
+jane_0666_01	variety	This store has a wide <b>variety</b> of fruits.	This store has a wide variety of fruits.	Esta loja tem uma grande variedade de frutas.	variedade	medium	batch_06	
+jane_0667_01	screen	The <b>screen</b> of my phone is cracked.	The screen of my phone is cracked.	A tela do meu celular está rachada.	tela	easy	batch_06	
+jane_0668_01	track	We ran four laps around the <b>track</b>.	We ran four laps around the track.	Nós demos quatro voltas na pista.	pista, trilha, faixa (de música)	medium	batch_06	
+jane_0669_01	rock	She sat on a large <b>rock</b> near the river.	She sat on a large rock near the river.	Ela sentou em uma pedra grande perto do rio.	pedra, rocha (também estilo musical)	easy	batch_06	
+jane_0670_01	cross	Be careful when you <b>cross</b> the street.	Be careful when you cross the street.	Tome cuidado quando você atravessar a rua.	atravessar, cruzar (também substantivo 'cruz')	easy	batch_06	
+jane_0671_01	weight	Exercise helps you control your <b>weight</b>.	Exercise helps you control your weight.	Exercício ajuda você a controlar o seu peso.	peso	medium	batch_06	O 'gh' é mudo: /weɪt/ (mesma pronúncia de 'wait').
+jane_0672_01	shape	What <b>shape</b> is that table, round or square?	What shape is that table, round or square?	Qual é o formato daquela mesa, redondo ou quadrado?	forma, formato, boa forma física	easy	batch_06	'In good shape' = em boa forma.
+jane_0673_01	smile	<b>Smile</b> for the camera!	Smile for the camera!	Sorria para a câmera!	sorrir (também substantivo 'sorriso')	easy	batch_06	
+jane_0674_01	replace	I need to <b>replace</b> my old phone battery.	I need to replace my old phone battery.	Eu preciso trocar a bateria velha do meu celular.	substituir, trocar	medium	batch_06	
+jane_0675_01	recommend	Can you <b>recommend</b> a good Brazilian movie?	Can you recommend a good Brazilian movie?	Você pode recomendar um bom filme brasileiro?	recomendar	easy	batch_06	
+jane_0676_01	survey	Please answer this quick customer <b>survey</b>.	Please answer this quick customer survey.	Por favor, responda a esta pesquisa rápida de cliente.	pesquisa, questionário, levantamento	medium	batch_06	
+jane_0677_01	request	We received your <b>request</b> this morning.	We received your request this morning.	Nós recebemos o seu pedido hoje de manhã.	pedido, solicitação (também verbo 'solicitar')	medium	batch_06	
+jane_0678_01	blood	The doctor took a small <b>blood</b> test.	The doctor took a small blood test.	O médico fez um pequeno exame de sangue.	sangue	easy	batch_06	Pronúncia: /blʌd/ (rima com 'flood').
+jane_0679_01	scene	That was the funniest <b>scene</b> in the movie.	That was the funniest scene in the movie.	Aquela foi a cena mais engraçada do filme.	cena, cenário	easy	batch_06	
+jane_0680_01	prevent	Washing hands helps <b>prevent</b> many diseases.	Washing hands helps prevent many diseases.	Lavar as mãos ajuda a prevenir muitas doenças.	prevenir, evitar, impedir	medium	batch_06	
+jane_0681_01	invite	Did you <b>invite</b> Ana to your birthday party?	Did you invite Ana to your birthday party?	Você convidou a Ana para a sua festa de aniversário?	convidar	easy	batch_06	
+jane_0682_01	copy	Please send me a <b>copy</b> of the document.	Please send me a copy of the document.	Por favor, me mande uma cópia do documento.	cópia (também verbo 'copiar')	easy	batch_06	
+jane_0683_01	stress	Music helps me reduce daily <b>stress</b>.	Music helps me reduce daily stress.	Música me ajuda a reduzir o estresse diário.	estresse (também 'ênfase')	easy	batch_06	
+jane_0684_01	context	Learning words in <b>context</b> is much better.	Learning words in context is much better.	Aprender palavras em contexto é muito melhor.	contexto	medium	batch_06	
+jane_0685_01	ride	I learned to <b>ride</b> a bike when I was six.	I learned to ride a bike when I was six.	Eu aprendi a andar de bicicleta quando tinha seis anos.	andar de (bike/moto/cavalo), carona	easy	batch_06	Passado irregular: rode.
+jane_0686_01	remove	Please <b>remove</b> your shoes before entering.	Please remove your shoes before entering.	Por favor, tire os seus sapatos antes de entrar.	remover, tirar	easy	batch_06	
+jane_0687_01	equipment	The gym has brand new <b>equipment</b>.	The gym has brand new equipment.	A academia tem equipamentos novinhos.	equipamento	medium	batch_06	Incontável em inglês (nunca use 'equipments').
+jane_0688_01	collect	I used to <b>collect</b> old coins as a kid.	I used to collect old coins as a kid.	Eu costumava colecionar moedas antigas quando criança.	colecionar, coletar, buscar	easy	batch_06	
+jane_0689_01	tour	We took a walking <b>tour</b> of the old town.	We took a walking tour of the old town.	Nós fizemos um passeio a pé pelo centro histórico.	passeio turístico, turnê	easy	batch_06	
+jane_0690_01	ship	A huge <b>ship</b> arrived at the port today.	A huge ship arrived at the port today.	Um navio enorme chegou ao porto hoje.	navio (também verbo 'enviar/despachar')	easy	batch_06	
+jane_0691_01	progress	You are making great <b>progress</b> in English!	You are making great progress in English!	Você está fazendo um ótimo progresso no inglês!	progresso, avanço	easy	batch_06	'Make progress' = fazer progresso.
+jane_0692_01	speed	Please reduce your <b>speed</b> near the school.	Please reduce your speed near the school.	Por favor, reduza a sua velocidade perto da escola.	velocidade	easy	batch_06	
+jane_0693_01	reply	I will <b>reply</b> to your message later.	I will reply to your message later.	Eu vou responder à sua mensagem mais tarde.	responder (também substantivo 'resposta')	easy	batch_06	
+jane_0694_01	user	Every <b>user</b> needs a personal account.	Every user needs a personal account.	Todo usuário precisa de uma conta pessoal.	usuário(a)	easy	batch_06	
+jane_0695_01	respond	She didn't <b>respond</b> to my email yet.	She didn't respond to my email yet.	Ela ainda não respondeu ao meu e-mail.	responder	medium	batch_06	Sempre pede 'to' antes do objeto ('respond to').
+jane_0696_01	suit	He wore a dark blue <b>suit</b> to the wedding.	He wore a dark blue suit to the wedding.	Ele vestiu um terno azul escuro para o casamento.	terno (também verbo 'servir/cair bem')	easy	batch_06	
+jane_0697_01	peace	I love the <b>peace</b> and quiet of the countryside.	I love the peace and quiet of the countryside.	Eu amo a paz e a tranquilidade do interior.	paz, sossego	easy	batch_06	Mesma pronúncia de 'piece' (pedaço).
+jane_0698_01	crime	The police are working to reduce <b>crime</b>.	The police are working to reduce crime.	A polícia está trabalhando para reduzir a criminalidade.	crime, criminalidade	easy	batch_06	
+jane_0699_01	heat	I cannot stand the summer <b>heat</b> today.	I cannot stand the summer heat today.	Eu não suporto o calor do verão hoje.	calor (também verbo 'aquecer')	easy	batch_06	
+jane_0700_01	pain	I feel a sharp <b>pain</b> in my back.	I feel a sharp pain in my back.	Eu sinto uma dor forte nas minhas costas.	dor	easy	batch_06	
+jane_0701_01	wave	A huge <b>wave</b> hit the small boat.	A huge wave hit the small boat.	Uma onda enorme atingiu o barco pequeno.	onda (também verbo 'acenar')	easy	batch_06	
+jane_0702_01	camp	The kids are going to a summer <b>camp</b>.	The kids are going to a summer camp.	As crianças vão para um acampamento de verão.	acampamento (também verbo 'acampar')	easy	batch_06	
+jane_0703_01	audience	The <b>audience</b> clapped loudly at the end.	The audience clapped loudly at the end.	A plateia aplaudiu forte no final.	plateia, público	medium	batch_06	
+jane_0704_01	lift	This box is too heavy to <b>lift</b> alone.	This box is too heavy to lift alone.	Esta caixa é pesada demais para levantar sozinho.	levantar, erguer (no Reino Unido também 'elevador')	medium	batch_06	
+jane_0705_01	advertise	Many small shops <b>advertise</b> on social media.	Many small shops advertise on social media.	Muitas lojas pequenas anunciam nas redes sociais.	anunciar, fazer propaganda	medium	batch_06	
+jane_0706_01	crowd	There was a big <b>crowd</b> at the concert.	There was a big crowd at the concert.	Havia uma grande multidão no show.	multidão	medium	batch_06	
+jane_0707_01	corner	The bakery is just around the <b>corner</b>.	The bakery is just around the corner.	A padaria fica logo ali na esquina.	esquina, canto	easy	batch_06	'Around the corner' = virando a esquina.
+jane_0708_01	gas	We need to stop for <b>gas</b> soon.	We need to stop for gas soon.	Nós precisamos parar para colocar gasolina logo.	gasolina (nos EUA), gás	easy	batch_06	
+jane_0709_01	secretary	The <b>secretary</b> scheduled our meeting for Monday.	The secretary scheduled our meeting for Monday.	A secretária agendou nossa reunião para segunda-feira.	secretário(a)	easy	batch_06	
+jane_0710_01	cook	I like to <b>cook</b> dinner for my friends.	I like to cook dinner for my friends.	Eu gosto de cozinhar o jantar para os meus amigos.	cozinhar (também 'cozinheiro')	easy	batch_06	
+jane_0711_01	transport	Public <b>transport</b> is very convenient in this city.	Public transport is very convenient in this city.	O transporte público é muito prático nesta cidade.	transporte (também verbo 'transportar')	easy	batch_06	
+jane_0712_01	solve	Together we can <b>solve</b> this problem quickly.	Together we can solve this problem quickly.	Juntos nós podemos resolver este problema rapidamente.	resolver, solucionar	easy	batch_06	
+jane_0713_01	background	There is soft music playing in the <b>background</b>.	There is soft music playing in the background.	Tem uma música suave tocando ao fundo.	fundo (imagem/som), histórico/experiência	medium	batch_06	
+jane_0714_01	tool	Anki is a great <b>tool</b> for learning vocabulary.	Anki is a great tool for learning vocabulary.	O Anki é uma ótima ferramenta para aprender vocabulário.	ferramenta	easy	batch_06	
+jane_0715_01	smoke	I can smell <b>smoke</b> coming from the kitchen.	I can smell smoke coming from the kitchen.	Eu consigo sentir cheiro de fumaça vindo da cozinha.	fumaça (também verbo 'fumar')	easy	batch_06	
+jane_0716_01	brain	Sleep helps your <b>brain</b> remember new words.	Sleep helps your brain remember new words.	Dormir ajuda o seu cérebro a lembrar palavras novas.	cérebro	easy	batch_06	
+jane_0717_01	schedule	Let me check my <b>schedule</b> for next week.	Let me check my schedule for next week.	Deixe eu checar a minha agenda para a semana que vem.	agenda, horário, cronograma	medium	batch_06	
+jane_0718_01	speaker	The Bluetooth <b>speaker</b> has very good sound.	The Bluetooth speaker has very good sound.	A caixa de som Bluetooth tem um som muito bom.	caixa de som (alto-falante), palestrante, falante	easy	batch_06	'Native speaker' = falante nativo.
+jane_0719_01	hide	The cat likes to <b>hide</b> under the bed.	The cat likes to hide under the bed.	O gato gosta de se esconder embaixo da cama.	esconder, esconder-se	easy	batch_06	Passado irregular: hid.
+jane_0720_01	colleague	I had lunch with a <b>colleague</b> from work.	I had lunch with a colleague from work.	Eu almocei com um colega do trabalho.	colega (de trabalho/profissão)	easy	batch_06	
