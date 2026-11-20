@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_2401_01	volunteer	She works as a <b>volunteer</b> at the animal shelter.	She works as a volunteer at the animal shelter.	Ela trabalha como voluntária no abrigo de animais.	voluntário	easy	batch_21	
+jane_2402_01	episode	We watched the first <b>episode</b> last night.	We watched the first episode last night.	Nós assistimos ao primeiro episódio ontem à noite.	episódio	easy	batch_21	
+jane_2403_01	symptom	A fever is a common <b>symptom</b> of the flu.	A fever is a common symptom of the flu.	Febre é um sintoma comum da gripe.	sintoma	medium	batch_21	
+jane_2404_01	currency	What is the local <b>currency</b> in Japan?	What is the local currency in Japan?	Qual é a moeda local no Japão?	moeda (dinheiro de um país)	medium	batch_21	
+jane_2405_01	competitor	Every <b>competitor</b> trained hard for the race.	Every competitor trained hard for the race.	Cada competidor treinou duro para a corrida.	competidor / concorrente	medium	batch_21	
+jane_2406_01	entrance	Meet me at the main <b>entrance</b> at noon.	Meet me at the main entrance at noon.	Me encontre na entrada principal ao meio-dia.	entrada	easy	batch_21	
+jane_2407_01	statistic	That <b>statistic</b> surprised everyone in the room.	That statistic surprised everyone in the room.	Essa estatística surpreendeu todo mundo na sala.	estatística / dado estatístico	medium	batch_21	
+jane_2408_01	journal	She writes in her travel <b>journal</b> every evening.	She writes in her travel journal every evening.	Ela escreve no diário de viagem dela toda noite.	diário / periódico	easy	batch_21	Também significa revista científica ('academic journal').
+jane_2409_01	champion	Our city team became the national <b>champion</b>.	Our city team became the national champion.	O time da nossa cidade se tornou o campeão nacional.	campeão	easy	batch_21	
+jane_2410_01	dust	There is a lot of <b>dust</b> on the shelf.	There is a lot of dust on the shelf.	Há muita poeira na prateleira.	poeira / pó	easy	batch_21	
+jane_2411_01	poet	Fernando Pessoa is a famous Portuguese <b>poet</b>.	Fernando Pessoa is a famous Portuguese poet.	Fernando Pessoa é um famoso poeta português.	poeta	easy	batch_21	
+jane_2412_01	clause	Read every <b>clause</b> in the contract carefully.	Read every clause in the contract carefully.	Leia cada cláusula do contrato com atenção.	cláusula / oração (gramática)	hard	batch_21	
+jane_2413_01	scan	Please <b>scan</b> the QR code at the table.	Please scan the QR code at the table.	Por favor, escaneie o QR code na mesa.	escanear / examinar rapidamente	easy	batch_21	
+jane_2414_01	pray	Many people <b>pray</b> before going to sleep.	Many people pray before going to sleep.	Muitas pessoas rezam antes de ir dormir.	rezar / orar	easy	batch_21	
+jane_2415_01	immigrant	Her grandfather was an Italian <b>immigrant</b>.	Her grandfather was an Italian immigrant.	O avô dela era um imigrante italiano.	imigrante	medium	batch_21	
+jane_2416_01	consume	New cars <b>consume</b> less fuel than old ones.	New cars consume less fuel than old ones.	Carros novos consomem menos combustível que os antigos.	consumir	medium	batch_21	
+jane_2417_01	happiness	Health and family bring true <b>happiness</b>.	Health and family bring true happiness.	Saúde e família trazem felicidade verdadeira.	felicidade	easy	batch_21	
+jane_2418_01	portrait	The artist painted a <b>portrait</b> of the queen.	The artist painted a portrait of the queen.	O artista pintou um retrato da rainha.	retrato	medium	batch_21	
+jane_2419_01	summarize	Can you <b>summarize</b> the main point in one line?	Can you summarize the main point in one line?	Você consegue resumir o ponto principal em uma linha?	resumir	medium	batch_21	
+jane_2420_01	display	The phone has a bright and clear <b>display</b>.	The phone has a bright and clear display.	O celular tem uma tela brilhante e nítida.	tela / exibição / vitrine	easy	batch_21	
+jane_2421_01	grant	The school received a <b>grant</b> for new computers.	The school received a grant for new computers.	A escola recebeu uma bolsa de financiamento para novos computadores.	bolsa / subsídio / concessão	hard	batch_21	Como verbo, significa 'conceder'.
+jane_2422_01	scheme	The city started a new recycling <b>scheme</b>.	The city started a new recycling scheme.	A cidade começou um novo programa de reciclagem.	esquema / plano / programa	hard	batch_21	No Reino Unido é neutro ('plano'); nos EUA costuma ter tom negativo ('esquema').
+jane_2423_01	desire	He has a strong <b>desire</b> to learn music.	He has a strong desire to learn music.	Ele tem um forte desejo de aprender música.	desejo	medium	batch_21	
+jane_2424_01	divide	Let us <b>divide</b> the pizza into eight slices.	Let us divide the pizza into eight slices.	Vamos dividir a pizza em oito fatias.	dividir	easy	batch_21	
+jane_2425_01	district	They opened a cafe in the business <b>district</b>.	They opened a cafe in the business district.	Eles abriram um café no distrito comercial.	distrito / região / bairro	medium	batch_21	
+jane_2426_01	revenue	The company increased its <b>revenue</b> this year.	The company increased its revenue this year.	A empresa aumentou sua receita este ano.	receita / faturamento	hard	batch_21	
+jane_2427_01	tear	A single <b>tear</b> rolled down her cheek.	A single tear rolled down her cheek.	Uma única lágrima rolou pela bochecha dela.	lágrima	easy	batch_21	Lágrima pronuncia-se 'tír'. Como verbo ('rasgar'), pronuncia-se 'tér'.
+jane_2428_01	assessment	The teacher gave a fair <b>assessment</b> of our work.	The teacher gave a fair assessment of our work.	O professor fez uma avaliação justa do nosso trabalho.	avaliação	hard	batch_21	
+jane_2429_01	assess	We need time to <b>assess</b> the situation.	We need time to assess the situation.	Precisamos de tempo para avaliar a situação.	avaliar	hard	batch_21	
+jane_2430_01	asset	Good communication is a valuable <b>asset</b> at work.	Good communication is a valuable asset at work.	Boa comunicação é um ativo valioso no trabalho.	ativo / bem / vantagem	hard	batch_21	
+jane_2431_01	leadership	The team improved under her strong <b>leadership</b>.	The team improved under her strong leadership.	A equipe melhorou sob a forte liderança dela.	liderança	medium	batch_21	
+jane_2432_01	division	He works in the sales <b>division</b>.	He works in the sales division.	Ele trabalha na divisão de vendas.	divisão / setor	medium	batch_21	
+jane_2433_01	guarantee	This new phone comes with a one-year <b>guarantee</b>.	This new phone comes with a one-year guarantee.	Este celular novo vem com garantia de um ano.	garantia	medium	batch_21	Como verbo, significa 'garantir'.
+jane_2434_01	investor	A new <b>investor</b> put money into the startup.	A new investor put money into the startup.	Um novo investidor colocou dinheiro na startup.	investidor	medium	batch_21	
+jane_2435_01	outcome	We are waiting for the final <b>outcome</b>.	We are waiting for the final outcome.	Estamos esperando pelo resultado final.	resultado / desfecho	hard	batch_21	
+jane_2436_01	participant	Every <b>participant</b> received a certificate today.	Every participant received a certificate today.	Cada participante recebeu um certificado hoje.	participante	medium	batch_21	
+jane_2437_01	mission	Our <b>mission</b> is to help students learn faster.	Our mission is to help students learn faster.	Nossa missão é ajudar os alunos a aprender mais rápido.	missão	easy	batch_21	
+jane_2438_01	implement	The school will <b>implement</b> a new schedule.	The school will implement a new schedule.	A escola vai implementar um novo horário.	implementar / colocar em prática	hard	batch_21	
+jane_2439_01	resolution	My New Year <b>resolution</b> is to read more.	My New Year resolution is to read more.	Minha resolução de Ano Novo é ler mais.	resolução / decisão	medium	batch_21	
+jane_2440_01	draft	I finished the first <b>draft</b> of my essay.	I finished the first draft of my essay.	Terminei o primeiro rascunho da minha redação.	rascunho / esboço	medium	batch_21	
+jane_2441_01	disk	Save the backup files on an external <b>disk</b>.	Save the backup files on an external disk.	Salve os arquivos de backup em um disco externo.	disco	easy	batch_21	
+jane_2442_01	discipline	Daily study takes patience and <b>discipline</b>.	Daily study takes patience and discipline.	Estudar todos os dias exige paciência e disciplina.	disciplina	medium	batch_21	
+jane_2443_01	disappoint	I did not want to <b>disappoint</b> my parents.	I did not want to disappoint my parents.	Eu não queria decepcionar meus pais.	decepcionar / desapontar	medium	batch_21	
+jane_2444_01	negotiation	The salary <b>negotiation</b> took two hours.	The salary negotiation took two hours.	A negociação salarial levou duas horas.	negociação	hard	batch_21	
+jane_2445_01	mechanism	The door lock has a simple <b>mechanism</b>.	The door lock has a simple mechanism.	A fechadura da porta tem um mecanismo simples.	mecanismo	hard	batch_21	
+jane_2446_01	deserve	You worked hard and <b>deserve</b> a break.	You worked hard and deserve a break.	Você trabalhou duro e merece uma pausa.	merecer	easy	batch_21	
+jane_2447_01	interaction	Face-to-face <b>interaction</b> helps build trust.	Face-to-face interaction helps build trust.	A interação presencial ajuda a construir confiança.	interação	medium	batch_21	
+jane_2448_01	enhance	Good lighting can <b>enhance</b> any photo.	Good lighting can enhance any photo.	Boa iluminação pode melhorar qualquer foto.	melhorar / aprimorar / realçar	hard	batch_21	
+jane_2449_01	distinguish	It is hard to <b>distinguish</b> the two twins.	It is hard to distinguish the two twins.	É difícil distinguir os dois gêmeos.	distinguir / diferenciar	hard	batch_21	
+jane_2450_01	corporation	She works for a large tech <b>corporation</b>.	She works for a large tech corporation.	Ela trabalha para uma grande corporação de tecnologia.	corporação / grande empresa	medium	batch_21	
+jane_2451_01	integrate	We want to <b>integrate</b> new tools into class.	We want to integrate new tools into class.	Queremos integrar novas ferramentas na aula.	integrar	hard	batch_21	
+jane_2452_01	sequence	Follow the steps in the right <b>sequence</b>.	Follow the steps in the right sequence.	Siga os passos na sequência certa.	sequência	medium	batch_21	
+jane_2453_01	differ	Our opinions <b>differ</b> on this topic.	Our opinions differ on this topic.	Nossas opiniões diferem sobre este assunto.	diferir / discordar	medium	batch_21	
+jane_2454_01	protein	Eggs and beans are rich in <b>protein</b>.	Eggs and beans are rich in protein.	Ovos e feijão são ricos em proteína.	proteína	easy	batch_21	
+jane_2455_01	distribute	Volunteers <b>distribute</b> food to families every week.	Volunteers distribute food to families every week.	Voluntários distribuem comida às famílias toda semana.	distribuir	medium	batch_21	
+jane_2456_01	negotiate	Both sides agreed to <b>negotiate</b> a fair price.	Both sides agreed to negotiate a fair price.	Ambos os lados concordaram em negociar um preço justo.	negociar	medium	batch_21	
+jane_2457_01	dominate	Two big companies <b>dominate</b> the phone market.	Two big companies dominate the phone market.	Duas grandes empresas dominam o mercado de celulares.	dominar	medium	batch_21	
+jane_2458_01	peer	He is respected by every <b>peer</b> at work.	He is respected by every peer at work.	Ele é respeitado por cada colega no trabalho.	colega / par (pessoa do mesmo nível)	hard	batch_21	
+jane_2459_01	pension	My grandfather lives on a modest <b>pension</b>.	My grandfather lives on a modest pension.	Meu avô vive de uma aposentadoria modesta.	pensão / aposentadoria	medium	batch_21	
+jane_2460_01	undertake	They decided to <b>undertake</b> a big home project.	They decided to undertake a big home project.	Eles decidiram empreender um grande projeto em casa.	empreender / assumir (tarefa)	hard	batch_21	Passado irregular: 'undertook'; particípio: 'undertaken'.
+jane_2461_01	retail	She has worked in <b>retail</b> for five years.	She has worked in retail for five years.	Ela trabalha no varejo há cinco anos.	varejo	medium	batch_21	
+jane_2462_01	framework	The team built a solid <b>framework</b> for the project.	The team built a solid framework for the project.	A equipe construiu uma estrutura sólida para o projeto.	estrutura / arcabouço / modelo	hard	batch_21	
+jane_2463_01	submit	Please <b>submit</b> your form before Friday.	Please submit your form before Friday.	Por favor, envie seu formulário antes de sexta-feira.	enviar / submeter	medium	batch_21	Passado: 'submitted'.
+jane_2464_01	coverage	Phone <b>coverage</b> is weak in the mountains.	Phone coverage is weak in the mountains.	A cobertura de celular é fraca nas montanhas.	cobertura (sinal / notícias / seguro)	hard	batch_21	
+jane_2465_01	input	Thank you for your helpful <b>input</b> today.	Thank you for your helpful input today.	Obrigado pela sua contribuição útil hoje.	contribuição / opinião / entrada (dados)	medium	batch_21	
+jane_2466_01	isolate	Doctors had to <b>isolate</b> the sick patient.	Doctors had to isolate the sick patient.	Os médicos tiveram que isolar o paciente doente.	isolar	medium	batch_21	
+jane_2467_01	welfare	Animal <b>welfare</b> is very important to us.	Animal welfare is very important to us.	O bem-estar animal é muito importante para nós.	bem-estar / assistência social	hard	batch_21	
+jane_2468_01	recruit	The new <b>recruit</b> learned his job quickly.	The new recruit learned his job quickly.	O novo recruta aprendeu o trabalho dele rápido.	recruta	medium	batch_21	Como verbo, significa 'recrutar'.
+jane_2469_01	inspire	Great teachers always <b>inspire</b> their students.	Great teachers always inspire their students.	Ótimos professores sempre inspiram seus alunos.	inspirar	easy	batch_21	
+jane_2470_01	crew	The flight <b>crew</b> welcomed us on board.	The flight crew welcomed us on board.	A tripulação do voo nos deu boas-vindas a bordo.	tripulação / equipe	easy	batch_21	
+jane_2471_01	phenomenon	Rainbow light is a beautiful natural <b>phenomenon</b>.	Rainbow light is a beautiful natural phenomenon.	A luz do arco-íris é um belo fenômeno natural.	fenômeno	hard	batch_21	Plural irregular: 'phenomena'.
+jane_2472_01	pupil	Every <b>pupil</b> in the class got a book.	Every pupil in the class got a book.	Cada aluno da turma recebeu um livro.	aluno / pupila (do olho)	medium	batch_21	
+jane_2473_01	perceive	Dogs <b>perceive</b> sounds humans cannot hear.	Dogs perceive sounds humans cannot hear.	Cães percebem sons que humanos não conseguem ouvir.	perceber / notar	hard	batch_21	
+jane_2474_01	pace	We walked at a slow and relaxed <b>pace</b>.	We walked at a slow and relaxed pace.	Nós caminhamos em um ritmo lento e relaxado.	ritmo / passo	medium	batch_21	
+jane_2475_01	devote	Try to <b>devote</b> twenty minutes a day to reading.	Try to devote twenty minutes a day to reading.	Tente dedicar vinte minutos por dia à leitura.	dedicar	hard	batch_21	Usa-se 'devote [tempo] to [algo]'.
+jane_2476_01	depression	Talking to friends helps during mild <b>depression</b>.	Talking to friends helps during mild depression.	Conversar com amigos ajuda durante uma depressão leve.	depressão	medium	batch_21	
+jane_2477_01	incorporate	We will <b>incorporate</b> your ideas into the plan.	We will incorporate your ideas into the plan.	Nós vamos incorporar suas ideias ao plano.	incorporar / incluir	hard	batch_21	
+jane_2478_01	obligation	There is no <b>obligation</b> to buy anything.	There is no obligation to buy anything.	Não há obrigação de comprar nada.	obrigação	medium	batch_21	
+jane_2479_01	evaluate	Let us <b>evaluate</b> the results next week.	Let us evaluate the results next week.	Vamos avaliar os resultados na semana que vem.	avaliar	medium	batch_21	
+jane_2480_01	perception	Color changes our <b>perception</b> of a room.	Color changes our perception of a room.	A cor muda nossa percepção de um cômodo.	percepção	hard	batch_21	
+jane_2481_01	database	All user records live in our <b>database</b>.	All user records live in our database.	Todos os registros de usuários ficam no nosso banco de dados.	banco de dados	easy	batch_21	
+jane_2482_01	expansion	The store announced a major <b>expansion</b>.	The store announced a major expansion.	A loja anunciou uma grande expansão.	expansão / ampliação	medium	batch_21	
+jane_2483_01	disorder	Lack of sleep can become a serious <b>disorder</b>.	Lack of sleep can become a serious disorder.	Falta de sono pode se tornar um distúrbio sério.	distúrbio / transtorno / desordem	hard	batch_21	
+jane_2484_01	analyst	She works as a data <b>analyst</b> in Lisbon.	She works as a data analyst in Lisbon.	Ela trabalha como analista de dados em Lisboa.	analista	medium	batch_21	
+jane_2485_01	wound	Clean the small <b>wound</b> with soap and water.	Clean the small wound with soap and water.	Limpe o pequeno ferimento com água e sabão.	ferida / ferimento	medium	batch_21	Pronuncia-se 'uúnd' (ferimento). Não confundir com o passado de 'wind' ('uáund').
+jane_2486_01	innovation	Good ideas drive <b>innovation</b> in small companies.	Good ideas drive innovation in small companies.	Boas ideias impulsionam a inovação em pequenas empresas.	inovação	medium	batch_21	
+jane_2487_01	bid	They made a high <b>bid</b> for the house.	They made a high bid for the house.	Eles fizeram um lance alto pela casa.	lance / oferta / tentativa	hard	batch_21	
+jane_2488_01	mode	Switch your phone to silent <b>mode</b>.	Switch your phone to silent mode.	Mude seu celular para o modo silencioso.	modo	easy	batch_21	
+jane_2489_01	portion	The restaurant serves a generous <b>portion</b> of rice.	The restaurant serves a generous portion of rice.	O restaurante serve uma porção generosa de arroz.	porção / parte	easy	batch_21	
+jane_2490_01	disturb	Sorry to <b>disturb</b> you while you are eating.	Sorry to disturb you while you are eating.	Desculpe incomodar você enquanto está comendo.	incomodar / perturbar	easy	batch_21	
+jane_2491_01	cite	Always <b>cite</b> your sources in a school paper.	Always cite your sources in a school paper.	Sempre cite suas fontes em um trabalho escolar.	citar / mencionar	hard	batch_21	
+jane_2492_01	gender	The form asks for your name and <b>gender</b>.	The form asks for your name and gender.	O formulário pede seu nome e gênero.	gênero	easy	batch_21	
+jane_2493_01	sponsor	A local bank is the main <b>sponsor</b> today.	A local bank is the main sponsor today.	Um banco local é o principal patrocinador hoje.	patrocinador	medium	batch_21	Como verbo, significa 'patrocinar'.
+jane_2494_01	dealer	We bought our used car from a <b>dealer</b>.	We bought our used car from a dealer.	Compramos nosso carro usado de uma concessionária.	revendedor / negociante / distribuidor	medium	batch_21	
+jane_2495_01	frequency	The bus <b>frequency</b> increases during rush hour.	The bus frequency increases during rush hour.	A frequência dos ônibus aumenta no horário de pico.	frequência	medium	batch_21	
+jane_2496_01	exposure	Too much sun <b>exposure</b> can burn your skin.	Too much sun exposure can burn your skin.	Exposição demais ao sol pode queimar sua pele.	exposição	hard	batch_21	
+jane_2497_01	edit	Let me <b>edit</b> this photo before posting it.	Let me edit this photo before posting it.	Deixe-me editar esta foto antes de postá-la.	editar	easy	batch_21	
+jane_2498_01	formation	The birds flew south in a neat <b>formation</b>.	The birds flew south in a neat formation.	Os pássaros voaram para o sul em uma formação alinhada.	formação	hard	batch_21	
+jane_2499_01	specify	Please <b>specify</b> which size you would like.	Please specify which size you would like.	Por favor, especifique qual tamanho você gostaria.	especificar	medium	batch_21	
+jane_2500_01	operator	The phone <b>operator</b> connected my call quickly.	The phone operator connected my call quickly.	A telefonista conectou minha ligação rapidamente.	operador / telefonista	medium	batch_21	
+jane_2501_01	dig	My dog loves to <b>dig</b> holes in sand.	My dog loves to dig holes in sand.	Meu cachorro adora cavar buracos na areia.	cavar	easy	batch_21	Passado irregular: 'dug'.
+jane_2502_01	drag	Do not <b>drag</b> the heavy chair across wood.	Do not drag the heavy chair across wood.	Não arraste a cadeira pesada pela madeira.	arrastar	easy	batch_21	Passado: 'dragged'.
+jane_2503_01	specialize	They <b>specialize</b> in fresh handmade pasta.	They specialize in fresh handmade pasta.	Eles se especializam em massa fresca artesanal.	especializar-se	medium	batch_21	Usa-se 'specialize in'.
+jane_2504_01	detect	This small alarm can <b>detect</b> smoke early.	This small alarm can detect smoke early.	Este pequeno alarme consegue detectar fumaça cedo.	detectar	medium	batch_21	
+jane_2505_01	significance	Do you know the <b>significance</b> of this date?	Do you know the significance of this date?	Você sabe a importância desta data?	importância / significado	hard	batch_21	
+jane_2506_01	consultant	We hired a <b>consultant</b> to improve sales.	We hired a consultant to improve sales.	Contratamos um consultor para melhorar as vendas.	consultor	medium	batch_21	
+jane_2507_01	historian	The <b>historian</b> wrote a book about ancient Rome.	The historian wrote a book about ancient Rome.	O historiador escreveu um livro sobre a Roma antiga.	historiador	medium	batch_21	
+jane_2508_01	compound	Water is a simple chemical <b>compound</b>.	Water is a simple chemical compound.	A água é um composto químico simples.	composto	hard	batch_21	
+jane_2509_01	incentive	A bonus is a great <b>incentive</b> to work hard.	A bonus is a great incentive to work hard.	Um bônus é um ótimo incentivo para trabalhar duro.	incentivo / estímulo	hard	batch_21	
+jane_2510_01	dismiss	Do not <b>dismiss</b> his idea too quickly.	Do not dismiss his idea too quickly.	Não descarte a ideia dele rápido demais.	descartar / dispensar / demitir	hard	batch_21	
+jane_2511_01	margin	Write your short notes in the page <b>margin</b>.	Write your short notes in the page margin.	Escreva suas anotações curtas na margem da página.	margem	medium	batch_21	
+jane_2512_01	divorce	They decided to get a friendly <b>divorce</b>.	They decided to get a friendly divorce.	Eles decidiram ter um divórcio amigável.	divórcio	easy	batch_21	
+jane_2513_01	survival	Water is essential for human <b>survival</b>.	Water is essential for human survival.	A água é essencial para a sobrevivência humana.	sobrevivência	medium	batch_21	
+jane_2514_01	evolution	We learned about animal <b>evolution</b> in biology.	We learned about animal evolution in biology.	Aprendemos sobre a evolução dos animais em biologia.	evolução	medium	batch_21	
+jane_2515_01	awareness	The campaign raises <b>awareness</b> about recycling.	The campaign raises awareness about recycling.	A campanha aumenta a conscientização sobre reciclagem.	conscientização / consciência	hard	batch_21	
+jane_2516_01	slave	He studied the history of a freed <b>slave</b>.	He studied the history of a freed slave.	Ele estudou a história de um escravo liberto.	escravo	medium	batch_21	
+jane_2517_01	illustration	Every page has a colorful <b>illustration</b>.	Every page has a colorful illustration.	Cada página tem uma ilustração colorida.	ilustração	medium	batch_21	
+jane_2518_01	motivate	Good music helps <b>motivate</b> me at the gym.	Good music helps motivate me at the gym.	Boa música ajuda a me motivar na academia.	motivar	easy	batch_21	
+jane_2519_01	mortgage	They pay their house <b>mortgage</b> every month.	They pay their house mortgage every month.	Eles pagam a hipoteca da casa todo mês.	hipoteca / financiamento imobiliário	hard	batch_21	O 't' em 'mortgage' é mudo: pronuncia-se 'MÓR-guidj'.
+jane_2520_01	evaluation	Our yearly job <b>evaluation</b> happens in December.	Our yearly job evaluation happens in December.	Nossa avaliação anual de trabalho acontece em dezembro.	avaliação	medium	batch_21	
