@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_0361_01	post	Did you <b>post</b> that photo online?	Did you post that photo online?	Você postou aquela foto na internet?	postar, publicar (também 'correio')	easy	batch_04	
+jane_0362_01	newspaper	My father reads the <b>newspaper</b> every morning.	My father reads the newspaper every morning.	Meu pai lê o jornal toda manhã.	jornal	easy	batch_04	
+jane_0363_01	clock	There is a big <b>clock</b> on the wall.	There is a big clock on the wall.	Tem um relógio grande na parede.	relógio (de parede/mesa)	easy	batch_04	Relógio de pulso é 'watch'; de parede/mesa é 'clock'.
+jane_0364_01	weekend	What are you doing this <b>weekend</b>?	What are you doing this weekend?	O que você vai fazer neste fim de semana?	fim de semana	easy	batch_04	
+jane_0365_01	song	I love listening to this <b>song</b>.	I love listening to this song.	Eu amo ouvir esta música (canção).	música, canção	easy	batch_04	
+jane_0366_01	object	There is a strange <b>object</b> on the table.	There is a strange object on the table.	Tem um objeto estranho em cima da mesa.	objeto, coisa	medium	batch_04	
+jane_0367_01	afternoon	Good <b>afternoon</b>! How can I help you?	Good afternoon! How can I help you?	Boa tarde! Como posso ajudar você?	tarde (período do dia)	easy	batch_04	
+jane_0368_01	prefer	I <b>prefer</b> tea to coffee in the evening.	I prefer tea to coffee in the evening.	Eu prefiro chá a café à noite.	preferir	easy	batch_04	Em inglês usa-se 'prefer A to B'.
+jane_0369_01	clothes	I need to buy some new <b>clothes</b>.	I need to buy some new clothes.	Eu preciso comprar roupas novas.	roupas	easy	batch_04	Sempre no plural; pronúncia parecida com /kloʊðz/.
+jane_0370_01	dance	Do you like to <b>dance</b> at parties?	Do you like to dance at parties?	Você gosta de dançar em festas?	dançar (também 'dança')	easy	batch_04	
+jane_0371_01	sister	My younger <b>sister</b> lives in another city.	My younger sister lives in another city.	Minha irmã mais nova mora em outra cidade.	irmã	easy	batch_04	
+jane_0372_01	university	She studies medicine at the <b>university</b>.	She studies medicine at the university.	Ela estuda medicina na universidade.	universidade	easy	batch_04	
+jane_0373_01	garden	My mother grows flowers in the <b>garden</b>.	My mother grows flowers in the garden.	Minha mãe cultiva flores no jardim.	jardim, horta	easy	batch_04	
+jane_0374_01	conversation	We had a great <b>conversation</b> about books.	We had a great conversation about books.	Nós tivemos uma ótima conversa sobre livros.	conversa, diálogo	medium	batch_04	
+jane_0375_01	pound	This bag of apples weighs one <b>pound</b>.	This bag of apples weighs one pound.	Este saco de maçãs pesa uma libra.	libra (peso ~454g ou moeda britânica)	medium	batch_04	
+jane_0376_01	magazine	She is reading a fashion <b>magazine</b>.	She is reading a fashion magazine.	Ela está lendo uma revista de moda.	revista	easy	batch_04	
+jane_0377_01	sea	The <b>sea</b> is very calm this morning.	The sea is very calm this morning.	O mar está muito calmo hoje de manhã.	mar	easy	batch_04	Mesma pronúncia de 'see' (ver).
+jane_0378_01	writer	He is a famous Brazilian <b>writer</b>.	He is a famous Brazilian writer.	Ele é um escritor brasileiro famoso.	escritor(a)	easy	batch_04	
+jane_0379_01	telephone	The <b>telephone</b> is ringing in the office.	The telephone is ringing in the office.	O telefone está tocando no escritório.	telefone	easy	batch_04	
+jane_0380_01	advice	Thank you for your good <b>advice</b>.	Thank you for your good advice.	Obrigado pelo seu bom conselho.	conselho	medium	batch_04	Incontável em inglês (não diga 'an advice' nem 'advices').
+jane_0381_01	glass	May I have a <b>glass</b> of water?	May I have a glass of water?	Posso pegar um copo de água?	copo, vidro	easy	batch_04	No plural 'glasses' também significa 'óculos'.
+jane_0382_01	radio	I listen to the <b>radio</b> in my car.	I listen to the radio in my car.	Eu ouço rádio no meu carro.	rádio	easy	batch_04	
+jane_0383_01	text	Send me a <b>text</b> when you arrive.	Send me a text when you arrive.	Me mande uma mensagem quando você chegar.	texto, mensagem de texto	easy	batch_04	
+jane_0384_01	title	What is the <b>title</b> of that movie?	What is the title of that movie?	Qual é o título daquele filme?	título	easy	batch_04	
+jane_0385_01	chair	This wooden <b>chair</b> is very comfortable.	This wooden chair is very comfortable.	Esta cadeira de madeira é muito confortável.	cadeira	easy	batch_04	
+jane_0386_01	video	We watched a funny <b>video</b> online.	We watched a funny video online.	Nós assistimos a um vídeo engraçado na internet.	vídeo	easy	batch_04	
+jane_0387_01	weather	The <b>weather</b> is warm and sunny today.	The weather is warm and sunny today.	O tempo está quente e ensolarado hoje.	tempo, clima (meteorológico)	easy	batch_04	
+jane_0388_01	farm	My uncle lives on a small <b>farm</b>.	My uncle lives on a small farm.	Meu tio mora em uma fazenda pequena.	fazenda, sítio	easy	batch_04	Em inglês dizemos 'on a farm' (e não 'in a farm').
+jane_0389_01	band	What is your favorite rock <b>band</b>?	What is your favorite rock band?	Qual é a sua banda de rock favorita?	banda (de música), faixa	easy	batch_04	
+jane_0390_01	pair	I need a new <b>pair</b> of running shoes.	I need a new pair of running shoes.	Eu preciso de um par novo de tênis de corrida.	par	easy	batch_04	
+jane_0391_01	leg	My right <b>leg</b> hurts after the long walk.	My right leg hurts after the long walk.	Minha perna direita dói depois da longa caminhada.	perna	easy	batch_04	
+jane_0392_01	sentence	Please read this English <b>sentence</b> aloud.	Please read this English sentence aloud.	Por favor, leia esta frase em inglês em voz alta.	frase, sentença	easy	batch_04	
+jane_0393_01	partner	She is my business <b>partner</b>.	She is my business partner.	Ela é minha sócia nos negócios.	parceiro(a), sócio(a), companheiro(a)	medium	batch_04	
+jane_0394_01	horse	The brown <b>horse</b> is running in the field.	The brown horse is running in the field.	O cavalo marrom está correndo no campo.	cavalo	easy	batch_04	
+jane_0395_01	reader	She has been an avid <b>reader</b> since childhood.	She has been an avid reader since childhood.	Ela é uma leitora ávida desde a infância.	leitor(a)	easy	batch_04	
+jane_0396_01	taxi	Let's take a <b>taxi</b> to the airport.	Let's take a taxi to the airport.	Vamos pegar um táxi para o aeroporto.	táxi	easy	batch_04	
+jane_0397_01	mistake	Everyone makes a <b>mistake</b> sometimes.	Everyone makes a mistake sometimes.	Todo mundo comete um erro às vezes.	erro, engano	easy	batch_04	Collocation fixa: 'make a mistake' (cometer um erro).
+jane_0398_01	library	I like to study in the quiet <b>library</b>.	I like to study in the quiet library.	Eu gosto de estudar na biblioteca silenciosa.	biblioteca	easy	batch_04	Falso cognato: livraria é 'bookstore'; 'library' é biblioteca.
+jane_0399_01	river	We crossed the <b>river</b> by boat.	We crossed the river by boat.	Nós atravessamos o rio de barco.	rio	easy	batch_04	
+jane_0400_01	photograph	This is an old <b>photograph</b> of my family.	This is an old photograph of my family.	Esta é uma fotografia antiga da minha família.	fotografia, foto	easy	batch_04	
+jane_0401_01	artist	My cousin is a talented <b>artist</b>.	My cousin is a talented artist.	Meu primo é um artista talentoso.	artista	easy	batch_04	
+jane_0402_01	ball	Pass the <b>ball</b> to your teammate!	Pass the ball to your teammate!	Passe a bola para o seu colega de time!	bola	easy	batch_04	
+jane_0403_01	photo	Can we take a <b>photo</b> together?	Can we take a photo together?	Podemos tirar uma foto juntos?	foto	easy	batch_04	
+jane_0404_01	map	Check the <b>map</b> on your phone.	Check the map on your phone.	Confira o mapa no seu celular.	mapa	easy	batch_04	
+jane_0405_01	island	They spent their vacation on a small <b>island</b>.	They spent their vacation on a small island.	Eles passaram as férias em uma ilha pequena.	ilha	easy	batch_04	O 's' é mudo: /ˈaɪlənd/.
+jane_0406_01	football	Do you like watching <b>football</b> on Sunday?	Do you like watching football on Sunday?	Você gosta de assistir futebol no domingo?	futebol (no Reino Unido) / futebol americano (nos EUA)	easy	batch_04	Nos EUA, o nosso futebol é chamado de 'soccer'.
+jane_0407_01	flight	Our <b>flight</b> leaves at nine in the morning.	Our flight leaves at nine in the morning.	Nosso voo parte às nove da manhã.	voo	easy	batch_04	O 'gh' é mudo: /flaɪt/.
+jane_0408_01	traffic	There is heavy <b>traffic</b> on the road today.	There is heavy traffic on the road today.	Há trânsito pesado na estrada hoje.	trânsito, tráfego	easy	batch_04	Incontável em inglês.
+jane_0409_01	rain	The <b>rain</b> stopped an hour ago.	The rain stopped an hour ago.	A chuva parou há uma hora.	chuva (também verbo 'chover')	easy	batch_04	
+jane_0410_01	mountain	We climbed a high <b>mountain</b> last summer.	We climbed a high mountain last summer.	Nós escalamos uma montanha alta no verão passado.	montanha	easy	batch_04	
+jane_0411_01	ticket	I bought two train <b>ticket</b>s online.	I bought two train tickets online.	Eu comprei duas passagens de trem pela internet.	ingresso, passagem, bilhete	easy	batch_04	
+jane_0412_01	meal	Breakfast is my favorite <b>meal</b> of the day.	Breakfast is my favorite meal of the day.	O café da manhã é a minha refeição favorita do dia.	refeição	easy	batch_04	
+jane_0413_01	bag	My laptop is inside this black <b>bag</b>.	My laptop is inside this black bag.	Meu notebook está dentro desta bolsa preta.	bolsa, sacola, mala	easy	batch_04	
+jane_0414_01	plane	We traveled by <b>plane</b> to New York.	We traveled by plane to New York.	Nós viajamos de avião para Nova York.	avião	easy	batch_04	
+jane_0415_01	bird	A small <b>bird</b> is singing outside my window.	A small bird is singing outside my window.	Um passarinho está cantando do lado de fora da minha janela.	pássaro, ave	easy	batch_04	
+jane_0416_01	topic	What is the main <b>topic</b> of today's class?	What is the main topic of today's class?	Qual é o tema principal da aula de hoje?	tema, assunto, tópico	medium	batch_04	
+jane_0417_01	beach	Let's go to the <b>beach</b> this Sunday!	Let's go to the beach this Sunday!	Vamos à praia neste domingo!	praia	easy	batch_04	
+jane_0418_01	flower	He gave a red <b>flower</b> to his mother.	He gave a red flower to his mother.	Ele deu uma flor vermelha para a mãe dele.	flor	easy	batch_04	Mesma pronúncia de 'flour' (farinha).
+jane_0419_01	boat	We rented a small <b>boat</b> on the lake.	We rented a small boat on the lake.	Nós alugamos um barco pequeno no lago.	barco	easy	batch_04	
+jane_0420_01	kitchen	The coffee is ready in the <b>kitchen</b>.	The coffee is ready in the kitchen.	O café está pronto na cozinha.	cozinha	easy	batch_04	
+jane_0421_01	nurse	The <b>nurse</b> checked my temperature.	The nurse checked my temperature.	A enfermeira checou a minha temperatura.	enfermeiro(a)	easy	batch_04	
+jane_0422_01	winter	It gets very cold here in the <b>winter</b>.	It gets very cold here in the winter.	Fica muito frio aqui no inverno.	inverno	easy	batch_04	
+jane_0423_01	spring	The flowers bloom in the <b>spring</b>.	The flowers bloom in the spring.	As flores desabrocham na primavera.	primavera (também 'mola' ou 'nascente')	easy	batch_04	
+jane_0424_01	lunch	What did you eat for <b>lunch</b> today?	What did you eat for lunch today?	O que você comeu no almoço hoje?	almoço	easy	batch_04	Falso cognato: 'lunch' é almoço, não lanche (lanche é 'snack').
+jane_0425_01	pool	The kids are swimming in the <b>pool</b>.	The kids are swimming in the pool.	As crianças estão nadando na piscina.	piscina	easy	batch_04	
+jane_0426_01	sun	Don't forget sunscreen when the <b>sun</b> is strong.	Don't forget sunscreen when the sun is strong.	Não esqueça o protetor solar quando o sol estiver forte.	sol	easy	batch_04	Mesma pronúncia de 'son' (filho).
+jane_0427_01	actor	Who is your favorite movie <b>actor</b>?	Who is your favorite movie actor?	Qual é o seu ator de cinema favorito?	ator	easy	batch_04	
+jane_0428_01	egg	I like to eat a boiled <b>egg</b> for breakfast.	I like to eat a boiled egg for breakfast.	Eu gosto de comer um ovo cozido no café da manhã.	ovo	easy	batch_04	
+jane_0429_01	concert	We went to a rock <b>concert</b> last night.	We went to a rock concert last night.	Nós fomos a um show de rock ontem à noite.	show, concerto (musical)	easy	batch_04	
+jane_0430_01	wine	Would you like a glass of red <b>wine</b>?	Would you like a glass of red wine?	Você gostaria de uma taça de vinho tinto?	vinho	easy	batch_04	
+jane_0431_01	camera	My new phone has a great <b>camera</b>.	My new phone has a great camera.	Meu celular novo tem uma câmera ótima.	câmera	easy	batch_04	
+jane_0432_01	coffee	I always drink black <b>coffee</b> in the morning.	I always drink black coffee in the morning.	Eu sempre tomo café preto de manhã.	café	easy	batch_04	
+jane_0433_01	museum	Let's visit the history <b>museum</b> this weekend.	Let's visit the history museum this weekend.	Vamos visitar o museu de história neste fim de semana.	museu	easy	batch_04	
+jane_0434_01	visitor	Every <b>visitor</b> must sign in at the desk.	Every visitor must sign in at the desk.	Todo visitante deve se registrar na recepção.	visitante	easy	batch_04	
+jane_0435_01	scientist	The <b>scientist</b> works in a modern lab.	The scientist works in a modern lab.	O cientista trabalha em um laboratório moderno.	cientista	easy	batch_04	
+jane_0436_01	bedroom	My <b>bedroom</b> has a big window.	My bedroom has a big window.	Meu quarto tem uma janela grande.	quarto (de dormir)	easy	batch_04	Literalmente 'bed' (cama) + 'room' (cômodo).
+jane_0437_01	mouth	Open your <b>mouth</b> and say ah.	Open your mouth and say ah.	Abra a sua boca e diga ah.	boca	easy	batch_04	
+jane_0438_01	shoe	I cannot find my left <b>shoe</b>.	I cannot find my left shoe.	Eu não consigo encontrar o meu sapato esquerdo.	sapato, tênis	easy	batch_04	
+jane_0439_01	relax	I like to <b>relax</b> at home on Sundays.	I like to relax at home on Sundays.	Eu gosto de relaxar em casa aos domingos.	relaxar, descansar	easy	batch_04	
+jane_0440_01	tourist	Many <b>tourist</b>s visit Rio every year.	Many tourists visit Rio every year.	Muitos turistas visitam o Rio todo ano.	turista	easy	batch_04	
+jane_0441_01	cup	Would you like a <b>cup</b> of hot tea?	Would you like a cup of hot tea?	Você gostaria de uma xícara de chá quente?	xícara, copo descartável, taça	easy	batch_04	
+jane_0442_01	description	Read the product <b>description</b> before buying.	Read the product description before buying.	Leia a descrição do produto antes de comprar.	descrição	medium	batch_04	
+jane_0443_01	wake	What time do you usually <b>wake</b> up?	What time do you usually wake up?	Que horas você costuma acordar?	acordar, despertar (com 'up')	easy	batch_04	Passado irregular: woke up.
+jane_0444_01	ice	Do you want <b>ice</b> in your juice?	Do you want ice in your juice?	Você quer gelo no seu suco?	gelo	easy	batch_04	
+jane_0445_01	farmer	The <b>farmer</b> wakes up at five every day.	The farmer wakes up at five every day.	O fazendeiro acorda às cinco todo dia.	fazendeiro, agricultor	easy	batch_04	
+jane_0446_01	tea	I drink green <b>tea</b> every afternoon.	I drink green tea every afternoon.	Eu tomo chá verde toda tarde.	chá	easy	batch_04	
+jane_0447_01	bottle	Always carry a <b>bottle</b> of water with you.	Always carry a bottle of water with you.	Sempre leve uma garrafa de água com você.	garrafa	easy	batch_04	
+jane_0448_01	journey	Learning a language is a long <b>journey</b>.	Learning a language is a long journey.	Aprender um idioma é uma longa jornada.	jornada, viagem longa	medium	batch_04	
+jane_0449_01	dad	My <b>dad</b> taught me how to ride a bike.	My dad taught me how to ride a bike.	Meu pai me ensinou a andar de bicicleta.	pai, papai (informal)	easy	batch_04	
+jane_0450_01	fruit	Eating fresh <b>fruit</b> is great for your health.	Eating fresh fruit is great for your health.	Comer fruta fresca faz muito bem para a saúde.	fruta	easy	batch_04	Geralmente usado no singular ('eat fruit') para falar de frutas em geral.
+jane_0451_01	ear	She whispered a secret in my <b>ear</b>.	She whispered a secret in my ear.	Ela sussurrou um segredo no meu ouvido.	ouvido, orelha	easy	batch_04	
+jane_0452_01	cat	The <b>cat</b> is sleeping on the sofa.	The cat is sleeping on the sofa.	O gato está dormindo no sofá.	gato	easy	batch_04	
+jane_0453_01	chart	Look at the <b>chart</b> on page five.	Look at the chart on page five.	Olhe para o gráfico na página cinco.	gráfico, tabela	medium	batch_04	
+jane_0454_01	hat	Wear a <b>hat</b> to protect your head from the sun.	Wear a hat to protect your head from the sun.	Use um chapéu para proteger a cabeça do sol.	chapéu, boné	easy	batch_04	
+jane_0455_01	milk	Do you take <b>milk</b> in your coffee?	Do you take milk in your coffee?	Você coloca leite no seu café?	leite	easy	batch_04	
+jane_0456_01	phrase	This is a very common English <b>phrase</b>.	This is a very common English phrase.	Esta é uma expressão em inglês muito comum.	expressão, locução	easy	batch_04	Falso cognato parcial: 'phrase' é expressão/trecho; frase completa é 'sentence'.
+jane_0457_01	breakfast	I eat fruit and eggs for <b>breakfast</b>.	I eat fruit and eggs for breakfast.	Eu como fruta e ovos no café da manhã.	café da manhã	easy	batch_04	Preposição fixa: 'for breakfast'.
+jane_0458_01	coat	Put on your warm <b>coat</b> before leaving.	Put on your warm coat before leaving.	Vista o seu casaco quentinho antes de sair.	casaco, sobretudo	easy	batch_04	
+jane_0459_01	meat	I don't eat red <b>meat</b> very often.	I don't eat red meat very often.	Eu não como carne vermelha com muita frequência.	carne	easy	batch_04	Mesma pronúncia de 'meet' (encontrar).
+jane_0460_01	shirt	I really like your blue <b>shirt</b>.	I really like your blue shirt.	Eu gostei muito da sua camisa azul.	camisa	easy	batch_04	Camiseta é 'T-shirt'.
+jane_0461_01	mouse	There is a little <b>mouse</b> in the garden.	There is a little mouse in the garden.	Tem um ratinho no jardim.	rato (também mouse de computador)	easy	batch_04	Plural irregular: mice (para o animal).
+jane_0462_01	snow	The children love playing in the <b>snow</b>.	The children love playing in the snow.	As crianças adoram brincar na neve.	neve (também verbo 'nevar')	easy	batch_04	
+jane_0463_01	tooth	My back <b>tooth</b> hurts when I eat.	My back tooth hurts when I eat.	Meu dente de trás dói quando eu como.	dente	easy	batch_04	Plural irregular: teeth (dentes).
+jane_0464_01	nose	My <b>nose</b> is cold in this winter weather.	My nose is cold in this winter weather.	Meu nariz está gelado neste clima de inverno.	nariz	easy	batch_04	
+jane_0465_01	apartment	They live in a small <b>apartment</b> downtown.	They live in a small apartment downtown.	Eles moram em um apartamento pequeno no centro.	apartamento	easy	batch_04	
+jane_0466_01	cake	My mom made a chocolate <b>cake</b> today.	My mom made a chocolate cake today.	Minha mãe fez um bolo de chocolate hoje.	bolo	easy	batch_04	
+jane_0467_01	singer	She is my favorite pop <b>singer</b>.	She is my favorite pop singer.	Ela é a minha cantora pop favorita.	cantor(a)	easy	batch_04	
+jane_0468_01	festival	We went to a food <b>festival</b> last Sunday.	We went to a food festival last Sunday.	Nós fomos a um festival gastronômico domingo passado.	festival, festa	easy	batch_04	
+jane_0469_01	vegetable	Carrot is a very healthy <b>vegetable</b>.	Carrot is a very healthy vegetable.	Cenoura é um legume muito saudável.	legume, verdura	easy	batch_04	Pronúncia tem só 3 sílabas: /ˈvedʒtəbəl/.
+jane_0470_01	sugar	I drink my coffee without <b>sugar</b>.	I drink my coffee without sugar.	Eu tomo meu café sem açúcar.	açúcar	easy	batch_04	Pronúncia começa com som de 'x': /ˈʃʊɡər/.
+jane_0471_01	exam	Good luck on your English <b>exam</b>!	Good luck on your English exam!	Boa sorte na sua prova de inglês!	prova, exame	easy	batch_04	
+jane_0472_01	jacket	Take a light <b>jacket</b> just in case.	Take a light jacket just in case.	Leve uma jaqueta leve por precaução.	jaqueta, casaco leve	easy	batch_04	
+jane_0473_01	bread	I bought fresh <b>bread</b> at the bakery.	I bought fresh bread at the bakery.	Eu comprei pão fresco na padaria.	pão	easy	batch_04	Incontável em inglês ('a slice of bread' = uma fatia de pão).
+jane_0474_01	boot	My right <b>boot</b> is wet from the rain.	My right boot is wet from the rain.	Minha bota direita está molhada da chuva.	bota	easy	batch_04	
+jane_0475_01	bath	I like to take a warm <b>bath</b> at night.	I like to take a warm bath at night.	Eu gosto de tomar um banho quente de banheira à noite.	banho (de banheira)	easy	batch_04	Banho de chuveiro é 'shower'.
+jane_0476_01	pen	Can I borrow your blue <b>pen</b>?	Can I borrow your blue pen?	Posso pegar sua caneta azul emprestada?	caneta	easy	batch_04	
+jane_0477_01	chicken	We cooked rice and <b>chicken</b> for lunch.	We cooked rice and chicken for lunch.	Nós cozinhamos arroz e frango para o almoço.	frango, galinha	easy	batch_04	
+jane_0478_01	shower	I always take a quick <b>shower</b> in the morning.	I always take a quick shower in the morning.	Eu sempre tomo um banho rápido de manhã.	chuveiro, banho de chuveiro	easy	batch_04	'Take a shower' = tomar banho de chuveiro.
+jane_0479_01	cousin	My <b>cousin</b> is coming to visit us today.	My cousin is coming to visit us today.	Meu primo (ou prima) vem nos visitar hoje.	primo, prima	easy	batch_04	Serve tanto para masculino quanto para feminino.
+jane_0480_01	skirt	She is wearing a black <b>skirt</b> today.	She is wearing a black skirt today.	Ela está usando uma saia preta hoje.	saia	easy	batch_04	
