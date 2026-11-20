@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_0841_01	web	I found this recipe on the <b>web</b>.	I found this recipe on the web.	Eu encontrei esta receita na internet.	web, internet (também 'teia' de aranha)	easy	batch_08	
+jane_0842_01	god	People around the world pray to <b>god</b>.	People around the world pray to god.	Pessoas ao redor do mundo oram a Deus.	deus, Deus	easy	batch_08	
+jane_0843_01	quantity	Quality is more important than <b>quantity</b>.	Quality is more important than quantity.	Qualidade é mais importante do que quantidade.	quantidade	medium	batch_08	
+jane_0844_01	bowl	Put the hot soup in a deep <b>bowl</b>.	Put the hot soup in a deep bowl.	Coloque a sopa quente em uma tigela funda.	tigela, cumbuca	easy	batch_08	
+jane_0845_01	lend	Could you <b>lend</b> me a pen for a minute?	Could you lend me a pen for a minute?	Você poderia me emprestar uma caneta por um minuto?	emprestar (dar emprestado)	medium	batch_08	Passado irregular: lent. ('Lend' = dar emprestado; 'borrow' = pegar emprestado).
+jane_0846_01	tower	You can see the whole city from that <b>tower</b>.	You can see the whole city from that tower.	Você consegue ver a cidade inteira daquela torre.	torre	easy	batch_08	
+jane_0847_01	virus	Don't open unknown files to avoid a <b>virus</b>.	Don't open unknown files to avoid a virus.	Não abra arquivos desconhecidos para evitar um vírus.	vírus	easy	batch_08	
+jane_0848_01	musician	Her father is a talented jazz <b>musician</b>.	Her father is a talented jazz musician.	O pai dela é um músico de jazz talentoso.	músico(a)	easy	batch_08	
+jane_0849_01	charity	They donate clothes to a local <b>charity</b>.	They donate clothes to a local charity.	Eles doam roupas para uma instituição de caridade local.	caridade, instituição beneficente	medium	batch_08	
+jane_0850_01	cigarette	Smoking a <b>cigarette</b> is bad for your lungs.	Smoking a cigarette is bad for your lungs.	Fumar cigarro faz mal para os pulmões.	cigarro	easy	batch_08	
+jane_0851_01	react	How did she <b>react</b> to the good news?	How did she react to the good news?	Como ela reagiu às boas notícias?	reagir	medium	batch_08	Preposição comum: 'react to'.
+jane_0852_01	lecture	We attended an interesting <b>lecture</b> on history.	We attended an interesting lecture on history.	Nós assistimos a uma palestra interessante sobre história.	palestra, aula expositiva (na faculdade)	medium	batch_08	Falso cognato: 'lecture' é palestra/aula (leitura é 'reading').
+jane_0853_01	permission	You need <b>permission</b> to park your car here.	You need permission to park your car here.	Você precisa de permissão para estacionar seu carro aqui.	permissão, autorização	easy	batch_08	
+jane_0854_01	valley	There is a small village in the green <b>valley</b>.	There is a small village in the green valley.	Há uma pequena vila no vale verde.	vale	easy	batch_08	
+jane_0855_01	brush	Remember to <b>brush</b> your teeth after meals.	Remember to brush your teeth after meals.	Lembre-se de escovar os dentes após as refeições.	escovar (também substantivo 'escova' ou 'pincel')	easy	batch_08	
+jane_0856_01	chat	Let's grab coffee and <b>chat</b> for a while.	Let's grab coffee and chat for a while.	Vamos pegar um café e bater papo um pouco.	bater papo, conversar (também 'conversa/chat')	easy	batch_08	
+jane_0857_01	possession	My guitar is my favorite personal <b>possession</b>.	My guitar is my favorite personal possession.	Meu violão é o meu bem pessoal favorito.	posse, bem, pertence	hard	batch_08	
+jane_0858_01	moon	The full <b>moon</b> looks bright tonight.	The full moon looks bright tonight.	A lua cheia parece brilhante hoje à noite.	lua	easy	batch_08	'Full moon' = lua cheia.
+jane_0859_01	belt	Always fasten your seat <b>belt</b> in the car.	Always fasten your seat belt in the car.	Sempre afivele o cinto de segurança no carro.	cinto	easy	batch_08	'Seat belt' = cinto de segurança.
+jane_0860_01	invent	Who did <b>invent</b> the telephone?	Who did invent the telephone?	Quem inventou o telefone?	inventar	easy	batch_08	
+jane_0861_01	stair	Be careful on that wet <b>stair</b>.	Be careful on that wet stair.	Tome cuidado naquele degrau molhado.	degrau (no plural 'stairs' = escada)	easy	batch_08	No plural 'stairs' significa escada.
+jane_0862_01	stomach	My <b>stomach</b> hurts because I ate too fast.	My stomach hurts because I ate too fast.	Meu estômago dói porque eu comi rápido demais.	estômago, barriga	easy	batch_08	Pronúncia: /ˈstʌmək/ (termina com som de 'k').
+jane_0863_01	stamp	Put a <b>stamp</b> on the envelope before mailing it.	Put a stamp on the envelope before mailing it.	Coloque um selo no envelope antes de enviá-lo.	selo (de carta), carimbo	easy	batch_08	
+jane_0864_01	knife	Use a sharp <b>knife</b> to cut the bread.	Use a sharp knife to cut the bread.	Use uma faca afiada para cortar o pão.	faca	easy	batch_08	O 'k' inicial é mudo: /naɪf/. Plural irregular: knives.
+jane_0865_01	printer	The office <b>printer</b> is out of paper.	The office printer is out of paper.	A impressora do escritório está sem papel.	impressora	easy	batch_08	
+jane_0866_01	adventure	Traveling to a new country is a great <b>adventure</b>.	Traveling to a new country is a great adventure.	Viajar para um país novo é uma grande aventura.	aventura	easy	batch_08	
+jane_0867_01	ocean	We swam in the warm <b>ocean</b> all afternoon.	We swam in the warm ocean all afternoon.	Nós nadamos no oceano quentinho a tarde toda.	oceano	easy	batch_08	
+jane_0868_01	carpet	Please take off your boots before walking on the <b>carpet</b>.	Please take off your boots before walking on the carpet.	Por favor, tire suas botas antes de andar no tapete/carpete.	carpete, tapete	easy	batch_08	
+jane_0869_01	comedy	Let's watch a light <b>comedy</b> movie tonight.	Let's watch a light comedy movie tonight.	Vamos assistir a um filme leve de comédia hoje à noite.	comédia	easy	batch_08	
+jane_0870_01	set	I always <b>set</b> my alarm for six thirty.	I always set my alarm for six thirty.	Eu sempre ajusto/coloco meu alarme para as seis e meia.	ajustar, definir, colocar (também 'conjunto')	medium	batch_08	Passado irregular igual ao presente: set.
+jane_0871_01	move	We plan to <b>move</b> to a bigger apartment.	We plan to move to a bigger apartment.	Nós planejamos nos mudar para um apartamento maior.	mudar-se, mover	easy	batch_08	
+jane_0872_01	issue	We fixed the internet <b>issue</b> quickly.	We fixed the internet issue quickly.	Nós resolvemos o problema da internet rapidamente.	problema, questão, edição (revista)	medium	batch_08	
+jane_0873_01	deal	That new car was a really good <b>deal</b>.	That new car was a really good deal.	Aquele carro novo foi um negócio muito bom.	negócio, acordo (também 'deal with' = lidar com)	medium	batch_08	
+jane_0874_01	base	The lamp has a heavy metal <b>base</b>.	The lamp has a heavy metal base.	A luminária tem uma base pesada de metal.	base, fundamento	medium	batch_08	
+jane_0875_01	value	The <b>value</b> of this old house went up.	The value of this old house went up.	O valor desta casa antiga subiu.	valor (também verbo 'valorizar')	medium	batch_08	
+jane_0876_01	force	Never use <b>force</b> to open that old door.	Never use force to open that old door.	Nunca use força para abrir aquela porta antiga.	força (também verbo 'forçar')	medium	batch_08	
+jane_0877_01	share	Let's <b>share</b> this large pizza together.	Let's share this large pizza together.	Vamos dividir esta pizza grande juntos.	compartilhar, dividir	easy	batch_08	
+jane_0878_01	remain	Please <b>remain</b> seated until the bus stops.	Please remain seated until the bus stops.	Por favor, permaneça sentado até o ônibus parar.	permanecer, continuar, restar	hard	batch_08	
+jane_0879_01	win	Our team worked hard to <b>win</b> the game.	Our team worked hard to win the game.	Nosso time trabalhou duro para vencer o jogo.	vencer, ganhar (prêmio/jogo)	easy	batch_08	Passado irregular: won.
+jane_0880_01	policy	What is the store's return <b>policy</b>?	What is the store's return policy?	Qual é a política de devolução da loja?	política (norma/regra), apólice	medium	batch_08	Política governamental/partidária é 'politics'; regras de empresa são 'policy'.
+jane_0881_01	require	This job does not <b>require</b> previous experience.	This job does not require previous experience.	Este emprego não exige experiência prévia.	exigir, requerer, precisar de	medium	batch_08	
+jane_0882_01	pass	Could you <b>pass</b> me the bread, please?	Could you pass me the bread, please?	Você poderia me passar o pão, por favor?	passar, ser aprovado	easy	batch_08	
+jane_0883_01	cover	Please <b>cover</b> the food before putting it away.	Please cover the food before putting it away.	Por favor, cubra a comida antes de guardar.	cobrir, tampar (também substantivo 'capa/tampa')	easy	batch_08	
+jane_0884_01	staff	The hotel <b>staff</b> was very helpful.	The hotel staff was very helpful.	A equipe do hotel foi muito prestativa.	equipe, funcionários	easy	batch_08	
+jane_0885_01	cut	Use scissors to <b>cut</b> this piece of paper.	Use scissors to cut this piece of paper.	Use uma tesoura para cortar esta folha de papel.	cortar (também substantivo 'corte')	easy	batch_08	Passado irregular igual ao presente: cut.
+jane_0886_01	rise	Prices continue to <b>rise</b> every year.	Prices continue to rise every year.	Os preços continuam subindo todo ano.	subir, aumentar, nascer (o sol)	medium	batch_08	Passado irregular: rose.
+jane_0887_01	charge	I need to <b>charge</b> my phone battery now.	I need to charge my phone battery now.	Eu preciso carregar a bateria do meu celular agora.	carregar (bateria), cobrar (preço)	medium	batch_08	'Free of charge' = gratuito.
+jane_0888_01	claim	Many ads <b>claim</b> to help you learn overnight.	Many ads claim to help you learn overnight.	Muitos anúncios afirmam te ajudar a aprender da noite para o dia.	afirmar, alegar, reivindicar	hard	batch_08	
+jane_0889_01	act	We need to <b>act</b> fast to solve this.	We need to act fast to solve this.	Nós precisamos agir rápido para resolver isso.	agir, atuar (também substantivo 'ato')	medium	batch_08	
+jane_0890_01	range	The store has a wide <b>range</b> of products.	The store has a wide range of products.	A loja tem uma grande variedade de produtos.	variedade, alcance, faixa	hard	batch_08	'A wide range of' = uma ampla variedade de.
+jane_0891_01	measure	Can you <b>measure</b> the width of this table?	Can you measure the width of this table?	Você pode medir a largura desta mesa?	medir (também substantivo 'medida')	medium	batch_08	
+jane_0892_01	security	Airport <b>security</b> checked our bags quickly.	Airport security checked our bags quickly.	A segurança do aeroporto checou nossas malas rapidamente.	segurança (proteção/vigilância)	easy	batch_08	
+jane_0893_01	trade	International <b>trade</b> connects countries around the world.	International trade connects countries around the world.	O comércio internacional conecta países ao redor do mundo.	comércio, troca (também verbo 'trocar/negociar')	medium	batch_08	
+jane_0894_01	risk	Driving too fast is a huge <b>risk</b>.	Driving too fast is a huge risk.	Dirigir rápido demais é um risco enorme.	risco (também verbo 'arriscar')	easy	batch_08	
+jane_0895_01	vote	Every citizen has the right to <b>vote</b>.	Every citizen has the right to vote.	Todo cidadão tem o direito de votar.	votar (também substantivo 'voto')	easy	batch_08	
+jane_0896_01	performance	Her <b>performance</b> at the concert was amazing.	Her performance at the concert was amazing.	A apresentação dela no show foi incrível.	apresentação, desempenho, atuação	medium	batch_08	
+jane_0897_01	mention	Did he <b>mention</b> what time he arrives?	Did he mention what time he arrives?	Ele mencionou a que horas chega?	mencionar, citar	medium	batch_08	
+jane_0898_01	limit	What is the speed <b>limit</b> on this road?	What is the speed limit on this road?	Qual é o limite de velocidade nesta estrada?	limite (também verbo 'limitar')	easy	batch_08	
+jane_0899_01	effort	Learning English takes daily <b>effort</b>.	Learning English takes daily effort.	Aprender inglês exige esforço diário.	esforço	medium	batch_08	'Make an effort' = fazer um esforço.
+jane_0900_01	contact	Please save my <b>contact</b> number on your phone.	Please save my contact number on your phone.	Por favor, salve o meu número de contato no seu celular.	contato (também verbo 'contatar')	easy	batch_08	
+jane_0901_01	court	They played tennis at the local <b>court</b>.	They played tennis at the local court.	Eles jogaram tênis na quadra local.	quadra (esporte), tribunal	medium	batch_08	
+jane_0902_01	relate	I can easily <b>relate</b> to that story.	I can easily relate to that story.	Eu consigo me identificar facilmente com essa história.	identificar-se ('relate to'), relacionar	hard	batch_08	
+jane_0903_01	campaign	The city started a recycling <b>campaign</b>.	The city started a recycling campaign.	A cidade começou uma campanha de reciclagem.	campanha	medium	batch_08	O 'g' é mudo: /kæmˈpeɪn/.
+jane_0904_01	worry	Don't <b>worry</b>, everything will be fine!	Don't worry, everything will be fine!	Não se preocupe, tudo vai ficar bem!	preocupar-se (também 'preocupação')	easy	batch_08	
+jane_0905_01	represent	These colors <b>represent</b> our national flag.	These colors represent our national flag.	Estas cores representam a nossa bandeira nacional.	representar	medium	batch_08	
+jane_0906_01	wonder	I <b>wonder</b> what time the train arrives.	I wonder what time the train arrives.	Eu fico me perguntando a que horas o trem chega.	perguntar-se, imaginar (também 'maravilha')	medium	batch_08	'I wonder...' = Fico pensando / Queria saber...
+jane_0907_01	press	<b>Press</b> this green button to start.	Press this green button to start.	Aperte este botão verde para começar.	apertar, pressionar (também 'imprensa')	easy	batch_08	
+jane_0908_01	influence	Good friends have a positive <b>influence</b> on us.	Good friends have a positive influence on us.	Bons amigos têm uma influência positiva sobre nós.	influência (também verbo 'influenciar')	medium	batch_08	
+jane_0909_01	respect	Always treat other people with <b>respect</b>.	Always treat other people with respect.	Sempre trate as outras pessoas com respeito.	respeito (também verbo 'respeitar')	easy	batch_08	
+jane_0910_01	management	Good time <b>management</b> reduces daily stress.	Good time management reduces daily stress.	Uma boa gestão de tempo reduz o estresse diário.	gestão, administração, gerência	medium	batch_08	
+jane_0911_01	economy	Tourism helps grow the local <b>economy</b>.	Tourism helps grow the local economy.	O turismo ajuda a fazer crescer a economia local.	economia	medium	batch_08	
+jane_0912_01	function	What is the main <b>function</b> of this tool?	What is the main function of this tool?	Qual é a função principal desta ferramenta?	função (também verbo 'funcionar')	medium	batch_08	
+jane_0913_01	production	The factory increased car <b>production</b> this year.	The factory increased car production this year.	A fábrica aumentou a produção de carros este ano.	produção	medium	batch_08	
+jane_0914_01	occur	Most accidents <b>occur</b> on rainy days.	Most accidents occur on rainy days.	A maioria dos acidentes ocorre em dias chuvosos.	ocorrer, acontecer	hard	batch_08	Sinônimo um pouco mais formal de 'happen'.
+jane_0915_01	lack	The project stopped due to a <b>lack</b> of money.	The project stopped due to a lack of money.	O projeto parou por falta de dinheiro.	falta, ausência (também verbo 'faltar')	hard	batch_08	'A lack of' = falta de.
+jane_0916_01	prove	Can you <b>prove</b> that this story is true?	Can you prove that this story is true?	Você consegue provar que esta história é verdadeira?	provar, comprovar	medium	batch_08	
+jane_0917_01	stuff	Please put your <b>stuff</b> in the other room.	Please put your stuff in the other room.	Por favor, coloque as suas coisas no outro quarto.	coisas, tralha (informal)	easy	batch_08	Incontável em inglês (nunca use 'stuffs').
+jane_0918_01	analysis	We need a careful <b>analysis</b> of the data.	We need a careful analysis of the data.	Nós precisamos de uma análise cuidadosa dos dados.	análise	hard	batch_08	
+jane_0919_01	election	The national <b>election</b> happens every four years.	The national election happens every four years.	A eleição nacional acontece a cada quatro anos.	eleição	medium	batch_08	
+jane_0920_01	challenge	Learning a new language is a fun <b>challenge</b>.	Learning a new language is a fun challenge.	Aprender um novo idioma é um desafio divertido.	desafio (também verbo 'desafiar')	easy	batch_08	
+jane_0921_01	nation	Brazil is a large South American <b>nation</b>.	Brazil is a large South American nation.	O Brasil é uma grande nação sul-americana.	nação, país	easy	batch_08	
+jane_0922_01	agreement	Both companies signed a new <b>agreement</b>.	Both companies signed a new agreement.	As duas empresas assinaram um novo acordo.	acordo, contrato	medium	batch_08	
+jane_0923_01	release	The band will <b>release</b> a new song tomorrow.	The band will release a new song tomorrow.	A banda vai lançar uma música nova amanhã.	lançar, soltar, liberar	medium	batch_08	
+jane_0924_01	tax	Does this price include local <b>tax</b>?	Does this price include local tax?	Este preço inclui o imposto local?	imposto, taxa	easy	batch_08	
+jane_0925_01	aim	Our main <b>aim</b> is to speak naturally.	Our main aim is to speak naturally.	Nosso objetivo principal é falar naturalmente.	objetivo, meta (também verbo 'mirar/visar')	medium	batch_08	
+jane_0926_01	pull	<b>Pull</b> the door toward you to open it.	Pull the door toward you to open it.	Puxe a porta na sua direção para abri-la.	puxar	easy	batch_08	Falso cognato clássico: 'pull' é PUXAR (empurrar é 'push').
+jane_0927_01	access	Do you have <b>access</b> to the internet here?	Do you have access to the internet here?	Você tem acesso à internet aqui?	acesso (também verbo 'acessar')	easy	batch_08	
+jane_0928_01	treat	They always <b>treat</b> their guests very well.	They always treat their guests very well.	Eles sempre tratam seus convidados muito bem.	tratar (também 'agrado/mimo')	medium	batch_08	
+jane_0929_01	loss	The team suffered a tough <b>loss</b> yesterday.	The team suffered a tough loss yesterday.	O time sofreu uma derrota difícil ontem.	perda, derrota, prejuízo	medium	batch_08	
+jane_0930_01	pressure	He works well even under high <b>pressure</b>.	He works well even under high pressure.	Ele trabalha bem mesmo sob alta pressão.	pressão	medium	batch_08	'Under pressure' = sob pressão.
+jane_0931_01	treatment	The patient is responding well to the <b>treatment</b>.	The patient is responding well to the treatment.	O paciente está respondendo bem ao tratamento.	tratamento	medium	batch_08	
+jane_0932_01	supply	We have a good <b>supply</b> of fresh water.	We have a good supply of fresh water.	Nós temos um bom suprimento de água fresca.	suprimento, estoque (também verbo 'fornecer')	medium	batch_08	
+jane_0933_01	indicate	The red light does <b>indicate</b> a low battery.	The red light does indicate a low battery.	A luz vermelha indica bateria fraca.	indicar, apontar	hard	batch_08	
+jane_0934_01	relation	There is a clear <b>relation</b> between sleep and focus.	There is a clear relation between sleep and focus.	Há uma relação clara entre sono e foco.	relação, conexão (no plural 'relations' = parentes/relações)	medium	batch_08	
+jane_0935_01	touch	Don't <b>touch</b> the oven, it is very hot!	Don't touch the oven, it is very hot!	Não toque no forno, ele está muito quente!	tocar, encostar (também 'toque')	easy	batch_08	'Keep in touch' = manter contato.
+jane_0936_01	file	Please save this <b>file</b> on your computer.	Please save this file on your computer.	Por favor, salve este arquivo no seu computador.	arquivo, pasta	easy	batch_08	
+jane_0937_01	suffer	Many people <b>suffer</b> from allergies in the spring.	Many people suffer from allergies in the spring.	Muitas pessoas sofrem de alergias na primavera.	sofrer	medium	batch_08	Preposição comum: 'suffer from'.
+jane_0938_01	tend	Children <b>tend</b> to learn new languages very fast.	Children tend to learn new languages very fast.	Crianças tendem a aprender novos idiomas muito rápido.	tender a, costumar	hard	batch_08	Estrutura: 'tend to + verbo'.
+jane_0939_01	operation	The knee <b>operation</b> was a complete success.	The knee operation was a complete success.	A cirurgia/operação no joelho foi um sucesso completo.	operação, cirurgia, funcionamento	medium	batch_08	
+jane_0940_01	push	<b>Push</b> the door gently to open it.	Push the door gently to open it.	Empurre a porta suavemente para abri-la.	empurrar	easy	batch_08	Falso cognato: 'push' é EMPURRAR (puxar é 'pull').
+jane_0941_01	theory	In <b>theory</b>, this plan should work well.	In theory, this plan should work well.	Na teoria, este plano deveria funcionar bem.	teoria	medium	batch_08	
+jane_0942_01	reference	Keep this guide for future <b>reference</b>.	Keep this guide for future reference.	Guarde este guia para consulta/referência futura.	referência, consulta	medium	batch_08	
+jane_0943_01	application	We received your job <b>application</b> this morning.	We received your job application this morning.	Nós recebemos a sua candidatura de emprego hoje de manhã.	candidatura, inscrição, aplicativo	medium	batch_08	
+jane_0944_01	profit	The small shop made a good <b>profit</b> this year.	The small shop made a good profit this year.	A loja pequena teve um bom lucro este ano.	lucro	medium	batch_08	
+jane_0945_01	resource	Water is our most valuable natural <b>resource</b>.	Water is our most valuable natural resource.	A água é o nosso recurso natural mais valioso.	recurso	medium	batch_08	
+jane_0946_01	balance	Try to keep a healthy work-life <b>balance</b>.	Try to keep a healthy work-life balance.	Tente manter um equilíbrio saudável entre trabalho e vida pessoal.	equilíbrio, saldo (bancário)	medium	batch_08	
+jane_0947_01	damage	The storm caused minor <b>damage</b> to the roof.	The storm caused minor damage to the roof.	A tempestade causou danos leves ao telhado.	dano, estrago (também verbo 'danificar')	medium	batch_08	Incontável em inglês ('cause damage', nunca 'damages' para estragos).
+jane_0948_01	encourage	Good teachers always <b>encourage</b> their students.	Good teachers always encourage their students.	Bons professores sempre incentivam seus alunos.	incentivar, encorajar	medium	batch_08	
+jane_0949_01	reflect	Mirrors <b>reflect</b> light clearly.	Mirrors reflect light clearly.	Espelhos refletem a luz claramente.	refletir	medium	batch_08	
+jane_0950_01	property	This land is private <b>property</b>.	This land is private property.	Este terreno é propriedade privada.	propriedade, imóvel, característica	medium	batch_08	
+jane_0951_01	define	How do you <b>define</b> success in life?	How do you define success in life?	Como você define o sucesso na vida?	definir	medium	batch_08	
+jane_0952_01	conclusion	We came to the same <b>conclusion</b> at the end.	We came to the same conclusion at the end.	Nós chegamos à mesma conclusão no final.	conclusão	medium	batch_08	
+jane_0953_01	mine	That black jacket on the chair is <b>mine</b>.	That black jacket on the chair is mine.	Aquela jaqueta preta na cadeira é minha.	meu, minha (pronome possessivo)	easy	batch_08	Também significa 'mina' (de carvão/ouro) como substantivo.
+jane_0954_01	responsibility	Taking care of a dog is a big <b>responsibility</b>.	Taking care of a dog is a big responsibility.	Cuidar de um cachorro é uma grande responsabilidade.	responsabilidade	medium	batch_08	
+jane_0955_01	candidate	She is the best <b>candidate</b> for this job.	She is the best candidate for this job.	Ela é a melhor candidata para este emprego.	candidato(a)	easy	batch_08	
+jane_0956_01	version	Please download the latest <b>version</b> of the app.	Please download the latest version of the app.	Por favor, baixe a versão mais recente do aplicativo.	versão	easy	batch_08	
+jane_0957_01	communication	Clear <b>communication</b> is essential in any team.	Clear communication is essential in any team.	Comunicação clara é essencial em qualquer equipe.	comunicação	easy	batch_08	
+jane_0958_01	agent	Our travel <b>agent</b> booked the hotel for us.	Our travel agent booked the hotel for us.	Nosso agente de viagens reservou o hotel para nós.	agente, representante	easy	batch_08	
+jane_0959_01	judge	The <b>judge</b> listened to both sides carefully.	The judge listened to both sides carefully.	O juiz ouviu os dois lados com atenção.	juiz (também verbo 'julgar')	medium	batch_08	
+jane_0960_01	generation	Every <b>generation</b> has its own music style.	Every generation has its own music style.	Cada geração tem o seu próprio estilo musical.	geração	easy	batch_08	
