@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_1081_01	entry	Museum <b>entry</b> is free on Sundays.	Museum entry is free on Sundays.	A entrada do museu é gratuita aos domingos.	entrada, acesso, registro	easy	batch_10	
+jane_1082_01	yard	The children are playing in the back <b>yard</b>.	The children are playing in the back yard.	As crianças estão brincando no quintal.	quintal, pátio (também medida 'jarda')	easy	batch_10	'Backyard' = quintal dos fundos.
+jane_1083_01	intelligence	Artificial <b>intelligence</b> is changing how we work.	Artificial intelligence is changing how we work.	A inteligência artificial está mudando como trabalhamos.	inteligência	easy	batch_10	
+jane_1084_01	kiss	She gave her baby a goodnight <b>kiss</b>.	She gave her baby a goodnight kiss.	Ela deu um beijo de boa noite no bebê dela.	beijo (também verbo 'beijar')	easy	batch_10	
+jane_1085_01	presentation	I have an important work <b>presentation</b> tomorrow.	I have an important work presentation tomorrow.	Eu tenho uma apresentação de trabalho importante amanhã.	apresentação (de slides/trabalho)	easy	batch_10	
+jane_1086_01	religion	We should respect every person's <b>religion</b>.	We should respect every person's religion.	Nós devemos respeitar a religião de cada pessoa.	religião	easy	batch_10	
+jane_1087_01	reject	Why did they <b>reject</b> your suggestion?	Why did they reject your suggestion?	Por que eles rejeitaram a sua sugestão?	rejeitar, recusar	medium	batch_10	
+jane_1088_01	ban	The school decided to <b>ban</b> phones in class.	The school decided to ban phones in class.	A escola decidiu proibir celulares na aula.	proibir, banir (também substantivo 'proibição')	medium	batch_10	
+jane_1089_01	protest	There was a peaceful <b>protest</b> downtown today.	There was a peaceful protest downtown today.	Houve um protesto pacífico no centro hoje.	protesto (também verbo 'protestar')	medium	batch_10	
+jane_1090_01	impression	He made a great first <b>impression</b> at the interview.	He made a great first impression at the interview.	Ele causou uma ótima primeira impressão na entrevista.	impressão	medium	batch_10	'Make a good impression' = causar uma boa impressão.
+jane_1091_01	kick	<b>Kick</b> the ball toward the goal!	Kick the ball toward the goal!	Chute a bola na direção do gol!	chutar (também substantivo 'chute')	easy	batch_10	
+jane_1092_01	attach	Please <b>attach</b> the PDF file to your email.	Please attach the PDF file to your email.	Por favor, anexe o arquivo PDF ao seu e-mail.	anexar, prender	easy	batch_10	
+jane_1093_01	advise	I would <b>advise</b> you to bring a warm coat.	I would advise you to bring a warm coat.	Eu aconselharia você a trazer um casaco quentinho.	aconselhar, recomendar	medium	batch_10	'Advise' (com s) é o verbo; 'advice' (com c) é o substantivo.
+jane_1094_01	intention	I had no <b>intention</b> of hurting your feelings.	I had no intention of hurting your feelings.	Eu não tive intenção de magoar os seus sentimentos.	intenção	medium	batch_10	
+jane_1095_01	emotion	Music can bring out every kind of <b>emotion</b>.	Music can bring out every kind of emotion.	Música pode despertar todo tipo de emoção.	emoção	easy	batch_10	
+jane_1096_01	enemy	Stress can be the biggest <b>enemy</b> of sleep.	Stress can be the biggest enemy of sleep.	O estresse pode ser o maior inimigo do sono.	inimigo(a)	easy	batch_10	
+jane_1097_01	talent	She has a natural <b>talent</b> for painting.	She has a natural talent for painting.	Ela tem um talento natural para pintura.	talento	easy	batch_10	
+jane_1098_01	exhibition	We visited a photography <b>exhibition</b> yesterday.	We visited a photography exhibition yesterday.	Nós visitamos uma exposição de fotografia ontem.	exposição, mostra	medium	batch_10	
+jane_1099_01	producer	Brazil is a major coffee <b>producer</b>.	Brazil is a major coffee producer.	O Brasil é um grande produtor de café.	produtor(a)	easy	batch_10	
+jane_1100_01	childhood	I spent my <b>childhood</b> in a small town.	I spent my childhood in a small town.	Eu passei a minha infância em uma cidade pequena.	infância	easy	batch_10	
+jane_1101_01	politician	The <b>politician</b> answered questions from reporters.	The politician answered questions from reporters.	O político respondeu perguntas de repórteres.	político(a)	easy	batch_10	
+jane_1102_01	knock	Please <b>knock</b> on the door before entering.	Please knock on the door before entering.	Por favor, bata na porta antes de entrar.	bater (na porta)	easy	batch_10	O 'k' inicial é mudo: /nɑːk/.
+jane_1103_01	seed	Plant this small <b>seed</b> in wet soil.	Plant this small seed in wet soil.	Plante esta pequena semente em terra úmida.	semente	easy	batch_10	
+jane_1104_01	qualify	Our team hopes to <b>qualify</b> for the finals.	Our team hopes to qualify for the finals.	Nosso time espera se classificar para as finais.	classificar-se, qualificar-se	medium	batch_10	
+jane_1105_01	appointment	I have a doctor's <b>appointment</b> at three.	I have a doctor's appointment at three.	Eu tenho uma consulta médica às três.	consulta, horário marcado, compromisso	medium	batch_10	
+jane_1106_01	bother	Sorry to <b>bother</b> you, do you have a minute?	Sorry to bother you, do you have a minute?	Desculpa incomodar você, tem um minuto?	incomodar, perturbar	medium	batch_10	
+jane_1107_01	freeze	Water will <b>freeze</b> at zero degrees Celsius.	Water will freeze at zero degrees Celsius.	A água congela a zero grau Celsius.	congelar, paralisar	easy	batch_10	Passado irregular: froze.
+jane_1108_01	repair	Can you <b>repair</b> this broken chair?	Can you repair this broken chair?	Você consegue consertar esta cadeira quebrada?	consertar, reparar (também substantivo 'conserto')	easy	batch_10	
+jane_1109_01	emergency	Use this exit only in an <b>emergency</b>.	Use this exit only in an emergency.	Use esta saída apenas em uma emergência.	emergência	easy	batch_10	
+jane_1110_01	highlight	We <b>highlight</b> the target word in bold.	We highlight the target word in bold.	Nós destacamos a palavra-alvo em negrito.	destacar, realçar (também substantivo 'destaque')	easy	batch_10	
+jane_1111_01	breathe	Open the window so we can <b>breathe</b> fresh air.	Open the window so we can breathe fresh air.	Abra a janela para podermos respirar ar fresco.	respirar	easy	batch_10	'Breathe' (com 'e' no fim) é o verbo; 'breath' é o substantivo.
+jane_1112_01	confuse	Those two similar words often <b>confuse</b> beginners.	Those two similar words often confuse beginners.	Essas duas palavras parecidas costumam confundir iniciantes.	confundir	easy	batch_10	
+jane_1113_01	beauty	Everyone admired the natural <b>beauty</b> of the island.	Everyone admired the natural beauty of the island.	Todos admiraram a beleza natural da ilha.	beleza	easy	batch_10	
+jane_1114_01	plot	The movie has a very exciting <b>plot</b>.	The movie has a very exciting plot.	O filme tem um enredo muito empolgante.	enredo, trama (também 'terreno' ou 'gráfico')	medium	batch_10	
+jane_1115_01	unemployment	New jobs helped reduce local <b>unemployment</b>.	New jobs helped reduce local unemployment.	Novos empregos ajudaram a reduzir o desemprego local.	desemprego	medium	batch_10	
+jane_1116_01	gentleman	That polite <b>gentleman</b> held the door for us.	That polite gentleman held the door for us.	Aquele cavalheiro educado segurou a porta para nós.	cavalheiro, senhor	easy	batch_10	Plural irregular: gentlemen.
+jane_1117_01	educate	Schools work hard to <b>educate</b> young people.	Schools work hard to educate young people.	As escolas trabalham duro para educar os jovens.	educar, instruir	easy	batch_10	
+jane_1118_01	achievement	Finishing your first book in English is a big <b>achievement</b>.	Finishing your first book in English is a big achievement.	Terminar seu primeiro livro em inglês é uma grande conquista.	conquista, realização	medium	batch_10	
+jane_1119_01	wing	The bird hurt its left <b>wing</b>.	The bird hurt its left wing.	O pássaro machucou a asa esquerda.	asa	easy	batch_10	
+jane_1120_01	soil	This dark <b>soil</b> is great for growing tomatoes.	This dark soil is great for growing tomatoes.	Esta terra escura é ótima para plantar tomates.	solo, terra	easy	batch_10	
+jane_1121_01	layer	Put a thin <b>layer</b> of butter on the bread.	Put a thin layer of butter on the bread.	Coloque uma camada fina de manteiga no pão.	camada	medium	batch_10	
+jane_1122_01	entertainment	Movies and music are popular forms of <b>entertainment</b>.	Movies and music are popular forms of entertainment.	Filmes e música são formas populares de entretenimento.	entretenimento, diversão	easy	batch_10	
+jane_1123_01	port	The big cargo ship arrived at the <b>port</b>.	The big cargo ship arrived at the port.	O grande navio de carga chegou ao porto.	porto (também 'porta' USB/de rede)	easy	batch_10	
+jane_1124_01	arrival	Check the screen for our flight <b>arrival</b> time.	Check the screen for our flight arrival time.	Confira a tela para ver o horário de chegada do nosso voo.	chegada	easy	batch_10	
+jane_1125_01	mood	Good music always puts me in a good <b>mood</b>.	Good music always puts me in a good mood.	Boa música sempre me deixa de bom humor.	humor, estado de espírito	easy	batch_10	'In a good mood' = de bom humor.
+jane_1126_01	prisoner	The <b>prisoner</b> wrote a letter to his family.	The prisoner wrote a letter to his family.	O prisioneiro escreveu uma carta para a família dele.	prisioneiro(a)	easy	batch_10	
+jane_1127_01	string	He tied the package with a piece of <b>string</b>.	He tied the package with a piece of string.	Ele amarrou o pacote com um pedaço de barbante.	barbante, corda (de instrumento), texto (em programação)	easy	batch_10	
+jane_1128_01	persuade	She managed to <b>persuade</b> her friend to join us.	She managed to persuade her friend to join us.	Ela conseguiu persuadir/convencer o amigo dela a se juntar a nós.	persuadir, convencer	medium	batch_10	
+jane_1129_01	assist	How may I <b>assist</b> you today?	How may I assist you today?	Como posso ajudar/atender você hoje?	ajudar, auxiliar	medium	batch_10	Falso cognato: 'assist' é ajudar (assistir filme/TV é 'watch').
+jane_1130_01	sink	Heavy stones <b>sink</b> quickly in water.	Heavy stones sink quickly in water.	Pedras pesadas afundam rápido na água.	afundar (também substantivo 'pia')	easy	batch_10	Passado irregular: sank.
+jane_1131_01	supporter	He is a loyal <b>supporter</b> of the local team.	He is a loyal supporter of the local team.	Ele é um torcedor/apoiador fiel do time local.	apoiador, torcedor	easy	batch_10	
+jane_1132_01	sail	They love to <b>sail</b> on the lake in summer.	They love to sail on the lake in summer.	Eles adoram velejar no lago no verão.	velejar, navegar (também 'vela de barco')	easy	batch_10	
+jane_1133_01	pour	Please <b>pour</b> some hot coffee into my cup.	Please pour some hot coffee into my cup.	Por favor, sirva/despeje um pouco de café quente na minha xícara.	despejar, servir (líquidos)	easy	batch_10	
+jane_1134_01	muscle	Exercise helps build strong <b>muscle</b>s.	Exercise helps build strong muscles.	Exercício ajuda a construir músculos fortes.	músculo	easy	batch_10	O 'c' é mudo: /ˈmʌsəl/.
+jane_1135_01	frighten	Loud thunder can <b>frighten</b> small dogs.	Loud thunder can frighten small dogs.	Trovões altos podem assustar cachorros pequenos.	assustar, amedrontar	medium	batch_10	
+jane_1136_01	poem	She wrote a short <b>poem</b> about nature.	She wrote a short poem about nature.	Ela escreveu um poema curto sobre a natureza.	poema	easy	batch_10	
+jane_1137_01	substance	Water is an essential <b>substance</b> for life.	Water is an essential substance for life.	A água é uma substância essencial para a vida.	substância	medium	batch_10	
+jane_1138_01	iron	That old gate is made of heavy <b>iron</b>.	That old gate is made of heavy iron.	Aquele portão antigo é feito de ferro pesado.	ferro (também 'ferro de passar')	easy	batch_10	Pronúncia: /ˈaɪərn/.
+jane_1139_01	bend	<b>Bend</b> your knees when lifting heavy boxes.	Bend your knees when lifting heavy boxes.	Dobre os joelhos ao levantar caixas pesadas.	dobrar, curvar	easy	batch_10	Passado irregular: bent.
+jane_1140_01	alarm	My morning <b>alarm</b> rings at six o'clock.	My morning alarm rings at six o'clock.	Meu alarme da manhã toca às seis horas.	alarme, despertador	easy	batch_10	
+jane_1141_01	flood	Heavy rain caused a <b>flood</b> on our street.	Heavy rain caused a flood on our street.	Chuva forte causou uma enchente na nossa rua.	enchente, inundação (também verbo 'inundar')	easy	batch_10	Pronúncia: /flʌd/ (rima com 'blood').
+jane_1142_01	poverty	Education is a strong tool against <b>poverty</b>.	Education is a strong tool against poverty.	A educação é uma ferramenta forte contra a pobreza.	pobreza	medium	batch_10	
+jane_1143_01	lip	I bit my lower <b>lip</b> while eating lunch.	I bit my lower lip while eating lunch.	Eu mordi meu lábio inferior enquanto almoçava.	lábio	easy	batch_10	
+jane_1144_01	apologize	I want to <b>apologize</b> for being late today.	I want to apologize for being late today.	Eu quero pedir desculpas por estar atrasado hoje.	pedir desculpas	easy	batch_10	Preposição fixa: 'apologize for' (pedir desculpas por).
+jane_1145_01	translate	How do you <b>translate</b> this sentence into Portuguese?	How do you translate this sentence into Portuguese?	Como você traduz esta frase para o português?	traduzir	easy	batch_10	Preposição comum: 'translate into'.
+jane_1146_01	summary	Write a short <b>summary</b> of the first chapter.	Write a short summary of the first chapter.	Escreva um resumo curto do primeiro capítulo.	resumo, síntese	easy	batch_10	'In summary' = em resumo.
+jane_1147_01	tube	We need to buy a new <b>tube</b> of toothpaste.	We need to buy a new tube of toothpaste.	Nós precisamos comprar um tubo novo de pasta de dente.	tubo, bisnaga (no Reino Unido também 'metrô')	easy	batch_10	
+jane_1148_01	admire	I really <b>admire</b> your daily dedication to studying.	I really admire your daily dedication to studying.	Eu realmente admiro a sua dedicação diária aos estudos.	admirar	easy	batch_10	
+jane_1149_01	custom	Drinking tea at five is a British <b>custom</b>.	Drinking tea at five is a British custom.	Tomar chá às cinco é um costume britânico.	costume, tradição (no plural 'customs' = alfândega)	medium	batch_10	
+jane_1150_01	sand	The children built a castle in the <b>sand</b>.	The children built a castle in the sand.	As crianças construíram um castelo na areia.	areia	easy	batch_10	
+jane_1151_01	cap	He wore a blue baseball <b>cap</b> at the beach.	He wore a blue baseball cap at the beach.	Ele usou um boné azul na praia.	boné, tampa (de garrafa)	easy	batch_10	
+jane_1152_01	mess	Sorry about the <b>mess</b> in the kitchen!	Sorry about the mess in the kitchen!	Desculpa pela bagunça na cozinha!	bagunça, confusão	easy	batch_10	
+jane_1153_01	bury	The dog loves to <b>bury</b> bones in the garden.	The dog loves to bury bones in the garden.	O cachorro adora enterrar ossos no jardim.	enterrar	medium	batch_10	Pronúncia: /ˈberi/ (soa como 'berry').
+jane_1154_01	coal	They used <b>coal</b> to heat the old house.	They used coal to heat the old house.	Eles usavam carvão para aquecer a casa antiga.	carvão	easy	batch_10	
+jane_1155_01	laboratory	The scientist works in a modern <b>laboratory</b>.	The scientist works in a modern laboratory.	O cientista trabalha em um laboratório moderno.	laboratório	easy	batch_10	Muito abreviado como 'lab'.
+jane_1156_01	passion	Cooking has always been his greatest <b>passion</b>.	Cooking has always been his greatest passion.	Cozinhar sempre foi a maior paixão dele.	paixão	easy	batch_10	
+jane_1157_01	announcement	Listen carefully to the train station <b>announcement</b>.	Listen carefully to the train station announcement.	Escute com atenção o anúncio da estação de trem.	anúncio, comunicado	medium	batch_10	
+jane_1158_01	chest	He felt a sharp pain in his <b>chest</b>.	He felt a sharp pain in his chest.	Ele sentiu uma dor forte no peito.	peito, tórax (também 'baú')	easy	batch_10	
+jane_1159_01	celebration	We are planning a big family <b>celebration</b>.	We are planning a big family celebration.	Nós estamos planejando uma grande comemoração em família.	comemoração, celebração	easy	batch_10	
+jane_1160_01	weigh	Let's <b>weigh</b> our bags before going to the airport.	Let's weigh our bags before going to the airport.	Vamos pesar nossas malas antes de ir para o aeroporto.	pesar	medium	batch_10	O 'gh' é mudo: /weɪ/ (mesma pronúncia de 'way').
+jane_1161_01	friendship	Our <b>friendship</b> has lasted more than ten years.	Our friendship has lasted more than ten years.	Nossa amizade já dura mais de dez anos.	amizade	easy	batch_10	
+jane_1162_01	profession	Teaching is a very rewarding <b>profession</b>.	Teaching is a very rewarding profession.	Ensinar é uma profissão muito gratificante.	profissão	easy	batch_10	
+jane_1163_01	entertain	The funny clown managed to <b>entertain</b> the kids.	The funny clown managed to entertain the kids.	O palhaço engraçado conseguiu entreter as crianças.	entreter, divertir	easy	batch_10	
+jane_1164_01	injure	Be careful not to <b>injure</b> your back.	Be careful not to injure your back.	Tome cuidado para não machucar/lesionar suas costas.	machucar, ferir, lesionar	medium	batch_10	
+jane_1165_01	throat	I have a sore <b>throat</b> today.	I have a sore throat today.	Eu estou com dor de garganta hoje.	garganta	easy	batch_10	'Sore throat' = dor de garganta.
+jane_1166_01	ceremony	The wedding <b>ceremony</b> will start at four.	The wedding ceremony will start at four.	A cerimônia de casamento vai começar às quatro.	cerimônia	easy	batch_10	
+jane_1167_01	mixture	Pour the cake <b>mixture</b> into a round pan.	Pour the cake mixture into a round pan.	Despeje a mistura do bolo em uma forma redonda.	mistura	easy	batch_10	
+jane_1168_01	poetry	She enjoys reading modern <b>poetry</b> at night.	She enjoys reading modern poetry at night.	Ela gosta de ler poesia moderna à noite.	poesia	easy	batch_10	
+jane_1169_01	shelf	Put the dictionary back on the top <b>shelf</b>.	Put the dictionary back on the top shelf.	Coloque o dicionário de volta na prateleira de cima.	prateleira, estante	easy	batch_10	Plural irregular: shelves.
+jane_1170_01	tail	The happy dog is wagging its <b>tail</b>.	The happy dog is wagging its tail.	O cachorro feliz está abanando o rabo.	rabo, cauda	easy	batch_10	
+jane_1171_01	pot	Cook the rice in a large <b>pot</b>.	Cook the rice in a large pot.	Cozinhe o arroz em uma panela grande.	panela, pote, vaso	easy	batch_10	
+jane_1172_01	pretend	Don't <b>pretend</b> to understand if you have questions.	Don't pretend to understand if you have questions.	Não finja entender se você tiver dúvidas.	fingir	medium	batch_10	Falso cognato clássico: 'pretend' é FINGIR (pretender é 'intend').
+jane_1173_01	shell	I found a pretty white <b>shell</b> on the beach.	I found a pretty white shell on the beach.	Eu encontrei uma concha branca bonita na praia.	concha, casca (de ovo/noz)	easy	batch_10	
+jane_1174_01	pipe	A water <b>pipe</b> broke under the kitchen sink.	A water pipe broke under the kitchen sink.	Um cano de água quebrou embaixo da pia da cozinha.	cano, tubo (também 'cachimbo')	easy	batch_10	
+jane_1175_01	flag	The Brazilian <b>flag</b> is green, yellow, and blue.	The Brazilian flag is green, yellow, and blue.	A bandeira brasileira é verde, amarela e azul.	bandeira	easy	batch_10	
+jane_1176_01	mystery	I love reading good <b>mystery</b> books.	I love reading good mystery books.	Eu amo ler bons livros de mistério.	mistério	easy	batch_10	
+jane_1177_01	coin	I found a silver <b>coin</b> in my pocket.	I found a silver coin in my pocket.	Eu encontrei uma moeda prateada no meu bolso.	moeda	easy	batch_10	
+jane_1178_01	trick	He taught his dog a clever new <b>trick</b>.	He taught his dog a clever new trick.	Ele ensinou um truque novo e esperto ao cachorro dele.	truque, pegadinha (também verbo 'enganar')	medium	batch_10	
+jane_1179_01	shine	The stars <b>shine</b> brightly on clear nights.	The stars shine brightly on clear nights.	As estrelas brilham forte em noites limpas.	brilhar	easy	batch_10	Passado irregular: shone.
+jane_1180_01	servant	A public <b>servant</b> works for the government.	A public servant works for the government.	Um servidor público trabalha para o governo.	servidor, criado(a)	medium	batch_10	'Public servant' = servidor público.
+jane_1181_01	bite	Don't worry, our little dog won't <b>bite</b>.	Don't worry, our little dog won't bite.	Não se preocupe, nosso cachorrinho não morde.	morder (também substantivo 'mordida')	easy	batch_10	Passado irregular: bit.
+jane_1182_01	fence	There is a white wooden <b>fence</b> around the yard.	There is a white wooden fence around the yard.	Há uma cerca de madeira branca ao redor do quintal.	cerca, muro baixo	easy	batch_10	
+jane_1183_01	attraction	The beach is the main tourist <b>attraction</b> here.	The beach is the main tourist attraction here.	A praia é a principal atração turística aqui.	atração	easy	batch_10	
+jane_1184_01	hurry	<b>Hurry</b> up, or we will miss the bus!	Hurry up, or we will miss the bus!	Se apresse, ou nós vamos perder o ônibus!	apressar-se (também substantivo 'pressa')	easy	batch_10	'In a hurry' = com pressa.
+jane_1185_01	revise	I always <b>revise</b> my notes before an exam.	I always revise my notes before an exam.	Eu sempre reviso minhas anotações antes de uma prova.	revisar, corrigir	easy	batch_10	
+jane_1186_01	bell	Ring the door <b>bell</b> when you arrive.	Ring the door bell when you arrive.	Toque a campainha quando você chegar.	sino, campainha	easy	batch_10	'Doorbell' geralmente é escrito junto.
+jane_1187_01	tent	We slept in a <b>tent</b> during our camping trip.	We slept in a tent during our camping trip.	Nós dormimos em uma barraca durante nosso acampamento.	barraca, tenda	easy	batch_10	
+jane_1188_01	stranger	A friendly <b>stranger</b> helped me find the station.	A friendly stranger helped me find the station.	Um desconhecido simpático me ajudou a achar a estação.	desconhecido(a), estranho(a)	easy	batch_10	
+jane_1189_01	grain	Rice is the most common <b>grain</b> in Brazil.	Rice is the most common grain in Brazil.	O arroz é o grão mais comum no Brasil.	grão, cereal	medium	batch_10	
+jane_1190_01	leather	He bought a nice brown <b>leather</b> jacket.	He bought a nice brown leather jacket.	Ele comprou uma jaqueta bonita de couro marrom.	couro	easy	batch_10	
+jane_1191_01	excitement	The kids jumped with <b>excitement</b> before the trip.	The kids jumped with excitement before the trip.	As crianças pularam de empolgação antes da viagem.	empolgação, animação	medium	batch_10	
+jane_1192_01	slice	Would you like a <b>slice</b> of warm bread?	Would you like a slice of warm bread?	Você gostaria de uma fatia de pão quentinho?	fatia, pedaço (também verbo 'fatiar')	easy	batch_10	
+jane_1193_01	qualification	Experience is an important <b>qualification</b> for this job.	Experience is an important qualification for this job.	Experiência é uma qualificação importante para este emprego.	qualificação, habilitação	medium	batch_10	
+jane_1194_01	tongue	Be careful not to burn your <b>tongue</b> on hot soup.	Be careful not to burn your tongue on hot soup.	Tome cuidado para não queimar a língua na sopa quente.	língua (órgão ou idioma, como 'mother tongue')	easy	batch_10	Pronúncia: /tʌŋ/.
+jane_1195_01	curtain	Please open the bedroom <b>curtain</b> to let light in.	Please open the bedroom curtain to let light in.	Por favor, abra a cortina do quarto para deixar a luz entrar.	cortina	easy	batch_10	
+jane_1196_01	hold	Can you <b>hold</b> my coffee for a second?	Can you hold my coffee for a second?	Você pode segurar meu café por um segundo?	segurar, realizar (evento), aguardar	easy	batch_10	Passado irregular: held.
+jane_1197_01	concern	My main <b>concern</b> is finishing on time.	My main concern is finishing on time.	Minha principal preocupação é terminar no prazo.	preocupação, interesse (também verbo 'dizer respeito')	medium	batch_10	
+jane_1198_01	stand	Please <b>stand</b> up when your name is called.	Please stand up when your name is called.	Por favor, fique de pé quando o seu nome for chamado.	ficar de pé, suportar ('can't stand')	easy	batch_10	Passado irregular: stood.
+jane_1199_01	reach	I cannot <b>reach</b> the top shelf without a chair.	I cannot reach the top shelf without a chair.	Eu não consigo alcançar a prateleira de cima sem uma cadeira.	alcançar, atingir, chegar a	easy	batch_10	
+jane_1200_01	produce	These trees <b>produce</b> sweet oranges every summer.	These trees produce sweet oranges every summer.	Estas árvores produzem laranjas doces todo verão.	produzir, fabricar	easy	batch_10	
