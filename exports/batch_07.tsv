@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_0721_01	expression	That is a very common English <b>expression</b>.	That is a very common English expression.	Essa é uma expressão em inglês muito comum.	expressão	medium	batch_07	
+jane_0722_01	owner	The <b>owner</b> of this restaurant is very friendly.	The owner of this restaurant is very friendly.	O dono deste restaurante é muito simpático.	dono(a), proprietário(a)	easy	batch_07	
+jane_0723_01	lady	An older <b>lady</b> asked me for help.	An older lady asked me for help.	Uma senhora mais velha me pediu ajuda.	senhora, dama	easy	batch_07	
+jane_0724_01	connect	How do I <b>connect</b> my phone to Wi-Fi?	How do I connect my phone to Wi-Fi?	Como eu conecto meu celular ao Wi-Fi?	conectar, ligar	easy	batch_07	
+jane_0725_01	suggestion	Thanks for your helpful <b>suggestion</b>.	Thanks for your helpful suggestion.	Obrigado pela sua sugestão útil.	sugestão	easy	batch_07	
+jane_0726_01	earth	The <b>earth</b> moves around the sun.	The earth moves around the sun.	A Terra gira em torno do sol.	Terra (planeta), terra (solo)	easy	batch_07	
+jane_0727_01	employ	They <b>employ</b> more than fifty local workers.	They employ more than fifty local workers.	Eles empregam mais de cinquenta trabalhadores locais.	empregar, contratar	medium	batch_07	
+jane_0728_01	fan	I am a big <b>fan</b> of this soccer team.	I am a big fan of this soccer team.	Eu sou muito fã deste time de futebol.	fã, torcedor (também 'ventilador')	easy	batch_07	
+jane_0729_01	engineer	My brother works as a software <b>engineer</b>.	My brother works as a software engineer.	Meu irmão trabalha como engenheiro de software.	engenheiro(a)	easy	batch_07	
+jane_0730_01	jump	The cat can <b>jump</b> very high.	The cat can jump very high.	O gato consegue pular muito alto.	pular, saltar (também 'pulo')	easy	batch_07	
+jane_0731_01	tradition	Eating turkey at Christmas is a family <b>tradition</b>.	Eating turkey at Christmas is a family tradition.	Comer peru no Natal é uma tradição da família.	tradição	medium	batch_07	
+jane_0732_01	cash	I always carry a little <b>cash</b> with me.	I always carry a little cash with me.	Eu sempre carrego um pouco de dinheiro vivo comigo.	dinheiro em espécie	easy	batch_07	
+jane_0733_01	award	The movie won an international <b>award</b>.	The movie won an international award.	O filme ganhou um prêmio internacional.	prêmio, premiação	medium	batch_07	
+jane_0734_01	coach	The basketball <b>coach</b> talked to the players.	The basketball coach talked to the players.	O técnico de basquete conversou com os jogadores.	técnico, treinador (também 'ônibus de viagem' no Reino Unido)	easy	batch_07	
+jane_0735_01	experiment	We did a simple science <b>experiment</b> in class.	We did a simple science experiment in class.	Nós fizemos um experimento simples de ciências na aula.	experimento	medium	batch_07	
+jane_0736_01	code	Enter the four-digit <b>code</b> to unlock the door.	Enter the four-digit code to unlock the door.	Digite o código de quatro dígitos para destrancar a porta.	código	easy	batch_07	
+jane_0737_01	accident	There was a minor car <b>accident</b> near here.	There was a minor car accident near here.	Houve um acidente leve de carro perto daqui.	acidente	easy	batch_07	'By accident' = por acidente / sem querer.
+jane_0738_01	wash	Please <b>wash</b> your hands before lunch.	Please wash your hands before lunch.	Por favor, lave as mãos antes do almoço.	lavar	easy	batch_07	
+jane_0739_01	stone	The old house was built of gray <b>stone</b>.	The old house was built of gray stone.	A casa antiga foi construída de pedra cinza.	pedra	easy	batch_07	
+jane_0740_01	soldier	The young <b>soldier</b> returned home safely.	The young soldier returned home safely.	O jovem soldado voltou para casa em segurança.	soldado	easy	batch_07	
+jane_0741_01	cycle	Sleep follows a natural ninety-minute <b>cycle</b>.	Sleep follows a natural ninety-minute cycle.	O sono segue um ciclo natural de noventa minutos.	ciclo (também verbo 'andar de bicicleta')	medium	batch_07	
+jane_0742_01	vehicle	Every <b>vehicle</b> must stop at the red light.	Every vehicle must stop at the red light.	Todo veículo deve parar no sinal vermelho.	veículo	medium	batch_07	O 'h' é mudo: /ˈviːəkəl/.
+jane_0743_01	route	What is the fastest <b>route</b> to the airport?	What is the fastest route to the airport?	Qual é a rota mais rápida para o aeroporto?	rota, caminho, trajeto	medium	batch_07	
+jane_0744_01	belong	Does this blue jacket <b>belong</b> to you?	Does this blue jacket belong to you?	Esta jaqueta azul pertence a você?	pertencer	medium	batch_07	Sempre pede 'to' ('belong to').
+jane_0745_01	taste	This homemade soup does <b>taste</b> amazing!	This homemade soup does taste amazing!	Esta sopa caseira tem um gosto incrível!	ter gosto de, provar (também substantivo 'sabor')	easy	batch_07	
+jane_0746_01	fashion	She follows the latest <b>fashion</b> trends.	She follows the latest fashion trends.	Ela acompanha as últimas tendências da moda.	moda	easy	batch_07	
+jane_0747_01	danger	That warning sign means <b>danger</b> ahead.	That warning sign means danger ahead.	Aquela placa de aviso significa perigo à frente.	perigo	easy	batch_07	
+jane_0748_01	army	His cousin joined the <b>army</b> last year.	His cousin joined the army last year.	O primo dele entrou para o exército ano passado.	exército	easy	batch_07	
+jane_0749_01	gift	Thank you for this wonderful birthday <b>gift</b>!	Thank you for this wonderful birthday gift!	Obrigado por este presente de aniversário maravilhoso!	presente, dom	easy	batch_07	
+jane_0750_01	noise	Please don't make so much <b>noise</b>.	Please don't make so much noise.	Por favor, não faça tanto barulho.	barulho, ruído	easy	batch_07	Collocation: 'make noise' (fazer barulho).
+jane_0751_01	manner	She spoke in a very polite <b>manner</b>.	She spoke in a very polite manner.	Ela falou de uma maneira muito educada.	maneira, modo (no plural 'manners' = boas maneiras)	medium	batch_07	
+jane_0752_01	temperature	The <b>temperature</b> dropped quickly tonight.	The temperature dropped quickly tonight.	A temperatura caiu rápido hoje à noite.	temperatura, febre	easy	batch_07	
+jane_0753_01	skin	Drinking water is good for your <b>skin</b>.	Drinking water is good for your skin.	Beber água faz bem para a sua pele.	pele	easy	batch_07	
+jane_0754_01	prison	He spent two years in <b>prison</b>.	He spent two years in prison.	Ele passou dois anos na prisão.	prisão, cadeia	easy	batch_07	
+jane_0755_01	wood	This old table is made of solid <b>wood</b>.	This old table is made of solid wood.	Esta mesa antiga é feita de madeira maciça.	madeira (no plural 'woods' = bosque/mata)	easy	batch_07	
+jane_0756_01	hall	Leave your wet umbrella in the <b>hall</b>.	Leave your wet umbrella in the hall.	Deixe seu guarda-chuva molhado no corredor/entrada.	corredor, hall de entrada, salão	easy	batch_07	
+jane_0757_01	lawyer	My sister is studying to become a <b>lawyer</b>.	My sister is studying to become a lawyer.	Minha irmã está estudando para se tornar advogada.	advogado(a)	easy	batch_07	
+jane_0758_01	complain	Some customers started to <b>complain</b> about the delay.	Some customers started to complain about the delay.	Alguns clientes começaram a reclamar do atraso.	reclamar, queixar-se	easy	batch_07	Preposição comum: 'complain about'.
+jane_0759_01	error	I found a small <b>error</b> in the text.	I found a small error in the text.	Eu encontrei um pequeno erro no texto.	erro	easy	batch_07	
+jane_0760_01	finger	I cut my <b>finger</b> while slicing bread.	I cut my finger while slicing bread.	Eu cortei meu dedo enquanto fatiava pão.	dedo (da mão)	easy	batch_07	Dedo do pé é 'toe'.
+jane_0761_01	hole	There is a small <b>hole</b> in my sock.	There is a small hole in my sock.	Tem um furo pequeno na minha meia.	buraco, furo	easy	batch_07	Mesma pronúncia de 'whole' (inteiro).
+jane_0762_01	tie	He wore a blue <b>tie</b> with his white shirt.	He wore a blue tie with his white shirt.	Ele usou uma gravata azul com a camisa branca.	gravata, empate (também verbo 'amarrar')	medium	batch_07	
+jane_0763_01	birth	Please write your date of <b>birth</b> here.	Please write your date of birth here.	Por favor, escreva a sua data de nascimento aqui.	nascimento	easy	batch_07	'Date of birth' = data de nascimento.
+jane_0764_01	forest	We went for a walk in the <b>forest</b>.	We went for a walk in the forest.	Nós fomos caminhar na floresta.	floresta, mata	easy	batch_07	
+jane_0765_01	factory	My uncle works in a car <b>factory</b>.	My uncle works in a car factory.	Meu tio trabalha em uma fábrica de carros.	fábrica	easy	batch_07	
+jane_0766_01	bridge	The train crossed the old <b>bridge</b>.	The train crossed the old bridge.	O trem atravessou a ponte antiga.	ponte	easy	batch_07	
+jane_0767_01	predict	It is hard to <b>predict</b> the weather here.	It is hard to predict the weather here.	É difícil prever o tempo aqui.	prever	medium	batch_07	
+jane_0768_01	appearance	Don't judge people only by their <b>appearance</b>.	Don't judge people only by their appearance.	Não julgue as pessoas apenas pela aparência.	aparência, aparição	medium	batch_07	
+jane_0769_01	succeed	With daily practice, you will <b>succeed</b>.	With daily practice, you will succeed.	Com prática diária, você vai ter sucesso.	ter sucesso, conseguir	medium	batch_07	
+jane_0770_01	instrument	Do you play any musical <b>instrument</b>?	Do you play any musical instrument?	Você toca algum instrumento musical?	instrumento	easy	batch_07	
+jane_0771_01	lock	Did you <b>lock</b> the front door?	Did you lock the front door?	Você trancou a porta da frente?	trancar (também substantivo 'fechadura/cadeado')	easy	batch_07	
+jane_0772_01	celebrate	Let's go out to <b>celebrate</b> your birthday!	Let's go out to celebrate your birthday!	Vamos sair para comemorar o seu aniversário!	comemorar, celebrar	easy	batch_07	
+jane_0773_01	shoulder	My <b>shoulder</b> hurts from carrying that heavy bag.	My shoulder hurts from carrying that heavy bag.	Meu ombro dói de carregar aquela bolsa pesada.	ombro	easy	batch_07	
+jane_0774_01	sheet	Please give me a clean <b>sheet</b> of paper.	Please give me a clean sheet of paper.	Por favor, me dê uma folha de papel limpa.	folha (de papel), lençol	medium	batch_07	
+jane_0775_01	engine	The car <b>engine</b> is making a strange noise.	The car engine is making a strange noise.	O motor do carro está fazendo um barulho estranho.	motor	easy	batch_07	
+jane_0776_01	explanation	Thank you for that clear <b>explanation</b>.	Thank you for that clear explanation.	Obrigado por aquela explicação clara.	explicação	medium	batch_07	
+jane_0777_01	mail	Did any <b>mail</b> arrive for me today?	Did any mail arrive for me today?	Chegou alguma correspondência para mim hoje?	correspondência, correio (também verbo 'enviar')	easy	batch_07	
+jane_0778_01	personality	She has a very warm and friendly <b>personality</b>.	She has a very warm and friendly personality.	Ela tem uma personalidade muito acolhedora e amigável.	personalidade	easy	batch_07	
+jane_0779_01	tip	We left a nice <b>tip</b> for the waiter.	We left a nice tip for the waiter.	Nós deixamos uma boa gorjeta para o garçom.	gorjeta, dica, ponta	medium	batch_07	Também significa 'dica' (a good study tip).
+jane_0780_01	shout	Please don't <b>shout</b>, I can hear you.	Please don't shout, I can hear you.	Por favor, não grite, eu consigo te ouvir.	gritar (também substantivo 'grito')	easy	batch_07	
+jane_0781_01	hill	Their house is at the top of a <b>hill</b>.	Their house is at the top of a hill.	A casa deles fica no alto de uma colina.	colina, morro	easy	batch_07	
+jane_0782_01	instruction	Please read every <b>instruction</b> carefully before starting.	Please read every instruction carefully before starting.	Por favor, leia cada instrução com atenção antes de começar.	instrução	easy	batch_07	
+jane_0783_01	compete	Ten teams will <b>compete</b> in the tournament.	Ten teams will compete in the tournament.	Dez times vão competir no torneio.	competir	medium	batch_07	
+jane_0784_01	passenger	Every <b>passenger</b> must wear a seat belt.	Every passenger must wear a seat belt.	Todo passageiro deve usar cinto de segurança.	passageiro(a)	easy	batch_07	
+jane_0785_01	employer	My <b>employer</b> allows us to work from home.	My employer allows us to work from home.	Meu empregador nos permite trabalhar de casa.	empregador, patrão	medium	batch_07	'Employer' = quem contrata; 'employee' = quem é contratado.
+jane_0786_01	plate	Put the hot food on a clean <b>plate</b>.	Put the hot food on a clean plate.	Coloque a comida quente em um prato limpo.	prato	easy	batch_07	
+jane_0787_01	steal	Someone tried to <b>steal</b> my bike yesterday.	Someone tried to steal my bike yesterday.	Alguém tentou roubar minha bicicleta ontem.	roubar, furtar	easy	batch_07	Passado irregular: stole.
+jane_0788_01	circle	The children sat in a <b>circle</b> on the floor.	The children sat in a circle on the floor.	As crianças sentaram em círculo no chão.	círculo, roda	easy	batch_07	
+jane_0789_01	joke	He told a really funny <b>joke</b> at dinner.	He told a really funny joke at dinner.	Ele contou uma piada muito engraçada no jantar.	piada, brincadeira (também verbo 'brincar')	easy	batch_07	
+jane_0790_01	sky	The <b>sky</b> is bright blue without any clouds.	The sky is bright blue without any clouds.	O céu está azul brilhante sem nenhuma nuvem.	céu	easy	batch_07	
+jane_0791_01	column	Write the answers in the second <b>column</b>.	Write the answers in the second column.	Escreva as respostas na segunda coluna.	coluna	medium	batch_07	O 'n' final é mudo: /ˈkɑːləm/.
+jane_0792_01	coast	We drove along the sunny <b>coast</b>.	We drove along the sunny coast.	Nós dirigimos ao longo da costa ensolarada.	costa, litoral	easy	batch_07	
+jane_0793_01	medicine	Take this <b>medicine</b> twice a day after meals.	Take this medicine twice a day after meals.	Tome este remédio duas vezes ao dia após as refeições.	remédio, medicamento, medicina	easy	batch_07	
+jane_0794_01	professor	The history <b>professor</b> gave an interesting lecture.	The history professor gave an interesting lecture.	O professor de história deu uma aula/palestra interessante.	professor universitário	easy	batch_07	Para escola básica use 'teacher'; para universidade, 'professor'.
+jane_0795_01	gap	Mind the <b>gap</b> between the train and the platform.	Mind the gap between the train and the platform.	Cuidado com o vão entre o trem e a plataforma.	vão, lacuna, espaço vazio	medium	batch_07	Aviso famoso no metrô de Londres: 'Mind the gap'.
+jane_0796_01	smell	I love the <b>smell</b> of fresh coffee.	I love the smell of fresh coffee.	Eu amo o cheiro de café fresco.	cheiro (também verbo 'cheirar')	easy	batch_07	
+jane_0797_01	pilot	The <b>pilot</b> landed the plane smoothly.	The pilot landed the plane smoothly.	O piloto pousou o avião suavemente.	piloto	easy	batch_07	
+jane_0798_01	communicate	We use email to <b>communicate</b> with clients.	We use email to communicate with clients.	Nós usamos e-mail para nos comunicar com clientes.	comunicar, comunicar-se	easy	batch_07	
+jane_0799_01	injury	He missed the game because of a knee <b>injury</b>.	He missed the game because of a knee injury.	Ele perdeu o jogo por causa de uma lesão no joelho.	lesão, ferimento, machucado	medium	batch_07	
+jane_0800_01	salary	She received a good <b>salary</b> raise this year.	She received a good salary raise this year.	Ela recebeu um bom aumento de salário este ano.	salário	easy	batch_07	
+jane_0801_01	lake	We went swimming in the cold <b>lake</b>.	We went swimming in the cold lake.	Nós fomos nadar no lago gelado.	lago	easy	batch_07	
+jane_0802_01	habit	Studying every morning is a great <b>habit</b>.	Studying every morning is a great habit.	Estudar toda manhã é um ótimo hábito.	hábito, costume	easy	batch_07	
+jane_0803_01	metal	This water bottle is made of <b>metal</b>.	This water bottle is made of metal.	Esta garrafa de água é feita de metal.	metal	easy	batch_07	
+jane_0804_01	bone	The dog is chewing on a big <b>bone</b>.	The dog is chewing on a big bone.	O cachorro está roendo um osso grande.	osso	easy	batch_07	
+jane_0805_01	boss	My <b>boss</b> is out of the office today.	My boss is out of the office today.	Meu chefe está fora do escritório hoje.	chefe, patrão	easy	batch_07	
+jane_0806_01	pocket	I keep my keys in my front <b>pocket</b>.	I keep my keys in my front pocket.	Eu guardo minhas chaves no bolso da frente.	bolso	easy	batch_07	
+jane_0807_01	king	The old <b>king</b> ruled the country for decades.	The old king ruled the country for decades.	O velho rei governou o país por décadas.	rei	easy	batch_07	
+jane_0808_01	borrow	Can I <b>borrow</b> your umbrella for today?	Can I borrow your umbrella for today?	Posso pegar seu guarda-chuva emprestado por hoje?	pegar emprestado	medium	batch_07	'Borrow' = pegar emprestado; 'lend' = dar emprestado.
+jane_0809_01	reporter	The TV <b>reporter</b> talked to local residents.	The TV reporter talked to local residents.	O repórter de TV conversou com moradores locais.	repórter	easy	batch_07	
+jane_0810_01	climate	Brazil has a warm tropical <b>climate</b>.	Brazil has a warm tropical climate.	O Brasil tem um clima tropical quente.	clima	easy	batch_07	
+jane_0811_01	winner	Who was the <b>winner</b> of the race?	Who was the winner of the race?	Quem foi o vencedor da corrida?	vencedor(a), ganhador(a)	easy	batch_07	
+jane_0812_01	mathematics	She teaches <b>mathematics</b> at a high school.	She teaches mathematics at a high school.	Ela ensina matemática em uma escola de ensino médio.	matemática	easy	batch_07	No dia a dia costuma ser abreviado para 'math' (EUA) ou 'maths' (RU).
+jane_0813_01	luck	Good <b>luck</b> with your new job!	Good luck with your new job!	Boa sorte no seu novo emprego!	sorte	easy	batch_07	
+jane_0814_01	illness	He missed school because of a short <b>illness</b>.	He missed school because of a short illness.	Ele faltou à escola por causa de uma doença passageira.	doença, enfermidade	medium	batch_07	
+jane_0815_01	journalist	The <b>journalist</b> interviewed the local mayor.	The journalist interviewed the local mayor.	O jornalista entrevistou o prefeito local.	jornalista	easy	batch_07	
+jane_0816_01	advertisement	I saw an <b>advertisement</b> for that phone online.	I saw an advertisement for that phone online.	Eu vi um anúncio daquele celular na internet.	anúncio, propaganda	medium	batch_07	Muito abreviado como 'ad'.
+jane_0817_01	neck	My <b>neck</b> hurts from looking at my phone.	My neck hurts from looking at my phone.	Meu pescoço dói de olhar para o celular.	pescoço	easy	batch_07	
+jane_0818_01	wheel	One <b>wheel</b> of the bicycle is flat.	One wheel of the bicycle is flat.	Uma roda da bicicleta está furada/murcha.	roda, volante	easy	batch_07	
+jane_0819_01	storm	A big <b>storm</b> is coming this evening.	A big storm is coming this evening.	Uma grande tempestade está chegando hoje à noite.	tempestade	easy	batch_07	
+jane_0820_01	prize	She won first <b>prize</b> in the art contest.	She won first prize in the art contest.	Ela ganhou o primeiro prêmio no concurso de arte.	prêmio	easy	batch_07	
+jane_0821_01	electricity	This house uses solar energy for <b>electricity</b>.	This house uses solar energy for electricity.	Esta casa usa energia solar para eletricidade.	eletricidade, energia elétrica	easy	batch_07	
+jane_0822_01	roof	The rain made a loud sound on the <b>roof</b>.	The rain made a loud sound on the roof.	A chuva fez um barulho alto no telhado.	telhado, teto (parte externa)	easy	batch_07	Teto interno de um quarto é 'ceiling'.
+jane_0823_01	uniform	Students at this school wear a blue <b>uniform</b>.	Students at this school wear a blue uniform.	Os alunos desta escola usam um uniforme azul.	uniforme	easy	batch_07	
+jane_0824_01	gate	Please close the garden <b>gate</b> behind you.	Please close the garden gate behind you.	Por favor, feche o portão do jardim atrás de você.	portão (também portão de embarque)	easy	batch_07	
+jane_0825_01	profile	Update your <b>profile</b> picture on the app.	Update your profile picture on the app.	Atualize a sua foto de perfil no aplicativo.	perfil	easy	batch_07	
+jane_0826_01	cloud	Look at that white <b>cloud</b> in the sky.	Look at that white cloud in the sky.	Olhe para aquela nuvem branca no céu.	nuvem	easy	batch_07	
+jane_0827_01	hero	The firefighter was a true <b>hero</b> today.	The firefighter was a true hero today.	O bombeiro foi um verdadeiro herói hoje.	herói	easy	batch_07	Plural: heroes.
+jane_0828_01	truck	A delivery <b>truck</b> stopped in front of our house.	A delivery truck stopped in front of our house.	Um caminhão de entregas parou na frente da nossa casa.	caminhão, caminhonete	easy	batch_07	
+jane_0829_01	sir	Excuse me, <b>sir</b>, you dropped your wallet.	Excuse me, sir, you dropped your wallet.	Com licença, senhor, o senhor deixou cair sua carteira.	senhor (tratamento formal)	easy	batch_07	
+jane_0830_01	height	What is your <b>height</b> in centimeters?	What is your height in centimeters?	Qual é a sua altura em centímetros?	altura, estatura	medium	batch_07	Pronúncia: /haɪt/ (rima com 'light').
+jane_0831_01	essay	I have to write an <b>essay</b> for English class.	I have to write an essay for English class.	Eu tenho que escrever uma redação para a aula de inglês.	redação, ensaio	medium	batch_07	
+jane_0832_01	pollution	Electric cars help reduce air <b>pollution</b>.	Electric cars help reduce air pollution.	Carros elétricos ajudam a reduzir a poluição do ar.	poluição	easy	batch_07	
+jane_0833_01	furniture	We bought new <b>furniture</b> for the living room.	We bought new furniture for the living room.	Nós compramos móveis novos para a sala de estar.	móveis, mobília	easy	batch_07	Incontável em inglês (nunca use 'furnitures').
+jane_0834_01	symbol	The dove is a <b>symbol</b> of peace.	The dove is a symbol of peace.	A pomba é um símbolo de paz.	símbolo	easy	batch_07	
+jane_0835_01	platform	The train leaves from <b>platform</b> four.	The train leaves from platform four.	O trem parte da plataforma quatro.	plataforma (de trem ou digital)	easy	batch_07	
+jane_0836_01	invitation	Thank you for the dinner <b>invitation</b>!	Thank you for the dinner invitation!	Obrigado pelo convite para o jantar!	convite	easy	batch_07	
+jane_0837_01	mirror	She looked at herself in the <b>mirror</b>.	She looked at herself in the mirror.	Ela se olhou no espelho.	espelho	easy	batch_07	
+jane_0838_01	van	They rented a large <b>van</b> to move their things.	They rented a large van to move their things.	Eles alugaram uma van grande para mudar suas coisas.	van, furgão	easy	batch_07	
+jane_0839_01	planet	Mars is the fourth <b>planet</b> from the sun.	Mars is the fourth planet from the sun.	Marte é o quarto planeta a partir do sol.	planeta	easy	batch_07	
+jane_0840_01	knee	I hurt my <b>knee</b> while playing soccer.	I hurt my knee while playing soccer.	Eu machuquei meu joelho enquanto jogava futebol.	joelho	easy	batch_07	O 'k' inicial é mudo: /niː/.
