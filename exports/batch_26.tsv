@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_3001_01	heel	My left <b>heel</b> hurts after that long walk.	My left heel hurts after that long walk.	Meu calcanhar esquerdo dói depois daquela longa caminhada.	calcanhar / salto (de sapato)	easy	batch_26	Pronuncia-se como 'heal' (curar).
+jane_3002_01	highway	Take the main <b>highway</b> to reach the beach.	Take the main highway to reach the beach.	Pegue a rodovia principal para chegar à praia.	rodovia / autoestrada	easy	batch_26	
+jane_3003_01	hip	She put her hands on her <b>hips</b>.	She put her hands on her hips.	Ela colocou as mãos nos quadris.	quadril	easy	batch_26	
+jane_3004_01	housing	Affordable <b>housing</b> is important for young families.	Affordable housing is important for young families.	Moradia acessível é importante para famílias jovens.	habitação / moradia	medium	batch_26	
+jane_3005_01	hunting	<b>Hunting</b> is not allowed inside the national park.	Hunting is not allowed inside the national park.	Caçar não é permitido dentro do parque nacional.	caça	easy	batch_26	
+jane_3006_01	ink	The printer is out of black <b>ink</b>.	The printer is out of black ink.	A impressora está sem tinta preta.	tinta (de caneta/impressora)	easy	batch_26	Tinta de parede é 'paint'; tinta de caneta/impressora é 'ink'.
+jane_3007_01	institute	She works at a language <b>institute</b> downtown.	She works at a language institute downtown.	Ela trabalha em um instituto de idiomas no centro.	instituto	medium	batch_26	
+jane_3008_01	interrupt	Please do not <b>interrupt</b> while she is speaking.	Please do not interrupt while she is speaking.	Por favor, não interrompa enquanto ela está falando.	interromper	easy	batch_26	
+jane_3009_01	interval	We bought water during the concert <b>interval</b>.	We bought water during the concert interval.	Nós compramos água durante o intervalo do show.	intervalo	medium	batch_26	
+jane_3010_01	lane	Stay in the right <b>lane</b> before turning.	Stay in the right lane before turning.	Fique na faixa da direita antes de virar.	faixa (de trânsito) / viela	easy	batch_26	
+jane_3011_01	lord	The old castle belonged to a British <b>lord</b>.	The old castle belonged to a British lord.	O antigo castelo pertencia a um lorde britânico.	lorde / senhor	medium	batch_26	
+jane_3012_01	lung	Deep breathing is very good for your <b>lungs</b>.	Deep breathing is very good for your lungs.	Respirar fundo faz muito bem para seus pulmões.	pulmão	easy	batch_26	
+jane_3013_01	manufacturing	Car <b>manufacturing</b> creates many local jobs.	Car manufacturing creates many local jobs.	A fabricação de carros cria muitos empregos locais.	fabricação / indústria / manufatura	medium	batch_26	
+jane_3014_01	means	Trains are a fast <b>means</b> of transport.	Trains are a fast means of transport.	Trens são um meio rápido de transporte.	meio / recurso	hard	batch_26	'Means' tem a mesma forma no singular e no plural ('a means', 'many means').
+jane_3015_01	melt	Ice cream will <b>melt</b> quickly in the sun.	Ice cream will melt quickly in the sun.	Sorvete vai derreter rápido no sol.	derreter	easy	batch_26	
+jane_3016_01	mineral	I always drink cold <b>mineral</b> water with lunch.	I always drink cold mineral water with lunch.	Eu sempre bebo água mineral gelada no almoço.	mineral	easy	batch_26	
+jane_3017_01	multiply	Can you <b>multiply</b> twelve by four?	Can you multiply twelve by four?	Você consegue multiplicar doze por quatro?	multiplicar	easy	batch_26	
+jane_3018_01	obey	Every driver must <b>obey</b> the traffic lights.	Every driver must obey the traffic lights.	Todo motorista deve obedecer aos semáforos.	obedecer	easy	batch_26	
+jane_3019_01	obtain	How can I <b>obtain</b> a new library card?	How can I obtain a new library card?	Como posso obter um novo cartão da biblioteca?	obter / conseguir	medium	batch_26	
+jane_3020_01	offend	I did not mean to <b>offend</b> anyone today.	I did not mean to offend anyone today.	Eu não tive a intenção de ofender ninguém hoje.	ofender	medium	batch_26	
+jane_3021_01	opening	There is a new job <b>opening</b> in sales.	There is a new job opening in sales.	Há uma nova vaga de emprego em vendas.	abertura / vaga / inauguração	easy	batch_26	
+jane_3022_01	organ	The human heart is a vital <b>organ</b>.	The human heart is a vital organ.	O coração humano é um órgão vital.	órgão	easy	batch_26	
+jane_3023_01	parliament	Members of <b>parliament</b> voted on the new law.	Members of parliament voted on the new law.	Membros do parlamento votaram na nova lei.	parlamento	medium	batch_26	
+jane_3024_01	patience	Learning any new skill takes time and <b>patience</b>.	Learning any new skill takes time and patience.	Aprender qualquer habilidade nova exige tempo e paciência.	paciência	easy	batch_26	
+jane_3025_01	pill	Take one vitamin <b>pill</b> after breakfast.	Take one vitamin pill after breakfast.	Tome um comprimido de vitamina depois do café da manhã.	comprimido / pílula	easy	batch_26	
+jane_3026_01	publicity	The movie got a lot of good <b>publicity</b>.	The movie got a lot of good publicity.	O filme recebeu muita publicidade positiva.	publicidade / divulgação	medium	batch_26	
+jane_3027_01	publishing	She works in the book <b>publishing</b> industry.	She works in the book publishing industry.	Ela trabalha na indústria editorial de livros.	publicação / setor editorial	medium	batch_26	
+jane_3028_01	revision	Do a quick <b>revision</b> before the English test.	Do a quick revision before the English test.	Faça uma revisão rápida antes da prova de inglês.	revisão	easy	batch_26	
+jane_3029_01	rhythm	This song has a very catchy <b>rhythm</b>.	This song has a very catchy rhythm.	Esta música tem um ritmo muito contagiante.	ritmo	medium	batch_26	Atenção à grafia: 'rhythm' (sem vogais comuns antes do y).
+jane_3030_01	rob	Two men tried to <b>rob</b> the corner store.	Two men tried to rob the corner store.	Dois homens tentaram assaltar a loja da esquina.	assaltar / roubar (um lugar ou pessoa)	easy	batch_26	Passado: 'robbed'. Rouba-se um lugar ('rob a bank'), mas furta-se um objeto ('steal money').
+jane_3031_01	rub	Do not <b>rub</b> your eyes with dirty hands.	Do not rub your eyes with dirty hands.	Não esfregue os olhos com as mãos sujas.	esfregar	easy	batch_26	Passado: 'rubbed'.
+jane_3032_01	saving	Cooking at home brings huge monthly <b>savings</b>.	Cooking at home brings huge monthly savings.	Cozinhar em casa traz uma grande economia mensal.	economia / poupança	easy	batch_26	No plural ('savings'), significa 'economias / dinheiro guardado'.
+jane_3033_01	scratch	There is a tiny <b>scratch</b> on my glasses.	There is a tiny scratch on my glasses.	Há um arranhão minúsculo nos meus óculos.	arranhão / risco / coçar (verbo)	easy	batch_26	
+jane_3034_01	shame	It is a <b>shame</b> that you cannot come.	It is a shame that you cannot come.	É uma pena que você não possa vir.	pena / vergonha	easy	batch_26	'What a shame!' significa 'Que pena!'.
+jane_3035_01	shooting	The movie <b>shooting</b> took place in Lisbon.	The movie shooting took place in Lisbon.	As filmagens do filme aconteceram em Lisboa.	filmagem / tiroteio	medium	batch_26	'Shoot' também significa 'filmar / fotografar' além de 'atirar'.
+jane_3036_01	signature	We need your <b>signature</b> on the last page.	We need your signature on the last page.	Precisamos da sua assinatura na última página.	assinatura	easy	batch_26	
+jane_3037_01	silk	She wore a smooth green <b>silk</b> scarf.	She wore a smooth green silk scarf.	Ela usava um lenço liso de seda verde.	seda	easy	batch_26	
+jane_3038_01	spice	Cinnamon is my favorite sweet kitchen <b>spice</b>.	Cinnamon is my favorite sweet kitchen spice.	Canela é minha especiaria doce favorita na cozinha.	tempero / especiaria	easy	batch_26	
+jane_3039_01	spill	Be careful not to <b>spill</b> your hot coffee.	Be careful not to spill your hot coffee.	Tome cuidado para não derramar seu café quente.	derramar / entornar	easy	batch_26	
+jane_3040_01	spite	We went walking in <b>spite</b> of the rain.	We went walking in spite of the rain.	Nós fomos caminhar apesar da chuva.	apesar de ('in spite of') / despeito	medium	batch_26	'In spite of' = 'despite'.
+jane_3041_01	spoil	Milk will <b>spoil</b> quickly outside the fridge.	Milk will spoil quickly outside the fridge.	O leite vai estragar rápido fora da geladeira.	estragar / mimar	medium	batch_26	Também usado para 'dar spoiler' ('spoil the movie').
+jane_3042_01	steam	Hot <b>steam</b> rose from the boiling kettle.	Hot steam rose from the boiling kettle.	Vapor quente subia da chaleira fervendo.	vapor	easy	batch_26	
+jane_3043_01	suffering	Kind doctors work to reduce human <b>suffering</b>.	Kind doctors work to reduce human suffering.	Médicos gentis trabalham para reduzir o sofrimento humano.	sofrimento	medium	batch_26	
+jane_3044_01	swallow	Drink water to help <b>swallow</b> the pill.	Drink water to help swallow the pill.	Beba água para ajudar a engolir o comprimido.	engolir	easy	batch_26	
+jane_3045_01	sympathy	I feel deep <b>sympathy</b> for their sad loss.	I feel deep sympathy for their sad loss.	Sinto profunda compaixão pela triste perda deles.	compaixão / solidariedade / condolências	medium	batch_26	Falso cognato: 'simpatia' no sentido de ser simpático é 'friendliness'.
+jane_3046_01	terror	The loud thunder caused pure <b>terror</b> in dogs.	The loud thunder caused pure terror in dogs.	O trovão alto causou puro terror nos cachorros.	terror / pavor	easy	batch_26	
+jane_3047_01	terrorism	World leaders met to discuss fighting <b>terrorism</b>.	World leaders met to discuss fighting terrorism.	Líderes mundiais se reuniram para discutir o combate ao terrorismo.	terrorismo	easy	batch_26	
+jane_3048_01	thumb	Give me a <b>thumb</b> up if you agree.	Give me a thumb up if you agree.	Me dê um sinal de positivo com o polegar se concordar.	polegar / dedão	easy	batch_26	O 'b' final é mudo: pronuncia-se 'thâm'.
+jane_3049_01	ton	That old truck can carry one <b>ton</b>.	That old truck can carry one ton.	Aquele caminhão antigo consegue carregar uma tonelada.	tonelada / um monte de (informal)	easy	batch_26	
+jane_3050_01	tunnel	The train passed through a dark <b>tunnel</b>.	The train passed through a dark tunnel.	O trem passou por um túnel escuro.	túnel	easy	batch_26	
+jane_3051_01	wrist	She wears a silver watch on her <b>wrist</b>.	She wears a silver watch on her wrist.	Ela usa um relógio de prata no pulso.	pulso / punho	easy	batch_26	O 'w' inicial é mudo: pronuncia-se 'ríst'.
+jane_3052_01	a.m.	Our morning flight leaves at seven <b>a.m.</b> tomorrow.	Our morning flight leaves at seven a.m. tomorrow.	Nosso voo da manhã sai às sete da manhã amanhã.	da manhã (entre meia-noite e meio-dia)	easy	batch_26	Do latim 'ante meridiem' (antes do meio-dia).
+jane_3053_01	abandoned	We found an <b>abandoned</b> kitten near the park.	We found an abandoned kitten near the park.	Nós encontramos um gatinho abandonado perto do parque.	abandonado	easy	batch_26	
+jane_3054_01	absent	Three students were <b>absent</b> from class today.	Three students were absent from class today.	Três alunos estiveram ausentes da aula hoje.	ausente / faltante	easy	batch_26	
+jane_3055_01	accidental	Deleting that file was completely <b>accidental</b>.	Deleting that file was completely accidental.	Apagar aquele arquivo foi completamente acidental.	acidental / sem querer	easy	batch_26	
+jane_3056_01	according to	<b>According to</b> the forecast, it will stay sunny.	According to the forecast, it will stay sunny.	De acordo com a previsão, vai continuar ensolarado.	de acordo com / segundo	easy	batch_26	
+jane_3057_01	acid	Lemons contain natural citric <b>acid</b>.	Lemons contain natural citric acid.	Limões contêm ácido cítrico natural.	ácido	easy	batch_26	
+jane_3058_01	activist	She is a dedicated environmental <b>activist</b>.	She is a dedicated environmental activist.	Ela é uma ativista ambiental dedicada.	ativista	easy	batch_26	
+jane_3059_01	add up	Small daily savings really <b>add up</b> over time.	Small daily savings really add up over time.	Pequenas economias diárias realmente se acumulam com o tempo.	somar / acumular-se / fazer sentido	medium	batch_26	'That doesn't add up' = 'Isso não faz sentido'.
+jane_3060_01	admiration	I have great <b>admiration</b> for her hard work.	I have great admiration for her hard work.	Tenho grande admiração pelo trabalho duro dela.	admiração	easy	batch_26	
+jane_3061_01	advanced	She is taking an <b>advanced</b> English course.	She is taking an advanced English course.	Ela está fazendo um curso avançado de inglês.	avançado	easy	batch_26	
+jane_3062_01	affection	Dogs show deep <b>affection</b> for their owners.	Dogs show deep affection for their owners.	Cachorros demonstram profundo afeto pelos seus donos.	afeto / carinho	medium	batch_26	
+jane_3063_01	afterward	We had dinner and went walking <b>afterward</b>.	We had dinner and went walking afterward.	Nós jantamos e fomos caminhar depois.	depois / em seguida	easy	batch_26	Também escrito 'afterwards'.
+jane_3064_01	aged	This cheese is <b>aged</b> for twelve months.	This cheese is aged for twelve months.	Este queijo é maturado por doze meses.	envelhecido / com idade de / idoso	medium	batch_26	'Children aged 6 to 10' significa 'crianças com idade entre 6 e 10 anos'.
+jane_3065_01	alarmed	She looked <b>alarmed</b> by the sudden noise.	She looked alarmed by the sudden noise.	Ela pareceu assustada com o barulho repentino.	alarmado / assustado	medium	batch_26	
+jane_3066_01	alarming	The report showed an <b>alarming</b> rise in heat.	The report showed an alarming rise in heat.	O relatório mostrou um aumento alarmante no calor.	alarmante / preocupante	medium	batch_26	
+jane_3067_01	alcoholic	This party only serves non-<b>alcoholic</b> drinks.	This party only serves non-alcoholic drinks.	Esta festa só serve bebidas sem álcool.	alcoólico / alcoólatra (subst.)	easy	batch_26	
+jane_3068_01	allied	The <b>allied</b> countries worked together for peace.	The allied countries worked together for peace.	Os países aliados trabalharam juntos pela paz.	aliado	hard	batch_26	
+jane_3069_01	allow of	The strict rule does not <b>allow of</b> exceptions.	The strict rule does not allow of exceptions.	A regra rígida não admite exceções.	admitir / comportar / permitir	hard	batch_26	Expressão formal equivalente a 'permitir / deixar margem para'.
+jane_3070_01	aloud	Read each new English sentence <b>aloud</b>.	Read each new English sentence aloud.	Leia cada nova frase em inglês em voz alta.	em voz alta	easy	batch_26	Não confundir com 'allowed' (permitido), embora tenham a mesma pronúncia.
+jane_3071_01	alphabet	The English <b>alphabet</b> has twenty-six letters.	The English alphabet has twenty-six letters.	O alfabeto inglês tem vinte e seis letras.	alfabeto	easy	batch_26	
+jane_3072_01	alphabetical	The names are listed in <b>alphabetical</b> order.	The names are listed in alphabetical order.	Os nomes estão listados em ordem alfabética.	alfabético	easy	batch_26	
+jane_3073_01	alternatively	We can walk, or <b>alternatively</b> take a bus.	We can walk, or alternatively take a bus.	Podemos caminhar, ou alternativamente pegar um ônibus.	alternativamente / por outro lado	medium	batch_26	
+jane_3074_01	amazed	I was <b>amazed</b> by how fast she learned.	I was amazed by how fast she learned.	Fiquei impressionado com o quão rápido ela aprendeu.	impressionado / maravilhado / surpreso	easy	batch_26	'-ed' descreve como você se sente; '-ing' descreve a coisa ('amazing').
+jane_3075_01	amazing	We saw an <b>amazing</b> sunset from the beach.	We saw an amazing sunset from the beach.	Nós vimos um pôr do sol incrível da praia.	incrível / maravilhoso	easy	batch_26	
+jane_3076_01	amuse	Simple card tricks always <b>amuse</b> the kids.	Simple card tricks always amuse the kids.	Truques simples de cartas sempre divertem as crianças.	divertir / entreter	medium	batch_26	
+jane_3077_01	amused	She was <b>amused</b> by the puppy's funny jump.	She was amused by the puppy's funny jump.	Ela ficou divertida com o pulo engraçado do filhote.	divertido / entretido (estado de quem ri)	medium	batch_26	
+jane_3078_01	amusing	He told an <b>amusing</b> story at dinner.	He told an amusing story at dinner.	Ele contou uma história divertida no jantar.	divertido / engraçado	medium	batch_26	
+jane_3079_01	an	I eat <b>an</b> orange every morning.	I eat an orange every morning.	Eu como uma laranja toda manhã.	um / uma (antes de som de vogal)	easy	batch_26	Usa-se 'an' antes de sons vocálicos ('an apple', 'an hour').
+jane_3080_01	annoyed	He felt <b>annoyed</b> by the late bus.	He felt annoyed by the late bus.	Ele ficou irritado com o ônibus atrasado.	irritado / aborrecido	easy	batch_26	
+jane_3081_01	annoying	That constant clicking sound is very <b>annoying</b>.	That constant clicking sound is very annoying.	Esse som constante de clique é muito irritante.	irritante / chato	easy	batch_26	
+jane_3082_01	annually	Our family gathers <b>annually</b> in December.	Our family gathers annually in December.	Nossa família se reúne anualmente em dezembro.	anualmente	easy	batch_26	
+jane_3083_01	anti-	He bought an <b>anti-theft</b> lock for his bike.	He bought an anti-theft lock for his bike.	Ele comprou uma trava antifurto para a bicicleta dele.	anti- (contra)	easy	batch_26	Prefixo usado para indicar oposição ou proteção contra algo.
+jane_3084_01	apart from	<b>Apart from</b> a little rain, the trip was great.	Apart from a little rain, the trip was great.	Tirando um pouco de chuva, a viagem foi ótima.	além de / exceto / tirando	easy	batch_26	
+jane_3085_01	approving	The teacher gave him an <b>approving</b> nod.	The teacher gave him an approving nod.	A professora deu a ele um aceno de aprovação.	de aprovação / favorável	medium	batch_26	
+jane_3086_01	approximate	What is the <b>approximate</b> cost of the repair?	What is the approximate cost of the repair?	Qual é o custo aproximado do conserto?	aproximado	medium	batch_26	
+jane_3087_01	april	Spring flowers bloom nicely in <b>April</b>.	Spring flowers bloom nicely in April.	Flores de primavera florescem bem em abril.	abril	easy	batch_26	Meses em inglês sempre começam com letra maiúscula.
+jane_3088_01	armed	<b>Armed</b> guards stood outside the bank.	Armed guards stood outside the bank.	Guardas armados ficaram do lado de fora do banco.	armado	easy	batch_26	
+jane_3089_01	arms	She held the sleeping baby in her <b>arms</b>.	She held the sleeping baby in her arms.	Ela segurou o bebê dormindo nos braços.	braços / armas (em contexto militar)	medium	batch_26	
+jane_3090_01	artificial	This juice has no <b>artificial</b> colors or flavors.	This juice has no artificial colors or flavors.	Este suco não tem corantes nem sabores artificiais.	artificial	easy	batch_26	
+jane_3091_01	artistic	She has a very <b>artistic</b> eye for color.	She has a very artistic eye for color.	Ela tem um olhar muito artístico para cores.	artístico	easy	batch_26	
+jane_3092_01	aside from	<b>Aside from</b> English, he also speaks Spanish.	Aside from English, he also speaks Spanish.	Além do inglês, ele também fala espanhol.	além de / fora / exceto	medium	batch_26	
+jane_3093_01	asleep	The baby fell <b>asleep</b> in five minutes.	The baby fell asleep in five minutes.	O bebê adormeceu em cinco minutos.	adormecido / dormindo	easy	batch_26	'Fall asleep' = pegar no sono / adormecer.
+jane_3094_01	aspect	Let us discuss every <b>aspect</b> of the trip.	Let us discuss every aspect of the trip.	Vamos discutir cada aspecto da viagem.	aspecto	medium	batch_26	
+jane_3095_01	atom	Every material thing is made of <b>atoms</b>.	Every material thing is made of atoms.	Toda coisa material é feita de átomos.	átomo	easy	batch_26	
+jane_3096_01	attached	Please find the requested file <b>attached</b> below.	Please find the requested file attached below.	Por favor, encontre o arquivo solicitado em anexo abaixo.	anexado / preso / apegado	easy	batch_26	Muito usado em e-mails: 'attached' (em anexo).
+jane_3097_01	attempted	Police stopped the <b>attempted</b> theft last night.	Police stopped the attempted theft last night.	A polícia impediu a tentativa de furto ontem à noite.	tentado (tentativa de)	medium	batch_26	
+jane_3098_01	attorney	You should speak with a defense <b>attorney</b>.	You should speak with a defense attorney.	Você deveria falar com um advogado de defesa.	advogado (EUA)	medium	batch_26	Nos EUA, 'attorney' e 'lawyer' são usados para advogado.
+jane_3099_01	august	Many families take beach trips in <b>August</b>.	Many families take beach trips in August.	Muitas famílias fazem viagens para a praia em agosto.	agosto	easy	batch_26	Meses em inglês sempre levam inicial maiúscula.
+jane_3100_01	automatic	Our new car has an <b>automatic</b> transmission.	Our new car has an automatic transmission.	Nosso carro novo tem câmbio automático.	automático	easy	batch_26	
+jane_3101_01	awake	Are you still <b>awake</b> at this hour?	Are you still awake at this hour?	Você ainda está acordado a esta hora?	acordado / desperto	easy	batch_26	
+jane_3102_01	awkward	There was an <b>awkward</b> silence in the elevator.	There was an awkward silence in the elevator.	Houve um silêncio constrangedor no elevador.	constrangedor / desajeitado / estranho	medium	batch_26	
+jane_3103_01	backward	He took one slow step <b>backward</b>.	He took one slow step backward.	Ele deu um passo lento para trás.	para trás	easy	batch_26	Também escrito 'backwards'.
+jane_3104_01	baggage	Wait at the <b>baggage</b> claim after landing.	Wait at the baggage claim after landing.	Espere na esteira de bagagens após o pouso.	bagagem	easy	batch_26	Incontável (sem plural 'baggages'). Sinônimo: 'luggage'.
+jane_3105_01	bake	Let us <b>bake</b> chocolate cookies this afternoon.	Let us bake chocolate cookies this afternoon.	Vamos assar biscoitos de chocolate hoje à tarde.	assar (no forno)	easy	batch_26	
+jane_3106_01	bandage	Put a clean <b>bandage</b> over the cut.	Put a clean bandage over the cut.	Coloque um curativo limpo sobre o corte.	curativo / atadura / bandagem	easy	batch_26	
+jane_3107_01	baseball	He loves watching <b>baseball</b> games on weekends.	He loves watching baseball games on weekends.	Ele adora assistir jogos de beisebol nos fins de semana.	beisebol	easy	batch_26	
+jane_3108_01	basketball	We play <b>basketball</b> at the park court.	We play basketball at the park court.	Nós jogamos basquete na quadra do parque.	basquete	easy	batch_26	
+jane_3109_01	bay	Our hotel room overlooks the blue <b>bay</b>.	Our hotel room overlooks the blue bay.	Nosso quarto de hotel tem vista para a baía azul.	baía	easy	batch_26	
+jane_3110_01	beak	The yellow bird has a long <b>beak</b>.	The yellow bird has a long beak.	O pássaro amarelo tem um bico comprido.	bico (de ave)	easy	batch_26	
+jane_3111_01	beard	My brother grew a neat short <b>beard</b>.	My brother grew a neat short beard.	Meu irmão deixou crescer uma barba curta bem feita.	barba	easy	batch_26	Pronuncia-se 'bírd'.
+jane_3112_01	beautifully	She plays the piano <b>beautifully</b>.	She plays the piano beautifully.	Ela toca piano lindamente.	lindamente / maravilhosamente	easy	batch_26	
+jane_3113_01	beef	We ordered roasted <b>beef</b> with mashed potatoes.	We ordered roasted beef with mashed potatoes.	Nós pedimos carne bovina assada com purê de batatas.	carne bovina (de boi)	easy	batch_26	'Beef' é a carne de boi em geral; um corte de bife é 'steak'.
+jane_3114_01	beginning	The <b>beginning</b> of the movie is very funny.	The beginning of the movie is very funny.	O começo do filme é muito engraçado.	começo / início	easy	batch_26	
+jane_3115_01	behalf	Thank you on <b>behalf</b> of our whole team.	Thank you on behalf of our whole team.	Obrigado em nome de toda a nossa equipe.	em nome de / em favor de ('on behalf of')	hard	batch_26	Quase sempre usado na expressão 'on behalf of'.
+jane_3116_01	bent	The old metal fork is slightly <b>bent</b>.	The old metal fork is slightly bent.	O garfo de metal antigo está levemente torto.	torto / dobrado	easy	batch_26	Também é o passado de 'bend' (dobrar).
+jane_3117_01	best	You are my <b>best</b> friend in the world.	You are my best friend in the world.	Você é meu melhor amigo no mundo.	melhor (superlativo)	easy	batch_26	Superlativo de 'good' e 'well'.
+jane_3118_01	better	I feel much <b>better</b> after a good nap.	I feel much better after a good nap.	Eu me sinto muito melhor depois de um bom cochilo.	melhor (comparativo)	easy	batch_26	Comparativo de 'good' e 'well'.
+jane_3119_01	bid 1	She decided to <b>bid</b> on the old painting.	She decided to bid on the old painting.	Ela decidiu dar um lance no quadro antigo.	dar um lance / fazer oferta	medium	batch_26	
+jane_3120_01	biology	We learned about plant cells in <b>biology</b>.	We learned about plant cells in biology.	Aprendemos sobre células vegetais em biologia.	biologia	easy	batch_26	
