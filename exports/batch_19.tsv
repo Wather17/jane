@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_2161_01	false	That statement is completely <b>false</b>.	That statement is completely false.	Essa afirmação é completamente falsa.	falso	easy	batch_19	
+jane_2162_01	formula	We learned a new math <b>formula</b> today.	We learned a new math formula today.	Aprendemos uma nova fórmula de matemática hoje.	fórmula	medium	batch_19	
+jane_2163_01	routine	A good morning <b>routine</b> helps me focus.	A good morning routine helps me focus.	Uma boa rotina matinal me ajuda a focar.	rotina	easy	batch_19	
+jane_2164_01	anymore	I do not live there <b>anymore</b>.	I do not live there anymore.	Eu não moro mais lá.	mais (em frases negativas)	easy	batch_19	Sempre usado em frases negativas ou perguntas.
+jane_2165_01	steady	Keep a <b>steady</b> pace while running.	Keep a steady pace while running.	Mantenha um ritmo constante enquanto corre.	constante / firme / estável	medium	batch_19	
+jane_2166_01	beside	Come and sit right <b>beside</b> me.	Come and sit right beside me.	Venha e sente-se bem ao meu lado.	ao lado de	easy	batch_19	Não confundir com 'besides' (além disso).
+jane_2167_01	heavily	It rained <b>heavily</b> all night long.	It rained heavily all night long.	Choveu forte a noite inteira.	fortemente / intensamente	easy	batch_19	
+jane_2168_01	vital	Water is <b>vital</b> for all living things.	Water is vital for all living things.	A água é vital para todos os seres vivos.	vital / essencial	medium	batch_19	
+jane_2169_01	spare	Do you have a <b>spare</b> pen I can borrow?	Do you have a spare pen I can borrow?	Você tem uma caneta reserva que eu possa pegar emprestado?	reserva / sobressalente	medium	batch_19	Como verbo, significa 'poupar' ou 'dispensar'.
+jane_2170_01	whenever	Call me <b>whenever</b> you need help.	Call me whenever you need help.	Me ligue sempre que você precisar de ajuda.	sempre que / quando quer que	easy	batch_19	
+jane_2171_01	mom	My <b>mom</b> makes the best soup.	My mom makes the best soup.	Minha mãe faz a melhor sopa.	mãe / mamãe	easy	batch_19	Inglês americano ('mum' no britânico).
+jane_2172_01	naturally	She speaks English very <b>naturally</b>.	She speaks English very naturally.	Ela fala inglês muito naturalmente.	naturalmente	medium	batch_19	
+jane_2173_01	initially	<b>Initially</b>, the task seemed very hard.	Initially, the task seemed very hard.	Inicialmente, a tarefa parecia muito difícil.	inicialmente	medium	batch_19	
+jane_2174_01	rarely	He <b>rarely</b> eats fast food now.	He rarely eats fast food now.	Ele raramente come fast food agora.	raramente	easy	batch_19	
+jane_2175_01	western	They traveled across the <b>western</b> coast.	They traveled across the western coast.	Eles viajaram pela costa oeste.	ocidental / do oeste	medium	batch_19	
+jane_2176_01	constantly	Technology is <b>constantly</b> changing our lives.	Technology is constantly changing our lives.	A tecnologia está constantemente mudando nossas vidas.	constantemente	medium	batch_19	
+jane_2177_01	badly	I slept <b>badly</b> last night.	I slept badly last night.	Eu dormi mal ontem à noite.	mal / gravemente	easy	batch_19	
+jane_2178_01	strain	Long screen hours cause eye <b>strain</b>.	Long screen hours cause eye strain.	Longas horas de tela causam cansaço visual.	tensão / esforço / cansaço	hard	batch_19	
+jane_2179_01	loose	This shirt feels nice and <b>loose</b>.	This shirt feels nice and loose.	Esta camisa parece boa e folgada.	solto / folgado	easy	batch_19	Não confundir com 'lose' (perder).
+jane_2180_01	gradually	The weather is <b>gradually</b> getting warmer.	The weather is gradually getting warmer.	O tempo está gradualmente ficando mais quente.	gradualmente / aos poucos	medium	batch_19	
+jane_2181_01	evil	Every classic story has an <b>evil</b> villain.	Every classic story has an evil villain.	Toda história clássica tem um vilão maligno.	mau / maligno	medium	batch_19	
+jane_2182_01	remarkable	She made <b>remarkable</b> progress in six months.	She made remarkable progress in six months.	Ela fez um progresso notável em seis meses.	notável / extraordinário	hard	batch_19	
+jane_2183_01	breed	What <b>breed</b> of dog is that?	What breed of dog is that?	Que raça de cachorro é essa?	raça / criar (animais)	medium	batch_19	
+jane_2184_01	extraordinary	He has an <b>extraordinary</b> memory for names.	He has an extraordinary memory for names.	Ele tem uma memória extraordinária para nomes.	extraordinário	hard	batch_19	
+jane_2185_01	brilliant	That was a <b>brilliant</b> idea!	That was a brilliant idea!	Essa foi uma ideia brilhante!	brilhante / genial	medium	batch_19	
+jane_2186_01	reverse	Can we <b>reverse</b> this decision now?	Can we reverse this decision now?	Podemos reverter esta decisão agora?	reverter / inverso	hard	batch_19	
+jane_2187_01	awful	The traffic was <b>awful</b> this morning.	The traffic was awful this morning.	O trânsito estava terrível hoje de manhã.	terrível / horrível	easy	batch_19	
+jane_2188_01	creative	Kids are naturally very <b>creative</b>.	Kids are naturally very creative.	Crianças são naturalmente muito criativas.	criativo	easy	batch_19	
+jane_2189_01	alcohol	He never drinks <b>alcohol</b> on weekdays.	He never drinks alcohol on weekdays.	Ele nunca bebe álcool em dias de semana.	álcool	easy	batch_19	
+jane_2190_01	confident	I feel <b>confident</b> about the job interview.	I feel confident about the job interview.	Eu me sinto confiante sobre a entrevista de emprego.	confiante	medium	batch_19	
+jane_2191_01	giant	There is a <b>giant</b> tree behind our school.	There is a giant tree behind our school.	Há uma árvore gigante atrás da nossa escola.	gigante	easy	batch_19	
+jane_2192_01	extensive	The museum has an <b>extensive</b> art collection.	The museum has an extensive art collection.	O museu tem uma extensa coleção de arte.	extenso / amplo	hard	batch_19	
+jane_2193_01	inner	She found <b>inner</b> peace through daily meditation.	She found inner peace through daily meditation.	Ela encontrou paz interior por meio da meditação diária.	interior / interno	medium	batch_19	
+jane_2194_01	pink	I love the <b>pink</b> flowers in your garden.	I love the pink flowers in your garden.	Eu adoro as flores cor-de-rosa no seu jardim.	rosa / cor-de-rosa	easy	batch_19	
+jane_2195_01	strip	Cut the paper into a thin <b>strip</b>.	Cut the paper into a thin strip.	Corte o papel em uma tira fina.	tira / faixa	medium	batch_19	Como verbo, significa 'tirar (roupa ou camada)'.
+jane_2196_01	smooth	The lake water was calm and <b>smooth</b>.	The lake water was calm and smooth.	A água do lago estava calma e lisa.	liso / suave / tranquilo	easy	batch_19	
+jane_2197_01	similarly	The two sisters dress very <b>similarly</b>.	The two sisters dress very similarly.	As duas irmãs se vestem de forma muito parecida.	de forma semelhante / igualmente	medium	batch_19	
+jane_2198_01	behave	Please tell the children to <b>behave</b> well.	Please tell the children to behave well.	Por favor, diga às crianças para se comportarem bem.	comportar-se	easy	batch_19	
+jane_2199_01	loud	The music at the party was too <b>loud</b>.	The music at the party was too loud.	A música na festa estava alta demais.	alto (som) / barulhento	easy	batch_19	Para som, usa-se 'loud', não 'tall' ou 'high'.
+jane_2200_01	regularly	She exercises <b>regularly</b> three times a week.	She exercises regularly three times a week.	Ela se exercita regularmente três vezes por semana.	regularmente	easy	batch_19	
+jane_2201_01	blind	A guide dog helps the <b>blind</b> man.	A guide dog helps the blind man.	Um cão-guia ajuda o homem cego.	cego	easy	batch_19	
+jane_2202_01	pure	This juice is made from <b>pure</b> orange.	This juice is made from pure orange.	Este suco é feito de laranja pura.	puro	easy	batch_19	
+jane_2203_01	ally	France was an important <b>ally</b> in that war.	France was an important ally in that war.	A França foi uma aliada importante naquela guerra.	aliado	hard	batch_19	Substantivo pronuncia-se 'Á-lai'.
+jane_2204_01	briefly	We spoke <b>briefly</b> before the meeting started.	We spoke briefly before the meeting started.	Nós conversamos brevemente antes da reunião começar.	brevemente	medium	batch_19	
+jane_2205_01	crazy	It sounds <b>crazy</b>, but the plan worked!	It sounds crazy, but the plan worked!	Parece loucura, mas o plano funcionou!	louco / maluco	easy	batch_19	
+jane_2206_01	newly	They moved into a <b>newly</b> built apartment.	They moved into a newly built apartment.	Eles se mudaram para um apartamento recém-construído.	recém / recentemente	medium	batch_19	
+jane_2207_01	parallel	The two streets run <b>parallel</b> to each other.	The two streets run parallel to each other.	As duas ruas correm paralelas uma à outra.	paralelo	medium	batch_19	
+jane_2208_01	accurate	Is this weather forecast usually <b>accurate</b>?	Is this weather forecast usually accurate?	Esta previsão do tempo costuma ser precisa?	preciso / exato	medium	batch_19	Falso cognato: não significa 'acurado' apenas, mas 'exato/correto'.
+jane_2209_01	occasionally	We <b>occasionally</b> go out for ice cream.	We occasionally go out for ice cream.	Nós ocasionalmente saímos para tomar sorvete.	ocasionalmente / de vez em quando	medium	batch_19	
+jane_2210_01	resistance	The new rule met some <b>resistance</b> at first.	The new rule met some resistance at first.	A nova regra encontrou certa resistência no início.	resistência	hard	batch_19	
+jane_2211_01	entitle	This ticket will <b>entitle</b> you to one free drink.	This ticket will entitle you to one free drink.	Este ingresso lhe dará direito a uma bebida grátis.	dar direito a / intitular	hard	batch_19	Comum na estrutura 'entitle someone to something'.
+jane_2212_01	involvement	Parent <b>involvement</b> helps students succeed at school.	Parent involvement helps students succeed at school.	O envolvimento dos pais ajuda os alunos a ter sucesso na escola.	envolvimento / participação	hard	batch_19	
+jane_2213_01	conventional	She prefers <b>conventional</b> methods over new trends.	She prefers conventional methods over new trends.	Ela prefere métodos convencionais a novas tendências.	convencional / tradicional	hard	batch_19	
+jane_2214_01	pleasant	We had a very <b>pleasant</b> walk in the park.	We had a very pleasant walk in the park.	Tivemos uma caminhada muito agradável no parque.	agradável	easy	batch_19	
+jane_2215_01	overseas	He worked <b>overseas</b> for three years.	He worked overseas for three years.	Ele trabalhou no exterior por três anos.	no exterior / além-mar	medium	batch_19	Sinônimo de 'abroad'.
+jane_2216_01	rough	I had a <b>rough</b> day at the office.	I had a rough day at the office.	Eu tive um dia difícil no escritório.	difícil / áspero / agitado	medium	batch_19	Pronuncia-se 'râf'.
+jane_2217_01	seal	Please <b>seal</b> the envelope before mailing it.	Please seal the envelope before mailing it.	Por favor, sele o envelope antes de enviá-lo.	selar / fechar / foca (animal)	medium	batch_19	Como substantivo, 'seal' também significa 'foca'.
+jane_2218_01	exact	Do you know the <b>exact</b> time of arrival?	Do you know the exact time of arrival?	Você sabe a hora exata da chegada?	exato	easy	batch_19	
+jane_2219_01	spin	The Earth continues to <b>spin</b> every day.	The Earth continues to spin every day.	A Terra continua a girar todos os dias.	girar / rodar	easy	batch_19	Passado irregular: 'spun'.
+jane_2220_01	precisely	The train arrived at <b>precisely</b> nine o'clock.	The train arrived at precisely nine o'clock.	O trem chegou precisamente às nove horas.	precisamente / exatamente	medium	batch_19	
+jane_2221_01	rival	The two teams are old sports <b>rivals</b>.	The two teams are old sports rivals.	Os dois times são antigos rivais esportivos.	rival	easy	batch_19	
+jane_2222_01	illegal	Parking on this narrow street is <b>illegal</b>.	Parking on this narrow street is illegal.	Estacionar nesta rua estreita é ilegal.	ilegal	easy	batch_19	
+jane_2223_01	universal	A smile is a <b>universal</b> sign of kindness.	A smile is a universal sign of kindness.	Um sorriso é um sinal universal de gentileza.	universal	medium	batch_19	
+jane_2224_01	adequate	Make sure you get <b>adequate</b> rest tonight.	Make sure you get adequate rest tonight.	Certifique-se de ter descanso adequado hoje à noite.	adequado / suficiente	hard	batch_19	
+jane_2225_01	stupid	That was a <b>stupid</b> mistake to make.	That was a stupid mistake to make.	Esse foi um erro bobo de se cometer.	estúpido / bobo	easy	batch_19	
+jane_2226_01	keen	She is very <b>keen</b> on learning photography.	She is very keen on learning photography.	Ela está muito interessada em aprender fotografia.	entusiasmado / interessado / aguçado	hard	batch_19	Muito comum na expressão 'keen on' (muito a fim de / interessado em).
+jane_2227_01	ethnic	Our neighborhood has many <b>ethnic</b> restaurants.	Our neighborhood has many ethnic restaurants.	Nosso bairro tem muitos restaurantes étnicos.	étnico	medium	batch_19	
+jane_2228_01	twin	My <b>twin</b> brother looks just like me.	My twin brother looks just like me.	Meu irmão gêmeo se parece exatamente comigo.	gêmeo	easy	batch_19	
+jane_2229_01	eastern	The sun rises in the <b>eastern</b> sky.	The sun rises in the eastern sky.	O sol nasce no céu a leste.	oriental / do leste	easy	batch_19	
+jane_2230_01	venture	Starting a bakery is a new business <b>venture</b>.	Starting a bakery is a new business venture.	Abrir uma padaria é um novo empreendimento comercial.	empreendimento / aventura	hard	batch_19	
+jane_2231_01	cream	Do you want <b>cream</b> in your coffee?	Do you want cream in your coffee?	Você quer creme no seu café?	creme	easy	batch_19	
+jane_2232_01	rapid	The city saw <b>rapid</b> growth last year.	The city saw rapid growth last year.	A cidade teve um crescimento rápido no ano passado.	rápido / veloz	medium	batch_19	
+jane_2233_01	beneath	The cat is sleeping <b>beneath</b> the warm blanket.	The cat is sleeping beneath the warm blanket.	O gato está dormindo debaixo do cobertor quentinho.	debaixo de / sob	medium	batch_19	Sinônimo mais literário de 'under'.
+jane_2234_01	absolute	There was <b>absolute</b> silence in the library.	There was absolute silence in the library.	Havia silêncio absoluto na biblioteca.	absoluto / total	medium	batch_19	
+jane_2235_01	barrier	Language can sometimes be a <b>barrier</b>.	Language can sometimes be a barrier.	O idioma às vezes pode ser uma barreira.	barreira	medium	batch_19	
+jane_2236_01	frequent	She is a <b>frequent</b> visitor to this park.	She is a frequent visitor to this park.	Ela é uma visitante frequente deste parque.	frequente	easy	batch_19	
+jane_2237_01	motor	The boat has a small electric <b>motor</b>.	The boat has a small electric motor.	O barco tem um pequeno motor elétrico.	motor	easy	batch_19	
+jane_2238_01	mad	Please do not be <b>mad</b> at me.	Please do not be mad at me.	Por favor, não fique bravo comigo.	bravo / louco	easy	batch_19	Nos EUA significa mais 'bravo'; no Reino Unido, mais 'louco'.
+jane_2239_01	visible	The mountains are clearly <b>visible</b> today.	The mountains are clearly visible today.	As montanhas estão claramente visíveis hoje.	visível	easy	batch_19	
+jane_2240_01	electric	My neighbor just bought an <b>electric</b> car.	My neighbor just bought an electric car.	Meu vizinho acabou de comprar um carro elétrico.	elétrico	easy	batch_19	
+jane_2241_01	impressive	Her piano skills are truly <b>impressive</b>.	Her piano skills are truly impressive.	As habilidades dela no piano são verdadeiramente impressionantes.	impressionante	medium	batch_19	
+jane_2242_01	violent	I do not like watching <b>violent</b> movies.	I do not like watching violent movies.	Eu não gosto de assistir filmes violentos.	violento	easy	batch_19	
+jane_2243_01	acceptable	Is this arrival time <b>acceptable</b> to you?	Is this arrival time acceptable to you?	Este horário de chegada é aceitável para você?	aceitável	medium	batch_19	
+jane_2244_01	depress	Long dark winters can <b>depress</b> some people.	Long dark winters can depress some people.	Invernos longos e escuros podem deprimir algumas pessoas.	deprimir / pressionar para baixo	hard	batch_19	
+jane_2245_01	burst	The red balloon suddenly <b>burst</b>.	The red balloon suddenly burst.	O balão vermelho estourou de repente.	estourar / irromper	medium	batch_19	Passado e particípio também são 'burst'.
+jane_2246_01	roughly	There were <b>roughly</b> fifty people at the event.	There were roughly fifty people at the event.	Havia aproximadamente cinquenta pessoas no evento.	aproximadamente / grosseiramente	medium	batch_19	
+jane_2247_01	march	The band will <b>march</b> down the main street.	The band will march down the main street.	A banda vai marchar pela rua principal.	marchar / março (com maiúscula)	easy	batch_19	Com M maiúsculo ('March'), é o mês de março.
+jane_2248_01	embarrass	Please do not <b>embarrass</b> me in front of them.	Please do not embarrass me in front of them.	Por favor, não me envergonhe na frente deles.	envergonhar / constranger	medium	batch_19	Atenção aos dois 'r' e dois 's' em 'embarrass'.
+jane_2249_01	aggressive	That big dog looks a bit <b>aggressive</b>.	That big dog looks a bit aggressive.	Aquele cachorro grande parece um pouco agressivo.	agressivo	medium	batch_19	
+jane_2250_01	silent	Please keep your phone <b>silent</b> during class.	Please keep your phone silent during class.	Por favor, mantenha seu celular silencioso durante a aula.	silencioso	easy	batch_19	
+jane_2251_01	remote	They work from a <b>remote</b> mountain village.	They work from a remote mountain village.	Eles trabalham de uma vila remota nas montanhas.	remoto / distante	easy	batch_19	
+jane_2252_01	orange	I eat one fresh <b>orange</b> every morning.	I eat one fresh orange every morning.	Eu como uma laranja fresca toda manhã.	laranja	easy	batch_19	Serve tanto para a fruta quanto para a cor.
+jane_2253_01	twist	<b>Twist</b> the cap to open the bottle.	Twist the cap to open the bottle.	Gire a tampa para abrir a garrafa.	girar / torcer	medium	batch_19	
+jane_2254_01	tackle	Let us <b>tackle</b> the hardest task first.	Let us tackle the hardest task first.	Vamos enfrentar a tarefa mais difícil primeiro.	enfrentar / lidar com / derrubar (esporte)	hard	batch_19	
+jane_2255_01	forever	Nothing stays the same <b>forever</b>.	Nothing stays the same forever.	Nada permanece igual para sempre.	para sempre	easy	batch_19	
+jane_2256_01	pregnant	My older sister is five months <b>pregnant</b>.	My older sister is five months pregnant.	Minha irmã mais velha está grávida de cinco meses.	grávida	easy	batch_19	
+jane_2257_01	gear	Pack your camping <b>gear</b> before dark.	Pack your camping gear before dark.	Arrume seu equipamento de acampamento antes de escurecer.	equipamento / marcha (de carro)	medium	batch_19	
+jane_2258_01	click	<b>Click</b> the blue button to save.	Click the blue button to save.	Clique no botão azul para salvar.	clicar	easy	batch_19	
+jane_2259_01	chamber	The museum opened an underground <b>chamber</b>.	The museum opened an underground chamber.	O museu abriu uma câmara subterrânea.	câmara / sala	hard	batch_19	
+jane_2260_01	fancy	They went to a <b>fancy</b> French restaurant.	They went to a fancy French restaurant.	Eles foram a um restaurante francês chique.	chique / sofisticado	easy	batch_19	
+jane_2261_01	clothing	Pack warm <b>clothing</b> for the winter trip.	Pack warm clothing for the winter trip.	Leve roupas quentes para a viagem de inverno.	roupas / vestuário	easy	batch_19	Substantivo incontável (sem plural 'clothings').
+jane_2262_01	curious	Children are naturally <b>curious</b> about animals.	Children are naturally curious about animals.	Crianças são naturalmente curiosas sobre animais.	curioso	easy	batch_19	
+jane_2263_01	wooden	She stirred the soup with a <b>wooden</b> spoon.	She stirred the soup with a wooden spoon.	Ela mexeu a sopa com uma colher de madeira.	de madeira	easy	batch_19	
+jane_2264_01	democratic	Every citizen can vote in a <b>democratic</b> country.	Every citizen can vote in a democratic country.	Todo cidadão pode votar em um país democrático.	democrático	medium	batch_19	
+jane_2265_01	intense	The summer heat was very <b>intense</b> today.	The summer heat was very intense today.	O calor do verão estava muito intenso hoje.	intenso	medium	batch_19	
+jane_2266_01	strict	Our English teacher has <b>strict</b> rules.	Our English teacher has strict rules.	Nosso professor de inglês tem regras rígidas.	rígido / rigoroso / estrito	easy	batch_19	
+jane_2267_01	concrete	The sidewalk is made of gray <b>concrete</b>.	The sidewalk is made of gray concrete.	A calçada é feita de concreto cinza.	concreto	medium	batch_19	
+jane_2268_01	humor	He has a great sense of <b>humor</b>.	He has a great sense of humor.	Ele tem um ótimo senso de humor.	humor	easy	batch_19	No inglês britânico escreve-se 'humour'.
+jane_2269_01	wise	Saving money early is a <b>wise</b> choice.	Saving money early is a wise choice.	Guardar dinheiro cedo é uma escolha sábia.	sábio / sensato	easy	batch_19	
+jane_2270_01	mere	A <b>mere</b> five minutes can make a difference.	A mere five minutes can make a difference.	Meros cinco minutos podem fazer diferença.	mero / simples	hard	batch_19	Sempre usado antes do substantivo.
+jane_2271_01	magic	Kids love watching simple <b>magic</b> tricks.	Kids love watching simple magic tricks.	Crianças adoram assistir a truques simples de mágica.	mágica / magia	easy	batch_19	
+jane_2272_01	rear	Put the bags in the <b>rear</b> seat.	Put the bags in the rear seat.	Coloque as bolsas no banco traseiro.	traseiro / parte de trás	medium	batch_19	
+jane_2273_01	presumably	She left early, <b>presumably</b> to catch the train.	She left early, presumably to catch the train.	Ela saiu cedo, presumivelmente para pegar o trem.	presumivelmente / provavelmente	hard	batch_19	
+jane_2274_01	cooperation	This project needs full team <b>cooperation</b>.	This project needs full team cooperation.	Este projeto precisa da cooperação total da equipe.	cooperação	medium	batch_19	
+jane_2275_01	hopefully	<b>Hopefully</b>, the sun will shine tomorrow.	Hopefully, the sun will shine tomorrow.	Tomara que o sol brilhe amanhã.	tomara / felizmente / com esperança	easy	batch_19	Muito usado no início da frase equivalente a 'tomara que'.
+jane_2276_01	barely	I could <b>barely</b> hear him over the noise.	I could barely hear him over the noise.	Eu mal conseguia ouvi-lo por causa do barulho.	mal / apenas	medium	batch_19	
+jane_2277_01	romantic	They had a <b>romantic</b> dinner by the sea.	They had a romantic dinner by the sea.	Eles tiveram um jantar romântico à beira-mar.	romântico	easy	batch_19	
+jane_2278_01	firmly	Hold the handle <b>firmly</b> with both hands.	Hold the handle firmly with both hands.	Segure a alça firmemente com as duas mãos.	firmemente	medium	batch_19	
+jane_2279_01	interior	The car has a clean black <b>interior</b>.	The car has a clean black interior.	O carro tem um interior preto limpo.	interior / parte interna	medium	batch_19	
+jane_2280_01	nowhere	My keys are <b>nowhere</b> to be found.	My keys are nowhere to be found.	Minhas chaves não estão em lugar nenhum.	em lugar nenhum	easy	batch_19	Já tem sentido negativo; não usar com outro 'not'.
