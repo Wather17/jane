@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_0121_01	both	<b>Both</b> my parents live in Brazil.	Both my parents live in Brazil.	Meus dois pais moram no Brasil.	ambos, os dois	easy	batch_02	
+jane_0122_01	own	I want to have my <b>own</b> house.	I want to have my own house.	Eu quero ter a minha própria casa.	próprio(a) (também verbo 'possuir')	medium	batch_02	
+jane_0123_01	part	This is the best <b>part</b> of the book.	This is the best part of the book.	Esta é a melhor parte do livro.	parte	easy	batch_02	
+jane_0124_01	point	That is a very good <b>point</b>.	That is a very good point.	Esse é um ponto muito bom.	ponto, argumento	medium	batch_02	Como verbo, significa 'apontar'.
+jane_0125_01	little	My <b>little</b> brother is five years old.	My little brother is five years old.	Meu irmão mais novo tem cinco anos.	pequeno, pouco	easy	batch_02	'A little' = um pouco.
+jane_0126_01	help	Can you <b>help</b> me with this bag?	Can you help me with this bag?	Você pode me ajudar com esta bolsa?	ajudar (também 'ajuda')	easy	batch_02	
+jane_0127_01	ask	Feel free to <b>ask</b> any question.	Feel free to ask any question.	Sinta-se à vontade para fazer qualquer pergunta.	perguntar, pedir	easy	batch_02	Em inglês se diz 'ask a question' (e não 'make a question').
+jane_0128_01	meet	Nice to <b>meet</b> you!	Nice to meet you!	Prazer em conhecer você!	conhecer (alguém), encontrar-se	easy	batch_02	Passado irregular: met.
+jane_0129_01	start	When does the class <b>start</b>?	When does the class start?	Quando a aula começa?	começar, iniciar	easy	batch_02	
+jane_0130_01	talk	We need to <b>talk</b> about our plan.	We need to talk about our plan.	Nós precisamos conversar sobre o nosso plano.	conversar, falar	easy	batch_02	O 'l' é mudo: /tɔːk/.
+jane_0131_01	something	Do you want <b>something</b> to drink?	Do you want something to drink?	Você quer algo para beber?	algo, alguma coisa	easy	batch_02	
+jane_0132_01	put	Please <b>put</b> the milk in the fridge.	Please put the milk in the fridge.	Por favor, coloque o leite na geladeira.	colocar, pôr	easy	batch_02	Passado irregular igual ao presente: put.
+jane_0133_01	another	Would you like <b>another</b> cup of coffee?	Would you like another cup of coffee?	Você gostaria de outra xícara de café?	outro(a) (singular, mais um)	medium	batch_02	Usado sempre no singular; para plural use 'other'.
+jane_0134_01	become	She wants to <b>become</b> a doctor.	She wants to become a doctor.	Ela quer se tornar médica.	tornar-se, ficar	medium	batch_02	Passado irregular: became.
+jane_0135_01	interest	He has a big <b>interest</b> in music.	He has a big interest in music.	Ele tem um grande interesse em música.	interesse (também 'juros')	hard	batch_02	
+jane_0136_01	country	Brazil is a very large <b>country</b>.	Brazil is a very large country.	O Brasil é um país muito grande.	país (também 'interior/campo')	easy	batch_02	Plural: countries.
+jane_0137_01	old	How <b>old</b> are you?	How old are you?	Quantos anos você tem?	velho(a), antigo(a)	easy	batch_02	Em inglês pergunta-se 'quão velho você é' para saber a idade.
+jane_0138_01	each	<b>Each</b> student has a new book.	Each student has a new book.	Cada aluno tem um livro novo.	cada	medium	batch_02	Sempre seguido de verbo no singular.
+jane_0139_01	school	My children go to <b>school</b> by bus.	My children go to school by bus.	Meus filhos vão para a escola de ônibus.	escola	easy	batch_02	
+jane_0140_01	late	Sorry I am <b>late</b> for the meeting.	Sorry I am late for the meeting.	Desculpa, estou atrasado para a reunião.	atrasado, tarde	easy	batch_02	
+jane_0141_01	high	That building is very <b>high</b>.	That building is very high.	Aquele prédio é muito alto.	alto, elevado	easy	batch_02	Para pessoas, use 'tall' em vez de 'high'.
+jane_0142_01	off	Please turn <b>off</b> the lights before sleeping.	Please turn off the lights before sleeping.	Por favor, apague as luzes antes de dormir.	desligado, fora	medium	batch_02	'Turn off' = desligar / apagar.
+jane_0143_01	end	Let's meet at the <b>end</b> of the street.	Let's meet at the end of the street.	Vamos nos encontrar no fim da rua.	fim, final (também verbo 'terminar')	easy	batch_02	
+jane_0144_01	world	I want to travel around the <b>world</b>.	I want to travel around the world.	Eu quero viajar pelo mundo.	mundo	easy	batch_02	
+jane_0145_01	week	See you next <b>week</b>!	See you next week!	Até semana que vem!	semana	easy	batch_02	
+jane_0146_01	play	Do you <b>play</b> soccer on weekends?	Do you play soccer on weekends?	Você joga futebol nos fins de semana?	jogar, brincar, tocar (instrumento)	easy	batch_02	
+jane_0147_01	include	Does the price <b>include</b> breakfast?	Does the price include breakfast?	O preço inclui café da manhã?	incluir	medium	batch_02	
+jane_0148_01	course	I am taking an online English <b>course</b>.	I am taking an online English course.	Eu estou fazendo um curso de inglês online.	curso (também 'claro' em 'of course')	easy	batch_02	Em inglês se diz 'take a course' (fazer um curso).
+jane_0149_01	house	Their <b>house</b> has a beautiful garden.	Their house has a beautiful garden.	A casa deles tem um jardim lindo.	casa	easy	batch_02	
+jane_0150_01	report	I need to finish this <b>report</b> today.	I need to finish this report today.	Eu preciso terminar este relatório hoje.	relatório, reportagem (também verbo 'relatar')	medium	batch_02	
+jane_0151_01	woman	That <b>woman</b> is my aunt.	That woman is my aunt.	Aquela mulher é minha tia.	mulher	easy	batch_02	Plural irregular: women (/ˈwɪmɪn/).
+jane_0152_01	book	I am reading a great <b>book</b>.	I am reading a great book.	Eu estou lendo um ótimo livro.	livro (também verbo 'reservar')	easy	batch_02	
+jane_0153_01	let	Please <b>let</b> me help you.	Please let me help you.	Por favor, deixe eu te ajudar.	deixar, permitir	medium	batch_02	Passado irregular igual ao presente: let.
+jane_0154_01	keep	You can <b>keep</b> the change.	You can keep the change.	Você pode ficar com o troco.	guardar, manter, ficar com	medium	batch_02	Passado irregular: kept.
+jane_0155_01	hear	Can you <b>hear</b> me clearly?	Can you hear me clearly?	Você consegue me ouvir claramente?	ouvir, escutar	easy	batch_02	Passado irregular: heard.
+jane_0156_01	question	I have one quick <b>question</b>.	I have one quick question.	Eu tenho uma pergunta rápida.	pergunta, questão	easy	batch_02	
+jane_0157_01	study	I <b>study</b> English for thirty minutes daily.	I study English for thirty minutes daily.	Eu estudo inglês por trinta minutos todos os dias.	estudar (também 'estudo')	easy	batch_02	
+jane_0158_01	follow	Please <b>follow</b> me to the office.	Please follow me to the office.	Por favor, siga-me até o escritório.	seguir, acompanhar	easy	batch_02	
+jane_0159_01	begin	Let's <b>begin</b> the meeting now.	Let's begin the meeting now.	Vamos começar a reunião agora.	começar, iniciar	medium	batch_02	Passado irregular: began.
+jane_0160_01	turn	<b>Turn</b> left after the traffic light.	Turn left after the traffic light.	Vire à esquerda depois do semáforo.	virar, girar (também 'vez')	easy	batch_02	'It's your turn' = É a sua vez.
+jane_0161_01	bring	Please <b>bring</b> your notebook tomorrow.	Please bring your notebook tomorrow.	Por favor, traga o seu caderno amanhã.	trazer	easy	batch_02	Passado irregular: brought.
+jane_0162_01	hand	Wash your <b>hand</b> before eating.	Wash your hand before eating.	Lave a sua mão antes de comer.	mão	easy	batch_02	No plural: hands.
+jane_0163_01	money	I need to save more <b>money</b>.	I need to save more money.	Eu preciso guardar mais dinheiro.	dinheiro	easy	batch_02	Incontável em inglês (não use 'moneys').
+jane_0164_01	fact	That is a very interesting <b>fact</b>.	That is a very interesting fact.	Esse é um fato muito interessante.	fato	medium	batch_02	Expressão comum: 'in fact' (na verdade).
+jane_0165_01	area	This is a quiet <b>area</b> of the city.	This is a quiet area of the city.	Esta é uma área tranquila da cidade.	área, região, zona	easy	batch_02	
+jane_0166_01	name	My <b>name</b> is Henrique.	My name is Henrique.	Meu nome é Henrique.	nome	easy	batch_02	
+jane_0167_01	read	I like to <b>read</b> before sleeping.	I like to read before sleeping.	Eu gosto de ler antes de dormir.	ler	easy	batch_02	O passado escreve igual (read), mas se pronuncia como 'red'.
+jane_0168_01	friend	She is a close <b>friend</b> of mine.	She is a close friend of mine.	Ela é uma amiga próxima minha.	amigo(a)	easy	batch_02	
+jane_0169_01	month	Next <b>month</b> I start a new job.	Next month I start a new job.	No mês que vem eu começo um emprego novo.	mês	easy	batch_02	
+jane_0170_01	business	He has a small <b>business</b> downtown.	He has a small business downtown.	Ele tem um pequeno negócio no centro.	negócio, empresa, comércio	medium	batch_02	Pronúncia: /ˈbɪznəs/ (o 'u' soa como 'i').
+jane_0171_01	information	Thanks for the useful <b>information</b>.	Thanks for the useful information.	Obrigado pela informação útil.	informação	easy	batch_02	Incontável em inglês (nunca use 'informations').
+jane_0172_01	order	Are you ready to place your <b>order</b>?	Are you ready to place your order?	Você está pronto para fazer o seu pedido?	pedido, ordem	medium	batch_02	Como verbo, significa 'pedir' (comida/produto) ou 'ordenar'.
+jane_0173_01	word	I learned a new <b>word</b> today.	I learned a new word today.	Eu aprendi uma palavra nova hoje.	palavra	easy	batch_02	
+jane_0174_01	market	We buy fresh vegetables at the <b>market</b>.	We buy fresh vegetables at the market.	Nós compramos legumes frescos no mercado.	mercado, feira	easy	batch_02	
+jane_0175_01	build	They plan to <b>build</b> a new school.	They plan to build a new school.	Eles planejam construir uma nova escola.	construir	medium	batch_02	Passado irregular: built.
+jane_0176_01	believe	I <b>believe</b> you can do this.	I believe you can do this.	Eu acredito que você consegue fazer isso.	acreditar	easy	batch_02	
+jane_0177_01	love	I <b>love</b> spending time with my family.	I love spending time with my family.	Eu amo passar tempo com a minha família.	amar (também substantivo 'amor')	easy	batch_02	
+jane_0178_01	job	She found a great <b>job</b> last week.	She found a great job last week.	Ela encontrou um ótimo emprego semana passada.	emprego, trabalho	easy	batch_02	'Job' é contável (a job); 'work' como trabalho é incontável.
+jane_0179_01	plan	What is your <b>plan</b> for the weekend?	What is your plan for the weekend?	Qual é o seu plano para o fim de semana?	plano (também verbo 'planejar')	easy	batch_02	
+jane_0180_01	result	We are waiting for the test <b>result</b>.	We are waiting for the test result.	Nós estamos esperando o resultado da prova.	resultado	medium	batch_02	
+jane_0181_01	example	Can you give me an <b>example</b>?	Can you give me an example?	Você pode me dar um exemplo?	exemplo	easy	batch_02	'For example' = por exemplo.
+jane_0182_01	happen	What did <b>happen</b> here yesterday?	What did happen here yesterday?	O que aconteceu aqui ontem?	acontecer, ocorrer	easy	batch_02	
+jane_0183_01	understand	Do you <b>understand</b> this question?	Do you understand this question?	Você entende esta pergunta?	entender, compreender	easy	batch_02	Passado irregular: understood.
+jane_0184_01	thank	I want to <b>thank</b> you for your help.	I want to thank you for your help.	Eu quero agradecer você pela sua ajuda.	agradecer	easy	batch_02	'Thank you' = Obrigado.
+jane_0185_01	hour	The bus arrives in one <b>hour</b>.	The bus arrives in one hour.	O ônibus chega em uma hora.	hora	easy	batch_02	O 'h' é mudo: /ˈaʊər/, por isso usa-se 'an hour'.
+jane_0186_01	student	Every <b>student</b> in this class works hard.	Every student in this class works hard.	Todo aluno desta turma se esforça muito.	estudante, aluno(a)	easy	batch_02	
+jane_0187_01	face	She has a big smile on her <b>face</b>.	She has a big smile on her face.	Ela tem um grande sorriso no rosto.	rosto, face	easy	batch_02	Como verbo, significa 'encarar / enfrentar'.
+jane_0188_01	idea	That sounds like a great <b>idea</b>!	That sounds like a great idea!	Isso parece uma ótima ideia!	ideia	easy	batch_02	
+jane_0189_01	cost	How much does this ticket <b>cost</b>?	How much does this ticket cost?	Quanto custa este ingresso?	custar (também substantivo 'custo')	easy	batch_02	Passado irregular igual ao presente: cost.
+jane_0190_01	room	My <b>room</b> is very clean today.	My room is very clean today.	Meu quarto está bem limpo hoje.	quarto, sala, cômodo (também 'espaço')	easy	batch_02	
+jane_0191_01	reason	What is the <b>reason</b> for the delay?	What is the reason for the delay?	Qual é o motivo do atraso?	motivo, razão	medium	batch_02	
+jane_0192_01	form	Please fill out this <b>form</b> with your name.	Please fill out this form with your name.	Por favor, preencha este formulário com o seu nome.	formulário, forma	medium	batch_02	'Fill out a form' = preencher um formulário.
+jane_0193_01	spend	I <b>spend</b> too much time on my phone.	I spend too much time on my phone.	Eu passo tempo demais no meu celular.	gastar (dinheiro), passar (tempo)	medium	batch_02	Passado irregular: spent.
+jane_0194_01	head	My <b>head</b> hurts a little today.	My head hurts a little today.	Minha cabeça dói um pouco hoje.	cabeça (também 'chefe/líder')	easy	batch_02	
+jane_0195_01	car	He drives his <b>car</b> to work.	He drives his car to work.	Ele dirige o carro dele para o trabalho.	carro	easy	batch_02	
+jane_0196_01	learn	I want to <b>learn</b> how to cook.	I want to learn how to cook.	Eu quero aprender a cozinhar.	aprender	easy	batch_02	
+jane_0197_01	person	She is a very kind <b>person</b>.	She is a very kind person.	Ela é uma pessoa muito gentil.	pessoa	easy	batch_02	Plural mais comum: people.
+jane_0198_01	member	He is a <b>member</b> of our team.	He is a member of our team.	Ele é um membro da nossa equipe.	membro, integrante	medium	batch_02	
+jane_0199_01	city	This <b>city</b> is very busy at night.	This city is very busy at night.	Esta cidade é muito movimentada à noite.	cidade	easy	batch_02	Plural: cities.
+jane_0200_01	night	Good <b>night</b>, see you tomorrow!	Good night, see you tomorrow!	Boa noite, até amanhã!	noite	easy	batch_02	O 'gh' é mudo: /naɪt/.
+jane_0201_01	line	There is a long <b>line</b> at the bank.	There is a long line at the bank.	Tem uma fila longa no banco.	fila, linha	medium	batch_02	
+jane_0202_01	age	What is the minimum <b>age</b> for this movie?	What is the minimum age for this movie?	Qual é a idade mínima para este filme?	idade, era/época	easy	batch_02	
+jane_0203_01	speak	Do you <b>speak</b> Portuguese or English?	Do you speak Portuguese or English?	Você fala português ou inglês?	falar (idiomas, conversar)	easy	batch_02	Passado irregular: spoke.
+jane_0204_01	train	I take the <b>train</b> to work every day.	I take the train to work every day.	Eu pego o trem para o trabalho todo dia.	trem (também verbo 'treinar')	easy	batch_02	
+jane_0205_01	price	The <b>price</b> of coffee went up.	The price of coffee went up.	O preço do café subiu.	preço	easy	batch_02	
+jane_0206_01	parent	Every <b>parent</b> wants the best for their child.	Every parent wants the best for their child.	Todo pai ou mãe quer o melhor para seu filho.	pai ou mãe (no plural 'parents' = pais)	easy	batch_02	Atenção: 'parent' não é 'parente' (parente é 'relative').
+jane_0207_01	party	Are you going to the birthday <b>party</b>?	Are you going to the birthday party?	Você vai à festa de aniversário?	festa (também 'partido político')	easy	batch_02	
+jane_0208_01	product	This company sells a great <b>product</b>.	This company sells a great product.	Esta empresa vende um ótimo produto.	produto	easy	batch_02	
+jane_0209_01	lose	Be careful not to <b>lose</b> your keys.	Be careful not to lose your keys.	Tome cuidado para não perder suas chaves.	perder	medium	batch_02	Passado irregular: lost.
+jane_0210_01	story	My grandfather told me a funny <b>story</b>.	My grandfather told me a funny story.	Meu avô me contou uma história engraçada.	história (conto/relato)	easy	batch_02	'Story' = conto/relato; 'history' = história (disciplina/passado).
+jane_0211_01	water	Please drink a glass of cold <b>water</b>.	Please drink a glass of cold water.	Por favor, beba um copo de água gelada.	água	easy	batch_02	
+jane_0212_01	send	I will <b>send</b> you a message tonight.	I will send you a message tonight.	Eu vou te mandar uma mensagem hoje à noite.	enviar, mandar	easy	batch_02	Passado irregular: sent.
+jane_0213_01	watch	Let's <b>watch</b> a movie together.	Let's watch a movie together.	Vamos assistir a um filme juntos.	assistir (também 'relógio de pulso')	easy	batch_02	
+jane_0214_01	test	We have an English <b>test</b> tomorrow.	We have an English test tomorrow.	Nós temos uma prova de inglês amanhã.	prova, teste	easy	batch_02	
+jane_0215_01	visit	I want to <b>visit</b> my grandparents on Sunday.	I want to visit my grandparents on Sunday.	Eu quero visitar meus avós no domingo.	visitar (também 'visita')	easy	batch_02	
+jane_0216_01	return	Please <b>return</b> the book next week.	Please return the book next week.	Por favor, devolva o livro na semana que vem.	devolver, retornar, voltar	medium	batch_02	
+jane_0217_01	mother	My <b>mother</b> cooks very well.	My mother cooks very well.	Minha mãe cozinha muito bem.	mãe	easy	batch_02	
+jane_0218_01	walk	I <b>walk</b> in the park every morning.	I walk in the park every morning.	Eu caminho no parque toda manhã.	caminhar, andar a pé	easy	batch_02	O 'l' é mudo: /wɔːk/.
+jane_0219_01	office	My <b>office</b> is near the train station.	My office is near the train station.	Meu escritório fica perto da estação de trem.	escritório, consultório	easy	batch_02	
+jane_0220_01	stop	Please <b>stop</b> talking during the movie.	Please stop talking during the movie.	Por favor, pare de conversar durante o filme.	parar (também 'parada/ponto')	easy	batch_02	
+jane_0221_01	remember	Do you <b>remember</b> my phone number?	Do you remember my phone number?	Você lembra do meu número de telefone?	lembrar-se	easy	batch_02	
+jane_0222_01	answer	I know the right <b>answer</b>.	I know the right answer.	Eu sei a resposta certa.	resposta (também verbo 'responder')	easy	batch_02	O 'w' é mudo: /ˈænsər/.
+jane_0223_01	sit	Please <b>sit</b> on this chair.	Please sit on this chair.	Por favor, sente-se nesta cadeira.	sentar-se	easy	batch_02	Passado irregular: sat.
+jane_0224_01	letter	I received a <b>letter</b> from my friend.	I received a letter from my friend.	Eu recebi uma carta do meu amigo.	carta, letra (do alfabeto)	easy	batch_02	
+jane_0225_01	decide	We need to <b>decide</b> where to eat.	We need to decide where to eat.	Nós precisamos decidir onde comer.	decidir	medium	batch_02	
+jane_0226_01	language	English is a very useful <b>language</b>.	English is a very useful language.	Inglês é um idioma muito útil.	idioma, língua, linguagem	easy	batch_02	
+jane_0227_01	class	Our English <b>class</b> starts at seven.	Our English class starts at seven.	Nossa aula de inglês começa às sete.	aula, turma, classe	easy	batch_02	
+jane_0228_01	town	I grew up in a small <b>town</b>.	I grew up in a small town.	Eu cresci em uma cidade pequena.	cidade pequena / município	easy	batch_02	'Town' costuma ser menor que 'city'.
+jane_0229_01	food	The <b>food</b> at this restaurant is delicious.	The food at this restaurant is delicious.	A comida neste restaurante é deliciosa.	comida, alimento	easy	batch_02	
+jane_0230_01	break	Let's take a short <b>break</b> now.	Let's take a short break now.	Vamos fazer uma pausa curta agora.	pausa, intervalo (também verbo 'quebrar')	medium	batch_02	'Take a break' = fazer uma pausa.
+jane_0231_01	period	That was a difficult <b>period</b> in my life.	That was a difficult period in my life.	Aquele foi um período difícil na minha vida.	período, época (também 'ponto final' no inglês americano)	hard	batch_02	
+jane_0232_01	note	I wrote a quick <b>note</b> on my phone.	I wrote a quick note on my phone.	Eu escrevi uma anotação rápida no meu celular.	anotação, bilhete (também verbo 'notar')	easy	batch_02	
+jane_0233_01	history	I really enjoy reading <b>history</b> books.	I really enjoy reading history books.	Eu gosto muito de ler livros de história.	história (fatos passados, disciplina)	easy	batch_02	
+jane_0234_01	create	You need to <b>create</b> a strong password.	You need to create a strong password.	Você precisa criar uma senha forte.	criar	easy	batch_02	
+jane_0235_01	type	What <b>type</b> of music do you like?	What type of music do you like?	Que tipo de música você gosta?	tipo (também verbo 'digitar')	medium	batch_02	
+jane_0236_01	eye	Something fell into my left <b>eye</b>.	Something fell into my left eye.	Algo caiu no meu olho esquerdo.	olho	easy	batch_02	
+jane_0237_01	music	She listens to <b>music</b> while studying.	She listens to music while studying.	Ela ouve música enquanto estuda.	música	easy	batch_02	Incontável em inglês (uma música = 'a song').
+jane_0238_01	game	Did you watch the soccer <b>game</b>?	Did you watch the soccer game?	Você assistiu ao jogo de futebol?	jogo, partida	easy	batch_02	
+jane_0239_01	moment	Wait just a <b>moment</b>, please.	Wait just a moment, please.	Espere só um momento, por favor.	momento, instante	easy	batch_02	
+jane_0240_01	body	Exercise is good for your <b>body</b> and mind.	Exercise is good for your body and mind.	Exercício faz bem para o seu corpo e mente.	corpo	easy	batch_02	
