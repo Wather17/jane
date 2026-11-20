@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_2881_01	painter	Monet was a famous French <b>painter</b>.	Monet was a famous French painter.	Monet foi um famoso pintor francês.	pintor	easy	batch_25	
+jane_2882_01	palace	Tourists love visiting the royal <b>palace</b>.	Tourists love visiting the royal palace.	Turistas adoram visitar o palácio real.	palácio	easy	batch_25	
+jane_2883_01	pants	He bought a pair of black <b>pants</b>.	He bought a pair of black pants.	Ele comprou uma calça preta.	calça (EUA)	easy	batch_25	Sempre no plural ('pants'). No Reino Unido, 'pants' significa cueca/calcinha e calça é 'trousers'.
+jane_2884_01	pet	A cat is a quiet apartment <b>pet</b>.	A cat is a quiet apartment pet.	Um gato é um animal de estimação tranquilo para apartamento.	animal de estimação / bicho de estimação	easy	batch_25	
+jane_2885_01	physics	<b>Physics</b> explains how light and gravity work.	Physics explains how light and gravity work.	A física explica como a luz e a gravidade funcionam.	física	easy	batch_25	Apesar do 's' final, é singular ('Physics is...').
+jane_2886_01	pronounce	How do you <b>pronounce</b> this English word?	How do you pronounce this English word?	Como você pronuncia esta palavra em inglês?	pronunciar	easy	batch_25	
+jane_2887_01	publish	She plans to <b>publish</b> her book next spring.	She plans to publish her book next spring.	Ela planeja publicar o livro dela na próxima primavera.	publicar	easy	batch_25	
+jane_2888_01	queen	The <b>queen</b> waved warmly to the crowd.	The queen waved warmly to the crowd.	A rainha acenou calorosamente para a multidão.	rainha	easy	batch_25	
+jane_2889_01	reception	Please check in at the hotel <b>reception</b>.	Please check in at the hotel reception.	Por favor, faça o check-in na recepção do hotel.	recepção	easy	batch_25	
+jane_2890_01	recording	Listen to this audio <b>recording</b> twice.	Listen to this audio recording twice.	Ouça esta gravação de áudio duas vezes.	gravação	easy	batch_25	
+jane_2891_01	runner	She is a fast long-distance <b>runner</b>.	She is a fast long-distance runner.	Ela é uma corredora rápida de longa distância.	corredor	easy	batch_25	
+jane_2892_01	running	I go <b>running</b> in the park every morning.	I go running in the park every morning.	Eu vou correr no parque toda manhã.	corrida / correr	easy	batch_25	
+jane_2893_01	sailing	<b>Sailing</b> on the bay is very peaceful.	Sailing on the bay is very peaceful.	Velejar na baía é muito tranquilo.	vela (esporte) / navegação	easy	batch_25	
+jane_2894_01	sauce	This pasta tastes amazing with tomato <b>sauce</b>.	This pasta tastes amazing with tomato sauce.	Esta massa fica incrível com molho de tomate.	molho	easy	batch_25	Pronuncia-se 'sós'.
+jane_2895_01	singing	Her <b>singing</b> made everyone smile.	Her singing made everyone smile.	O canto dela fez todo mundo sorrir.	canto / ato de cantar	easy	batch_25	
+jane_2896_01	smoking	<b>Smoking</b> is not allowed inside this building.	Smoking is not allowed inside this building.	Não é permitido fumar dentro deste prédio.	ato de fumar / tabagismo	easy	batch_25	
+jane_2897_01	soap	Wash your hands with <b>soap</b> and warm water.	Wash your hands with soap and warm water.	Lave suas mãos com sabonete e água morna.	sabonete / sabão	easy	batch_25	Não confundir com 'soup' (sopa).
+jane_2898_01	sock	I cannot find my left blue <b>sock</b>.	I cannot find my left blue sock.	Eu não consigo encontrar minha meia azul esquerda.	meia	easy	batch_25	
+jane_2899_01	spider	A tiny <b>spider</b> built a web outside.	A tiny spider built a web outside.	Uma aranha minúscula construiu uma teia lá fora.	aranha	easy	batch_25	
+jane_2900_01	spoon	Eat your warm soup with a <b>spoon</b>.	Eat your warm soup with a spoon.	Coma sua sopa quente com uma colher.	colher	easy	batch_25	
+jane_2901_01	tablet	She reads the morning news on her <b>tablet</b>.	She reads the morning news on her tablet.	Ela lê as notícias da manhã no tablet dela.	tablet / comprimido	easy	batch_25	
+jane_2902_01	teaching	He has ten years of <b>teaching</b> experience.	He has ten years of teaching experience.	Ele tem dez anos de experiência de ensino.	ensino / docência	easy	batch_25	
+jane_2903_01	thief	A <b>thief</b> stole a bike from the yard.	A thief stole a bike from the yard.	Um ladrão roubou uma bicicleta do quintal.	ladrão	easy	batch_25	Plural irregular: 'thieves'.
+jane_2904_01	thinking	Creative <b>thinking</b> helps solve hard problems.	Creative thinking helps solve hard problems.	Pensamento criativo ajuda a resolver problemas difíceis.	pensamento / raciocínio	easy	batch_25	
+jane_2905_01	thought	That is a very kind <b>thought</b>, thank you.	That is a very kind thought, thank you.	Esse é um pensamento muito gentil, obrigado.	pensamento / ideia	easy	batch_25	Também é o passado de 'think'.
+jane_2906_01	towel	Dry your wet hands with a clean <b>towel</b>.	Dry your wet hands with a clean towel.	Seque suas mãos molhadas com uma toalha limpa.	toalha	easy	batch_25	
+jane_2907_01	training	New employees get two weeks of <b>training</b>.	New employees get two weeks of training.	Novos funcionários recebem duas semanas de treinamento.	treinamento / treino	easy	batch_25	
+jane_2908_01	understanding	Thank you for your patience and <b>understanding</b>.	Thank you for your patience and understanding.	Obrigado pela sua paciência e compreensão.	compreensão / entendimento	easy	batch_25	
+jane_2909_01	wedding	They invited fifty friends to their <b>wedding</b>.	They invited fifty friends to their wedding.	Eles convidaram cinquenta amigos para o casamento deles.	casamento (cerimônia/festa)	easy	batch_25	O estado civil de casado é 'marriage'; a cerimônia é 'wedding'.
+jane_2910_01	ambition	Her main <b>ambition</b> is to open a bakery.	Her main ambition is to open a bakery.	A principal ambição dela é abrir uma padaria.	ambição / aspiração	medium	batch_25	
+jane_2911_01	annoy	Loud phone notifications really <b>annoy</b> me.	Loud phone notifications really annoy me.	Notificações altas de celular realmente me irritam.	irritar / incomodar	easy	batch_25	
+jane_2912_01	battery	My phone <b>battery</b> is almost empty now.	My phone battery is almost empty now.	A bateria do meu celular está quase vazia agora.	bateria / pilha	easy	batch_25	
+jane_2913_01	breathing	The sleeping dog is <b>breathing</b> slowly and calmly.	The sleeping dog is breathing slowly and calmly.	O cachorro dormindo está respirando devagar e calmamente.	respirando / respiração	easy	batch_25	
+jane_2914_01	bubble	The child blew a big soap <b>bubble</b>.	The child blew a big soap bubble.	A criança soprou uma grande bolha de sabão.	bolha	easy	batch_25	
+jane_2915_01	captain	She is the <b>captain</b> of our soccer team.	She is the captain of our soccer team.	Ela é a capitã do nosso time de futebol.	capitão / comandante	easy	batch_25	
+jane_2916_01	ceiling	We painted the living room <b>ceiling</b> white.	We painted the living room ceiling white.	Nós pintamos o teto da sala de branco.	teto (interno)	easy	batch_25	Telhado externo é 'roof'; teto interno é 'ceiling'.
+jane_2917_01	cheat	Nobody wants to play with a <b>cheat</b>.	Nobody wants to play with a cheat.	Ninguém quer jogar com um trapaceiro.	trapaceiro / trapaça / trapacear (verbo)	easy	batch_25	
+jane_2918_01	client	The lawyer met with a new <b>client</b>.	The lawyer met with a new client.	O advogado se reuniu com um novo cliente.	cliente (de serviços)	easy	batch_25	Em lojas, usa-se mais 'customer'; em serviços, 'client'.
+jane_2919_01	container	Put the leftover soup in a plastic <b>container</b>.	Put the leftover soup in a plastic container.	Coloque o resto da sopa em um pote plástico.	recipiente / pote / contêiner	easy	batch_25	
+jane_2920_01	cottage	They rented a cozy <b>cottage</b> by the lake.	They rented a cozy cottage by the lake.	Eles alugaram um chalé aconchegante perto do lago.	chalé / casa de campo	easy	batch_25	
+jane_2921_01	cotton	This soft shirt is made of pure <b>cotton</b>.	This soft shirt is made of pure cotton.	Esta camisa macia é feita de algodão puro.	algodão	easy	batch_25	
+jane_2922_01	countryside	We love driving through the green <b>countryside</b>.	We love driving through the green countryside.	Nós adoramos dirigir pelo campo verde.	campo / interior / zona rural	easy	batch_25	
+jane_2923_01	decorate	Let us <b>decorate</b> the room with balloons.	Let us decorate the room with balloons.	Vamos decorar a sala com balões.	decorar (enfeitar)	easy	batch_25	Falso cognato: 'decorar' de memorizar é 'memorize'.
+jane_2924_01	departure	Check the <b>departure</b> gate on your ticket.	Check the departure gate on your ticket.	Confira o portão de embarque no seu bilhete.	partida / saída / embarque	medium	batch_25	
+jane_2925_01	engineering	My cousin studies civil <b>engineering</b> at college.	My cousin studies civil engineering at college.	Meu primo estuda engenharia civil na faculdade.	engenharia	easy	batch_25	
+jane_2926_01	explode	Fireworks <b>explode</b> brightly in the night sky.	Fireworks explode brightly in the night sky.	Fogos de artifício explodem brilhantes no céu noturno.	explodir	easy	batch_25	
+jane_2927_01	explosion	Everyone heard a loud <b>explosion</b> far away.	Everyone heard a loud explosion far away.	Todo mundo ouviu uma explosão alta bem longe.	explosão	easy	batch_25	
+jane_2928_01	fasten	Please <b>fasten</b> your seatbelt before we drive.	Please fasten your seatbelt before we drive.	Por favor, aperte seu cinto de segurança antes de dirigirmos.	apertar / prender / afivelar	easy	batch_25	O 't' em 'fasten' é mudo: pronuncia-se 'FÁ-sen'.
+jane_2929_01	flour	We need two cups of <b>flour</b> for bread.	We need two cups of flour for bread.	Precisamos de duas xícaras de farinha para o pão.	farinha	easy	batch_25	Pronuncia-se exatamente igual a 'flower' (flor).
+jane_2930_01	fry	Heat some oil to <b>fry</b> the eggs.	Heat some oil to fry the eggs.	Aqueça um pouco de óleo para fritar os ovos.	fritar	easy	batch_25	Passado: 'fried'.
+jane_2931_01	fur	Our cat has soft white <b>fur</b>.	Our cat has soft white fur.	Nosso gato tem pelo branco macio.	pelo (de animal) / pele	easy	batch_25	
+jane_2932_01	garage	Dad parked the car in the <b>garage</b>.	Dad parked the car in the garage.	Papai estacionou o carro na garagem.	garagem / oficina mecânica	easy	batch_25	
+jane_2933_01	glove	Put on warm <b>gloves</b> when it snows.	Put on warm gloves when it snows.	Coloque luvas quentes quando nevar.	luva	easy	batch_25	
+jane_2934_01	goods	The truck carries fresh <b>goods</b> to stores.	The truck carries fresh goods to stores.	O caminhão leva mercadorias frescas para as lojas.	mercadorias / bens	medium	batch_25	Sempre no plural neste sentido.
+jane_2935_01	heating	Turn on the <b>heating</b>; the room feels cold.	Turn on the heating; the room feels cold.	Ligue o aquecimento; o quarto parece frio.	aquecimento / calefação	easy	batch_25	
+jane_2936_01	horror	I cannot watch <b>horror</b> movies before bed.	I cannot watch horror movies before bed.	Eu não consigo assistir filmes de terror antes de dormir.	terror / horror	easy	batch_25	
+jane_2937_01	impact	Good sleep has a big <b>impact</b> on mood.	Good sleep has a big impact on mood.	Dormir bem tem um grande impacto no humor.	impacto	easy	batch_25	
+jane_2938_01	ingredient	Garlic is a key <b>ingredient</b> in this sauce.	Garlic is a key ingredient in this sauce.	Alho é um ingrediente essencial neste molho.	ingrediente	easy	batch_25	
+jane_2939_01	keyboard	This wireless <b>keyboard</b> is very quiet.	This wireless keyboard is very quiet.	Este teclado sem fio é muito silencioso.	teclado	easy	batch_25	
+jane_2940_01	killing	The detective investigated the mysterious <b>killing</b>.	The detective investigated the mysterious killing.	O detetive investigou o assassinato misterioso.	assassinato / matança	medium	batch_25	
+jane_2941_01	leaf	A dry yellow <b>leaf</b> fell on the grass.	A dry yellow leaf fell on the grass.	Uma folha amarela seca caiu na grama.	folha (de planta)	easy	batch_25	Plural irregular: 'leaves'.
+jane_2942_01	mall	Let us meet at the shopping <b>mall</b> today.	Let us meet at the shopping mall today.	Vamos nos encontrar no shopping hoje.	shopping center	easy	batch_25	
+jane_2943_01	marketing	She studied digital <b>marketing</b> in college.	She studied digital marketing in college.	Ela estudou marketing digital na faculdade.	marketing	easy	batch_25	
+jane_2944_01	mud	Do not bring wet <b>mud</b> into the house.	Do not bring wet mud into the house.	Não traga lama molhada para dentro de casa.	lama / barro	easy	batch_25	
+jane_2945_01	nail	Use a hammer to hit that metal <b>nail</b>.	Use a hammer to hit that metal nail.	Use um martelo para bater aquele prego de metal.	prego / unha	easy	batch_25	Serve tanto para 'prego' quanto para 'unha'.
+jane_2946_01	needle	I need a thin <b>needle</b> to fix this button.	I need a thin needle to fix this button.	Preciso de uma agulha fina para consertar este botão.	agulha	easy	batch_25	
+jane_2947_01	pan	Put a little olive oil in the frying <b>pan</b>.	Put a little olive oil in the frying pan.	Coloque um pouco de azeite na frigideira.	panela / frigideira	easy	batch_25	
+jane_2948_01	photographer	The wedding <b>photographer</b> took wonderful family pictures.	The wedding photographer took wonderful family pictures.	O fotógrafo do casamento tirou fotos de família maravilhosas.	fotógrafo	easy	batch_25	
+jane_2949_01	photography	Nature <b>photography</b> is my favorite weekend hobby.	Nature photography is my favorite weekend hobby.	Fotografia de natureza é meu hobby favorito de fim de semana.	fotografia	easy	batch_25	
+jane_2950_01	pin	Use a small <b>pin</b> to hold the paper.	Use a small pin to hold the paper.	Use um pequeno alfinete para prender o papel.	alfinete / pino / broche	easy	batch_25	
+jane_2951_01	planning	Careful <b>planning</b> makes any trip much easier.	Careful planning makes any trip much easier.	Planejamento cuidadoso torna qualquer viagem muito mais fácil.	planejamento	easy	batch_25	
+jane_2952_01	poison	Keep rat <b>poison</b> far away from pets.	Keep rat poison far away from pets.	Mantenha veneno de rato bem longe dos animais de estimação.	veneno	easy	batch_25	
+jane_2953_01	powder	Mix the cocoa <b>powder</b> with warm milk.	Mix the cocoa powder with warm milk.	Misture o cacau em pó com leite morno.	pó	easy	batch_25	
+jane_2954_01	prayer	They said a quiet <b>prayer</b> before dinner.	They said a quiet prayer before dinner.	Eles fizeram uma oração silenciosa antes do jantar.	oração / prece	easy	batch_25	
+jane_2955_01	priest	The village <b>priest</b> welcomed everyone at church.	The village priest welcomed everyone at church.	O padre da vila deu boas-vindas a todos na igreja.	padre / sacerdote	easy	batch_25	
+jane_2956_01	prince	The fairy tale tells of a brave <b>prince</b>.	The fairy tale tells of a brave prince.	O conto de fadas fala de um príncipe corajoso.	príncipe	easy	batch_25	
+jane_2957_01	princess	The little girl dressed up as a <b>princess</b>.	The little girl dressed up as a princess.	A menininha se vestiu como uma princesa.	princesa	easy	batch_25	
+jane_2958_01	punish	Do not <b>punish</b> the dog for barking once.	Do not punish the dog for barking once.	Não castigue o cachorro por latir uma vez.	punir / castigar	easy	batch_25	
+jane_2959_01	punishment	The <b>punishment</b> should always fit the mistake.	The punishment should always fit the mistake.	A punição deve sempre ser proporcional ao erro.	punição / castigo	medium	batch_25	
+jane_2960_01	racing	He enjoys watching car <b>racing</b> on Sundays.	He enjoys watching car racing on Sundays.	Ele gosta de assistir corrida de carros aos domingos.	corrida (esporte)	easy	batch_25	
+jane_2961_01	receipt	Keep your store <b>receipt</b> in case of returns.	Keep your store receipt in case of returns.	Guarde seu recibo da loja em caso de devolução.	recibo / nota fiscal	easy	batch_25	O 'p' é mudo: pronuncia-se 'ri-SÍT'.
+jane_2962_01	reservation	I made a dinner <b>reservation</b> for seven.	I made a dinner reservation for seven.	Eu fiz uma reserva para o jantar às sete.	reserva	easy	batch_25	
+jane_2963_01	rope	Tie the boat to the dock with a <b>rope</b>.	Tie the boat to the dock with a rope.	Amarre o barco no cais com uma corda.	corda	easy	batch_25	
+jane_2964_01	sailor	The experienced <b>sailor</b> knew the sea well.	The experienced sailor knew the sea well.	O marinheiro experiente conhecia bem o mar.	marinheiro / velejador	easy	batch_25	
+jane_2965_01	statue	There is a bronze <b>statue</b> in the square.	There is a bronze statue in the square.	Há uma estátua de bronze na praça.	estátua	easy	batch_25	
+jane_2966_01	tin	Buy a <b>tin</b> of tomatoes at the store.	Buy a tin of tomatoes at the store.	Compre uma lata de tomates na loja.	lata / estanho	easy	batch_25	No inglês britânico, 'tin' é muito usado para lata de comida ('can' nos EUA).
+jane_2967_01	toe	I hurt my big <b>toe</b> on the bedpost.	I hurt my big toe on the bedpost.	Eu machuquei meu dedão do pé no pé da cama.	dedo do pé	easy	batch_25	Dedo da mão é 'finger'; dedo do pé é 'toe'.
+jane_2968_01	translation	Check the Portuguese <b>translation</b> on the back.	Check the Portuguese translation on the back.	Confira a tradução em português no verso.	tradução	easy	batch_25	
+jane_2969_01	underwear	Pack clean socks and <b>underwear</b> for the trip.	Pack clean socks and underwear for the trip.	Leve meias e roupas íntimas limpas para a viagem.	roupa íntima / cueca / calcinha	easy	batch_25	Substantivo incontável (sem plural 'underwears').
+jane_2970_01	warning	There is a weather <b>warning</b> for heavy rain.	There is a weather warning for heavy rain.	Há um aviso meteorológico de chuva forte.	aviso / alerta / advertência	easy	batch_25	
+jane_2971_01	wool	This warm winter scarf is made of <b>wool</b>.	This warm winter scarf is made of wool.	Este cachecol quente de inverno é feito de lã.	lã	easy	batch_25	
+jane_2972_01	absorb	Paper towels quickly <b>absorb</b> spilled water.	Paper towels quickly absorb spilled water.	Papel-toalha absorve rapidamente água derramada.	absorver	medium	batch_25	
+jane_2973_01	accent	She speaks English with a lovely French <b>accent</b>.	She speaks English with a lovely French accent.	Ela fala inglês com um sotaque francês encantador.	sotaque / acento	easy	batch_25	
+jane_2974_01	ambulance	Call an <b>ambulance</b> right away if someone faints.	Call an ambulance right away if someone faints.	Chame uma ambulância imediatamente se alguém desmaiar.	ambulância	easy	batch_25	
+jane_2975_01	anniversary	My parents celebrated their tenth wedding <b>anniversary</b>.	My parents celebrated their tenth wedding anniversary.	Meus pais comemoraram o décimo aniversário de casamento.	aniversário (de casamento/evento/empresa)	easy	batch_25	Aniversário de nascimento é 'birthday'; de outros marcos é 'anniversary'.
+jane_2976_01	arrow	Follow the green <b>arrow</b> toward the exit.	Follow the green arrow toward the exit.	Siga a seta verde em direção à saída.	seta / flecha	easy	batch_25	
+jane_2977_01	bacteria	Washing hands removes harmful <b>bacteria</b>.	Washing hands removes harmful bacteria.	Lavar as mãos remove bactérias prejudiciais.	bactérias	easy	batch_25	É forma plural (singular: 'bacterium').
+jane_2978_01	bargain	Ten dollars for this jacket is a <b>bargain</b>!	Ten dollars for this jacket is a bargain!	Dez dólares por esta jaqueta é uma pechincha!	pechincha / barganha / bom negócio	medium	batch_25	
+jane_2979_01	brick	Their old house has red <b>brick</b> walls.	Their old house has red brick walls.	A casa antiga deles tem paredes de tijolo vermelho.	tijolo	easy	batch_25	
+jane_2980_01	bullet	Use <b>bullet</b> points to organize your notes.	Use bullet points to organize your notes.	Use tópicos com marcadores para organizar suas anotações.	bala (projétil) / marcador (lista)	easy	batch_25	
+jane_2981_01	bush	A small bird hid inside the green <b>bush</b>.	A small bird hid inside the green bush.	Um passarinho se escondeu dentro do arbusto verde.	arbusto / moita	easy	batch_25	
+jane_2982_01	certificate	Every student gets a <b>certificate</b> at the end.	Every student gets a certificate at the end.	Todo aluno recebe um certificado no final.	certificado / certidão	easy	batch_25	
+jane_2983_01	chop	<b>Chop</b> the onions into very small pieces.	Chop the onions into very small pieces.	Pique as cebolas em pedaços bem pequenos.	picar / cortar em pedaços	easy	batch_25	Passado: 'chopped'.
+jane_2984_01	clerk	Ask the store <b>clerk</b> for the right size.	Ask the store clerk for the right size.	Pergunte ao atendente da loja pelo tamanho certo.	atendente / balconista / escriturário	medium	batch_25	
+jane_2985_01	courage	It takes <b>courage</b> to speak a new language.	It takes courage to speak a new language.	É preciso coragem para falar um novo idioma.	coragem	easy	batch_25	
+jane_2986_01	criterion	Price is our main <b>criterion</b> right now.	Price is our main criterion right now.	O preço é nosso principal critério agora.	critério	hard	batch_25	Plural irregular: 'criteria'.
+jane_2987_01	cure	Doctors are searching for a better <b>cure</b>.	Doctors are searching for a better cure.	Médicos estão procurando uma cura melhor.	cura / curar (verbo)	easy	batch_25	
+jane_2988_01	decoration	We put up a bright paper <b>decoration</b>.	We put up a bright paper decoration.	Nós colocamos uma decoração de papel colorida.	decoração / enfeite	easy	batch_25	
+jane_2989_01	economics	My brother studies <b>economics</b> at the university.	My brother studies economics at the university.	Meu irmão estuda economia na universidade.	economia (ciência)	easy	batch_25	Apesar do 's' final, usa verbo no singular.
+jane_2990_01	elbow	I bumped my <b>elbow</b> against the wooden desk.	I bumped my elbow against the wooden desk.	Eu bati meu cotovelo na mesa de madeira.	cotovelo	easy	batch_25	
+jane_2991_01	enthusiasm	She greeted the idea with great <b>enthusiasm</b>.	She greeted the idea with great enthusiasm.	Ela recebeu a ideia com muito entusiasmo.	entusiasmo	medium	batch_25	
+jane_2992_01	exit	The emergency <b>exit</b> is down the hall.	The emergency exit is down the hall.	A saída de emergência fica no fim do corredor.	saída	easy	batch_25	
+jane_2993_01	fame	Sudden <b>fame</b> did not change his kind heart.	Sudden fame did not change his kind heart.	A fama repentina não mudou o bom coração dele.	fama	easy	batch_25	
+jane_2994_01	feather	This pillow is soft like a <b>feather</b>.	This pillow is soft like a feather.	Este travesseiro é macio como uma pena.	pena / pluma	easy	batch_25	
+jane_2995_01	fever	The child has a high <b>fever</b> tonight.	The child has a high fever tonight.	A criança está com febre alta hoje à noite.	febre	easy	batch_25	
+jane_2996_01	flame	The small candle <b>flame</b> danced in the dark.	The small candle flame danced in the dark.	A pequena chama da vela dançava no escuro.	chama / labareda	easy	batch_25	
+jane_2997_01	forgive	Please <b>forgive</b> me for arriving so late.	Please forgive me for arriving so late.	Por favor, me perdoe por chegar tão atrasado.	perdoar	easy	batch_25	Passado irregular: 'forgave'; particípio: 'forgiven'.
+jane_2998_01	heal	Small cuts usually <b>heal</b> within a few days.	Small cuts usually heal within a few days.	Pequenos cortes geralmente cicatrizam em poucos dias.	curar / cicatrizar / sarar	easy	batch_25	Pronuncia-se como 'heel' (calcanhar).
+jane_2999_01	hearing	Loud headphones can damage your <b>hearing</b>.	Loud headphones can damage your hearing.	Fones de ouvido altos podem prejudicar sua audição.	audição / audiência (tribunal)	easy	batch_25	
+jane_3000_01	heaven	This warm chocolate cake tastes like <b>heaven</b>!	This warm chocolate cake tastes like heaven!	Este bolo de chocolate quentinho tem gosto do paraíso!	céu / paraíso	easy	batch_25	Céu físico (com nuvens) é 'sky'; céu espiritual/paraíso é 'heaven'.
