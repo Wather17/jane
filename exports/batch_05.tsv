@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_0481_01	salt	This soup needs a little more <b>salt</b>.	This soup needs a little more salt.	Esta sopa precisa de um pouco mais de sal.	sal	easy	batch_05	
+jane_0482_01	pig	There is a pink <b>pig</b> on the farm.	There is a pink pig on the farm.	Tem um porco rosa na fazenda.	porco	easy	batch_05	
+jane_0483_01	cow	The <b>cow</b> is eating green grass.	The cow is eating green grass.	A vaca está comendo grama verde.	vaca	easy	batch_05	
+jane_0484_01	cheese	I like bread with <b>cheese</b> for breakfast.	I like bread with cheese for breakfast.	Eu gosto de pão com queijo no café da manhã.	queijo	easy	batch_05	
+jane_0485_01	piano	She learned to play the <b>piano</b> at school.	She learned to play the piano at school.	Ela aprendeu a tocar piano na escola.	piano	easy	batch_05	
+jane_0486_01	menu	Could I see the <b>menu</b>, please?	Could I see the menu, please?	Eu poderia ver o cardápio, por favor?	cardápio, menu	easy	batch_05	
+jane_0487_01	grandmother	My <b>grandmother</b> makes the best cake.	My grandmother makes the best cake.	Minha avó faz o melhor bolo.	avó	easy	batch_05	
+jane_0488_01	chocolate	I love eating dark <b>chocolate</b> after lunch.	I love eating dark chocolate after lunch.	Eu amo comer chocolate amargo depois do almoço.	chocolate	easy	batch_05	
+jane_0489_01	potato	We cooked baked <b>potato</b>es with chicken.	We cooked baked potatoes with chicken.	Nós cozinhamos batatas assadas com frango.	batata	easy	batch_05	Plural: potatoes.
+jane_0490_01	uncle	My <b>uncle</b> lives in a quiet town.	My uncle lives in a quiet town.	Meu tio mora em uma cidade pequena e tranquila.	tio	easy	batch_05	
+jane_0491_01	rice	Brazilians eat <b>rice</b> and beans every day.	Brazilians eat rice and beans every day.	Brasileiros comem arroz e feijão todos os dias.	arroz	easy	batch_05	
+jane_0492_01	sheep	There are many white <b>sheep</b> on the hill.	There are many white sheep on the hill.	Há muitas ovelhas brancas na colina.	ovelha, carneiro	easy	batch_05	O plural também é 'sheep' (nunca 'sheeps').
+jane_0493_01	aunt	My <b>aunt</b> always visits us on holidays.	My aunt always visits us on holidays.	Minha tia sempre nos visita nos feriados.	tia	easy	batch_05	
+jane_0494_01	case	In that <b>case</b>, we should leave early.	In that case, we should leave early.	Nesse caso, nós deveríamos sair cedo.	caso, situação (também 'estojo/capa')	medium	batch_05	
+jane_0495_01	system	The new <b>system</b> is much faster now.	The new system is much faster now.	O novo sistema está muito mais rápido agora.	sistema	medium	batch_05	
+jane_0496_01	run	I <b>run</b> in the park every Saturday morning.	I run in the park every Saturday morning.	Eu corro no parque todo sábado de manhã.	correr (também 'gerenciar/executar')	easy	batch_05	Passado irregular: ran.
+jane_0497_01	provide	The hotel will <b>provide</b> free Wi-Fi.	The hotel will provide free Wi-Fi.	O hotel vai fornecer Wi-Fi gratuito.	fornecer, prover	medium	batch_05	
+jane_0498_01	government	The <b>government</b> built a new public school.	The government built a new public school.	O governo construiu uma nova escola pública.	governo	medium	batch_05	
+jane_0499_01	pay	Can I <b>pay</b> with my credit card?	Can I pay with my credit card?	Posso pagar com o meu cartão de crédito?	pagar (também substantivo 'pagamento/salário')	easy	batch_05	Passado irregular: paid.
+jane_0500_01	service	The <b>service</b> at this restaurant is great.	The service at this restaurant is great.	O atendimento neste restaurante é ótimo.	serviço, atendimento	easy	batch_05	
+jane_0501_01	increase	Reading daily will <b>increase</b> your vocabulary.	Reading daily will increase your vocabulary.	Ler todos os dias vai aumentar o seu vocabulário.	aumentar (também substantivo 'aumento')	medium	batch_05	
+jane_0502_01	offer	They <b>offer</b> free coffee to all customers.	They offer free coffee to all customers.	Eles oferecem café grátis para todos os clientes.	oferecer (também substantivo 'oferta')	medium	batch_05	
+jane_0503_01	hope	I <b>hope</b> you have a great weekend!	I hope you have a great weekend!	Eu espero que você tenha um ótimo fim de semana!	esperar (ter esperança), esperança	easy	batch_05	
+jane_0504_01	experience	Traveling alone was a great <b>experience</b>.	Traveling alone was a great experience.	Viajar sozinho foi uma ótima experiência.	experiência	medium	batch_05	
+jane_0505_01	support	Thank you for your help and <b>support</b>.	Thank you for your help and support.	Obrigado pela sua ajuda e apoio.	apoio, suporte (também verbo 'apoiar')	medium	batch_05	
+jane_0506_01	side	The bank is on the other <b>side</b> of the street.	The bank is on the other side of the street.	O banco fica do outro lado da rua.	lado	easy	batch_05	
+jane_0507_01	term	What does this technical <b>term</b> mean?	What does this technical term mean?	O que significa este termo técnico?	termo, prazo, período letivo	hard	batch_05	
+jane_0508_01	view	The hotel room has a great ocean <b>view</b>.	The hotel room has a great ocean view.	O quarto do hotel tem uma ótima vista para o mar.	vista, visão, opinião	easy	batch_05	
+jane_0509_01	consider	We should <b>consider</b> all options carefully.	We should consider all options carefully.	Nós deveríamos considerar todas as opções com cuidado.	considerar, levar em conta	hard	batch_05	
+jane_0510_01	control	He lost <b>control</b> of his bicycle on the hill.	He lost control of his bicycle on the hill.	Ele perdeu o controle da bicicleta na ladeira.	controle (também verbo 'controlar')	medium	batch_05	
+jane_0511_01	continue	Let's <b>continue</b> our lesson after the break.	Let's continue our lesson after the break.	Vamos continuar a nossa aula depois do intervalo.	continuar	easy	batch_05	
+jane_0512_01	rate	The hotel has a special <b>rate</b> for families.	The hotel has a special rate for families.	O hotel tem uma tarifa especial para famílias.	tarifa, taxa, ritmo	hard	batch_05	
+jane_0513_01	care	Take <b>care</b> on your trip home!	Take care on your trip home!	Se cuide na sua viagem de volta para casa!	cuidado (também verbo 'importar-se')	easy	batch_05	'Take care' = cuide-se.
+jane_0514_01	expect	We <b>expect</b> the guests to arrive at seven.	We expect the guests to arrive at seven.	Nós esperamos que os convidados cheguem às sete.	esperar (ter expectativa)	medium	batch_05	'Expect' = esperar no sentido de prever/aguardar; 'wait' = esperar fisicamente.
+jane_0515_01	effect	Coffee has a strong <b>effect</b> on me.	Coffee has a strong effect on me.	Café tem um efeito forte em mim.	efeito, consequência	medium	batch_05	
+jane_0516_01	sort	What <b>sort</b> of movies do you enjoy?	What sort of movies do you enjoy?	Que tipo de filmes você curte?	tipo, espécie (também verbo 'ordenar')	medium	batch_05	
+jane_0517_01	cause	What was the main <b>cause</b> of the problem?	What was the main cause of the problem?	Qual foi a causa principal do problema?	causa, motivo (também verbo 'causar')	medium	batch_05	
+jane_0518_01	fall	Be careful not to <b>fall</b> on the wet floor.	Be careful not to fall on the wet floor.	Tome cuidado para não cair no chão molhado.	cair (também 'outono' nos EUA)	easy	batch_05	Passado irregular: fell.
+jane_0519_01	suggest	I <b>suggest</b> we take a taxi now.	I suggest we take a taxi now.	Eu sugiro que a gente pegue um táxi agora.	sugerir	medium	batch_05	
+jane_0520_01	power	The <b>power</b> went out during the storm.	The power went out during the storm.	A energia acabou durante a tempestade.	energia elétrica, poder, força	medium	batch_05	
+jane_0521_01	matter	What is the <b>matter</b> with you today?	What is the matter with you today?	Qual é o problema com você hoje?	assunto, problema (também verbo 'importar')	medium	batch_05	'It doesn't matter' = Não importa.
+jane_0522_01	mind	I changed my <b>mind</b> about the trip.	I changed my mind about the trip.	Eu mudei de ideia sobre a viagem.	mente (também verbo 'importar-se')	medium	batch_05	'Change my mind' = mudar de ideia.
+jane_0523_01	record	She broke the world <b>record</b> in swimming.	She broke the world record in swimming.	Ela quebrou o recorde mundial na natação.	recorde, registro (também verbo 'gravar')	medium	batch_05	
+jane_0524_01	stay	We will <b>stay</b> at a small hotel.	We will stay at a small hotel.	Nós vamos ficar hospedados em um hotel pequeno.	ficar, permanecer (também 'estadia')	easy	batch_05	
+jane_0525_01	figure	Look at the sales <b>figure</b>s for this month.	Look at the sales figures for this month.	Olhe os números de vendas deste mês.	número/cifra, figura (também 'figure out' = entender)	hard	batch_05	
+jane_0526_01	involve	This job will <b>involve</b> some weekend travel.	This job will involve some weekend travel.	Este emprego vai envolver algumas viagens de fim de semana.	envolver, incluir	hard	batch_05	
+jane_0527_01	receive	Did you <b>receive</b> my email yesterday?	Did you receive my email yesterday?	Você recebeu meu e-mail ontem?	receber	easy	batch_05	
+jane_0528_01	sale	Those winter coats are on <b>sale</b> today.	Those winter coats are on sale today.	Aqueles casacos de inverno estão em promoção hoje.	promoção, liquidação, venda	easy	batch_05	'On sale' = em promoção; 'for sale' = à venda.
+jane_0529_01	wait	Please <b>wait</b> for me at the entrance.	Please wait for me at the entrance.	Por favor, espere por mim na entrada.	esperar, aguardar	easy	batch_05	Sempre pede 'for' antes da pessoa/coisa ('wait for me').
+jane_0530_01	appear	A strange message did <b>appear</b> on my screen.	A strange message did appear on my screen.	Uma mensagem estranha apareceu na minha tela.	aparecer, parecer	medium	batch_05	
+jane_0531_01	sense	Your explanation makes a lot of <b>sense</b>.	Your explanation makes a lot of sense.	A sua explicação faz muito sentido.	sentido, noção	medium	batch_05	'Make sense' = fazer sentido.
+jane_0532_01	law	Everyone has to follow the <b>law</b>.	Everyone has to follow the law.	Todo mundo tem que seguir a lei.	lei, direito (curso)	medium	batch_05	
+jane_0533_01	research	She is doing <b>research</b> on sleep habits.	She is doing research on sleep habits.	Ela está fazendo uma pesquisa sobre hábitos de sono.	pesquisa (também verbo 'pesquisar')	medium	batch_05	Incontável em inglês ('do research', nunca 'researches').
+jane_0534_01	position	He applied for a new <b>position</b> at the company.	He applied for a new position at the company.	Ele se candidatou a uma nova vaga na empresa.	cargo, vaga, posição	medium	batch_05	
+jane_0535_01	war	Nobody wants another <b>war</b> in the world.	Nobody wants another war in the world.	Ninguém quer outra guerra no mundo.	guerra	easy	batch_05	
+jane_0536_01	condition	The used car is in very good <b>condition</b>.	The used car is in very good condition.	O carro usado está em muito bom estado.	estado, condição	medium	batch_05	
+jane_0537_01	decision	Moving to another city was a big <b>decision</b>.	Moving to another city was a big decision.	Mudar para outra cidade foi uma grande decisão.	decisão	medium	batch_05	Collocation: 'make a decision' (tomar uma decisão).
+jane_0538_01	community	We have a strong local <b>community</b> here.	We have a strong local community here.	Nós temos uma comunidade local forte aqui.	comunidade	easy	batch_05	
+jane_0539_01	role	Parents play an important <b>role</b> in education.	Parents play an important role in education.	Os pais têm um papel importante na educação.	papel, função	medium	batch_05	'Play a role' = desempenhar um papel.
+jane_0540_01	step	Learning basic words is the first <b>step</b>.	Learning basic words is the first step.	Aprender palavras básicas é o primeiro passo.	passo, degrau	easy	batch_05	
+jane_0541_01	raise	Please <b>raise</b> your hand if you have a question.	Please raise your hand if you have a question.	Por favor, levante a mão se você tiver alguma dúvida.	levantar, aumentar, criar (filhos)	medium	batch_05	
+jane_0542_01	site	I found this recipe on a cooking <b>site</b>.	I found this recipe on a cooking site.	Eu encontrei esta receita em um site de culinária.	site, local	easy	batch_05	
+jane_0543_01	sign	Look at that stop <b>sign</b> on the corner.	Look at that stop sign on the corner.	Olhe para aquela placa de pare na esquina.	placa, sinal (também verbo 'assinar')	easy	batch_05	O 'g' é mudo: /saɪn/.
+jane_0544_01	relationship	They have a very good <b>relationship</b>.	They have a very good relationship.	Eles têm um relacionamento muito bom.	relacionamento, relação	medium	batch_05	
+jane_0545_01	death	Everyone was sad after the actor's <b>death</b>.	Everyone was sad after the actor's death.	Todos ficaram tristes após a morte do ator.	morte	medium	batch_05	
+jane_0546_01	amount	You only need a small <b>amount</b> of salt.	You only need a small amount of salt.	Você só precisa de uma pequena quantidade de sal.	quantidade, quantia	medium	batch_05	Usado para coisas incontáveis.
+jane_0547_01	organization	She works for a non-profit <b>organization</b>.	She works for a non-profit organization.	Ela trabalha para uma organização sem fins lucrativos.	organização	medium	batch_05	
+jane_0548_01	couple	I will be back in a <b>couple</b> of minutes.	I will be back in a couple of minutes.	Eu volto em alguns minutos.	casal, dois/alguns ('a couple of')	medium	batch_05	'A couple of' significa 'uns dois / alguns'.
+jane_0549_01	quality	The audio <b>quality</b> of this file is great.	The audio quality of this file is great.	A qualidade do áudio deste arquivo está ótima.	qualidade	easy	batch_05	
+jane_0550_01	opportunity	This job is a great <b>opportunity</b> for you.	This job is a great opportunity for you.	Este emprego é uma ótima oportunidade para você.	oportunidade	medium	batch_05	
+jane_0551_01	wish	I <b>wish</b> you all the best!	I wish you all the best!	Eu te desejo tudo de bom!	desejar (também substantivo 'desejo')	easy	batch_05	
+jane_0552_01	rest	You look tired; you need some <b>rest</b>.	You look tired; you need some rest.	Você parece cansado; precisa de um pouco de descanso.	descanso (também 'o resto/restante')	easy	batch_05	
+jane_0553_01	kid	Every <b>kid</b> loves eating ice cream.	Every kid loves eating ice cream.	Toda criança adora tomar sorvete.	criança, garoto(a) (informal)	easy	batch_05	
+jane_0554_01	industry	He works in the music <b>industry</b>.	He works in the music industry.	Ele trabalha na indústria da música.	indústria, setor	medium	batch_05	
+jane_0555_01	education	<b>Education</b> is the key to a better future.	Education is the key to a better future.	A educação é a chave para um futuro melhor.	educação, ensino	easy	batch_05	
+jane_0556_01	kill	Too much sun can <b>kill</b> these small plants.	Too much sun can kill these small plants.	Sol demais pode matar estas plantas pequenas.	matar	easy	batch_05	
+jane_0557_01	serve	They <b>serve</b> lunch from twelve to three.	They serve lunch from twelve to three.	Eles servem almoço do meio-dia às três.	servir	easy	batch_05	
+jane_0558_01	field	The horses are running in the green <b>field</b>.	The horses are running in the green field.	Os cavalos estão correndo no campo verde.	campo (gramado ou área de atuação)	medium	batch_05	
+jane_0559_01	benefit	Walking daily brings a huge health <b>benefit</b>.	Walking daily brings a huge health benefit.	Caminhar diariamente traz um enorme benefício para a saúde.	benefício, vantagem	medium	batch_05	
+jane_0560_01	focus	Turn off your phone to <b>focus</b> on studying.	Turn off your phone to focus on studying.	Desligue o celular para focar nos estudos.	focar, concentrar (também substantivo 'foco')	medium	batch_05	Preposição comum: 'focus on'.
+jane_0561_01	stage	The band walked onto the <b>stage</b>.	The band walked onto the stage.	A banda subiu no palco.	palco, fase, estágio	medium	batch_05	
+jane_0562_01	realize	I didn't <b>realize</b> it was already so late.	I didn't realize it was already so late.	Eu não percebi que já estava tão tarde.	perceber, dar-se conta	hard	batch_05	Falso cognato: 'realize' é perceber (realizar é 'achieve' ou 'accomplish').
+jane_0563_01	data	We saved all the <b>data</b> on a local disk.	We saved all the data on a local disk.	Nós salvamos todos os dados em um disco local.	dados, informações	easy	batch_05	Falso cognato: 'data' em inglês é dados; data do calendário é 'date'.
+jane_0564_01	chance	Give me one more <b>chance</b> to try.	Give me one more chance to try.	Me dê mais uma chance para tentar.	chance, oportunidade	easy	batch_05	
+jane_0565_01	accept	Do you <b>accept</b> cash or only card?	Do you accept cash or only card?	Vocês aceitam dinheiro ou só cartão?	aceitar	easy	batch_05	
+jane_0566_01	society	Technology has changed modern <b>society</b>.	Technology has changed modern society.	A tecnologia mudou a sociedade moderna.	sociedade	medium	batch_05	
+jane_0567_01	technology	New <b>technology</b> makes communication much easier.	New technology makes communication much easier.	A nova tecnologia torna a comunicação muito mais fácil.	tecnologia	easy	batch_05	
+jane_0568_01	choice	You made a very smart <b>choice</b>.	You made a very smart choice.	Você fez uma escolha muito inteligente.	escolha, opção	easy	batch_05	
+jane_0569_01	save	Remember to <b>save</b> your work before closing.	Remember to save your work before closing.	Lembre-se de salvar o seu trabalho antes de fechar.	salvar, economizar, guardar	easy	batch_05	'Save money' = economizar dinheiro.
+jane_0570_01	check	Please <b>check</b> your email for the ticket.	Please check your email for the ticket.	Por favor, cheque o seu e-mail para pegar o ingresso.	checar, verificar (também 'conta' nos EUA)	easy	batch_05	
+jane_0571_01	reduce	We should <b>reduce</b> the amount of sugar we eat.	We should reduce the amount of sugar we eat.	Nós deveríamos reduzir a quantidade de açúcar que comemos.	reduzir, diminuir	medium	batch_05	
+jane_0572_01	evidence	The police found clear <b>evidence</b> in the room.	The police found clear evidence in the room.	A polícia encontrou provas claras na sala.	prova, evidência	medium	batch_05	Incontável em inglês.
+jane_0573_01	exist	Does life <b>exist</b> on other planets?	Does life exist on other planets?	Existe vida em outros planetas?	existir	medium	batch_05	
+jane_0574_01	fight	Brothers sometimes <b>fight</b> over small things.	Brothers sometimes fight over small things.	Irmãos às vezes brigam por coisas pequenas.	brigar, lutar	easy	batch_05	Passado irregular: fought.
+jane_0575_01	leader	She is a great team <b>leader</b> at work.	She is a great team leader at work.	Ela é uma ótima líder de equipe no trabalho.	líder	easy	batch_05	
+jane_0576_01	response	I am waiting for a <b>response</b> from the manager.	I am waiting for a response from the manager.	Eu estou esperando uma resposta do gerente.	resposta	medium	batch_05	
+jane_0577_01	voice	She has a very calm and clear <b>voice</b>.	She has a very calm and clear voice.	Ela tem uma voz muito calma e clara.	voz	easy	batch_05	
+jane_0578_01	finish	What time do you <b>finish</b> work today?	What time do you finish work today?	Que horas você termina o trabalho hoje?	terminar, concluir	easy	batch_05	
+jane_0579_01	suppose	I <b>suppose</b> we can try again tomorrow.	I suppose we can try again tomorrow.	Eu acho/suponho que podemos tentar de novo amanhã.	supor, achar	hard	batch_05	
+jane_0580_01	apply	I want to <b>apply</b> for this job online.	I want to apply for this job online.	Eu quero me candidatar a esta vaga pela internet.	candidatar-se ('apply for'), aplicar	medium	batch_05	
+jane_0581_01	president	The <b>president</b> gave a short speech today.	The president gave a short speech today.	O presidente fez um discurso curto hoje.	presidente	easy	batch_05	
+jane_0582_01	store	That grocery <b>store</b> closes at ten.	That grocery store closes at ten.	Aquele mercado fecha às dez.	loja (também verbo 'armazenar')	easy	batch_05	
+jane_0583_01	knowledge	Reading books brings a lot of <b>knowledge</b>.	Reading books brings a lot of knowledge.	Ler livros traz muito conhecimento.	conhecimento	medium	batch_05	O 'k' inicial é mudo: /ˈnɑːlɪdʒ/.
+jane_0584_01	heart	Running is very good for your <b>heart</b>.	Running is very good for your heart.	Correr faz muito bem para o seu coração.	coração	easy	batch_05	
+jane_0585_01	source	Fruit is a great <b>source</b> of vitamins.	Fruit is a great source of vitamins.	Fruta é uma ótima fonte de vitaminas.	fonte, origem	medium	batch_05	
+jane_0586_01	employee	Every <b>employee</b> gets a paid vacation.	Every employee gets a paid vacation.	Todo funcionário ganha férias remuneradas.	funcionário(a), empregado(a)	easy	batch_05	
+jane_0587_01	manage	How do you <b>manage</b> your study time?	How do you manage your study time?	Como você gerencia o seu tempo de estudo?	gerenciar, administrar, conseguir	medium	batch_05	
+jane_0588_01	attack	The dog did not <b>attack</b> the mailman.	The dog did not attack the mailman.	O cachorro não atacou o carteiro.	atacar (também substantivo 'ataque')	medium	batch_05	
+jane_0589_01	surprise	We planned a <b>surprise</b> party for her.	We planned a surprise party for her.	Nós planejamos uma festa surpresa para ela.	surpresa (também verbo 'surpreender')	easy	batch_05	
+jane_0590_01	feature	This new app has a very useful <b>feature</b>.	This new app has a very useful feature.	Este aplicativo novo tem um recurso muito útil.	recurso, funcionalidade, característica	medium	batch_05	
+jane_0591_01	factor	Price is an important <b>factor</b> for me.	Price is an important factor for me.	O preço é um fator importante para mim.	fator	hard	batch_05	
+jane_0592_01	affect	Lack of sleep can <b>affect</b> your health.	Lack of sleep can affect your health.	Falta de sono pode afetar a sua saúde.	afetar	medium	batch_05	'Affect' é o verbo (afetar); 'effect' é o substantivo (efeito).
+jane_0593_01	manager	Can I speak to the store <b>manager</b>?	Can I speak to the store manager?	Posso falar com o gerente da loja?	gerente	easy	batch_05	
+jane_0594_01	contain	Does this cake <b>contain</b> milk or eggs?	Does this cake contain milk or eggs?	Este bolo contém leite ou ovos?	conter	medium	batch_05	
+jane_0595_01	notice	Did you <b>notice</b> her new haircut?	Did you notice her new haircut?	Você notou o corte de cabelo novo dela?	notar, perceber (também 'aviso')	medium	batch_05	
+jane_0596_01	nature	I love spending weekends in <b>nature</b>.	I love spending weekends in nature.	Eu amo passar fins de semana na natureza.	natureza	easy	batch_05	
+jane_0597_01	structure	The building has a strong steel <b>structure</b>.	The building has a strong steel structure.	O prédio tem uma estrutura forte de aço.	estrutura	medium	batch_05	
+jane_0598_01	region	This <b>region</b> is famous for good coffee.	This region is famous for good coffee.	Esta região é famosa pelo bom café.	região	easy	batch_05	
+jane_0599_01	character	Who is your favorite movie <b>character</b>?	Who is your favorite movie character?	Qual é o seu personagem de filme favorito?	personagem, caráter, caractere	medium	batch_05	
+jane_0600_01	hit	The ball did <b>hit</b> the kitchen window.	The ball did hit the kitchen window.	A bola atingiu a janela da cozinha.	bater, atingir (também 'sucesso')	easy	batch_05	Passado irregular igual ao presente: hit.
