@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_2281_01	continuous	The machine makes a <b>continuous</b> soft sound.	The machine makes a continuous soft sound.	A máquina faz um som suave contínuo.	contínuo	medium	batch_20	
+jane_2282_01	weekly	We have a <b>weekly</b> team call on Mondays.	We have a weekly team call on Mondays.	Temos uma chamada semanal da equipe às segundas.	semanal / semanalmente	easy	batch_20	
+jane_2283_01	wherever	You can sit <b>wherever</b> you like.	You can sit wherever you like.	Você pode sentar onde quiser.	onde quer que	easy	batch_20	
+jane_2284_01	anxious	I feel a little <b>anxious</b> before flying.	I feel a little anxious before flying.	Eu me sinto um pouco ansioso antes de voar.	ansioso	medium	batch_20	
+jane_2285_01	altogether	She stopped drinking coffee <b>altogether</b>.	She stopped drinking coffee altogether.	Ela parou de beber café completamente.	completamente / ao todo	hard	batch_20	
+jane_2286_01	logic	I do not understand the <b>logic</b> behind this rule.	I do not understand the logic behind this rule.	Eu não entendo a lógica por trás desta regra.	lógica	easy	batch_20	
+jane_2287_01	raw	Carrots are delicious when eaten <b>raw</b>.	Carrots are delicious when eaten raw.	Cenouras são deliciosas quando comidas cruas.	cru / bruto	easy	batch_20	
+jane_2288_01	grammar	Reading books helps improve your <b>grammar</b>.	Reading books helps improve your grammar.	Ler livros ajuda a melhorar sua gramática.	gramática	easy	batch_20	
+jane_2289_01	liquid	Drink plenty of <b>liquid</b> on hot days.	Drink plenty of liquid on hot days.	Beba bastante líquido em dias quentes.	líquido	easy	batch_20	
+jane_2290_01	genuine	She showed <b>genuine</b> interest in our story.	She showed genuine interest in our story.	Ela demonstrou interesse genuíno na nossa história.	genuíno / verdadeiro	medium	batch_20	
+jane_2291_01	silly	Do not ask such a <b>silly</b> question.	Do not ask such a silly question.	Não faça uma pergunta tão boba.	bobo / tolo	easy	batch_20	
+jane_2292_01	lover	My brother is a huge music <b>lover</b>.	My brother is a huge music lover.	Meu irmão é um grande amante de música.	amante / apaixonado por	easy	batch_20	
+jane_2293_01	innocent	The court proved that he was <b>innocent</b>.	The court proved that he was innocent.	O tribunal provou que ele era inocente.	inocente	medium	batch_20	
+jane_2294_01	substitute	Honey is a healthy <b>substitute</b> for sugar.	Honey is a healthy substitute for sugar.	O mel é um substituto saudável para o açúcar.	substituto / substituir	medium	batch_20	
+jane_2295_01	reasonably	The food at that cafe is <b>reasonably</b> priced.	The food at that cafe is reasonably priced.	A comida naquele café tem um preço razoável.	razoavelmente / de forma justa	hard	batch_20	
+jane_2296_01	precise	The baker followed the <b>precise</b> measurements.	The baker followed the precise measurements.	O padeiro seguiu as medidas precisas.	preciso / exato	medium	batch_20	
+jane_2297_01	stir	<b>Stir</b> the sauce slowly so it stays smooth.	Stir the sauce slowly so it stays smooth.	Mexa o molho devagar para ele ficar liso.	mexer / misturar	easy	batch_20	Passado: 'stirred'.
+jane_2298_01	gentle	Use a <b>gentle</b> voice with the baby.	Use a gentle voice with the baby.	Use uma voz suave com o bebê.	suave / gentil / delicado	easy	batch_20	
+jane_2299_01	pale	You look <b>pale</b>, are you feeling okay?	You look pale, are you feeling okay?	Você parece pálido, está se sentindo bem?	pálido / claro	easy	batch_20	
+jane_2300_01	alongside	A bike path runs <b>alongside</b> the river.	A bike path runs alongside the river.	Uma ciclovia corre ao lado do rio.	ao lado de / junto a	hard	batch_20	
+jane_2301_01	gently	She closed the bedroom door <b>gently</b>.	She closed the bedroom door gently.	Ela fechou a porta do quarto suavemente.	suavemente / gentilmente	easy	batch_20	
+jane_2302_01	weird	That movie had a really <b>weird</b> ending.	That movie had a really weird ending.	Aquele filme teve um final muito estranho.	estranho / esquisito	easy	batch_20	
+jane_2303_01	cough	Cover your mouth when you <b>cough</b>.	Cover your mouth when you cough.	Cubra a boca quando você tossir.	tossir / tosse	easy	batch_20	Pronuncia-se 'kóf'.
+jane_2304_01	royal	We visited the old <b>royal</b> palace in London.	We visited the old royal palace in London.	Nós visitamos o antigo palácio real em Londres.	real (da realeza)	easy	batch_20	
+jane_2305_01	ugly	That old gray building looks quite <b>ugly</b>.	That old gray building looks quite ugly.	Aquele prédio cinza antigo parece bem feio.	feio	easy	batch_20	
+jane_2306_01	faithfully	The dog waited <b>faithfully</b> by the front door.	The dog waited faithfully by the front door.	O cachorro esperou fielmente perto da porta da frente.	fielmente	hard	batch_20	
+jane_2307_01	lazy	I feel a bit <b>lazy</b> on rainy Sundays.	I feel a bit lazy on rainy Sundays.	Eu me sinto um pouco preguiçoso em domingos chuvosos.	preguiçoso	easy	batch_20	
+jane_2308_01	hello	<b>Hello</b>, nice to finally meet you!	Hello, nice to finally meet you!	Olá, prazer em finalmente conhecê-lo!	olá / alô	easy	batch_20	
+jane_2309_01	ashamed	He felt <b>ashamed</b> of his rude behavior.	He felt ashamed of his rude behavior.	Ele se sentiu envergonhado de seu comportamento rude.	envergonhado	medium	batch_20	Usa-se 'ashamed of'.
+jane_2310_01	do	What do you want to <b>do</b> tonight?	What do you want to do tonight?	O que você quer fazer hoje à noite?	fazer (também verbo auxiliar)	easy	batch_20	Passado: 'did'; particípio: 'done'.
+jane_2311_01	group	Our <b>group</b> meets every Wednesday evening.	Our group meets every Wednesday evening.	Nosso grupo se encontra toda quarta-feira à noite.	grupo	easy	batch_20	
+jane_2312_01	buy	I need to <b>buy</b> fresh bread today.	I need to buy fresh bread today.	Eu preciso comprar pão fresco hoje.	comprar	easy	batch_20	Passado irregular: 'bought'.
+jane_2313_01	grow	Tomatoes <b>grow</b> very fast in warm weather.	Tomatoes grow very fast in warm weather.	Tomates crescem muito rápido no tempo quente.	crescer / cultivar	easy	batch_20	Passado irregular: 'grew'; particípio: 'grown'.
+jane_2314_01	design	I really like the modern <b>design</b> of this chair.	I really like the modern design of this chair.	Eu gosto muito do design moderno desta cadeira.	design / projeto / desenho	easy	batch_20	
+jane_2315_01	die	Flowers <b>die</b> quickly without enough water.	Flowers die quickly without enough water.	Flores morrem rápido sem água suficiente.	morrer	easy	batch_20	Com -ing vira 'dying'.
+jane_2316_01	detail	Tell me every <b>detail</b> about your trip.	Tell me every detail about your trip.	Me conte cada detalhe sobre a sua viagem.	detalhe	easy	batch_20	
+jane_2317_01	difference	What is the <b>difference</b> between these two words?	What is the difference between these two words?	Qual é a diferença entre essas duas palavras?	diferença	easy	batch_20	
+jane_2318_01	draw	She likes to <b>draw</b> animals in her notebook.	She likes to draw animals in her notebook.	Ela gosta de desenhar animais no caderno dela.	desenhar / puxar	easy	batch_20	Passado irregular: 'drew'; particípio: 'drawn'.
+jane_2319_01	door	Please close the front <b>door</b>.	Please close the front door.	Por favor, feche a porta da frente.	porta	easy	batch_20	
+jane_2320_01	discuss	Let us <b>discuss</b> the new plan over lunch.	Let us discuss the new plan over lunch.	Vamos discutir o novo plano durante o almoço.	discutir / conversar sobre	easy	batch_20	Não usa preposição depois: 'discuss the plan' (não 'discuss about').
+jane_2321_01	drink	Would you like a cold <b>drink</b>?	Would you like a cold drink?	Você gostaria de uma bebida gelada?	bebida	easy	batch_20	Como verbo, significa 'beber'.
+jane_2322_01	doctor	You should see a <b>doctor</b> about that cough.	You should see a doctor about that cough.	Você deveria consultar um médico sobre essa tosse.	médico / doutor	easy	batch_20	
+jane_2323_01	village	They live in a quiet <b>village</b> near the sea.	They live in a quiet village near the sea.	Eles moram em uma vila tranquila perto do mar.	vila / aldeia / povoado	easy	batch_20	
+jane_2324_01	dog	I walk my <b>dog</b> every morning.	I walk my dog every morning.	Eu passeio com o meu cachorro toda manhã.	cachorro / cão	easy	batch_20	
+jane_2325_01	dress	She wore a blue <b>dress</b> to the party.	She wore a blue dress to the party.	Ela usou um vestido azul na festa.	vestido	easy	batch_20	Como verbo, significa 'vestir-se'.
+jane_2326_01	guess	Take a wild <b>guess</b> at the answer!	Take a wild guess at the answer!	Dê um palpite na resposta!	palpite / suposição	medium	batch_20	Como verbo, significa 'adivinhar / achar'.
+jane_2327_01	dollar	This cup of coffee costs three <b>dollars</b>.	This cup of coffee costs three dollars.	Esta xícara de café custa três dólares.	dólar	easy	batch_20	
+jane_2328_01	dinner	We usually have <b>dinner</b> at seven o'clock.	We usually have dinner at seven o'clock.	Nós geralmente jantamos às sete horas.	jantar	easy	batch_20	
+jane_2329_01	email	I sent you an <b>email</b> this morning.	I sent you an email this morning.	Eu lhe enviei um e-mail hoje de manhã.	e-mail	easy	batch_20	
+jane_2330_01	driver	The bus <b>driver</b> was very polite.	The bus driver was very polite.	O motorista do ônibus foi muito educado.	motorista	easy	batch_20	
+jane_2331_01	lesson	Our first guitar <b>lesson</b> starts at noon.	Our first guitar lesson starts at noon.	Nossa primeira aula de violão começa ao meio-dia.	aula / lição	easy	batch_20	
+jane_2332_01	desk	Put the notebooks on my <b>desk</b>.	Put the notebooks on my desk.	Coloque os cadernos na minha escrivaninha.	escrivaninha / mesa de trabalho	easy	batch_20	
+jane_2333_01	diet	A balanced <b>diet</b> includes fruit and vegetables.	A balanced diet includes fruit and vegetables.	Uma dieta equilibrada inclui frutas e vegetais.	dieta / alimentação	easy	batch_20	
+jane_2334_01	dish	Pasta is my favorite Italian <b>dish</b>.	Pasta is my favorite Italian dish.	Massa é o meu prato italiano favorito.	prato (comida) / louça	easy	batch_20	'Wash the dishes' significa lavar a louça.
+jane_2335_01	tennis	We play <b>tennis</b> together every Saturday.	We play tennis together every Saturday.	Nós jogamos tênis juntos todo sábado.	tênis (esporte)	easy	batch_20	Para o calçado, usa-se 'sneakers' ou 'tennis shoes'.
+jane_2336_01	teenager	My nephew is a friendly <b>teenager</b> now.	My nephew is a friendly teenager now.	Meu sobrinho é um adolescente simpático agora.	adolescente	easy	batch_20	Refere-se a quem tem entre 13 e 19 anos ('-teen').
+jane_2337_01	guitar	He is learning to play the <b>guitar</b>.	He is learning to play the guitar.	Ele está aprendendo a tocar violão.	violão / guitarra	easy	batch_20	'Acoustic guitar' = violão; 'electric guitar' = guitarra.
+jane_2338_01	paragraph	Read the first <b>paragraph</b> out loud.	Read the first paragraph out loud.	Leia o primeiro parágrafo em voz alta.	parágrafo	easy	batch_20	
+jane_2339_01	website	Check our <b>website</b> for store hours.	Check our website for store hours.	Confira nosso site para o horário da loja.	site / página na web	easy	batch_20	
+jane_2340_01	can	I bought a <b>can</b> of soup for lunch.	I bought a can of soup for lunch.	Eu comprei uma lata de sopa para o almoço.	lata	easy	batch_20	Como verbo modal, significa 'poder / conseguir'.
+jane_2341_01	program	I use a free <b>program</b> to edit photos.	I use a free program to edit photos.	Eu uso um programa gratuito para editar fotos.	programa	easy	batch_20	
+jane_2342_01	process	Learning a language is a long <b>process</b>.	Learning a language is a long process.	Aprender um idioma é um processo longo.	processo	easy	batch_20	
+jane_2343_01	allow	They do not <b>allow</b> pets inside the store.	They do not allow pets inside the store.	Eles não permitem animais de estimação dentro da loja.	permitir / deixar	easy	batch_20	
+jane_2344_01	develop	Practice helps you <b>develop</b> strong speaking skills.	Practice helps you develop strong speaking skills.	A prática ajuda você a desenvolver boas habilidades de fala.	desenvolver	medium	batch_20	
+jane_2345_01	drive	I usually <b>drive</b> to work every morning.	I usually drive to work every morning.	Eu geralmente dirijo para o trabalho toda manhã.	dirigir	easy	batch_20	Passado irregular: 'drove'; particípio: 'driven'.
+jane_2346_01	ground	Autumn leaves covered the <b>ground</b>.	Autumn leaves covered the ground.	Folhas de outono cobriam o chão.	chão / solo	easy	batch_20	
+jane_2347_01	guy	That new <b>guy</b> at work is very friendly.	That new guy at work is very friendly.	Aquele cara novo no trabalho é muito simpático.	cara / rapaz	easy	batch_20	No plural ('guys'), é muito usado para se dirigir a grupos de homens e mulheres.
+jane_2348_01	drug	The doctor prescribed a new <b>drug</b> for pain.	The doctor prescribed a new drug for pain.	O médico receitou um novo remédio para dor.	remédio / medicamento / droga	medium	batch_20	Em inglês, 'drugstore' significa farmácia.
+jane_2349_01	director	The movie <b>director</b> won a big prize.	The movie director won a big prize.	O diretor do filme ganhou um grande prêmio.	diretor	easy	batch_20	
+jane_2350_01	discussion	We had a good <b>discussion</b> about the book.	We had a good discussion about the book.	Tivemos uma boa discussão sobre o livro.	discussão / debate	easy	batch_20	Em inglês, 'discussion' costuma ser uma conversa calma; briga é 'argument'.
+jane_2351_01	document	Please sign this <b>document</b> at the bottom.	Please sign this document at the bottom.	Por favor, assine este documento na parte de baixo.	documento	easy	batch_20	
+jane_2352_01	disease	Clean water helps prevent many <b>diseases</b>.	Clean water helps prevent many diseases.	Água limpa ajuda a prevenir muitas doenças.	doença	medium	batch_20	
+jane_2353_01	ring	She wears a gold <b>ring</b> on her finger.	She wears a gold ring on her finger.	Ela usa um anel de ouro no dedo.	anel / toque (de telefone)	easy	batch_20	Como verbo, significa 'tocar (campainha/telefone)'.
+jane_2354_01	discover	We love to <b>discover</b> new places on foot.	We love to discover new places on foot.	Nós adoramos descobrir novos lugares a pé.	descobrir	easy	batch_20	
+jane_2355_01	direction	We walked in the <b>direction</b> of the beach.	We walked in the direction of the beach.	Nós caminhamos na direção da praia.	direção / instrução	easy	batch_20	No plural ('directions'), significa 'instruções de caminho'.
+jane_2356_01	dream	I had a strange <b>dream</b> last night.	I had a strange dream last night.	Eu tive um sonho estranho ontem à noite.	sonho	easy	batch_20	Como verbo, significa 'sonhar'.
+jane_2357_01	wind	The cold <b>wind</b> blew through the trees.	The cold wind blew through the trees.	O vento frio soprou por entre as árvores.	vento	easy	batch_20	Pronuncia-se 'uínd' (substantivo). Como verbo ('dar corda / serpentear'), pronuncia-se 'uáind'.
+jane_2358_01	distance	I saw a small boat in the <b>distance</b>.	I saw a small boat in the distance.	Eu vi um pequeno barco à distância.	distância	easy	batch_20	
+jane_2359_01	guide	Our tour <b>guide</b> spoke three languages.	Our tour guide spoke three languages.	Nosso guia turístico falava três idiomas.	guia	easy	batch_20	
+jane_2360_01	introduction	Read the short <b>introduction</b> before chapter one.	Read the short introduction before chapter one.	Leia a breve introdução antes do capítulo um.	introdução / apresentação	medium	batch_20	
+jane_2361_01	refuse	He had to <b>refuse</b> the job offer.	He had to refuse the job offer.	Ele teve que recusar a oferta de emprego.	recusar	medium	batch_20	
+jane_2362_01	guest	Every hotel <b>guest</b> gets free breakfast.	Every hotel guest gets free breakfast.	Todo hóspede do hotel ganha café da manhã grátis.	hóspede / convidado	easy	batch_20	
+jane_2363_01	gun	Police officers carry a <b>gun</b> on duty.	Police officers carry a gun on duty.	Policiais carregam uma arma em serviço.	arma de fogo	easy	batch_20	
+jane_2364_01	destroy	The heavy storm could <b>destroy</b> the old fence.	The heavy storm could destroy the old fence.	A tempestade forte pode destruir a cerca velha.	destruir	easy	batch_20	
+jane_2365_01	device	Turn off every electronic <b>device</b> before takeoff.	Turn off every electronic device before takeoff.	Desligue todo dispositivo eletrônico antes da decolagem.	dispositivo / aparelho	easy	batch_20	
+jane_2366_01	researcher	The <b>researcher</b> shared her new study online.	The researcher shared her new study online.	A pesquisadora compartilhou seu novo estudo online.	pesquisador	medium	batch_20	
+jane_2367_01	disappear	The dark clouds began to <b>disappear</b>.	The dark clouds began to disappear.	As nuvens escuras começaram a desaparecer.	desaparecer	easy	batch_20	Atenção: um 's' e dois 'p' em 'disappear'.
+jane_2368_01	drama	She loves watching a good TV <b>drama</b>.	She loves watching a good TV drama.	Ela adora assistir a um bom drama na TV.	drama	easy	batch_20	
+jane_2369_01	laughter	The room was filled with happy <b>laughter</b>.	The room was filled with happy laughter.	A sala estava cheia de risadas alegres.	riso / risada	medium	batch_20	Pronuncia-se 'láf-ter'.
+jane_2370_01	disaster	My first attempt at baking was a <b>disaster</b>.	My first attempt at baking was a disaster.	Minha primeira tentativa de assar foi um desastre.	desastre	easy	batch_20	
+jane_2371_01	pub	Let us meet at the local <b>pub</b> tonight.	Let us meet at the local pub tonight.	Vamos nos encontrar no pub local hoje à noite.	pub / bar	easy	batch_20	
+jane_2372_01	designer	She works as a web <b>designer</b> in Berlin.	She works as a web designer in Berlin.	Ela trabalha como web designer em Berlim.	designer / projetista	easy	batch_20	
+jane_2373_01	grass	The green <b>grass</b> looks wet this morning.	The green grass looks wet this morning.	A grama verde parece molhada hoje de manhã.	grama / relva	easy	batch_20	
+jane_2374_01	button	Press the green <b>button</b> to start.	Press the green button to start.	Aperte o botão verde para começar.	botão	easy	batch_20	
+jane_2375_01	desert	Camels can walk across the hot <b>desert</b>.	Camels can walk across the hot desert.	Camelos conseguem caminhar pelo deserto quente.	deserto	easy	batch_20	Com um 's' ('desert') = deserto (pronúncia 'DÉ-zert'). Com dois 's' ('dessert') = sobremesa.
+jane_2376_01	discovery	Scientists made an exciting new <b>discovery</b>.	Scientists made an exciting new discovery.	Os cientistas fizeram uma nova descoberta empolgante.	descoberta	medium	batch_20	
+jane_2377_01	gallery	We visited a small art <b>gallery</b> downtown.	We visited a small art gallery downtown.	Nós visitamos uma pequena galeria de arte no centro.	galeria	easy	batch_20	
+jane_2378_01	golf	My grandfather plays <b>golf</b> on Sunday mornings.	My grandfather plays golf on Sunday mornings.	Meu avô joga golfe nas manhãs de domingo.	golfe	easy	batch_20	
+jane_2379_01	disagree	I completely <b>disagree</b> with that idea.	I completely disagree with that idea.	Eu discordo completamente dessa ideia.	discordar	easy	batch_20	Usa-se 'disagree with'.
+jane_2380_01	airline	Which <b>airline</b> did you fly with?	Which airline did you fly with?	Com qual companhia aérea você voou?	companhia aérea	easy	batch_20	
+jane_2381_01	greet	She smiled to <b>greet</b> her guests.	She smiled to greet her guests.	Ela sorriu para cumprimentar seus convidados.	cumprimentar / saudar	easy	batch_20	
+jane_2382_01	tourism	<b>Tourism</b> brings many visitors to this island.	Tourism brings many visitors to this island.	O turismo traz muitos visitantes para esta ilha.	turismo	easy	batch_20	
+jane_2383_01	castle	There is an old stone <b>castle</b> on the hill.	There is an old stone castle on the hill.	Há um antigo castelo de pedra na colina.	castelo	easy	batch_20	O 't' em 'castle' é mudo: pronuncia-se 'KÁ-sôl'.
+jane_2384_01	fiction	I enjoy reading science <b>fiction</b> novels.	I enjoy reading science fiction novels.	Eu gosto de ler romances de ficção científica.	ficção	easy	batch_20	
+jane_2385_01	athlete	Every <b>athlete</b> trains hard before the games.	Every athlete trains hard before the games.	Todo atleta treina duro antes dos jogos.	atleta	easy	batch_20	
+jane_2386_01	listener	My best friend is a very good <b>listener</b>.	My best friend is a very good listener.	Meu melhor amigo é um ouvinte muito bom.	ouvinte	easy	batch_20	O 't' em 'listener' é mudo.
+jane_2387_01	lead	Our team took the <b>lead</b> in the second half.	Our team took the lead in the second half.	Nosso time assumiu a liderança no segundo tempo.	liderança / dianteira	medium	batch_20	Como verbo ('liderar'), também se pronuncia 'líd'.
+jane_2388_01	development	Child <b>development</b> is a fascinating topic.	Child development is a fascinating topic.	O desenvolvimento infantil é um tema fascinante.	desenvolvimento	medium	batch_20	
+jane_2389_01	lie	He told a <b>lie</b> to avoid trouble.	He told a lie to avoid trouble.	Ele contou uma mentira para evitar problemas.	mentira	easy	batch_20	Expressão comum: 'tell a lie' (contar uma mentira).
+jane_2390_01	drop	I felt a cold <b>drop</b> of rain on my hand.	I felt a cold drop of rain on my hand.	Eu senti uma gota fria de chuva na minha mão.	gota / queda	easy	batch_20	Como verbo, significa 'derrubar' ou 'cair'.
+jane_2391_01	growth	Sunlight is essential for plant <b>growth</b>.	Sunlight is essential for plant growth.	A luz do sol é essencial para o crescimento das plantas.	crescimento	medium	batch_20	
+jane_2392_01	determine	Tests will <b>determine</b> the cause of the issue.	Tests will determine the cause of the issue.	Os testes vão determinar a causa do problema.	determinar	medium	batch_20	
+jane_2393_01	doubt	I have no <b>doubt</b> that you will succeed.	I have no doubt that you will succeed.	Não tenho dúvida de que você terá sucesso.	dúvida	easy	batch_20	O 'b' em 'doubt' é mudo: pronuncia-se 'dáut'.
+jane_2394_01	difficulty	She had no <b>difficulty</b> finding the station.	She had no difficulty finding the station.	Ela não teve dificuldade para encontrar a estação.	dificuldade	easy	batch_20	
+jane_2395_01	duty	It is our <b>duty</b> to protect nature.	It is our duty to protect nature.	É nosso dever proteger a natureza.	dever / obrigação	medium	batch_20	
+jane_2396_01	discount	Students get a ten percent <b>discount</b> here.	Students get a ten percent discount here.	Estudantes ganham dez por cento de desconto aqui.	desconto	easy	batch_20	
+jane_2397_01	guard	The security <b>guard</b> checked our tickets.	The security guard checked our tickets.	O guarda de segurança conferiu nossos ingressos.	guarda / vigia	easy	batch_20	
+jane_2398_01	complaint	We filed a <b>complaint</b> about the loud noise.	We filed a complaint about the loud noise.	Nós registramos uma reclamação sobre o barulho alto.	reclamação / queixa	medium	batch_20	
+jane_2399_01	accommodation	We booked cheap <b>accommodation</b> near the center.	We booked cheap accommodation near the center.	Nós reservamos uma hospedagem barata perto do centro.	hospedagem / acomodação	hard	batch_20	Atenção aos dois 'c' e dois 'm' em 'accommodation'.
+jane_2400_01	update	Please send me a quick <b>update</b> tomorrow.	Please send me a quick update tomorrow.	Por favor, me mande uma atualização rápida amanhã.	atualização	easy	batch_20	
