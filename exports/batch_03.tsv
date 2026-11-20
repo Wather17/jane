@@ -1,0 +1,124 @@
+#separator:tab
+#html:true
+#notetype:Jane Vocab
+#columns:Card_UID	Word	Sentence_Display	Sentence_Audio	Sentence_PT	Word_Meaning_PT	Difficulty	Batch	Notes
+jane_0241_01	team	Our <b>team</b> won the game today.	Our team won the game today.	Nosso time venceu o jogo hoje.	time, equipe	easy	batch_03	
+jane_0242_01	add	Please <b>add</b> a little sugar to my coffee.	Please add a little sugar to my coffee.	Por favor, adicione um pouco de açúcar ao meu café.	adicionar, somar	easy	batch_03	
+jane_0243_01	rule	Everyone must follow the school <b>rule</b>.	Everyone must follow the school rule.	Todos devem seguir a regra da escola.	regra, norma	easy	batch_03	
+jane_0244_01	sell	They <b>sell</b> fresh bread every morning.	They sell fresh bread every morning.	Eles vendem pão fresco toda manhã.	vender	easy	batch_03	Passado irregular: sold.
+jane_0245_01	agree	I completely <b>agree</b> with your idea.	I completely agree with your idea.	Eu concordo completamente com a sua ideia.	concordar	easy	batch_03	Em inglês dizemos 'agree with' (concordar com).
+jane_0246_01	paper	I need a piece of <b>paper</b> to write.	I need a piece of paper to write.	Eu preciso de uma folha de papel para escrever.	papel (também 'jornal' ou 'artigo')	easy	batch_03	Como material, é incontável ('a piece of paper').
+jane_0247_01	computer	I use my <b>computer</b> for work every day.	I use my computer for work every day.	Eu uso meu computador para trabalhar todo dia.	computador	easy	batch_03	
+jane_0248_01	situation	The <b>situation</b> is under control now.	The situation is under control now.	A situação está sob controle agora.	situação	medium	batch_03	
+jane_0249_01	activity	Swimming is my favorite outdoor <b>activity</b>.	Swimming is my favorite outdoor activity.	Natação é a minha atividade ao ar livre favorita.	atividade	easy	batch_03	Plural: activities.
+jane_0250_01	film	We watched an old <b>film</b> last night.	We watched an old film last night.	Nós assistimos a um filme antigo ontem à noite.	filme	easy	batch_03	Sinônimo comum de 'movie' (muito usado no inglês britânico).
+jane_0251_01	morning	Good <b>morning</b>! Did you sleep well?	Good morning! Did you sleep well?	Bom dia! Você dormiu bem?	manhã	easy	batch_03	
+jane_0252_01	shop	There is a nice coffee <b>shop</b> near here.	There is a nice coffee shop near here.	Tem uma cafeteria legal perto daqui.	loja (também verbo 'fazer compras')	easy	batch_03	'Coffee shop' = cafeteria.
+jane_0253_01	event	The music festival was a huge <b>event</b>.	The music festival was a huge event.	O festival de música foi um evento enorme.	evento, acontecimento	medium	batch_03	
+jane_0254_01	carry	Can you help me <b>carry</b> these bags?	Can you help me carry these bags?	Você pode me ajudar a carregar estas sacolas?	carregar, levar	easy	batch_03	
+jane_0255_01	choose	You can <b>choose</b> any color you want.	You can choose any color you want.	Você pode escolher qualquer cor que quiser.	escolher	easy	batch_03	Passado irregular: chose.
+jane_0256_01	father	My <b>father</b> taught me how to drive.	My father taught me how to drive.	Meu pai me ensinou a dirigir.	pai	easy	batch_03	
+jane_0257_01	table	Dinner is ready on the <b>table</b>.	Dinner is ready on the table.	O jantar está pronto na mesa.	mesa (também 'tabela')	easy	batch_03	
+jane_0258_01	describe	How would you <b>describe</b> your hometown?	How would you describe your hometown?	Como você descreveria a sua cidade natal?	descrever	medium	batch_03	
+jane_0259_01	girl	The little <b>girl</b> is riding her bike.	The little girl is riding her bike.	A menininha está andando de bicicleta.	menina, garota	easy	batch_03	
+jane_0260_01	join	Would you like to <b>join</b> us for lunch?	Would you like to join us for lunch?	Você gostaria de se juntar a nós para o almoço?	juntar-se, participar	medium	batch_03	
+jane_0261_01	action	I love watching <b>action</b> movies.	I love watching action movies.	Eu amo assistir a filmes de ação.	ação	easy	batch_03	
+jane_0262_01	health	Good sleep is important for your <b>health</b>.	Good sleep is important for your health.	Dormir bem é importante para a sua saúde.	saúde	easy	batch_03	
+jane_0263_01	eat	What do you want to <b>eat</b> for dinner?	What do you want to eat for dinner?	O que você quer comer no jantar?	comer	easy	batch_03	Passado irregular: ate.
+jane_0264_01	phone	My <b>phone</b> battery is almost dead.	My phone battery is almost dead.	A bateria do meu celular está quase acabando.	telefone, celular	easy	batch_03	
+jane_0265_01	date	What is today's <b>date</b>?	What is today's date?	Qual é a data de hoje?	data (também 'encontro romântico')	medium	batch_03	
+jane_0266_01	practice	Speaking English well takes daily <b>practice</b>.	Speaking English well takes daily practice.	Falar inglês bem exige prática diária.	prática (também verbo 'praticar')	easy	batch_03	
+jane_0267_01	model	Which <b>model</b> of car did you buy?	Which model of car did you buy?	Qual modelo de carro você comprou?	modelo	medium	batch_03	
+jane_0268_01	customer	The <b>customer</b> asked for the bill.	The customer asked for the bill.	O cliente pediu a conta.	cliente	easy	batch_03	
+jane_0269_01	explain	Could you <b>explain</b> this rule again?	Could you explain this rule again?	Você poderia explicar esta regra de novo?	explicar	easy	batch_03	
+jane_0270_01	teacher	My English <b>teacher</b> is very patient.	My English teacher is very patient.	Meu professor de inglês é muito paciente.	professor(a)	easy	batch_03	
+jane_0271_01	land	They bought a piece of <b>land</b> near the river.	They bought a piece of land near the river.	Eles compraram um terreno perto do rio.	terra, terreno (também verbo 'pousar/aterrissar')	medium	batch_03	
+jane_0272_01	travel	I love to <b>travel</b> to new places.	I love to travel to new places.	Eu amo viajar para lugares novos.	viajar (também 'viagem')	easy	batch_03	
+jane_0273_01	enjoy	Did you <b>enjoy</b> your trip?	Did you enjoy your trip?	Você gostou/aproveitou a sua viagem?	aproveitar, gostar de, curtir	easy	batch_03	
+jane_0274_01	improve	I want to <b>improve</b> my English every day.	I want to improve my English every day.	Eu quero melhorar o meu inglês todos os dias.	melhorar	easy	batch_03	
+jane_0275_01	picture	Can I take a <b>picture</b> of you?	Can I take a picture of you?	Posso tirar uma foto sua?	foto, imagem, quadro	easy	batch_03	'Take a picture' = tirar uma foto.
+jane_0276_01	boy	The <b>boy</b> is playing with his dog.	The boy is playing with his dog.	O menino está brincando com o cachorro dele.	menino, garoto	easy	batch_03	
+jane_0277_01	project	We are working on a new <b>project</b>.	We are working on a new project.	Nós estamos trabalhando em um projeto novo.	projeto	easy	batch_03	
+jane_0278_01	road	This <b>road</b> goes straight to the beach.	This road goes straight to the beach.	Esta estrada vai direto para a praia.	estrada, rua, caminho	easy	batch_03	
+jane_0279_01	list	I made a <b>list</b> of things to buy.	I made a list of things to buy.	Eu fiz uma lista de coisas para comprar.	lista (também verbo 'listar')	easy	batch_03	
+jane_0280_01	wear	What do you usually <b>wear</b> to work?	What do you usually wear to work?	O que você costuma vestir para trabalhar?	vestir, usar (roupa, óculos, relógio)	easy	batch_03	Passado irregular: wore.
+jane_0281_01	teach	Can you <b>teach</b> me how to play guitar?	Can you teach me how to play guitar?	Você pode me ensinar a tocar violão?	ensinar	easy	batch_03	Passado irregular: taught.
+jane_0282_01	air	Let's go outside for some fresh <b>air</b>.	Let's go outside for some fresh air.	Vamos lá fora pegar um pouco de ar fresco.	ar	easy	batch_03	
+jane_0283_01	news	I have some good <b>news</b> for you!	I have some good news for you!	Eu tenho uma boa notícia para você!	notícia, notícias	easy	batch_03	Sempre tem 's' no final, mas o verbo fica no singular ('The news is good').
+jane_0284_01	space	Is there enough <b>space</b> in the car?	Is there enough space in the car?	Tem espaço suficiente no carro?	espaço (também 'espaço sideral')	medium	batch_03	
+jane_0285_01	address	What is your home <b>address</b>?	What is your home address?	Qual é o endereço da sua casa?	endereço	easy	batch_03	
+jane_0286_01	culture	I love learning about Japanese <b>culture</b>.	I love learning about Japanese culture.	Eu amo aprender sobre a cultura japonesa.	cultura	easy	batch_03	
+jane_0287_01	listen	Please <b>listen</b> carefully to the audio.	Please listen carefully to the audio.	Por favor, escute com atenção o áudio.	escutar, ouvir (com atenção)	easy	batch_03	O 't' é mudo: /ˈlɪsən/. Sempre pede 'to' antes do objeto ('listen to music').
+jane_0288_01	foot	My left <b>foot</b> hurts after running.	My left foot hurts after running.	Meu pé esquerdo dói depois de correr.	pé	easy	batch_03	Plural irregular: feet (pés).
+jane_0289_01	animal	The dog is a very friendly <b>animal</b>.	The dog is a very friendly animal.	O cachorro é um animal muito amigável.	animal	easy	batch_03	
+jane_0290_01	arrive	What time does the plane <b>arrive</b>?	What time does the plane arrive?	Que horas o avião chega?	chegar	easy	batch_03	Use 'arrive at' (lugares pequenos) ou 'arrive in' (cidades/países).
+jane_0291_01	century	This old church was built a <b>century</b> ago.	This old church was built a century ago.	Esta igreja antiga foi construída há um século.	século	medium	batch_03	
+jane_0292_01	street	Look both ways before crossing the <b>street</b>.	Look both ways before crossing the street.	Olhe para os dois lados antes de atravessar a rua.	rua	easy	batch_03	
+jane_0293_01	wife	His <b>wife</b> works at a hospital.	His wife works at a hospital.	A esposa dele trabalha em um hospital.	esposa, mulher	easy	batch_03	Plural irregular: wives.
+jane_0294_01	sport	Soccer is the most popular <b>sport</b> here.	Soccer is the most popular sport here.	Futebol é o esporte mais popular aqui.	esporte	easy	batch_03	
+jane_0295_01	prepare	I need to <b>prepare</b> dinner for my family.	I need to prepare dinner for my family.	Eu preciso preparar o jantar para a minha família.	preparar	easy	batch_03	
+jane_0296_01	piece	Would you like a <b>piece</b> of cake?	Would you like a piece of cake?	Você gostaria de um pedaço de bolo?	pedaço, peça	easy	batch_03	
+jane_0297_01	fire	We made a small <b>fire</b> to stay warm.	We made a small fire to stay warm.	Nós fizemos uma fogueira pequena para nos aquecer.	fogo, incêndio (também verbo 'demitir/disparar')	easy	batch_03	
+jane_0298_01	compare	Always <b>compare</b> prices before buying online.	Always compare prices before buying online.	Sempre compare os preços antes de comprar pela internet.	comparar	medium	batch_03	
+jane_0299_01	police	Someone called the <b>police</b> right away.	Someone called the police right away.	Alguém chamou a polícia imediatamente.	polícia	easy	batch_03	Em inglês 'the police' usa verbo no plural ('The police are coming').
+jane_0300_01	laugh	His jokes always make me <b>laugh</b>.	His jokes always make me laugh.	As piadas dele sempre me fazem rir.	rir (também 'risada')	easy	batch_03	Pronúncia: /læf/ (o 'gh' soa como 'f').
+jane_0301_01	arm	He broke his right <b>arm</b> playing soccer.	He broke his right arm playing soccer.	Ele quebrou o braço direito jogando futebol.	braço	easy	batch_03	
+jane_0302_01	bank	I need to go to the <b>bank</b> today.	I need to go to the bank today.	Eu preciso ir ao banco hoje.	banco (instituição financeira)	easy	batch_03	
+jane_0303_01	article	I read an interesting <b>article</b> this morning.	I read an interesting article this morning.	Eu li um artigo interessante hoje de manhã.	artigo (de jornal/site ou gramática)	easy	batch_03	
+jane_0304_01	miss	I really <b>miss</b> my family when I travel.	I really miss my family when I travel.	Eu sinto muita falta da minha família quando viajo.	sentir falta de, perder (ônibus/aula)	medium	batch_03	Também usado para perder o ônibus ('miss the bus').
+jane_0305_01	art	She loves visiting <b>art</b> museums.	She loves visiting art museums.	Ela ama visitar museus de arte.	arte	easy	batch_03	
+jane_0306_01	forget	Don't <b>forget</b> to bring your keys!	Don't forget to bring your keys!	Não se esqueça de trazer as suas chaves!	esquecer	easy	batch_03	Passado irregular: forgot.
+jane_0307_01	page	Please open your book to <b>page</b> ten.	Please open your book to page ten.	Por favor, abra o seu livro na página dez.	página	easy	batch_03	
+jane_0308_01	summer	The weather is very hot in the <b>summer</b>.	The weather is very hot in the summer.	O tempo fica muito quente no verão.	verão	easy	batch_03	
+jane_0309_01	opinion	In my <b>opinion</b>, this movie is great.	In my opinion, this movie is great.	Na minha opinião, este filme é ótimo.	opinião	medium	batch_03	Preposição fixa: 'in my opinion'.
+jane_0310_01	park	Children love playing in the <b>park</b>.	Children love playing in the park.	Crianças adoram brincar no parque.	parque (também verbo 'estacionar')	easy	batch_03	
+jane_0311_01	section	Read the first <b>section</b> of the text.	Read the first section of the text.	Leia a primeira seção do texto.	seção, parte	medium	batch_03	
+jane_0312_01	plant	I bought a green <b>plant</b> for my room.	I bought a green plant for my room.	Eu comprei uma planta verde para o meu quarto.	planta (também verbo 'plantar')	easy	batch_03	
+jane_0313_01	paint	We want to <b>paint</b> the kitchen white.	We want to paint the kitchen white.	Nós queremos pintar a cozinha de branco.	pintar (também substantivo 'tinta')	easy	batch_03	
+jane_0314_01	worker	Every <b>worker</b> deserves a safe place.	Every worker deserves a safe place.	Todo trabalhador merece um lugar seguro.	trabalhador(a), funcionário(a)	easy	batch_03	
+jane_0315_01	evening	Good <b>evening</b>! How was your day?	Good evening! How was your day?	Boa noite! Como foi o seu dia?	noite (início da noite, ao chegar)	easy	batch_03	'Good evening' ao cumprimentar; 'Good night' ao se despedir ou dormir.
+jane_0316_01	skill	Speaking English is a very useful <b>skill</b>.	Speaking English is a very useful skill.	Falar inglês é uma habilidade muito útil.	habilidade, competência	medium	batch_03	
+jane_0317_01	son	Their <b>son</b> is learning to read.	Their son is learning to read.	O filho deles está aprendendo a ler.	filho	easy	batch_03	Tem exatamente a mesma pronúncia de 'sun' (sol).
+jane_0318_01	bed	I usually go to <b>bed</b> at eleven.	I usually go to bed at eleven.	Eu geralmente vou para a cama às onze.	cama	easy	batch_03	'Go to bed' (sem 'the') = ir dormir.
+jane_0319_01	station	Where is the nearest train <b>station</b>?	Where is the nearest train station?	Onde fica a estação de trem mais próxima?	estação	easy	batch_03	
+jane_0320_01	player	He is the best <b>player</b> on the team.	He is the best player on the team.	Ele é o melhor jogador do time.	jogador(a)	easy	batch_03	
+jane_0321_01	wall	There is a nice picture on the <b>wall</b>.	There is a nice picture on the wall.	Tem um quadro bonito na parede.	parede, muro	easy	batch_03	
+jane_0322_01	success	Hard work is the key to <b>success</b>.	Hard work is the key to success.	Trabalho duro é a chave para o sucesso.	sucesso	medium	batch_03	
+jane_0323_01	window	Please close the <b>window</b>, it's cold.	Please close the window, it's cold.	Por favor, feche a janela, está frio.	janela	easy	batch_03	
+jane_0324_01	tree	There is a tall <b>tree</b> in front of my house.	There is a tall tree in front of my house.	Tem uma árvore alta na frente da minha casa.	árvore	easy	batch_03	
+jane_0325_01	college	My sister starts <b>college</b> next year.	My sister starts college next year.	Minha irmã começa a faculdade no ano que vem.	faculdade, universidade	easy	batch_03	Falso cognato: 'college' é faculdade/ensino superior, não colégio.
+jane_0326_01	holiday	Tomorrow is a national <b>holiday</b>.	Tomorrow is a national holiday.	Amanhã é feriado nacional.	feriado (no inglês britânico, também 'férias')	easy	batch_03	
+jane_0327_01	machine	This coffee <b>machine</b> is very easy to use.	This coffee machine is very easy to use.	Esta máquina de café é muito fácil de usar.	máquina	easy	batch_03	Pronúncia: /məˈʃiːn/ (o 'ch' tem som de 'x').
+jane_0328_01	floor	My office is on the third <b>floor</b>.	My office is on the third floor.	Meu escritório fica no terceiro andar.	andar (de prédio), chão	easy	batch_03	
+jane_0329_01	hotel	We stayed at a clean <b>hotel</b> near the beach.	We stayed at a clean hotel near the beach.	Nós ficamos em um hotel limpo perto da praia.	hotel	easy	batch_03	
+jane_0330_01	club	I joined a running <b>club</b> last month.	I joined a running club last month.	Eu entrei para um clube de corrida mês passado.	clube (também 'boate')	easy	batch_03	
+jane_0331_01	movie	Let's watch a comedy <b>movie</b> tonight.	Let's watch a comedy movie tonight.	Vamos assistir a um filme de comédia hoje à noite.	filme	easy	batch_03	
+jane_0332_01	statement	The company made a public <b>statement</b>.	The company made a public statement.	A empresa fez uma declaração pública.	declaração, comunicado, extrato	hard	batch_03	
+jane_0333_01	introduce	Let me <b>introduce</b> my friend Maria.	Let me introduce my friend Maria.	Deixe eu apresentar a minha amiga Maria.	apresentar (alguém), introduzir	easy	batch_03	
+jane_0334_01	mile	The park is one <b>mile</b> from my house.	The park is one mile from my house.	O parque fica a uma milha da minha casa.	milha (~1,6 km)	medium	batch_03	
+jane_0335_01	card	Do you accept credit <b>card</b> here?	Do you accept credit card here?	Vocês aceitam cartão de crédito aqui?	cartão, carta (de baralho)	easy	batch_03	
+jane_0336_01	hospital	My uncle works at the local <b>hospital</b>.	My uncle works at the local hospital.	Meu tio trabalha no hospital local.	hospital	easy	batch_03	
+jane_0337_01	interview	I have a job <b>interview</b> tomorrow morning.	I have a job interview tomorrow morning.	Eu tenho uma entrevista de emprego amanhã de manhã.	entrevista	medium	batch_03	
+jane_0338_01	television	We don't watch much <b>television</b>.	We don't watch much television.	Nós não assistimos muita televisão.	televisão	easy	batch_03	No dia a dia costuma ser abreviado para 'TV'.
+jane_0339_01	husband	Her <b>husband</b> is a very good cook.	Her husband is a very good cook.	O marido dela é um ótimo cozinheiro.	marido, esposo	easy	batch_03	
+jane_0340_01	bus	I take the <b>bus</b> to work every morning.	I take the bus to work every morning.	Eu pego o ônibus para o trabalho toda manhã.	ônibus	easy	batch_03	
+jane_0341_01	brother	My older <b>brother</b> lives in another city.	My older brother lives in another city.	Meu irmão mais velho mora em outra cidade.	irmão	easy	batch_03	
+jane_0342_01	trip	Have a safe <b>trip</b> back home!	Have a safe trip back home!	Tenha uma boa viagem de volta para casa!	viagem (curta/ida e volta)	easy	batch_03	
+jane_0343_01	fish	We had grilled <b>fish</b> for lunch.	We had grilled fish for lunch.	Nós comemos peixe grelhado no almoço.	peixe (também verbo 'pescar')	easy	batch_03	O plural geralmente também é 'fish'.
+jane_0344_01	fill	Please <b>fill</b> this bottle with cold water.	Please fill this bottle with cold water.	Por favor, encha esta garrafa com água gelada.	encher, preencher	medium	batch_03	'Fill out' = preencher (formulário).
+jane_0345_01	star	Look at that bright <b>star</b> in the sky.	Look at that bright star in the sky.	Olhe para aquela estrela brilhante no céu.	estrela	easy	batch_03	
+jane_0346_01	match	Are you watching the soccer <b>match</b>?	Are you watching the soccer match?	Você está assistindo à partida de futebol?	partida, jogo (também 'combinar' ou 'fósforo')	medium	batch_03	
+jane_0347_01	box	What is inside that big <b>box</b>?	What is inside that big box?	O que tem dentro daquela caixa grande?	caixa	easy	batch_03	Plural: boxes.
+jane_0348_01	message	Did you get my text <b>message</b>?	Did you get my text message?	Você recebeu a minha mensagem de texto?	mensagem, recado	easy	batch_03	
+jane_0349_01	style	I really like your clothing <b>style</b>.	I really like your clothing style.	Eu gosto muito do seu estilo de roupa.	estilo	easy	batch_03	
+jane_0350_01	quarter	We waited for a <b>quarter</b> of an hour.	We waited for a quarter of an hour.	Nós esperamos por um quarto de hora (15 minutos).	um quarto (1/4), trimestre	hard	batch_03	Nos EUA, também é a moeda de 25 centavos.
+jane_0351_01	sing	She can <b>sing</b> very well.	She can sing very well.	Ela sabe cantar muito bem.	cantar	easy	batch_03	Passado irregular: sang.
+jane_0352_01	bill	Excuse me, can we have the <b>bill</b>?	Excuse me, can we have the bill?	Com licença, pode trazer a conta?	conta (restaurante/luz), nota de dinheiro	medium	batch_03	Nos EUA também se usa muito 'check' no restaurante.
+jane_0353_01	career	She has a successful <b>career</b> in tech.	She has a successful career in tech.	Ela tem uma carreira de sucesso em tecnologia.	carreira	medium	batch_03	
+jane_0354_01	science	<b>Science</b> was my favorite subject at school.	Science was my favorite subject at school.	Ciências era a minha matéria favorita na escola.	ciência	easy	batch_03	
+jane_0355_01	author	Who is the <b>author</b> of this book?	Who is the author of this book?	Quem é o autor deste livro?	autor(a)	easy	batch_03	
+jane_0356_01	hair	She has long dark <b>hair</b>.	She has long dark hair.	Ela tem cabelo comprido e escuro.	cabelo	easy	batch_03	Incontável em inglês (não diga 'hairs' para cabelo em geral).
+jane_0357_01	exercise	Daily <b>exercise</b> keeps you healthy.	Daily exercise keeps you healthy.	Exercício diário mantém você saudável.	exercício	easy	batch_03	
+jane_0358_01	restaurant	There is an Italian <b>restaurant</b> across the street.	There is an Italian restaurant across the street.	Tem um restaurante italiano do outro lado da rua.	restaurante	easy	batch_03	
+jane_0359_01	imagine	Can you <b>imagine</b> living on the beach?	Can you imagine living on the beach?	Você consegue imaginar morar na praia?	imaginar	medium	batch_03	
+jane_0360_01	daughter	Their <b>daughter</b> is five years old.	Their daughter is five years old.	A filha deles tem cinco anos.	filha	easy	batch_03	O 'gh' é mudo: /ˈdɔːtər/.
