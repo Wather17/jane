@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 from jane.anki_template import ANKI_DIR, generate_template_apkg
-from jane.core import export_batch, get_next_batch, get_status, master_batch, save_cards
+from jane.core import add_words, export_batch, get_next_batch, get_status, master_batch, save_cards
 from jane.db import DEFAULT_DB_PATH, get_connection, init_db
 from jane.rebuild import DEFAULT_EXPORTS_DIR, rebuild_database
 from jane.seed import RAW_DIR, seed_database
@@ -68,6 +68,13 @@ def build_parser() -> argparse.ArgumentParser:
         help="Skip seeding from raw datasets and import cards from TSVs only",
     )
 
+    p_add = sub.add_parser("add", help="Add custom words or expressions to the vocabulary database")
+    p_add.add_argument("words", nargs="+", help="One or more custom words or expressions")
+    p_add.add_argument("--batch", type=int, default=None, help="Explicit target batch number (must be > 0)")
+    p_add.add_argument("--batch-size", type=int, default=120, help="Max words per batch for auto-allocation")
+    p_add.add_argument("--pos", type=str, default=None, help="Part of speech (e.g. 'phrasal verb', 'noun')")
+    p_add.add_argument("--cefr", type=str, default=None, help="Optional CEFR level (A1, A2, B1, B2, C1, C2)")
+
     return parser
 
 
@@ -126,6 +133,16 @@ def main(argv: list[str] | None = None) -> int:
                 skip_seed=args.skip_seed,
             )
             print(json.dumps(res, indent=2))
+        elif args.command == "add":
+            res = add_words(
+                conn,
+                words=args.words,
+                batch_number=args.batch,
+                batch_size=args.batch_size,
+                pos=args.pos,
+                cefr_level=args.cefr,
+            )
+            print(json.dumps(res, indent=2, ensure_ascii=False))
     except Exception as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 1

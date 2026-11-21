@@ -11,6 +11,7 @@ from typing import Any
 
 HTML_TAG_RE = re.compile(r"<[^>]+>")
 VALID_DIFFICULTIES = {"easy", "medium", "hard"}
+VALID_CEFR_LEVELS = {"A1", "A2", "B1", "B2", "C1", "C2"}
 TSV_COLUMNS = [
     "Card_UID",
     "Word",
@@ -327,3 +328,138 @@ def master_batch(conn: sqlite3.Connection, batch_number: int) -> dict[str, int]:
     )
     conn.commit()
     return {"batch_number": batch_number, "updated": cur.rowcount}
+
+
+def add_words(
+    conn: sqlite3.Connection,
+    words: list[str],
+    batch_number: int | None = None,
+    batch_size: int = 120,
+    pos: str | None = None,
+    cefr_level: str | None = None,
+) -> dict[str, Any]:
+    """Add custom words or expressions to the words table with safe batch allocation."""
+    if not words:
+        raise ValueError("At least one word must be provided")
+    if batch_size <= 0:
+        raise ValueError("batch_size must be positive")
+    if batch_number is not None and batch_number <= 0:
+        raise ValueError("batch_number must be positive")
+
+    normalized_cefr: str | None = None
+    if cefr_level is not None:
+        normalized_cefr = cefr_level.strip().upper()
+        if normalized_cefr not in VALID_CEFR_LEVELS:
+            raise ValueError(
+                f"Invalid CEFR level '{cefr_level}' (expected one of {', '.join(sorted(VALID_CEFR_LEVELS))})"
+            )
+
+    normalized_pos: str | None = None
+    if pos is not None:
+        normalized_pos = _clean_tsv_cell(pos) or None
+
+    unique_lemmas: list[str] = []
+    seen: set[str] = set()
+    for raw_term in words:
+        if not isinstance(raw_term, str):
+            raise ValueError("Each word must be a string")
+        if any(ch in raw_term for ch in ("\t", "\r", "\n")):
+            raise ValueError(f"Invalid word {raw_term!r}: must not contain tabs or newlines")
+        lemma = " ".join(raw_term.strip().lower().split())
+        if not lemma:
+            raise ValueError("Word cannot be empty")
+        if lemma not in seen:
+            seen.add(lemma)
+            unique_lemmas.append(lemma)
+
+    added: list[dict[str, Any]] = []
+    skipped_existing: list[str] = []
+
+    try:
+        to_insert: list[str] = []
+        for lemma in unique_lemmas:
+            existing = conn.execute("SELECT id FROM words WHERE lemma = ?", (lemma,)).fetchone()
+            if existing is not None:
+                skipped_existing.append(lemma)
+            else:
+                to_insert.append(lemma)
+
+        if to_insert:
+            if batch_number is not None:
+                current_batch = batch_number
+                current_count = int(
+                    conn.execute(
+                        "SELECT COUNT(*) FROM words WHERE batch_number = ?",
+                        (current_batch,),
+                    ).fetchone()[0]
+                )
+            else:
+                max_batch_row = conn.execute("SELECT MAX(batch_number) AS max_batch FROM words").fetchone()
+                max_batch = max_batch_row["max_batch"]
+                if max_batch is None:
+                    current_batch = 1
+                    current_count = 0
+                else:
+                    max_batch_int = int(max_batch)
+                    has_closed = (
+                        conn.execute(
+                            """
+                            SELECT 1 FROM words
+                            WHERE batch_number = ? AND status IN ('exported', 'mastered')
+                            LIMIT 1
+                            """,
+                            (max_batch_int,),
+                        ).fetchone()
+                        is not None
+                    )
+                    if has_closed:
+                        current_batch = max_batch_int + 1
+                        current_count = 0
+                    else:
+                        current_count = int(
+                            conn.execute(
+                                "SELECT COUNT(*) FROM words WHERE batch_number = ?",
+                                (max_batch_int,),
+                            ).fetchone()[0]
+                        )
+                        if current_count >= batch_size:
+                            current_batch = max_batch_int + 1
+                            current_count = 0
+                        else:
+                            current_batch = max_batch_int
+
+            for lemma in to_insert:
+                if batch_number is None and current_count >= batch_size:
+                    current_batch += 1
+                    current_count = 0
+
+                current_count += 1
+                priority_score = 5_000_000.0 + current_batch * 1000.0 + current_count
+                cur = conn.execute(
+                    """
+                    INSERT INTO words (
+                        lemma, in_oxford, in_ngsl, cefr_level, pos,
+                        tier, priority_score, batch_number, status
+                    ) VALUES (?, 0, 0, ?, ?, 5, ?, ?, 'pending')
+                    """,
+                    (lemma, normalized_cefr, normalized_pos, priority_score, current_batch),
+                )
+                added.append(
+                    {
+                        "id": int(cur.lastrowid),
+                        "lemma": lemma,
+                        "batch_number": current_batch,
+                    }
+                )
+
+        conn.commit()
+    except Exception:
+        conn.rollback()
+        raise
+
+    return {
+        "added": added,
+        "skipped_existing": skipped_existing,
+        "added_count": len(added),
+        "skipped_count": len(skipped_existing),
+    }

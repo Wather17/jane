@@ -16,7 +16,7 @@ from unittest.mock import patch
 from jane.anki_template import NOTE_FIELDS, NOTETYPE_NAME, generate_template_apkg
 from jane.cli import main as cli_main
 
-from jane.core import export_batch, get_next_batch, get_status, master_batch, save_cards
+from jane.core import add_words, export_batch, get_next_batch, get_status, master_batch, save_cards
 from jane.db import get_connection, init_db
 from jane.rebuild import rebuild_database
 from jane.seed import seed_database
@@ -379,6 +379,135 @@ class JanePipelineTests(unittest.TestCase):
         self.assertIsNone(
             self.conn.execute("SELECT id FROM words WHERE lemma = 'gamma'").fetchone()
         )
+
+    def test_add_words_basic_dedup_metadata_and_pipeline_flow(self) -> None:
+        res = add_words(
+            self.conn,
+            ["  Burn   Out ", "deploy", "DEPLOY", "follow-up", "can't wait"],
+            pos="phrasal verb",
+            cefr_level="b1",
+        )
+        self.assertEqual(res["added_count"], 4)
+        self.assertEqual(res["skipped_count"], 0)
+        self.assertEqual([w["lemma"] for w in res["added"]], ["burn out", "deploy", "follow-up", "can't wait"])
+        self.assertTrue(all(w["batch_number"] == 1 for w in res["added"]))
+
+        row = self.conn.execute(
+            "SELECT tier, in_oxford, in_ngsl, status, pos, cefr_level FROM words WHERE lemma = 'burn out'"
+        ).fetchone()
+        self.assertEqual(row["tier"], 5)
+        self.assertEqual(row["in_oxford"], 0)
+        self.assertEqual(row["in_ngsl"], 0)
+        self.assertEqual(row["status"], "pending")
+        self.assertEqual(row["pos"], "phrasal verb")
+        self.assertEqual(row["cefr_level"], "B1")
+
+        # Duplicate against DB is skipped without overwriting
+        dup_res = add_words(self.conn, ["burn out", "pull off"], pos="verb", cefr_level="C1")
+        self.assertEqual(dup_res["added_count"], 1)
+        self.assertEqual(dup_res["skipped_count"], 1)
+        self.assertEqual(dup_res["skipped_existing"], ["burn out"])
+        still_b1 = self.conn.execute("SELECT cefr_level FROM words WHERE lemma = 'burn out'").fetchone()
+        self.assertEqual(still_b1["cefr_level"], "B1")
+
+        # Full pipeline: next -> save -> export
+        nxt = get_next_batch(self.conn, batch_number=1, limit=10, include_known=False)
+        self.assertEqual(nxt["pending_count"], 5)
+        self.assertEqual(nxt["pending_words"][0]["lemma"], "burn out")
+
+        save_cards(
+            self.conn,
+            [
+                {
+                    "lemma": "burn out",
+                    "difficulty": "medium",
+                    "sentence_display": "Do not <b>burn out</b> at work.",
+                    "sentence_audio": "Do not burn out at work.",
+                    "sentence_pt": "Não se esgote no trabalho.",
+                    "word_meaning_pt": "esgotar-se",
+                }
+            ],
+        )
+        tsv_path = Path(self.tmp.name) / "custom_batch_01.tsv"
+        exp = export_batch(self.conn, batch_number=1, out_path=tsv_path)
+        self.assertEqual(exp["cards_exported"], 1)
+        lines = tsv_path.read_text(encoding="utf-8").splitlines()
+        self.assertTrue(lines[4].startswith("jane_"))
+        self.assertIn("\tburn out\t", lines[4])
+
+    def test_add_words_auto_batch_allocation_closed_vs_open_and_explicit(self) -> None:
+        # Open batch (pending/generated) fills up to batch_size and overflows
+        r1 = add_words(self.conn, ["alpha", "beta"], batch_size=3)
+        self.assertEqual([w["batch_number"] for w in r1["added"]], [1, 1])
+
+        r2 = add_words(self.conn, ["gamma", "delta", "epsilon"], batch_size=3)
+        self.assertEqual([w["batch_number"] for w in r2["added"]], [1, 2, 2])
+
+        # Mark one word in batch 2 as exported (even though batch 2 has only 2 < 3 words)
+        save_cards(
+            self.conn,
+            [
+                {
+                    "lemma": "delta",
+                    "difficulty": "easy",
+                    "sentence_display": "We saw <b>delta</b> on the map.",
+                    "sentence_audio": "We saw delta on the map.",
+                    "sentence_pt": "Vimos delta no mapa.",
+                    "word_meaning_pt": "delta",
+                }
+            ],
+        )
+        export_batch(self.conn, batch_number=2, out_path=Path(self.tmp.name) / "b2.tsv")
+
+        # Next auto-allocated word must open batch 3 instead of polluting closed batch 2
+        r3 = add_words(self.conn, ["zeta"], batch_size=3)
+        self.assertEqual(r3["added"][0]["batch_number"], 3)
+
+        # Marking batch 3 mastered must also cause auto-allocation to open batch 4
+        master_batch(self.conn, batch_number=3)
+        r4 = add_words(self.conn, ["eta"], batch_size=3)
+        self.assertEqual(r4["added"][0]["batch_number"], 4)
+
+        # Explicit --batch overrides auto-allocation
+        r5 = add_words(self.conn, ["theta"], batch_number=10)
+        self.assertEqual(r5["added"][0]["batch_number"], 10)
+
+    def test_add_words_validation_errors_and_seed_compatibility(self) -> None:
+        # Invalid CEFR, empty word, tab/newline, non-positive batch / batch_size
+        with self.assertRaises(ValueError):
+            add_words(self.conn, ["deploy"], cefr_level="Z9")
+        with self.assertRaises(ValueError):
+            add_words(self.conn, ["   "])
+        with self.assertRaises(ValueError):
+            add_words(self.conn, ["bad\tword"])
+        with self.assertRaises(ValueError):
+            add_words(self.conn, ["deploy"], batch_number=0)
+        with self.assertRaises(ValueError):
+            add_words(self.conn, ["deploy"], batch_size=0)
+
+        # CLI returns exit code 1 on validation error and does not insert partial words
+        stderr_buf = io.StringIO()
+        with patch.object(sys, "stderr", stderr_buf):
+            code = cli_main(["--db", str(self.db_path), "add", "validword", "   "])
+        self.assertEqual(code, 1)
+        self.assertEqual(self.conn.execute("SELECT COUNT(*) FROM words").fetchone()[0], 0)
+
+        # Custom words survive subsequent seed_database runs and seeded words are skipped on add
+        add_words(self.conn, ["burn out", "trade-off"], batch_number=32, pos="phrasal verb")
+        seed_database(self.conn, batch_size=120, sample_size=20, rng_seed=42)
+
+        custom = self.conn.execute(
+            "SELECT tier, batch_number, pos FROM words WHERE lemma = 'burn out'"
+        ).fetchone()
+        self.assertIsNotNone(custom)
+        self.assertEqual(custom["tier"], 5)
+        self.assertEqual(custom["batch_number"], 32)
+        self.assertEqual(custom["pos"], "phrasal verb")
+
+        seeded_lemma = self.conn.execute("SELECT lemma FROM words WHERE tier < 5 LIMIT 1").fetchone()["lemma"]
+        skip_res = add_words(self.conn, [seeded_lemma, "rollout"])
+        self.assertEqual(skip_res["skipped_existing"], [seeded_lemma])
+        self.assertEqual([w["lemma"] for w in skip_res["added"]], ["rollout"])
 
 
 if __name__ == "__main__":
