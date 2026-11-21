@@ -6,10 +6,13 @@ import csv
 import json
 import re
 import sqlite3
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
 HTML_TAG_RE = re.compile(r"<[^>]+>")
+DATE_ONLY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+DATETIME_RE = re.compile(r"^\d{4}-\d{2}-\d{2}[T ]\d{2}:\d{2}:\d{2}$")
 VALID_DIFFICULTIES = {"easy", "medium", "hard"}
 VALID_CEFR_LEVELS = {"A1", "A2", "B1", "B2", "C1", "C2"}
 TSV_COLUMNS = [
@@ -204,7 +207,8 @@ def save_cards(
                 """
                 UPDATE cards SET
                     pos = ?, difficulty = ?, sentence_display = ?, sentence_audio = ?,
-                    sentence_pt = ?, word_meaning_pt = ?, notes = ?, char_count = ?
+                    sentence_pt = ?, word_meaning_pt = ?, notes = ?, char_count = ?,
+                    updated_at = datetime('now'), exported_at = NULL
                 WHERE id = ?
                 """,
                 (pos, difficulty, s_disp, s_audio, s_pt, meaning_pt, notes, char_count, existing["id"]),
@@ -215,8 +219,8 @@ def save_cards(
                 INSERT INTO cards (
                     card_uid, word_id, sense_index, pos, difficulty,
                     sentence_display, sentence_audio, sentence_pt,
-                    word_meaning_pt, notes, char_count
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    word_meaning_pt, notes, char_count, updated_at, exported_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now'), NULL)
                 """,
                 (card_uid, word_id, sense_index, pos, difficulty, s_disp, s_audio, s_pt, meaning_pt, notes, char_count),
             )
@@ -238,44 +242,37 @@ def save_cards(
     return {"saved": saved, "words_updated": len(touched_word_ids)}
 
 
-def export_batch(
+_EXPORT_SELECT_SQL = """
+SELECT
+    c.id AS card_id,
+    c.card_uid,
+    w.lemma,
+    c.sentence_display,
+    c.sentence_audio,
+    c.sentence_pt,
+    c.word_meaning_pt,
+    c.difficulty,
+    w.batch_number,
+    c.notes,
+    c.char_count,
+    w.id AS word_id
+FROM cards c
+JOIN words w ON w.id = c.word_id
+"""
+
+
+def _write_tsv_rows(
     conn: sqlite3.Connection,
-    batch_number: int,
-    out_path: Path | None = None,
+    rows: list[sqlite3.Row],
+    dest: Path,
     include_header: bool = True,
-    exports_dir: Path | None = None,
-) -> dict[str, Any]:
-    """Export all cards for a batch to a UTF-8 TSV file and estimate HyperTTS quota."""
-    rows = conn.execute(
-        """
-        SELECT
-            c.card_uid,
-            w.lemma,
-            c.sentence_display,
-            c.sentence_audio,
-            c.sentence_pt,
-            c.word_meaning_pt,
-            c.difficulty,
-            w.batch_number,
-            c.notes,
-            c.char_count,
-            w.id AS word_id
-        FROM cards c
-        JOIN words w ON w.id = c.word_id
-        WHERE w.batch_number = ?
-        ORDER BY w.priority_score ASC, c.sense_index ASC
-        """,
-        (batch_number,),
-    ).fetchall()
-
-    if not rows:
-        raise ValueError(f"No generated cards found for batch {batch_number}")
-
-    base_exports = Path(exports_dir) if exports_dir is not None else Path("exports")
-    dest = out_path or (base_exports / f"batch_{batch_number:02d}.tsv")
+) -> tuple[int, list[str], dict[str, int]]:
+    """Write card rows to a UTF-8 TSV file, mark exported timestamps/statuses, and estimate HyperTTS quota."""
     dest.parent.mkdir(parents=True, exist_ok=True)
 
     total_chars = 0
+    card_ids: list[int] = []
+    card_uids: list[str] = []
     word_ids: set[int] = set()
 
     with dest.open("w", encoding="utf-8", newline="") as f:
@@ -300,8 +297,12 @@ def export_batch(
                 ]
             )
             total_chars += r["char_count"]
-            word_ids.add(r["word_id"])
+            card_ids.append(int(r["card_id"]))
+            card_uids.append(str(r["card_uid"]))
+            word_ids.add(int(r["word_id"]))
 
+    for cid in card_ids:
+        conn.execute("UPDATE cards SET exported_at = datetime('now') WHERE id = ?", (cid,))
     for wid in word_ids:
         conn.execute(
             "UPDATE words SET status = 'exported', updated_at = datetime('now') WHERE id = ? AND status = 'generated'",
@@ -309,16 +310,167 @@ def export_batch(
         )
     conn.commit()
 
+    hypertts_estimate = {
+        "1x_azure_google": total_chars,
+        "2x_openai": total_chars * 2,
+        "15x_elevenlabs": total_chars * 15,
+    }
+    return total_chars, card_uids, hypertts_estimate
+
+
+def _parse_since_timestamp(since: str) -> str:
+    raw = since.strip()
+    if DATE_ONLY_RE.fullmatch(raw):
+        try:
+            parsed_date = date.fromisoformat(raw)
+        except ValueError as exc:
+            raise ValueError(
+                f"Invalid --since date '{since}' (expected YYYY-MM-DD or YYYY-MM-DDTHH:MM:SS)"
+            ) from exc
+        return f"{parsed_date.isoformat()} 00:00:00"
+    if DATETIME_RE.fullmatch(raw):
+        try:
+            parsed_dt = datetime.fromisoformat(raw)
+        except ValueError as exc:
+            raise ValueError(
+                f"Invalid --since timestamp '{since}' (expected YYYY-MM-DD or YYYY-MM-DDTHH:MM:SS)"
+            ) from exc
+        return parsed_dt.strftime("%Y-%m-%d %H:%M:%S")
+    raise ValueError(f"Invalid --since timestamp '{since}' (expected YYYY-MM-DD or YYYY-MM-DDTHH:MM:SS)")
+
+
+def _parse_csv_items(values: str | list[str], *, normalize_lemma: bool = False) -> list[str]:
+    raw_items = values.split(",") if isinstance(values, str) else list(values)
+    result: list[str] = []
+    seen: set[str] = set()
+    for item in raw_items:
+        cleaned = " ".join(item.strip().lower().split()) if normalize_lemma else item.strip()
+        if cleaned and cleaned not in seen:
+            seen.add(cleaned)
+            result.append(cleaned)
+    return result
+
+
+def export_batch(
+    conn: sqlite3.Connection,
+    batch_number: int,
+    out_path: Path | None = None,
+    include_header: bool = True,
+    exports_dir: Path | None = None,
+) -> dict[str, Any]:
+    """Export all cards for a batch to a UTF-8 TSV file and estimate HyperTTS quota."""
+    rows = conn.execute(
+        f"{_EXPORT_SELECT_SQL} WHERE w.batch_number = ? ORDER BY w.priority_score ASC, c.sense_index ASC",
+        (batch_number,),
+    ).fetchall()
+
+    if not rows:
+        raise ValueError(f"No generated cards found for batch {batch_number}")
+
+    base_exports = Path(exports_dir) if exports_dir is not None else Path("exports")
+    dest = out_path or (base_exports / f"batch_{batch_number:02d}.tsv")
+    total_chars, _, hypertts_estimate = _write_tsv_rows(conn, rows, dest, include_header=include_header)
+
     return {
         "batch_number": batch_number,
         "cards_exported": len(rows),
         "output_path": str(dest),
         "total_chars": total_chars,
-        "hypertts_estimate": {
-            "1x_azure_google": total_chars,
-            "2x_openai": total_chars * 2,
-            "15x_elevenlabs": total_chars * 15,
-        },
+        "hypertts_estimate": hypertts_estimate,
+    }
+
+
+def export_cards(
+    conn: sqlite3.Connection,
+    *,
+    uids: str | list[str] | None = None,
+    words: str | list[str] | None = None,
+    modified: bool = False,
+    since: str | None = None,
+    out_path: Path | None = None,
+    include_header: bool = True,
+    exports_dir: Path | None = None,
+) -> dict[str, Any]:
+    """Selectively export cards by Card_UIDs, words, modified status, or timestamp."""
+    active_modes = [
+        name
+        for name, enabled in [
+            ("uids", uids is not None),
+            ("words", words is not None),
+            ("modified", bool(modified)),
+            ("since", since is not None),
+        ]
+        if enabled
+    ]
+    if len(active_modes) != 1:
+        raise ValueError("Specify exactly one selector among uids, words, modified, or since")
+
+    mode = active_modes[0]
+    order_clause = "ORDER BY w.batch_number ASC, w.priority_score ASC, c.sense_index ASC"
+
+    if mode == "uids":
+        requested_uids = _parse_csv_items(uids or "")
+        if not requested_uids:
+            raise ValueError("At least one Card_UID must be provided for --uids")
+        placeholders = ",".join("?" for _ in requested_uids)
+        rows = conn.execute(
+            f"{_EXPORT_SELECT_SQL} WHERE c.card_uid IN ({placeholders}) {order_clause}",
+            requested_uids,
+        ).fetchall()
+        found_uids = {str(r["card_uid"]) for r in rows}
+        missing_uids = [u for u in requested_uids if u not in found_uids]
+        if missing_uids:
+            raise ValueError(f"Card_UID(s) not found: {', '.join(missing_uids)}")
+    elif mode == "words":
+        requested_words = _parse_csv_items(words or "", normalize_lemma=True)
+        if not requested_words:
+            raise ValueError("At least one word must be provided for --words")
+        placeholders = ",".join("?" for _ in requested_words)
+        rows = conn.execute(
+            f"{_EXPORT_SELECT_SQL} WHERE w.lemma IN ({placeholders}) {order_clause}",
+            requested_words,
+        ).fetchall()
+        found_words = {str(r["lemma"]) for r in rows}
+        missing_words = [w for w in requested_words if w not in found_words]
+        if missing_words:
+            raise ValueError(f"No cards found for word(s): {', '.join(missing_words)}")
+    elif mode == "modified":
+        rows = conn.execute(
+            f"""
+            {_EXPORT_SELECT_SQL}
+            WHERE c.exported_at IS NULL OR COALESCE(c.updated_at, c.created_at) > c.exported_at
+            {order_clause}
+            """
+        ).fetchall()
+        if not rows:
+            raise ValueError("No modified cards found to export")
+    else:  # mode == "since"
+        normalized_since = _parse_since_timestamp(since or "")
+        rows = conn.execute(
+            f"""
+            {_EXPORT_SELECT_SQL}
+            WHERE COALESCE(c.updated_at, c.created_at) >= ?
+            {order_clause}
+            """,
+            (normalized_since,),
+        ).fetchall()
+        if not rows:
+            raise ValueError(f"No cards found modified since {normalized_since}")
+
+    base_exports = Path(exports_dir) if exports_dir is not None else Path("exports")
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    dest = out_path or (base_exports / f"update_{timestamp}.tsv")
+    total_chars, card_uids, hypertts_estimate = _write_tsv_rows(
+        conn, rows, dest, include_header=include_header
+    )
+
+    return {
+        "mode": mode,
+        "cards_exported": len(rows),
+        "card_uids": card_uids,
+        "output_path": str(dest),
+        "total_chars": total_chars,
+        "hypertts_estimate": hypertts_estimate,
     }
 
 

@@ -41,6 +41,8 @@ CREATE TABLE IF NOT EXISTS cards (
     notes             TEXT DEFAULT '',
     char_count        INTEGER NOT NULL,
     created_at        TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at        TEXT NOT NULL DEFAULT (datetime('now')),
+    exported_at       TEXT,
     FOREIGN KEY (word_id) REFERENCES words(id) ON DELETE CASCADE,
     UNIQUE (word_id, sense_index)
 );
@@ -62,6 +64,20 @@ def get_connection(db_path: Path | str = DEFAULT_DB_PATH) -> sqlite3.Connection:
 
 
 def init_db(conn: sqlite3.Connection) -> None:
-    """Create tables and indexes if they do not exist."""
+    """Create tables and indexes if they do not exist, applying idempotent migrations."""
     conn.executescript(SCHEMA_SQL)
+    cols = {row["name"] for row in conn.execute("PRAGMA table_info(cards)").fetchall()}
+    if "updated_at" not in cols:
+        conn.execute("ALTER TABLE cards ADD COLUMN updated_at TEXT")
+        conn.execute("UPDATE cards SET updated_at = COALESCE(updated_at, created_at)")
+    if "exported_at" not in cols:
+        conn.execute("ALTER TABLE cards ADD COLUMN exported_at TEXT")
+        conn.execute(
+            """
+            UPDATE cards
+            SET exported_at = created_at
+            WHERE exported_at IS NULL
+              AND word_id IN (SELECT id FROM words WHERE status IN ('exported', 'mastered'))
+            """
+        )
     conn.commit()
