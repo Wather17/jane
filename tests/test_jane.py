@@ -17,7 +17,7 @@ from unittest.mock import patch
 from jane import __version__
 from jane.anki_template import ANKI_DIR, NOTE_FIELDS, NOTETYPE_NAME, generate_template_apkg
 from jane.cli import main as cli_main
-from jane.core import add_words, export_batch, get_next_batch, get_status, master_batch, save_cards
+from jane.core import add_words, export_batch, export_cards, get_next_batch, get_status, master_batch, save_cards
 from jane.db import DEFAULT_DB_PATH, get_connection, init_db
 from jane.paths import default_anki_dir, default_db_path, default_exports_dir, default_raw_dir, resolve_jane_home
 from jane.rebuild import rebuild_database
@@ -643,6 +643,263 @@ class JanePipelineTests(unittest.TestCase):
                 self.assertTrue(explicit_db.exists())
         finally:
             os.chdir(orig_cwd)
+
+    def test_legacy_db_migration_backfills_updated_and_exported_at(self) -> None:
+        legacy_path = Path(self.tmp.name) / "legacy.db"
+        legacy_conn = sqlite3.connect(legacy_path)
+        legacy_conn.row_factory = sqlite3.Row
+        try:
+            legacy_conn.executescript(
+                """
+                CREATE TABLE words (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    lemma TEXT NOT NULL UNIQUE,
+                    in_oxford INTEGER NOT NULL DEFAULT 0,
+                    in_ngsl INTEGER NOT NULL DEFAULT 0,
+                    cefr_level TEXT,
+                    pos TEXT,
+                    ngsl_rank INTEGER,
+                    ngsl_freq REAL,
+                    tier INTEGER NOT NULL,
+                    priority_score REAL NOT NULL,
+                    batch_number INTEGER NOT NULL,
+                    status TEXT NOT NULL DEFAULT 'pending',
+                    created_at TEXT NOT NULL DEFAULT (datetime('now')),
+                    updated_at TEXT NOT NULL DEFAULT (datetime('now'))
+                );
+                CREATE TABLE cards (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    card_uid TEXT NOT NULL UNIQUE,
+                    word_id INTEGER NOT NULL,
+                    sense_index INTEGER NOT NULL DEFAULT 1,
+                    pos TEXT,
+                    difficulty TEXT NOT NULL CHECK (difficulty IN ('easy', 'medium', 'hard')),
+                    sentence_display TEXT NOT NULL,
+                    sentence_audio TEXT NOT NULL,
+                    sentence_pt TEXT NOT NULL,
+                    word_meaning_pt TEXT NOT NULL,
+                    notes TEXT DEFAULT '',
+                    char_count INTEGER NOT NULL,
+                    created_at TEXT NOT NULL DEFAULT (datetime('now')),
+                    FOREIGN KEY (word_id) REFERENCES words(id) ON DELETE CASCADE,
+                    UNIQUE (word_id, sense_index)
+                );
+                INSERT INTO words (id, lemma, tier, priority_score, batch_number, status) VALUES
+                    (1, 'alpha', 1, 1.0, 1, 'exported'),
+                    (2, 'beta', 1, 2.0, 1, 'mastered'),
+                    (3, 'gamma', 1, 3.0, 1, 'generated');
+                INSERT INTO cards (
+                    card_uid, word_id, sense_index, difficulty,
+                    sentence_display, sentence_audio, sentence_pt,
+                    word_meaning_pt, notes, char_count, created_at
+                ) VALUES
+                    ('jane_0001_01', 1, 1, 'easy', 'I see <b>alpha</b> here.', 'I see alpha here.', 'Vejo alpha.', 'alfa', '', 17, '2026-01-10 10:00:00'),
+                    ('jane_0002_01', 2, 1, 'easy', 'I see <b>beta</b> here.', 'I see beta here.', 'Vejo beta.', 'beta', '', 16, '2026-01-11 10:00:00'),
+                    ('jane_0003_01', 3, 1, 'easy', 'I see <b>gamma</b> here.', 'I see gamma here.', 'Vejo gamma.', 'gama', '', 17, '2026-01-12 10:00:00');
+                """
+            )
+            legacy_conn.commit()
+
+            # Migrate twice (idempotent)
+            init_db(legacy_conn)
+            init_db(legacy_conn)
+
+            rows = {
+                r["card_uid"]: dict(r)
+                for r in legacy_conn.execute(
+                    "SELECT card_uid, created_at, updated_at, exported_at FROM cards"
+                ).fetchall()
+            }
+            self.assertEqual(rows["jane_0001_01"]["updated_at"], "2026-01-10 10:00:00")
+            self.assertEqual(rows["jane_0001_01"]["exported_at"], "2026-01-10 10:00:00")
+            self.assertEqual(rows["jane_0002_01"]["exported_at"], "2026-01-11 10:00:00")
+            self.assertEqual(rows["jane_0003_01"]["updated_at"], "2026-01-12 10:00:00")
+            self.assertIsNone(rows["jane_0003_01"]["exported_at"])
+
+            # --modified exports only the unexported 'gamma' card
+            out = Path(self.tmp.name) / "legacy_mod.tsv"
+            res = export_cards(legacy_conn, modified=True, out_path=out)
+            self.assertEqual(res["mode"], "modified")
+            self.assertEqual(res["card_uids"], ["jane_0003_01"])
+        finally:
+            legacy_conn.close()
+
+    def test_selective_export_uids_words_modified_since_and_cli(self) -> None:
+        add_words(self.conn, ["run", "burn out", "deploy"])
+        save_cards(
+            self.conn,
+            [
+                {
+                    "lemma": "run",
+                    "sense_index": 1,
+                    "difficulty": "easy",
+                    "sentence_display": "I <b>run</b> every morning.",
+                    "sentence_audio": "I run every morning.",
+                    "sentence_pt": "Eu corro toda manhã.",
+                    "word_meaning_pt": "correr",
+                },
+                {
+                    "lemma": "run",
+                    "sense_index": 2,
+                    "difficulty": "medium",
+                    "sentence_display": "She will <b>run</b> the new store.",
+                    "sentence_audio": "She will run the new store.",
+                    "sentence_pt": "Ela vai administrar a loja nova.",
+                    "word_meaning_pt": "administrar / gerenciar",
+                },
+                {
+                    "lemma": "burn out",
+                    "sense_index": 1,
+                    "difficulty": "medium",
+                    "sentence_display": "Do not <b>burn out</b> this week.",
+                    "sentence_audio": "Do not burn out this week.",
+                    "sentence_pt": "Não se esgote esta semana.",
+                    "word_meaning_pt": "esgotar-se",
+                },
+            ],
+        )
+
+        # Initial batch export preserves legacy JSON keys and marks exported_at
+        batch_tsv = Path(self.tmp.name) / "batch_01.tsv"
+        batch_res = export_batch(self.conn, batch_number=1, out_path=batch_tsv)
+        self.assertEqual(
+            set(batch_res.keys()),
+            {"batch_number", "cards_exported", "output_path", "total_chars", "hypertts_estimate"},
+        )
+        self.assertEqual(batch_res["cards_exported"], 3)
+
+        # Immediately after batch export, --modified finds nothing and does not create file
+        missing_out = Path(self.tmp.name) / "should_not_exist.tsv"
+        with self.assertRaises(ValueError):
+            export_cards(self.conn, modified=True, out_path=missing_out)
+        self.assertFalse(missing_out.exists())
+
+        # Overwrite one card via save --force -> appears in --modified deterministically
+        save_cards(
+            self.conn,
+            [
+                {
+                    "lemma": "burn out",
+                    "sense_index": 1,
+                    "difficulty": "hard",
+                    "sentence_display": "Try not to <b>burn out</b> at work.",
+                    "sentence_audio": "Try not to burn out at work.",
+                    "sentence_pt": "Tente não se esgotar no trabalho.",
+                    "word_meaning_pt": "esgotar-se",
+                }
+            ],
+            force=True,
+        )
+        # Re-running init_db must NOT clobber exported_at=NULL on modified card
+        init_db(self.conn)
+
+        exports_dir = Path(self.tmp.name) / "sel_exports"
+        mod_res = export_cards(self.conn, modified=True, exports_dir=exports_dir)
+        self.assertEqual(mod_res["mode"], "modified")
+        self.assertEqual(mod_res["cards_exported"], 1)
+        self.assertEqual(mod_res["card_uids"], ["jane_0002_01"])
+        mod_path = Path(mod_res["output_path"])
+        self.assertTrue(mod_path.exists())
+        self.assertEqual(mod_path.parent, exports_dir)
+        self.assertRegex(mod_path.name, r"^update_\d{8}_\d{6}\.tsv$")
+        mod_lines = mod_path.read_text(encoding="utf-8").splitlines()
+        self.assertEqual(mod_lines[0], "#separator:tab")
+        self.assertEqual(len(mod_lines), 5)
+
+        # Second --modified immediately reports no modified cards
+        with self.assertRaises(ValueError):
+            export_cards(self.conn, modified=True, exports_dir=exports_dir)
+
+        # --uids exports exact subset and fails on missing UID
+        uids_out = Path(self.tmp.name) / "uids.tsv"
+        uids_res = export_cards(
+            self.conn,
+            uids=" jane_0001_01 , jane_0002_01 ",
+            out_path=uids_out,
+            include_header=False,
+        )
+        self.assertEqual(uids_res["mode"], "uids")
+        self.assertEqual(uids_res["card_uids"], ["jane_0001_01", "jane_0002_01"])
+        self.assertEqual(len(uids_out.read_text(encoding="utf-8").splitlines()), 2)
+
+        with self.assertRaises(ValueError) as missing_uid_err:
+            export_cards(self.conn, uids="jane_0001_01,jane_9999_99")
+        self.assertIn("jane_9999_99", str(missing_uid_err.exception))
+
+        # --words exports all senses for requested words and fails for words without cards
+        words_out = Path(self.tmp.name) / "words.tsv"
+        words_res = export_cards(self.conn, words=" RUN , burn   out ", out_path=words_out)
+        self.assertEqual(words_res["mode"], "words")
+        self.assertEqual(words_res["cards_exported"], 3)
+        self.assertEqual(words_res["card_uids"], ["jane_0001_01", "jane_0001_02", "jane_0002_01"])
+
+        with self.assertRaises(ValueError) as missing_word_err:
+            export_cards(self.conn, words="run,deploy")
+        self.assertIn("deploy", str(missing_word_err.exception))
+
+        # --since supports YYYY-MM-DD and YYYY-MM-DDTHH:MM:SS and rejects invalid format
+        self.conn.execute(
+            "UPDATE cards SET updated_at = '2025-05-01 09:00:00' WHERE card_uid = 'jane_0001_01'"
+        )
+        self.conn.execute(
+            "UPDATE cards SET updated_at = '2026-06-15 12:30:00' WHERE card_uid = 'jane_0001_02'"
+        )
+        self.conn.execute(
+            "UPDATE cards SET updated_at = '2026-06-20 18:45:00' WHERE card_uid = 'jane_0002_01'"
+        )
+        self.conn.commit()
+
+        since_date_res = export_cards(
+            self.conn, since="2026-06-15", out_path=Path(self.tmp.name) / "since1.tsv"
+        )
+        self.assertEqual(since_date_res["mode"], "since")
+        self.assertEqual(since_date_res["card_uids"], ["jane_0001_02", "jane_0002_01"])
+
+        since_ts_res = export_cards(
+            self.conn, since="2026-06-20T18:00:00", out_path=Path(self.tmp.name) / "since2.tsv"
+        )
+        self.assertEqual(since_ts_res["card_uids"], ["jane_0002_01"])
+
+        with self.assertRaises(ValueError):
+            export_cards(self.conn, since="20-06-2026")
+        with self.assertRaises(ValueError):
+            export_cards(self.conn, since="2099-01-01")
+
+        # Rebuilt cards from TSVs are marked exported_at and not falsely returned by --modified
+        rebuilt_db = Path(self.tmp.name) / "rebuilt_mod_check.db"
+        conn2 = get_connection(rebuilt_db)
+        try:
+            init_db(conn2)
+            tsv_dir = Path(self.tmp.name) / "rebuild_tsvs"
+            tsv_dir.mkdir()
+            (tsv_dir / "batch_01.tsv").write_text(batch_tsv.read_text(encoding="utf-8"), encoding="utf-8")
+            rebuild_database(conn2, exports_dir=tsv_dir, skip_seed=True)
+            with self.assertRaises(ValueError):
+                export_cards(conn2, modified=True)
+        finally:
+            conn2.close()
+
+        # CLI mutual exclusivity: no selector or combining two selectors fails
+        with patch.object(sys, "stderr", io.StringIO()):
+            with self.assertRaises(SystemExit) as no_sel:
+                cli_main(["--db", str(self.db_path), "export"])
+            self.assertNotEqual(no_sel.exception.code, 0)
+
+            with self.assertRaises(SystemExit) as two_sel:
+                cli_main(["--db", str(self.db_path), "export", "--batch", "1", "--modified"])
+            self.assertNotEqual(two_sel.exception.code, 0)
+
+        # CLI invocation with --uids works end-to-end
+        cli_out = Path(self.tmp.name) / "cli_uids.tsv"
+        stdout_buf = io.StringIO()
+        with patch.object(sys, "stdout", stdout_buf):
+            rc = cli_main(
+                ["--db", str(self.db_path), "export", "--uids", "jane_0001_01", "--out", str(cli_out)]
+            )
+        self.assertEqual(rc, 0)
+        cli_json = json.loads(stdout_buf.getvalue())
+        self.assertEqual(cli_json["mode"], "uids")
+        self.assertEqual(cli_json["card_uids"], ["jane_0001_01"])
 
 
 if __name__ == "__main__":

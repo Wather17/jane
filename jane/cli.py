@@ -9,7 +9,7 @@ from pathlib import Path
 
 from jane import __version__
 from jane.anki_template import generate_template_apkg
-from jane.core import add_words, export_batch, get_next_batch, get_status, master_batch, save_cards
+from jane.core import add_words, export_batch, export_cards, get_next_batch, get_status, master_batch, save_cards
 from jane.db import get_connection, init_db
 from jane.paths import (
     default_anki_dir,
@@ -62,8 +62,22 @@ def build_parser() -> argparse.ArgumentParser:
     p_save.add_argument("--file", type=str, required=True, help="Path to JSON array of cards, or '-' for stdin")
     p_save.add_argument("--force", action="store_true", help="Overwrite existing cards")
 
-    p_export = sub.add_parser("export", help="Export a batch to UTF-8 TSV for Anki")
-    p_export.add_argument("--batch", type=int, required=True, help="Batch number to export")
+    p_export = sub.add_parser("export", help="Export cards (batch or selective subset) to UTF-8 TSV for Anki")
+    export_group = p_export.add_mutually_exclusive_group(required=True)
+    export_group.add_argument("--batch", type=int, default=None, help="Batch number to export")
+    export_group.add_argument("--uids", type=str, default=None, help="Comma-separated Card_UIDs to export")
+    export_group.add_argument("--words", type=str, default=None, help="Comma-separated lemmas to export")
+    export_group.add_argument(
+        "--modified",
+        action="store_true",
+        help="Export cards never exported or modified since last export",
+    )
+    export_group.add_argument(
+        "--since",
+        type=str,
+        default=None,
+        help="Export cards created/updated on or after YYYY-MM-DD or YYYY-MM-DDTHH:MM:SS",
+    )
     p_export.add_argument("--out", type=Path, default=None, help="Output TSV file path")
     p_export.add_argument("--no-header", action="store_true", help="Omit TSV header row")
 
@@ -156,13 +170,25 @@ def main(argv: list[str] | None = None) -> int:
             res = save_cards(conn, items, force=args.force)
             print(json.dumps(res, indent=2))
         elif args.command == "export":
-            res = export_batch(
-                conn,
-                batch_number=args.batch,
-                out_path=args.out,
-                include_header=not args.no_header,
-                exports_dir=default_exports_dir(home),
-            )
+            if args.batch is not None:
+                res = export_batch(
+                    conn,
+                    batch_number=args.batch,
+                    out_path=args.out,
+                    include_header=not args.no_header,
+                    exports_dir=default_exports_dir(home),
+                )
+            else:
+                res = export_cards(
+                    conn,
+                    uids=args.uids,
+                    words=args.words,
+                    modified=args.modified,
+                    since=args.since,
+                    out_path=args.out,
+                    include_header=not args.no_header,
+                    exports_dir=default_exports_dir(home),
+                )
             print(json.dumps(res, indent=2))
         elif args.command == "master":
             res = master_batch(conn, batch_number=args.batch)

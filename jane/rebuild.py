@@ -197,7 +197,8 @@ def rebuild_database(
                     UPDATE cards SET
                         word_id = ?, sense_index = ?, pos = COALESCE(pos, ?), difficulty = ?,
                         sentence_display = ?, sentence_audio = ?, sentence_pt = ?,
-                        word_meaning_pt = ?, notes = ?, char_count = ?
+                        word_meaning_pt = ?, notes = ?, char_count = ?,
+                        updated_at = datetime('now'), exported_at = datetime('now')
                     WHERE id = ?
                     """,
                     (
@@ -221,8 +222,8 @@ def rebuild_database(
                     INSERT INTO cards (
                         card_uid, word_id, sense_index, pos, difficulty,
                         sentence_display, sentence_audio, sentence_pt,
-                        word_meaning_pt, notes, char_count
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        word_meaning_pt, notes, char_count, updated_at, exported_at
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now'), datetime('now'))
                     """,
                     (
                         card.card_uid,
