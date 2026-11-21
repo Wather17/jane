@@ -9,6 +9,7 @@ import os
 import sqlite3
 import sys
 import tempfile
+import tomllib
 import unittest
 import zipfile
 from pathlib import Path
@@ -900,6 +901,11 @@ class JanePipelineTests(unittest.TestCase):
         cli_json = json.loads(stdout_buf.getvalue())
         self.assertEqual(cli_json["mode"], "uids")
         self.assertEqual(cli_json["card_uids"], ["jane_0001_01"])
+
+    def test_package_version_matches_pyproject(self) -> None:
+        pyproject_path = Path(__file__).resolve().parent.parent / "pyproject.toml"
+        data = tomllib.loads(pyproject_path.read_text(encoding="utf-8"))
+        self.assertEqual(data["project"]["version"], __version__)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,68 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify tag matches package version
+        env:
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import pathlib
+          import tomllib
+          import jane
+
+          tag_name = os.environ["TAG_NAME"]
+          tag_version = tag_name.removeprefix("v")
+          pyproject_version = tomllib.loads(
+              pathlib.Path("pyproject.toml").read_text(encoding="utf-8")
+          )["project"]["version"]
+
+          if jane.__version__ != tag_version or pyproject_version != tag_version:
+              raise SystemExit(
+                  f"Version mismatch: tag={tag_version!r}, "
+                  f"jane.__version__={jane.__version__!r}, "
+                  f"pyproject.toml={pyproject_version!r}"
+              )
+
+          print(f"Version verified: {tag_version}")
+          PY
+
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Build distribution packages and Anki template
+        run: |
+          python3 -m pip install --upgrade build
+          python3 -m build
+          python3 -m jane template --out dist/jane_vocab_template.apkg
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            dist/*.whl \
+            dist/*.tar.gz \
+            dist/jane_vocab_template.apkg \
+            --generate-notes \
+            --title "$GITHUB_REF_NAME"
