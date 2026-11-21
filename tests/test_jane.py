@@ -5,6 +5,7 @@ from __future__ import annotations
 import csv
 import io
 import json
+import os
 import sqlite3
 import sys
 import tempfile
@@ -13,13 +14,14 @@ import zipfile
 from pathlib import Path
 from unittest.mock import patch
 
-from jane.anki_template import NOTE_FIELDS, NOTETYPE_NAME, generate_template_apkg
+from jane import __version__
+from jane.anki_template import ANKI_DIR, NOTE_FIELDS, NOTETYPE_NAME, generate_template_apkg
 from jane.cli import main as cli_main
-
 from jane.core import add_words, export_batch, get_next_batch, get_status, master_batch, save_cards
-from jane.db import get_connection, init_db
+from jane.db import DEFAULT_DB_PATH, get_connection, init_db
+from jane.paths import default_anki_dir, default_db_path, default_exports_dir, default_raw_dir, resolve_jane_home
 from jane.rebuild import rebuild_database
-from jane.seed import seed_database
+from jane.seed import RAW_DIR, seed_database
 
 
 class JanePipelineTests(unittest.TestCase):
@@ -508,6 +510,139 @@ class JanePipelineTests(unittest.TestCase):
         skip_res = add_words(self.conn, [seeded_lemma, "rollout"])
         self.assertEqual(skip_res["skipped_existing"], [seeded_lemma])
         self.assertEqual([w["lemma"] for w in skip_res["added"]], ["rollout"])
+
+    def test_resolve_jane_home_precedence(self) -> None:
+        base = Path(self.tmp.name)
+        explicit = base / "explicit_home"
+        env_home = base / "env_home"
+        cwd_ws = base / "cwd_workspace"
+        (cwd_ws / "data" / "raw").mkdir(parents=True)
+        cwd_db_only = base / "cwd_db_only"
+        (cwd_db_only / "data").mkdir(parents=True)
+        (cwd_db_only / "data" / "jane.db").write_bytes(b"")
+        cwd_plain = base / "cwd_plain"
+        cwd_plain.mkdir()
+        pkg_with_raw = base / "pkg_with_raw"
+        (pkg_with_raw / "data" / "raw").mkdir(parents=True)
+        pkg_without_raw = base / "pkg_without_raw"
+        pkg_without_raw.mkdir()
+
+        # 1. --home beats JANE_HOME, CWD workspace, and package root
+        with patch.dict(os.environ, {"JANE_HOME": str(env_home)}, clear=False):
+            self.assertEqual(
+                resolve_jane_home(explicit, cwd=cwd_ws, package_root=pkg_with_raw),
+                explicit.resolve(),
+            )
+            # 2. JANE_HOME beats CWD workspace and package root
+            self.assertEqual(
+                resolve_jane_home(None, cwd=cwd_ws, package_root=pkg_with_raw),
+                env_home.resolve(),
+            )
+
+        # 3. CWD workspace (data/raw or data/jane.db) beats package root when JANE_HOME unset/empty
+        with patch.dict(os.environ, {"JANE_HOME": ""}, clear=False):
+            self.assertEqual(
+                resolve_jane_home(None, cwd=cwd_ws, package_root=pkg_with_raw),
+                cwd_ws.resolve(),
+            )
+            self.assertEqual(
+                resolve_jane_home(None, cwd=cwd_db_only, package_root=pkg_with_raw),
+                cwd_db_only.resolve(),
+            )
+            # 4. Package root with data/raw beats plain CWD
+            self.assertEqual(
+                resolve_jane_home(None, cwd=cwd_plain, package_root=pkg_with_raw),
+                pkg_with_raw.resolve(),
+            )
+            # 5. Fallback to plain CWD when neither CWD nor package root is a Jane workspace
+            self.assertEqual(
+                resolve_jane_home(None, cwd=cwd_plain, package_root=pkg_without_raw),
+                cwd_plain.resolve(),
+            )
+
+        # Helper path functions and legacy constants preserved
+        self.assertEqual(default_db_path(explicit), explicit / "data" / "jane.db")
+        self.assertEqual(default_raw_dir(explicit), explicit / "data" / "raw")
+        self.assertEqual(default_exports_dir(explicit), explicit / "exports")
+        self.assertEqual(default_anki_dir(explicit), explicit / "anki")
+        self.assertEqual(DEFAULT_DB_PATH, Path("data/jane.db"))
+        self.assertEqual(RAW_DIR, Path("data/raw"))
+        self.assertEqual(ANKI_DIR, Path("anki"))
+
+    def test_cli_version_home_env_and_external_cwd(self) -> None:
+        # --version outputs 'jane <version>' and exits with 0
+        stdout_buf = io.StringIO()
+        with patch.object(sys, "stdout", stdout_buf):
+            with self.assertRaises(SystemExit) as ctx:
+                cli_main(["--version"])
+        self.assertEqual(ctx.exception.code, 0)
+        self.assertEqual(stdout_buf.getvalue().strip(), f"jane {__version__}")
+
+        # Prepare an isolated Jane workspace and an unrelated external CWD
+        workspace = Path(self.tmp.name) / "ws"
+        external_cwd = Path(self.tmp.name) / "external_cwd"
+        external_cwd.mkdir()
+
+        ws_db = default_db_path(workspace)
+        ws_conn = get_connection(ws_db)
+        try:
+            init_db(ws_conn)
+            add_words(ws_conn, ["trade-off"])
+            save_cards(
+                ws_conn,
+                [
+                    {
+                        "lemma": "trade-off",
+                        "difficulty": "medium",
+                        "sentence_display": "Every design choice has a <b>trade-off</b>.",
+                        "sentence_audio": "Every design choice has a trade-off.",
+                        "sentence_pt": "Toda escolha de design tem um compromisso.",
+                        "word_meaning_pt": "compromisso / troca",
+                    }
+                ],
+            )
+        finally:
+            ws_conn.close()
+
+        # Execute from external_cwd using JANE_HOME: reads ws/data/jane.db and exports to ws/exports/
+        orig_cwd = Path.cwd()
+        try:
+            os.chdir(external_cwd)
+            with patch.dict(os.environ, {"JANE_HOME": str(workspace)}, clear=False):
+                out_status = io.StringIO()
+                with patch.object(sys, "stdout", out_status):
+                    rc = cli_main(["status"])
+                self.assertEqual(rc, 0)
+                status_data = json.loads(out_status.getvalue())
+                self.assertEqual(status_data["totals"]["words_total"], 1)
+                self.assertFalse((external_cwd / "data" / "jane.db").exists())
+
+                out_export = io.StringIO()
+                with patch.object(sys, "stdout", out_export):
+                    rc = cli_main(["export", "--batch", "1"])
+                self.assertEqual(rc, 0)
+                exp_data = json.loads(out_export.getvalue())
+                self.assertEqual(Path(exp_data["output_path"]), workspace / "exports" / "batch_01.tsv")
+                self.assertTrue((workspace / "exports" / "batch_01.tsv").exists())
+
+            # --home flag overrides JANE_HOME, and explicit --db overrides --home
+            other_home = Path(self.tmp.name) / "other_home"
+            explicit_db = Path(self.tmp.name) / "explicit.db"
+            with patch.dict(os.environ, {"JANE_HOME": str(other_home)}, clear=False):
+                out_home = io.StringIO()
+                with patch.object(sys, "stdout", out_home):
+                    rc = cli_main(["--home", str(workspace), "status"])
+                self.assertEqual(rc, 0)
+                self.assertEqual(json.loads(out_home.getvalue())["totals"]["words_total"], 1)
+
+                out_explicit_db = io.StringIO()
+                with patch.object(sys, "stdout", out_explicit_db):
+                    rc = cli_main(["--home", str(workspace), "--db", str(explicit_db), "status"])
+                self.assertEqual(rc, 0)
+                self.assertEqual(json.loads(out_explicit_db.getvalue())["totals"]["words_total"], 0)
+                self.assertTrue(explicit_db.exists())
+        finally:
+            os.chdir(orig_cwd)
 
 
 if __name__ == "__main__":

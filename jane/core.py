@@ -243,6 +243,7 @@ def export_batch(
     batch_number: int,
     out_path: Path | None = None,
     include_header: bool = True,
+    exports_dir: Path | None = None,
 ) -> dict[str, Any]:
     """Export all cards for a batch to a UTF-8 TSV file and estimate HyperTTS quota."""
     rows = conn.execute(
@@ -270,7 +271,8 @@ def export_batch(
     if not rows:
         raise ValueError(f"No generated cards found for batch {batch_number}")
 
-    dest = out_path or Path(f"exports/batch_{batch_number:02d}.tsv")
+    base_exports = Path(exports_dir) if exports_dir is not None else Path("exports")
+    dest = out_path or (base_exports / f"batch_{batch_number:02d}.tsv")
     dest.parent.mkdir(parents=True, exist_ok=True)
 
     total_chars = 0
