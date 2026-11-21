@@ -10,6 +10,7 @@ from pathlib import Path
 from jane.anki_template import ANKI_DIR, generate_template_apkg
 from jane.core import export_batch, get_next_batch, get_status, master_batch, save_cards
 from jane.db import DEFAULT_DB_PATH, get_connection, init_db
+from jane.rebuild import DEFAULT_EXPORTS_DIR, rebuild_database
 from jane.seed import RAW_DIR, seed_database
 
 
@@ -50,6 +51,21 @@ def build_parser() -> argparse.ArgumentParser:
         type=Path,
         default=ANKI_DIR / "jane_vocab_template.apkg",
         help="Output .apkg path (default: anki/jane_vocab_template.apkg)",
+    )
+
+    p_rebuild = sub.add_parser("rebuild", help="Rebuild SQLite database from raw datasets and exported TSVs")
+    p_rebuild.add_argument(
+        "--exports-dir",
+        type=Path,
+        default=DEFAULT_EXPORTS_DIR,
+        help="Directory containing exported batch_*.tsv files (default: exports)",
+    )
+    p_rebuild.add_argument("--raw-dir", type=Path, default=RAW_DIR, help="Directory with raw datasets")
+    p_rebuild.add_argument("--batch-size", type=int, default=120, help="Words per batch for seeding (default: 120)")
+    p_rebuild.add_argument(
+        "--skip-seed",
+        action="store_true",
+        help="Skip seeding from raw datasets and import cards from TSVs only",
     )
 
     return parser
@@ -101,6 +117,15 @@ def main(argv: list[str] | None = None) -> int:
         elif args.command == "template":
             out = generate_template_apkg(out_path=args.out)
             print(json.dumps({"template_apkg": str(out)}, indent=2))
+        elif args.command == "rebuild":
+            res = rebuild_database(
+                conn,
+                exports_dir=args.exports_dir,
+                raw_dir=args.raw_dir,
+                batch_size=args.batch_size,
+                skip_seed=args.skip_seed,
+            )
+            print(json.dumps(res, indent=2))
     except Exception as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 1
