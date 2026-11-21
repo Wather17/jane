@@ -100,6 +100,17 @@ Execute a suíte de testes com `unittest`:
 python3 -m unittest discover -s tests -v
 ```
 
+## Releases
+
+Versões estáveis são publicadas manualmente por tags semânticas `v*.*.*` via GitHub Actions (`.github/workflows/release.yml`), gerando `.whl`, `.tar.gz` e `jane_vocab_template.apkg` na GitHub Release após validar versão e testes:
+
+```bash
+# Instalar uma versão publicada diretamente de uma tag
+uv tool install git+https://github.com/Wather17/jane@vX.Y.Z
+```
+
+Para publicar uma nova versão, atualize `jane/__init__.py` e `pyproject.toml`, integre na `main` e envie a tag `vX.Y.Z` (`git tag vX.Y.Z && git push origin vX.Y.Z`). Veja o guia completo em [Desenvolvimento, CI e Releases](docs/07-desenvolvimento-ci-e-releases.md).
+
 ## Documentação
 
 As decisões pedagógicas, arquiteturais e técnicas estão detalhadas em `docs/`:
@@ -110,6 +121,7 @@ As decisões pedagógicas, arquiteturais e técnicas estão detalhadas em `docs/
 4. [Pesquisa: HyperTTS e Anki](docs/04-hypertts-e-anki.md) — Como o HyperTTS trata HTML, multiplicadores de cota (1x, 2x, 15x), boas práticas de campos e formato final do `.tsv`.
 5. [Schema do SQLite, Priorização e Mini CLI](docs/05-schema-e-cli.md) — Modelo de dados final (`words` e `cards`), cálculo de tiers/lotes e contrato completo da CLI `jane`.
 6. [Lições do Teste de 50 Palavras](docs/06-melhorias-e-licoes-teste-50.md) — Resultados reais do `test_50.tsv`, consumo medido de caracteres e melhorias mapeadas.
+7. [Desenvolvimento, CI e Releases](docs/07-desenvolvimento-ci-e-releases.md) — Workflows do GitHub Actions, política SemVer por tags `v*.*.*`, convenções de branches/commits/labels e fluxo operacional para agentes.
 
 ## Licença
 
