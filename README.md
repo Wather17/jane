@@ -1,52 +1,84 @@
 # Jane — English Vocabulary Builder for Anki
 
-CLI em Python para construir, gerenciar e exportar um deck estruturado de vocabulário em inglês (~3.705 palavras base a partir do cruzamento **Oxford 3000 + NGSL**), com curadoria pedagógica (`i+1`), persistência local em SQLite e exportação em `.tsv` compatível com o **Anki** e geração de áudio via **HyperTTS / vocab.ai**.
+CLI em Python para construir, gerenciar e exportar um deck estruturado de vocabulário em inglês (~3.705 palavras base a partir do cruzamento **Oxford 3000 + NGSL**, extensível com vocabulário customizado), com curadoria pedagógica (`i+1`), persistência local em SQLite e exportação em `.tsv` compatível com o **Anki** e geração de áudio via **HyperTTS / vocab.ai**.
 
-## Requisitos
+## Requisitos e Instalação
 
 - **Python 3.12+**
-- Nenhuma dependência externa (usa apenas a biblioteca padrão do Python).
+- Nenhuma dependência externa de runtime (usa apenas a biblioteca padrão do Python).
+
+Instale o comando global `jane` em modo editável:
+
+```bash
+uv tool install --editable .
+# ou com pip:
+# pip install -e .
+
+jane --version
+```
+
+*(Sem instalação global, todos os comandos funcionam via `python3 -m jane <subcomando>` na raiz do repositório.)*
+
+### Workspace (`JANE_HOME` / `--home`)
+
+Os caminhos padrão (`data/jane.db`, `data/raw/`, `exports/`, `anki/`) são resolvidos na seguinte ordem: `--home` > `JANE_HOME` > diretório atual (se for um workspace Jane) > raiz do pacote (em instalação editável) > diretório atual. Flags explícitas (`--db`, `--raw-dir`, `--exports-dir`, `--out`) têm prioridade absoluta.
 
 ## Uso Rápido da CLI
 
-Todos os comandos aceitam a flag global `--db <caminho>` (padrão: `data/jane.db`):
-
 ```bash
-# 1. Popular o banco SQLite a partir dos datasets em data/raw/
-python3 -m jane seed
+# Reconstruir data/jane.db a partir de data/raw/ e dos TSVs versionados em exports/
+jane rebuild
 
-# 2. Consultar progresso geral e por lote
-python3 -m jane status
+# Popular o banco do zero a partir dos datasets em data/raw/
+jane seed
 
-# 3. Buscar próximas palavras pendentes de um lote (JSON com contexto i+1)
-python3 -m jane next --batch 1 --limit 20
+# Consultar progresso geral e por lote
+jane status
+
+# Adicionar palavras ou expressões customizadas
+jane add "burn out" "deploy" --pos "phrasal verb" --cefr B1
+
+# Buscar próximas palavras pendentes de um lote (JSON com contexto i+1)
+jane next --batch 1 --limit 20
 # (opcional: --no-known para omitir a lista de palavras já conhecidas)
 
-# 4. Validar e salvar cards gerados a partir de um arquivo JSON (ou '-' para stdin)
-python3 -m jane save --file cards.json
+# Validar e salvar cards gerados a partir de um arquivo JSON (ou '-' para stdin)
+jane save --file cards.json
 # (opcional: --force para sobrescrever cards existentes)
 
-# 5. Exportar um lote em .tsv UTF-8 pronto para importar no Anki + estimativa HyperTTS
-python3 -m jane export --batch 1
-# (opcionais: --out caminho.tsv, --no-header)
+# Exportar um lote inteiro ou subconjunto seletivo em .tsv UTF-8 + estimativa HyperTTS
+jane export --batch 1
+jane export --modified
+jane export --uids jane_0001_01,jane_0042_01
+jane export --words "run,burn out"
+jane export --since 2026-11-20
 
-# 6. Marcar todas as palavras de um lote como dominadas (mastered)
-python3 -m jane master --batch 1
+# Marcar todas as palavras de um lote como dominadas (mastered)
+jane master --batch 1
 
-# 7. Gerar o pacote .apkg com o Note Type "Jane Vocab" para o Anki
-python3 -m jane template
+# Gerar o pacote .apkg com o Note Type "Jane Vocab" para o Anki
+jane template
 ```
 
 Para consultar todas as opções disponíveis:
 
 ```bash
-python3 -m jane --help
+jane --help
 ```
+
+## Skills Operacionais (`.agents/skills/`)
+
+O repositório inclui 3 skills versionadas para agentes de IA operarem o Jane de forma padronizada:
+
+- [`jane-generate-batches`](.agents/skills/jane-generate-batches/SKILL.md) — Geração de novos lotes de cards (`status` → `next` → redação `i+1` → `save` → `export`).
+- [`jane-expand-and-curate`](.agents/skills/jane-expand-and-curate/SKILL.md) — Cadastro de palavras customizadas (`add`), polissemia, correção com `--force` e exportação seletiva com alerta de áudio HyperTTS.
+- [`jane-setup`](.agents/skills/jane-setup/SKILL.md) — Runbook de instalação da CLI `jane`, reconstrução do banco (`rebuild`) e configuração do Anki + HyperTTS.
 
 ## Estrutura do Repositório
 
 ```text
 .
+├── .agents/skills/    # Skills operacionais do Jane para agentes de IA
 ├── anki/              # Templates HTML/CSS e pacote .apkg do Note Type "Jane Vocab"
 ├── data/
 │   └── raw/           # Datasets de referência (NGSL 1.2 e Oxford 3000 / CEFR)
@@ -57,7 +89,7 @@ python3 -m jane --help
 └── tests/             # Suíte de testes unitários e de integração
 ```
 
-- `data/jane.db` é gerado localmente e ignorado pelo Git (`.gitignore`).
+- `data/jane.db` é gerado localmente e ignorado pelo Git (`.gitignore`); use `jane rebuild` para recriá-lo a partir dos `.tsv`.
 - `exports/` armazena arquivos `.tsv` prontos para importação; após importados no Anki, os lotes são movidos para `exports/imported/`.
 
 ## Testes
@@ -76,7 +108,7 @@ As decisões pedagógicas, arquiteturais e técnicas estão detalhadas em `docs/
 2. [Arquitetura e Fluxo de Trabalho](docs/02-arquitetura-e-fluxo.md) — SQLite, cruzamento Oxford 3000 + NGSL, Mini CLI operado por agente em mini-lotes e exportação `.tsv` + HyperTTS.
 3. [Edge Cases e Regras (O que fazer / Não fazer)](docs/03-edge-cases-e-regras.md) — Armadilhas mapeadas, validações obrigatórias e margem de segurança para a cota de TTS.
 4. [Pesquisa: HyperTTS e Anki](docs/04-hypertts-e-anki.md) — Como o HyperTTS trata HTML, multiplicadores de cota (1x, 2x, 15x), boas práticas de campos e formato final do `.tsv`.
-5. [Schema do SQLite, Priorização e Mini CLI](docs/05-schema-e-cli.md) — Modelo de dados final (`words` e `cards`), cálculo de tiers/lotes e contrato dos comandos `seed`, `next`, `save`, `export`.
+5. [Schema do SQLite, Priorização e Mini CLI](docs/05-schema-e-cli.md) — Modelo de dados final (`words` e `cards`), cálculo de tiers/lotes e contrato completo da CLI `jane`.
 6. [Lições do Teste de 50 Palavras](docs/06-melhorias-e-licoes-teste-50.md) — Resultados reais do `test_50.tsv`, consumo medido de caracteres e melhorias mapeadas.
 
 ## Licença
